@@ -1,0 +1,29 @@
+{
+  "name": "Default",
+  "version": "0.2.0",
+  "description": "Default collection",
+  "keywords": "default, collection",
+  "license": "GPL-2.0",
+  "authors" : [
+    {
+      "name": "Jesús Arroyo",
+      "url": "https://github.com/Jesus89"
+    },
+    {
+      "name": "Juan González",
+      "url": "https://github.com/Obijuan"
+    },
+    {
+      "name": "Carlos Díaz",
+      "url": "https://github.com/C47D"
+    },
+    {
+      "name": "Salvador E. Tropea",
+      "url": "https://github.com/set-soft"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FPGAwars/collection-default"
+  }
+}
