@@ -2,6 +2,12 @@
 
 Default collection in *Icestudio 0.2*.
 
+### Install
+
+* Download the [collection](https://github.com/FPGAwars/collection-default/archive/v0.2.0.zip).
+* Go to *Tools > Collections > Add* to install the collection.
+* Go to *Select > Collections* to view the installed collection.
+
 ### Blocks
 * Bit
   * 0
