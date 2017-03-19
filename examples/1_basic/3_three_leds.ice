@@ -17,6 +17,10 @@
           "position": {
             "x": 80,
             "y": 64
+          },
+          "size": {
+            "width": 96,
+            "height": 64
           }
         },
         {
@@ -39,25 +43,56 @@
           }
         },
         {
-          "id": "a538a5b4-d5d5-4ace-a593-efb1fa9b930c",
-          "type": "basic.info",
+          "id": "c1eaa951-a70a-44c1-b3cd-c3bd0f355c0f",
+          "type": "basic.output",
           "data": {
-            "info": "LED-ON Hello world circuit example!\n\nThe simplest digital circuit that turns a \nled on\n\nA bit set to 1 is wired directly to the\noutput FPGA pin, where the led is connected\n\nThe blue box is the bit (set to 1)\nIt is inside the FPGA\n\nThe yellow box is the output FPGA pin. Using\nthe bottom menu the pin can be changed\n\nEXERCISE 1:  Upload this circuit into your \nFPGA board and watch the led. \nIt should be turned on\n\nEXERCISE 2: Change the pin number to turn\nanother led on and upload it again"
+            "name": "led",
+            "pins": [
+              {
+                "index": "0",
+                "name": "LED4",
+                "value": "99"
+              }
+            ],
+            "virtual": false
           },
           "position": {
-            "x": 40,
-            "y": 208
+            "x": 352,
+            "y": 144
           }
         },
         {
-          "id": "0d05784e-8e32-4c80-b85d-cde4e892dbf3",
+          "id": "a538a5b4-d5d5-4ace-a593-efb1fa9b930c",
           "type": "basic.info",
           "data": {
-            "info": "Ejemplo de circuito Hola mundo: LED-ON\n\nEs el circuito digital más sencillo que\nenciende un led\n\nUn bit a 1 se cablea directamente a una\nsalida de la FPGA, donde está conectado\nel LED\n\nLa caja azul es el bit a 1\nEstá dentro de la FPGA\n\nLa caja amarilla es el pin de salida de\nla FPGA. Por medio del menú desplegable\ninferior se puede cambiar el pin\n\nEJERCICIO 1: Carga este circuito en la FPGA\ny observa el LED0. Debe estar encendido\n\nEJERCICIO 2: Cambia el pin de salida para\nencender otro led (por ejemplo el LED1)\ny cárgalo en la FPGA de nuevo"
+            "info": "Turn on three leds"
           },
           "position": {
-            "x": 464,
-            "y": 208
+            "x": 72,
+            "y": 176
+          },
+          "size": {
+            "width": 208,
+            "height": 64
+          }
+        },
+        {
+          "id": "12762b6c-643e-4c42-b0f3-00d49b191718",
+          "type": "basic.output",
+          "data": {
+            "name": "led",
+            "pins": [
+              {
+                "index": "0",
+                "name": "LED7",
+                "value": "104"
+              }
+            ],
+            "virtual": false
+          },
+          "position": {
+            "x": 352,
+            "y": 224
           }
         }
       ],
@@ -71,13 +106,33 @@
             "block": "949075cb-26c0-49da-ba76-2496ea9aa7cc",
             "port": "in"
           }
+        },
+        {
+          "source": {
+            "block": "eaf792b5-de98-4e2f-b78a-4023eb9a7f2b",
+            "port": "19c8f68d-5022-487f-9ab0-f0a3cd58bead"
+          },
+          "target": {
+            "block": "c1eaa951-a70a-44c1-b3cd-c3bd0f355c0f",
+            "port": "in"
+          }
+        },
+        {
+          "source": {
+            "block": "eaf792b5-de98-4e2f-b78a-4023eb9a7f2b",
+            "port": "19c8f68d-5022-487f-9ab0-f0a3cd58bead"
+          },
+          "target": {
+            "block": "12762b6c-643e-4c42-b0f3-00d49b191718",
+            "port": "in"
+          }
         }
       ]
     },
     "state": {
       "pan": {
-        "x": 0,
-        "y": 0
+        "x": 70,
+        "y": 6
       },
       "zoom": 1
     }

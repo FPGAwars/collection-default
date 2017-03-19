@@ -1,45 +1,49 @@
 {
   "version": "1.1",
   "package": {
-    "name": "NAND",
+    "name": "DFF",
     "version": "1.0.0",
-    "description": "NAND logic gate",
+    "description": "Delay flip-flop with synchronous reset",
     "author": "Carlos Diaz",
-    "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%22-252%20400.9%2090%2040%22%3E%3Cpath%20d=%22M-252%20409.9h26v2h-26zM-252%20429.9h27v2h-27z%22/%3E%3Cpath%20d=%22M-227%20400.9v39.9h20.4c11.3%200%2020-9%2020-20s-8.7-20-20-20H-227zm2.9%202.8h17.6c9.8%200%2016.7%207.6%2016.7%2017.1%200%209.5-7.4%2017.1-17.1%2017.1H-224c-.1.1-.1-34.2-.1-34.2zM-177.3%20419.9h15.3v2h-15.3z%22/%3E%3Cpath%20d=%22M-181.4%20426.3c-2.9%200-5.3-2.4-5.3-5.3s2.4-5.3%205.3-5.3%205.3%202.4%205.3%205.3-2.4%205.3-5.3%205.3zm0-8.6c-1.8%200-3.3%201.5-3.3%203.3%200%201.8%201.5%203.3%203.3%203.3s3.3-1.5%203.3-3.3c0-1.8-1.5-3.3-3.3-3.3z%22/%3E%3C/svg%3E"
+    "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%22-252%20400.9%2090%2040%22%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-231.121%22%20y=%22429.867%22%20font-weight=%22400%22%20font-size=%2224.601%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%3E%3Ctspan%20x=%22-231.121%22%20y=%22429.867%22%3EDFF%3C/tspan%3E%3C/text%3E%3C/svg%3E"
   },
   "design": {
     "board": "icezum",
     "graph": {
       "blocks": [
         {
-          "id": "00925b04-5004-4307-a737-fa4e97c8b6ab",
+          "id": "e5222a6e-4717-4f08-99d7-7cde897060ca",
           "type": "basic.code",
           "data": {
-            "code": "// NAND logic gate\n\nassign c = ~(a & b);",
+            "code": "// D flip-flop\n\nreg q = 1'b0;\n\nalways @(posedge clk)\nbegin\n  q <= d;\nend\n\n",
             "params": [],
             "ports": {
               "in": [
                 {
-                  "name": "a"
+                  "name": "clk"
                 },
                 {
-                  "name": "b"
+                  "name": "d"
                 }
               ],
               "out": [
                 {
-                  "name": "c"
+                  "name": "q"
                 }
               ]
             }
           },
           "position": {
-            "x": 256,
-            "y": 48
+            "x": 432,
+            "y": 128
+          },
+          "size": {
+            "width": 368,
+            "height": 272
           }
         },
         {
-          "id": "18c2ebc7-5152-439c-9b3f-851c59bac834",
+          "id": "6855f64f-fa1c-4371-b2e1-a98970674a96",
           "type": "basic.input",
           "data": {
             "name": "",
@@ -50,15 +54,16 @@
                 "value": "0"
               }
             ],
-            "virtual": true
+            "virtual": true,
+            "clock": true
           },
           "position": {
-            "x": 64,
-            "y": 80
+            "x": 232,
+            "y": 168
           }
         },
         {
-          "id": "664caf9e-5f40-4df4-800a-b626af702e62",
+          "id": "ffdd9aa2-aea3-4aa9-8431-80e799226774",
           "type": "basic.output",
           "data": {
             "name": "",
@@ -72,12 +77,12 @@
             "virtual": true
           },
           "position": {
-            "x": 752,
-            "y": 144
+            "x": 864,
+            "y": 232
           }
         },
         {
-          "id": "97b51945-d716-4b6c-9db9-970d08541249",
+          "id": "b32a6101-5bd1-4bcf-ae5f-e569b958a6a2",
           "type": "basic.input",
           "data": {
             "name": "",
@@ -88,42 +93,43 @@
                 "value": "0"
               }
             ],
-            "virtual": true
+            "virtual": true,
+            "clock": false
           },
           "position": {
-            "x": 64,
-            "y": 208
+            "x": 232,
+            "y": 304
           }
         }
       ],
       "wires": [
         {
           "source": {
-            "block": "18c2ebc7-5152-439c-9b3f-851c59bac834",
+            "block": "b32a6101-5bd1-4bcf-ae5f-e569b958a6a2",
             "port": "out"
           },
           "target": {
-            "block": "00925b04-5004-4307-a737-fa4e97c8b6ab",
-            "port": "a"
+            "block": "e5222a6e-4717-4f08-99d7-7cde897060ca",
+            "port": "d"
           }
         },
         {
           "source": {
-            "block": "97b51945-d716-4b6c-9db9-970d08541249",
+            "block": "6855f64f-fa1c-4371-b2e1-a98970674a96",
             "port": "out"
           },
           "target": {
-            "block": "00925b04-5004-4307-a737-fa4e97c8b6ab",
-            "port": "b"
+            "block": "e5222a6e-4717-4f08-99d7-7cde897060ca",
+            "port": "clk"
           }
         },
         {
           "source": {
-            "block": "00925b04-5004-4307-a737-fa4e97c8b6ab",
-            "port": "c"
+            "block": "e5222a6e-4717-4f08-99d7-7cde897060ca",
+            "port": "q"
           },
           "target": {
-            "block": "664caf9e-5f40-4df4-800a-b626af702e62",
+            "block": "ffdd9aa2-aea3-4aa9-8431-80e799226774",
             "port": "in"
           }
         }
@@ -131,8 +137,8 @@
     },
     "state": {
       "pan": {
-        "x": 0,
-        "y": 0
+        "x": -158,
+        "y": -85
       },
       "zoom": 1
     }

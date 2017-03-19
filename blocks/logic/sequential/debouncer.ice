@@ -36,13 +36,17 @@
           "position": {
             "x": 264,
             "y": 112
+          },
+          "size": {
+            "width": 384,
+            "height": 256
           }
         },
         {
           "id": "4bf41c17-a2da-4140-95f7-2a80d51b1e1a",
           "type": "basic.input",
           "data": {
-            "name": "clk",
+            "name": "",
             "pins": [
               {
                 "index": "0",
@@ -50,7 +54,8 @@
                 "value": "0"
               }
             ],
-            "virtual": true
+            "virtual": true,
+            "clock": true
           },
           "position": {
             "x": 48,
@@ -61,7 +66,7 @@
           "id": "22ff3fa1-943b-4d1a-bd89-36e1c054d077",
           "type": "basic.output",
           "data": {
-            "name": "out",
+            "name": "",
             "pins": [
               {
                 "index": "0",
@@ -80,7 +85,7 @@
           "id": "c9e1af2a-6f09-4cf6-a5b3-fdf7ec2c6530",
           "type": "basic.input",
           "data": {
-            "name": "in",
+            "name": "",
             "pins": [
               {
                 "index": "0",
@@ -88,7 +93,8 @@
                 "value": "0"
               }
             ],
-            "virtual": true
+            "virtual": true,
+            "clock": false
           },
           "position": {
             "x": 48,
@@ -132,7 +138,7 @@
     "state": {
       "pan": {
         "x": 0,
-        "y": 0
+        "y": -1
       },
       "zoom": 1
     }

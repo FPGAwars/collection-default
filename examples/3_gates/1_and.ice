@@ -12,10 +12,10 @@
     "graph": {
       "blocks": [
         {
-          "id": "aa8bab8b-61e4-4e28-b444-0e68d9484ea1",
+          "id": "905c7083-1251-4187-ac9e-b8c6913e6f73",
           "type": "basic.input",
           "data": {
-            "name": "button1",
+            "name": "Pushbutton",
             "pins": [
               {
                 "index": "0",
@@ -23,45 +23,50 @@
                 "value": "10"
               }
             ],
-            "virtual": false
+            "virtual": false,
+            "clock": false
           },
           "position": {
-            "x": 40,
-            "y": 32
+            "x": 72,
+            "y": 40
           }
         },
         {
-          "id": "840e71b2-bf5a-4e20-8413-d386500c87fa",
+          "id": "5856afb3-8391-4b58-b79b-a34084b65a2d",
           "type": "11a6f454705778e2f00adba4e5b28dcd9411bc8f",
           "position": {
-            "x": 256,
+            "x": 240,
             "y": 80
+          },
+          "size": {
+            "width": 96,
+            "height": 64
           }
         },
         {
-          "id": "3cad6e72-e7d3-4273-be1c-ce5f9b4c020a",
+          "id": "fd6cfb1e-29a5-4783-a167-f63bf9ef348b",
           "type": "basic.output",
           "data": {
-            "name": "led",
+            "name": "LED",
             "pins": [
               {
                 "index": "0",
-                "name": "LED7",
-                "value": "104"
+                "name": "LED0",
+                "value": "95"
               }
             ],
             "virtual": false
           },
           "position": {
-            "x": 440,
+            "x": 392,
             "y": 80
           }
         },
         {
-          "id": "5d1b4f33-ae65-4154-b4f4-ff1403437600",
+          "id": "863c0cab-dff7-4fa4-8e8c-d82b5af6849e",
           "type": "basic.input",
           "data": {
-            "name": "button2",
+            "name": "Pushbutton",
             "pins": [
               {
                 "index": "0",
@@ -69,65 +74,59 @@
                 "value": "11"
               }
             ],
-            "virtual": false
+            "virtual": false,
+            "clock": false
           },
           "position": {
-            "x": 40,
-            "y": 128
+            "x": 72,
+            "y": 120
           }
         },
         {
-          "id": "cce8504a-dc1f-4deb-9ee3-5f215ac88408",
+          "id": "a0d9e262-02ef-4529-b518-c49916368fc7",
           "type": "basic.info",
           "data": {
-            "info": "Basic AND gate circuit\n\nA 2-inputs AND logic gate is used to turn on\nthe LED7 only when the 2 input buttons\nare pressed\n\nThis example shows the basic behaviour of\nthe AND gate\n\nEXERCISE: Upload this circuit into the FPGA\nboard and play with it"
+            "info": "Testing the AND gate"
           },
           "position": {
-            "x": 40,
-            "y": 232
-          }
-        },
-        {
-          "id": "edf3b438-4271-45f7-bb14-2a6d040880dd",
-          "type": "basic.info",
-          "data": {
-            "info": "Circuito básico con puerta AND\n\nUna puerta lógica AND de 2 entradas se usa\npara encender un led solo cuando los dos\npulsadores de entrada están apretados\n\nEste ejemplo muestra el comportamiento básico\nde una puerta AND\n\nEJERCICIO: Carga este circuito en la FPGA y \njuega con él"
+            "x": 72,
+            "y": 216
           },
-          "position": {
-            "x": 464,
-            "y": 232
+          "size": {
+            "width": 208,
+            "height": 48
           }
         }
       ],
       "wires": [
         {
           "source": {
-            "block": "840e71b2-bf5a-4e20-8413-d386500c87fa",
-            "port": "664caf9e-5f40-4df4-800a-b626af702e62"
-          },
-          "target": {
-            "block": "3cad6e72-e7d3-4273-be1c-ce5f9b4c020a",
-            "port": "in"
-          }
-        },
-        {
-          "source": {
-            "block": "aa8bab8b-61e4-4e28-b444-0e68d9484ea1",
+            "block": "905c7083-1251-4187-ac9e-b8c6913e6f73",
             "port": "out"
           },
           "target": {
-            "block": "840e71b2-bf5a-4e20-8413-d386500c87fa",
+            "block": "5856afb3-8391-4b58-b79b-a34084b65a2d",
             "port": "18c2ebc7-5152-439c-9b3f-851c59bac834"
           }
         },
         {
           "source": {
-            "block": "5d1b4f33-ae65-4154-b4f4-ff1403437600",
+            "block": "863c0cab-dff7-4fa4-8e8c-d82b5af6849e",
             "port": "out"
           },
           "target": {
-            "block": "840e71b2-bf5a-4e20-8413-d386500c87fa",
+            "block": "5856afb3-8391-4b58-b79b-a34084b65a2d",
             "port": "97b51945-d716-4b6c-9db9-970d08541249"
+          }
+        },
+        {
+          "source": {
+            "block": "5856afb3-8391-4b58-b79b-a34084b65a2d",
+            "port": "664caf9e-5f40-4df4-800a-b626af702e62"
+          },
+          "target": {
+            "block": "fd6cfb1e-29a5-4783-a167-f63bf9ef348b",
+            "port": "in"
           }
         }
       ]
