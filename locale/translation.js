@@ -80,6 +80,28 @@ gettext('3_ring_of_four_DFFs');
 gettext('4_toggle_button');
 /// 5. Binary counter with three T Flip-flops
 gettext('5_binary_counter_with_three_TFFs');
+/// 3. Gates
+gettext('3_gates');
+/// 1. And gate
+gettext('01_and');
+/// 2. Or gate
+gettext('02_or');
+/// 3. And truth table
+gettext('03_and_truth_table');
+/// 4. Or truth table
+gettext('04_or_truth_table');
+/// 5. SR latch
+gettext('05_sr_latch');
+/// 6. D latch
+gettext('06_D_latch');
+/// 7. D flip-flop
+gettext('07_D_flip_flop');
+/// 8. Mux 2:1
+gettext('08_mux_2_1');
+/// 9. Two-to-four decoder
+gettext('09_two_to_four_decoder');
+/// 10. One bit adder
+gettext('10_one_bit_adder');
 
 
 

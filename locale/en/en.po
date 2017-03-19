@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-03-19 19:53+0100\n"
-"PO-Revision-Date: 2017-03-19 19:53+0100\n"
+"POT-Creation-Date: 2017-03-19 20:13+0100\n"
+"PO-Revision-Date: 2017-03-19 20:15+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -203,6 +203,61 @@ msgstr "4. Toggle button"
 #: translation.js:82
 msgid "5_binary_counter_with_three_TFFs"
 msgstr "5. Binary counter with three T Flip-flops"
+
+#. / 3. Gates
+#: translation.js:84
+msgid "3_gates"
+msgstr "3. Gates"
+
+#. / 1. And gate
+#: translation.js:86
+msgid "01_and"
+msgstr "1. And gate"
+
+#. / 2. Or gate
+#: translation.js:88
+msgid "02_or"
+msgstr "2. Or gate"
+
+#. / 3. And truth table
+#: translation.js:90
+msgid "03_and_truth_table"
+msgstr "3. And truth table"
+
+#. / 4. Or truth table
+#: translation.js:92
+msgid "04_or_truth_table"
+msgstr "4. Or truth table"
+
+#. / 5. SR latch
+#: translation.js:94
+msgid "05_sr_latch"
+msgstr "5. SR latch"
+
+#. / 6. D latch
+#: translation.js:96
+msgid "06_D_latch"
+msgstr "6. D latch"
+
+#. / 7. D flip-flop
+#: translation.js:98
+msgid "07_D_flip_flop"
+msgstr "7. D flip-flop"
+
+#. / 8. Mux 2:1
+#: translation.js:100
+msgid "08_mux_2_1"
+msgstr "8. Mux 2:1"
+
+#. / 9. Two-to-four decoder
+#: translation.js:102
+msgid "09_two_to_four_decoder"
+msgstr "9. Two to four decoder"
+
+#. / 10. One bit adder
+#: translation.js:104
+msgid "10_one_bit_adder"
+msgstr "10. One bit adder"
 
 #~ msgid "2_Chain_of_three_DFF"
 #~ msgstr "2. Chain of three D Flip-flops"
