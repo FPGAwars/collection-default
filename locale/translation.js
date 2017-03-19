@@ -102,6 +102,38 @@ gettext('08_mux_2_1');
 gettext('09_two_to_four_decoder');
 /// 10. One bit adder
 gettext('10_one_bit_adder');
+/// 4. Muxes
+gettext('4_muxes');
+/// 1. Blinking/fixed led
+gettext('1_Blinking_fixed_led');
+/// 2. Led three states
+gettext('2_led_three_states');
+/// 3. Mux 4:1
+gettext('3_mux_4_1');
+/// 4. Shift Register
+gettext('4_shift_register');
+/// 5. Verilog
+gettext('5_verilog');
+/// 1. Four bits fixed binary value 
+gettext('01_four_bits_fixed_binary_value');
+/// 2. Four bits fixed hexa value
+gettext('02_four_bits_fixed_hexa_value');
+/// 3. Eight bits fixed value buses
+gettext('03_eight_bits_fixed_value_buses');
+/// 4. Eight bits counter
+gettext('04_eight_bits_counter');
+/// 5. Split buses
+gettext('05_split_buses');
+/// 6. ROM 16x8
+gettext('06_rom16x8');
+/// 7. ROM 16x8 file
+gettext('07_rom16x8_file');
+/// 8. ROM 16x8 file generic
+gettext('08_rom16x8_file_generic');
+
+
+
+
 
 
 
