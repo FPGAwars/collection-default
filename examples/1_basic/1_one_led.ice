@@ -12,11 +12,26 @@
     "graph": {
       "blocks": [
         {
+          "id": "a538a5b4-d5d5-4ace-a593-efb1fa9b930c",
+          "type": "basic.info",
+          "data": {
+            "info": "Turn on a led"
+          },
+          "position": {
+            "x": 80,
+            "y": 48
+          },
+          "size": {
+            "width": 160,
+            "height": 48
+          }
+        },
+        {
           "id": "eaf792b5-de98-4e2f-b78a-4023eb9a7f2b",
           "type": "3e6c249e205080168c1bf4ee8dbc33b50653d5f4",
           "position": {
             "x": 80,
-            "y": 64
+            "y": 136
           },
           "size": {
             "width": 96,
@@ -39,22 +54,7 @@
           },
           "position": {
             "x": 352,
-            "y": 64
-          }
-        },
-        {
-          "id": "a538a5b4-d5d5-4ace-a593-efb1fa9b930c",
-          "type": "basic.info",
-          "data": {
-            "info": "Turn on a led"
-          },
-          "position": {
-            "x": 64,
-            "y": 168
-          },
-          "size": {
-            "width": 208,
-            "height": 64
+            "y": 136
           }
         }
       ],

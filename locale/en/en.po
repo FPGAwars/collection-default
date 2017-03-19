@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-03-15 21:44+0100\n"
-"PO-Revision-Date: 2017-03-15 21:45+0100\n"
+"POT-Creation-Date: 2017-03-19 19:53+0100\n"
+"PO-Revision-Date: 2017-03-19 19:53+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -23,102 +23,204 @@ msgstr "Bit"
 msgid "Assign 0 to the output wire"
 msgstr "Assign 0 to the output wire"
 
+#: translation.js:16
+msgid "Assign 1 to the output wire"
+msgstr "Assign 1 to the output wire"
+
 #. / Config
-#: translation.js:17
+#: translation.js:18
 msgid "config"
-msgstr "config"
+msgstr "Config"
 
 #. / Pull up
-#: translation.js:19
+#: translation.js:20
 msgid "pull_up"
-msgstr "pull_up"
+msgstr "Pull up"
+
+#: translation.js:21
+msgid "FPGA internal pull up configuration on the connected input port"
+msgstr "FPGA internal pull up configuration on the connected input port"
 
 #. / Logic
-#: translation.js:21
+#: translation.js:23
 msgid "logic"
-msgstr "logic"
+msgstr "Logic"
 
 #. / Combinational
-#: translation.js:23
+#: translation.js:25
 msgid "combinational"
-msgstr "combinational"
+msgstr "Combinational"
 
 #. / Mux 2:1
-#: translation.js:25
+#: translation.js:27
 msgid "mux_2_1"
-msgstr "mux_2_1"
+msgstr "Mux 2:1"
+
+#: translation.js:28
+msgid "Multiplexer 2:1"
+msgstr "Multiplexer 2:1"
 
 #. / Gate
-#: translation.js:27
+#: translation.js:30
 msgid "gate"
-msgstr "gate"
+msgstr "Gate"
 
 #. / And
-#: translation.js:29
+#: translation.js:32
 msgid "and"
-msgstr "and"
+msgstr "And"
+
+#: translation.js:33
+msgid "AND logic gate"
+msgstr "AND logic gate"
 
 #. / Not
-#: translation.js:31
+#: translation.js:35
 msgid "not"
-msgstr "not"
+msgstr "Not"
+
+#: translation.js:36
+msgid "NOT logic gate"
+msgstr "NOT logic gate"
 
 #. / Or
-#: translation.js:33
+#: translation.js:38
 msgid "or"
-msgstr "or"
+msgstr "Or"
+
+#: translation.js:39
+msgid "OR logic gate"
+msgstr "OR logic gate"
+
+#. / Xor
+#: translation.js:41
+msgid "XOR logic gate"
+msgstr "XOR logic gate"
+
+#: translation.js:42
+msgid "xor"
+msgstr "Xor"
 
 #. / Sequential
-#: translation.js:35
+#: translation.js:44
 msgid "sequential"
 msgstr "sequential"
 
 #. / D flip-flop
-#: translation.js:37
+#: translation.js:46
 msgid "dff"
 msgstr "D flip-flop"
 
 #. / T flip-flop
-#: translation.js:39
+#: translation.js:48
 msgid "tff"
-msgstr "tff"
+msgstr "T flip-flop"
 
 #. / Debouncer
-#: translation.js:41
+#: translation.js:50
 msgid "debouncer"
-msgstr "debouncer"
+msgstr "Debouncer"
+
+#. / Prescaler 22
+#: translation.js:52
+msgid "prescaler_22"
+msgstr "Prescaler 22"
+
+#: translation.js:53
+msgid "22-bits prescaler"
+msgstr "22-bits prescaler"
+
+#. / Prescaler N
+#: translation.js:55
+msgid "prescaler_N"
+msgstr "prescaler_N"
+
+#: translation.js:56
+msgid "Parametric N-bits prescaler"
+msgstr "Parametric N-bits prescaler"
 
 #. / 1. Basic
-#: translation.js:43
+#: translation.js:58
 msgid "1_basic"
-msgstr "1_basic"
+msgstr "1. Basic"
 
-#. / 2. Counter
-#: translation.js:45
-msgid "2_counter"
-msgstr "2_counter"
+#. / 1. One led
+#: translation.js:60
+msgid "1_one_led"
+msgstr "1. One led on"
 
-#. / 1. Led on
-#: translation.js:47
-msgid "1_led_on"
-msgstr "1_led_on"
+#. / 2. Two leds
+#: translation.js:62
+msgid "2_two_leds"
+msgstr "2. Two leds on"
 
-#. / 2. Switch led
-#: translation.js:49
-msgid "2_switch_led"
-msgstr "2_switch_led"
+#. / 3. Three leds
+#: translation.js:64
+msgid "3_three_leds"
+msgstr "3. Three leds on"
 
-#. / 3. Switch and gate
-#: translation.js:51
-msgid "3_switch_and_gate"
-msgstr "3_switch_and_gate"
+#. / 4. Blink
+#: translation.js:66
+msgid "4_blink"
+msgstr "4. Blink"
 
-#. / contadorAsc
-#: translation.js:53
-msgid "contadorAsc"
-msgstr "contadorAsc"
+#. / 5. Two leds alternate blink
+#: translation.js:68
+msgid "5_two_led_alternate_blink"
+msgstr "5. Two leds alternate blink"
 
-#. / contadorDes
-#: translation.js:55
-msgid "contadorDes"
-msgstr "contadorDes"
+#. / 6. Pushbutton led
+#: translation.js:70
+msgid "6_pushbutton_led"
+msgstr "6. Pushbutton led"
+
+#. / 2. Flip-Flips
+#: translation.js:72
+msgid "2_flip_flops"
+msgstr "2. Flip-Flops"
+
+#. / 1. D-flip-flop manual load
+#: translation.js:74
+msgid "1_Dff_manual_load"
+msgstr "1. D Flip-flop with manual load"
+
+#. / 2. Chain of three DFF
+#: translation.js:76
+msgid "2_chain_of_three_DFF"
+msgstr "2. Chain of three D flip-flops"
+
+#. / 3. Ring of four DFF
+#: translation.js:78
+msgid "3_ring_of_four_DFFs"
+msgstr "3. Ring of four D flip-flops"
+
+#. / 4. Toggle button
+#: translation.js:80
+msgid "4_toggle_button"
+msgstr "4. Toggle button"
+
+#. / 5. Binary counter with three T Flip-flops
+#: translation.js:82
+msgid "5_binary_counter_with_three_TFFs"
+msgstr "5. Binary counter with three T Flip-flops"
+
+#~ msgid "2_Chain_of_three_DFF"
+#~ msgstr "2. Chain of three D Flip-flops"
+
+#~ msgid "2_counter"
+#~ msgstr "2_counter"
+
+#~ msgid "1_led_on"
+#~ msgstr "1_led_on"
+
+#~ msgid "2_switch_led"
+#~ msgstr "2_switch_led"
+
+#~ msgid "3_switch_and_gate"
+#~ msgstr "3_switch_and_gate"
+
+#~ msgid "contadorAsc"
+#~ msgstr "contadorAsc"
+
+#~ msgid "contadorDes"
+#~ msgstr "contadorDes"
