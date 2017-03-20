@@ -85,7 +85,7 @@
           "id": "8d495256-f18a-47d8-8efc-6c95cda181dd",
           "type": "basic.code",
           "data": {
-            "code": "//-- ROM memory\nreg [7:0] rom [0:15];\n\n//-- Address bus (4 bits)\nwire [3:0] A;\n\n//-- Data bus (8 bits)\nreg [7:0] D;\nlocalparam ROMFILE = \"rom0.list\";\n\n\nalways @(negedge clk) begin\n  D <= rom[A];\nend\n\n\n//-- Memory contents read\n//-- from the ROMFILE file\ninitial begin\n    $readmemh(ROMFILE, rom);\nend\n",
+            "code": "localparam ROMFILE = \"rom0.list\";\n\n//-- ROM memory\nreg [7:0] rom [0:15];\n\n//-- Address bus (4 bits)\nwire [3:0] A;\n\n//-- Data bus (8 bits)\nreg [7:0] D;\n\nalways @(negedge clk) begin\n  D <= rom[A];\nend\n\n\n//-- Memory contents read\n//-- from the ROMFILE file\ninitial begin\n    if (ROMFILE) $readmemh(ROMFILE, rom);\nend\n",
             "params": [],
             "ports": {
               "in": [
@@ -219,10 +219,10 @@
     },
     "state": {
       "pan": {
-        "x": 136.6535,
-        "y": 102.2837
+        "x": 125.4167,
+        "y": 203.7083
       },
-      "zoom": 1
+      "zoom": 0.7118
     }
   },
   "dependencies": {

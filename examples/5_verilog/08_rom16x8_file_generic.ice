@@ -35,8 +35,8 @@
             "y": -48
           },
           "size": {
-            "width": 464,
-            "height": 48
+            "width": 512,
+            "height": 32
           }
         },
         {
@@ -98,7 +98,7 @@
           "id": "0d35d3f1-1c79-4b4a-a4e9-41c1c082bb7a",
           "type": "basic.code",
           "data": {
-            "code": "\n//-- ROM memory\nreg [7:0] rom [0:15];\n\n//-- Address bus (4 bits)\nwire [3:0] A;\n\n//-- Data bus (8 bits)\nreg [7:0] D;\n\nalways @(negedge clk) begin\n  D <= rom[A];\nend\n\n\n//-- Memory contents read\n//-- from the ROMFILE file\ninitial begin\n    $readmemh(ROMFILE, rom);\nend\n",
+            "code": "\n//-- ROM memory\nreg [7:0] rom [0:15];\n\n//-- Address bus (4 bits)\nwire [3:0] A;\n\n//-- Data bus (8 bits)\nreg [7:0] D;\n\nalways @(negedge clk) begin\n  D <= rom[A];\nend\n\n\n//-- Memory contents read\n//-- from the ROMFILE file\ninitial begin\n    if (ROMFILE) $readmemh(ROMFILE, rom);\nend\n",
             "params": [
               {
                 "name": "ROMFILE"
@@ -246,10 +246,10 @@
     },
     "state": {
       "pan": {
-        "x": 136.6535,
-        "y": 102.2837
+        "x": 132.4812,
+        "y": 164.8534
       },
-      "zoom": 1
+      "zoom": 0.7707
     }
   },
   "dependencies": {
