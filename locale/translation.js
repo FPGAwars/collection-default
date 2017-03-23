@@ -55,6 +55,7 @@ gettext('Turn on three leds');
 gettext('4_blink');
 gettext('Blinking led');
 gettext('5_two_led_alternate_blink');
+gettext('Leds 0 and 7 are blinking alternatively');
 gettext('6_pushbutton_led');
 gettext('One pushbutton for turning the led on and off');
 gettext('1_Dff_manual_load');

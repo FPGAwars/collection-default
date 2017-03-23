@@ -15,8 +15,8 @@
           "id": "15e27c8b-4779-4917-95e8-ba7e58843fd7",
           "type": "8527ab6e7f1bb2d07fd17b11ffc13165e95df2aa",
           "position": {
-            "x": 152,
-            "y": 72
+            "x": 24,
+            "y": -64
           },
           "size": {
             "width": 96,
@@ -38,16 +38,16 @@
             "virtual": false
           },
           "position": {
-            "x": 488,
-            "y": 72
+            "x": 360,
+            "y": -64
           }
         },
         {
           "id": "279c2e74-69b0-489f-af8a-1a3b26a8d20e",
           "type": "32200dc0915d45d6ec035bcec61c8472f0cc7b88",
           "position": {
-            "x": 336,
-            "y": 152
+            "x": 208,
+            "y": 16
           },
           "size": {
             "width": 96,
@@ -69,8 +69,23 @@
             "virtual": false
           },
           "position": {
-            "x": 488,
-            "y": 152
+            "x": 360,
+            "y": 16
+          }
+        },
+        {
+          "id": "c4334cde-6d7f-4932-bd44-7978a59c0b75",
+          "type": "basic.info",
+          "data": {
+            "info": "Leds 0 and 7 are blinking alternatively"
+          },
+          "position": {
+            "x": -32,
+            "y": 112
+          },
+          "size": {
+            "width": 352,
+            "height": 48
           }
         }
       ],
@@ -109,8 +124,8 @@
     },
     "state": {
       "pan": {
-        "x": 0,
-        "y": 0
+        "x": 238,
+        "y": 215.5
       },
       "zoom": 1
     }
