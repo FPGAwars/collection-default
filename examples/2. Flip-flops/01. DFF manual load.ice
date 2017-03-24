@@ -33,7 +33,7 @@
         },
         {
           "id": "42c9a6d9-95c4-4cc1-bb53-a0601f41f069",
-          "type": "9a45deb902810627bd690faab4fd82ada3989d19",
+          "type": "70ff7f2a2f0ede80fc37c66a997650a1d0d0102b",
           "position": {
             "x": 368,
             "y": 80
@@ -132,9 +132,9 @@
     }
   },
   "dependencies": {
-    "9a45deb902810627bd690faab4fd82ada3989d19": {
+    "70ff7f2a2f0ede80fc37c66a997650a1d0d0102b": {
       "package": {
-        "name": "DFF",
+        "name": "Flip-flop D",
         "version": "1.0.0",
         "description": "Delay flip-flop",
         "author": "Carlos Diaz",

@@ -25,7 +25,7 @@
         },
         {
           "id": "4d28725e-3439-489a-88dc-0035214c5b15",
-          "type": "9a45deb902810627bd690faab4fd82ada3989d19",
+          "type": "70ff7f2a2f0ede80fc37c66a997650a1d0d0102b",
           "position": {
             "x": 264,
             "y": 112
@@ -37,7 +37,7 @@
         },
         {
           "id": "b53f454f-1780-4de6-959f-8f99de8bf5cc",
-          "type": "9a45deb902810627bd690faab4fd82ada3989d19",
+          "type": "70ff7f2a2f0ede80fc37c66a997650a1d0d0102b",
           "position": {
             "x": 440,
             "y": 112
@@ -49,7 +49,7 @@
         },
         {
           "id": "ff255283-ea3c-480c-96f9-474dadd183fa",
-          "type": "9a45deb902810627bd690faab4fd82ada3989d19",
+          "type": "70ff7f2a2f0ede80fc37c66a997650a1d0d0102b",
           "position": {
             "x": 608,
             "y": 112
@@ -61,7 +61,7 @@
         },
         {
           "id": "3e46a1b7-8a13-4789-8cce-f03dfc9a4943",
-          "type": "9a45deb902810627bd690faab4fd82ada3989d19",
+          "type": "70ff7f2a2f0ede80fc37c66a997650a1d0d0102b",
           "position": {
             "x": 760,
             "y": 112
@@ -571,9 +571,9 @@
         }
       }
     },
-    "9a45deb902810627bd690faab4fd82ada3989d19": {
+    "70ff7f2a2f0ede80fc37c66a997650a1d0d0102b": {
       "package": {
-        "name": "DFF",
+        "name": "Flip-flop D",
         "version": "1.0.0",
         "description": "Delay flip-flop",
         "author": "Carlos Diaz",
