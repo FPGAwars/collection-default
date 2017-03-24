@@ -1,6 +1,6 @@
 {
   "name": "Default",
-  "version": "0.3.0-dev",
+  "version": "0.3.0-rc",
   "description": "Default collection in Icestudio",
   "keywords": "default, collection",
   "license": "GPL-2.0",
@@ -22,24 +22,7 @@
       "url": "https://github.com/set-soft"
     }
   ],
-  "contributors": [
-    {
-      "name": "Xoan Sampaiño",
-      "url": "https://github.com/xoan"
-    },
-    {
-      "name": "Lorea-Aldabaldetreku",
-      "url": "https://github.com/Lorea-Aldabaldetreku"
-    },
-    {
-      "name": "Martoni",
-      "url": "https://github.com/Martoni"
-    },
-    {
-      "name": "Pascal Cotret",
-      "url": "https://github.com/pcotret"
-    }
-  ],
+  "contributors": [],
   "repository": {
     "type": "git",
     "url": "https://github.com/FPGAwars/collection-default"

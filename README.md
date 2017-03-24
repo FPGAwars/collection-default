@@ -1,13 +1,13 @@
 # Default Collection
 
 [![Icestudio](https://img.shields.io/badge/collection-icestudio-blue.svg)](https://github.com/FPGAwars/icestudio)
-[![Version](https://img.shields.io/badge/version-v0.3.0--dev-orange.svg)]()
+![Version](https://img.shields.io/badge/version-v0.3.0--rc-orange.svg)
 
 Default collection in Icestudio.
 
 ## Install
 
-* Download the [collection](https://github.com/FPGAwars/collection-default/archive/v0.3.0-dev.zip)
+* Download the [collection](https://github.com/FPGAwars/collection-default/archive/v0.3.0-rc.zip)
 * Install the collection: *Tools > Collections > Add*
 * Load the collection: *Select > Collection*
 
@@ -78,9 +78,6 @@ Default collection in Icestudio.
 |:--------:|:------------------:|
 | en | ![Progress](http://progressed.io/bar/100) |
 | es_ES | ![Progress](http://progressed.io/bar/100) |
-| eu_ES | ![Progress](http://progressed.io/bar/24) |
-| fr_FR | ![Progress](http://progressed.io/bar/24) |
-| gl_ES | ![Progress](http://progressed.io/bar/20) |
 
 ## Authors
 * [Jesús Arroyo Torrens](https://github.com/Jesus89)
@@ -88,11 +85,6 @@ Default collection in Icestudio.
 * [Carlos Díaz](https://github.com/C47D)
 * [Salvador E. Tropea](https://github.com/set-soft)
 
-## Contributors
-* [Xoan Sampaiño](https://github.com/xoan)
-* [Lorea-Aldabaldetreku](https://github.com/Lorea-Aldabaldetreku)
-* [Martoni](https://github.com/Martoni)
-* [Pascal Cotret](https://github.com/pcotret)
 
 ## License
 
