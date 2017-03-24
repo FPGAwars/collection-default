@@ -132,7 +132,7 @@ msgstr ""
 
 #. / Prescaler N
 #: translation.js:55
-msgid "prescaler_N"
+msgid "prescalerN"
 msgstr ""
 
 #: translation.js:56

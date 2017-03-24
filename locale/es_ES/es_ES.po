@@ -133,7 +133,7 @@ msgid "Parametric N-bits prescaler"
 msgstr "Prescaler de N bits"
 
 #: translation.js:41
-msgid "prescaler_N"
+msgid "prescalerN"
 msgstr "Prescaler N"
 
 #: translation.js:42

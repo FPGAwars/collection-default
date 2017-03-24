@@ -451,7 +451,7 @@
     },
     "9ff8e584975c5f01bda05511782e93b45a00fa62": {
       "package": {
-        "name": "Prescaler_N",
+        "name": "PrescalerN",
         "version": "0.1",
         "description": "Parametric N-bits prescaler",
         "author": "Juan Gonzalez (Obijuan)",
