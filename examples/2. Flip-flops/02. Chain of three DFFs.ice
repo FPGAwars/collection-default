@@ -152,7 +152,7 @@
           "id": "67e5ea88-c533-48f6-a03d-b964bccdd1cc",
           "type": "basic.info",
           "data": {
-            "info": "Tres biestables tipo D en serie\nLos leds se encienden secuencialmente, con cada pulsación del botón"
+            "info": "A chain of three D flip-flops\nThe leds are turned on secuentially, with every click on the button"
           },
           "position": {
             "x": 48,
@@ -281,10 +281,10 @@
     },
     "state": {
       "pan": {
-        "x": 4.9573,
-        "y": 70.765
+        "x": 5.5462,
+        "y": 74.0042
       },
-      "zoom": 0.8761
+      "zoom": 0.8613
     }
   },
   "dependencies": {

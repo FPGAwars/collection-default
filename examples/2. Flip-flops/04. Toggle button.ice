@@ -78,7 +78,7 @@
           "id": "a5133ddc-4eaa-401f-b5ee-79eb2be53305",
           "type": "basic.info",
           "data": {
-            "info": "Al apretar el pulsador el led cambia"
+            "info": "When the pushbutton is clicked the led changes"
           },
           "position": {
             "x": 56,

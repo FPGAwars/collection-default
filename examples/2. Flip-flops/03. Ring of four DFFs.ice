@@ -163,7 +163,7 @@
           "id": "5265ffd2-b2e8-4fb7-9362-de1bdef34c1c",
           "type": "basic.info",
           "data": {
-            "info": "Cuatro biestables tipo D conectados en anillo"
+            "info": "A ring of four D flip-flops\nThe sequence is shown in the leds"
           },
           "position": {
             "x": 88,
@@ -340,10 +340,10 @@
     },
     "state": {
       "pan": {
-        "x": 15.4307,
-        "y": 17.8071
+        "x": 2.5856,
+        "y": 23.424
       },
-      "zoom": 0.7678
+      "zoom": 0.7795
     }
   },
   "dependencies": {

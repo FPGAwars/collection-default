@@ -46,7 +46,7 @@
           "id": "2464d2a6-3648-4fbc-bbcc-b0c3e8d1e935",
           "type": "basic.info",
           "data": {
-            "info": "Led parpadeante"
+            "info": "Blinking led"
           },
           "position": {
             "x": 128,
@@ -73,7 +73,7 @@
     },
     "state": {
       "pan": {
-        "x": 126,
+        "x": 130,
         "y": 83.5
       },
       "zoom": 1

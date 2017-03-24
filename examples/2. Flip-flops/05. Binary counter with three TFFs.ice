@@ -144,7 +144,7 @@
           "id": "1aff33a9-9686-46ce-92f7-8a1690a2c2e7",
           "type": "basic.info",
           "data": {
-            "info": "Un contador binario de 3 bits con biestables tipo T"
+            "info": "A 3-bit binary counter with T flip-flops"
           },
           "position": {
             "x": 120,
@@ -265,10 +265,10 @@
     },
     "state": {
       "pan": {
-        "x": 38.2895,
-        "y": 8.6316
+        "x": 55.15,
+        "y": 10.2
       },
-      "zoom": 0.9803
+      "zoom": 0.9312
     }
   },
   "dependencies": {

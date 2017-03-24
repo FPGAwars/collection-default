@@ -30,7 +30,7 @@
           "id": "2b5b17c0-95bc-478f-98cc-620d618ba367",
           "type": "basic.info",
           "data": {
-            "info": "Suma"
+            "info": "Sum"
           },
           "position": {
             "x": 560,
@@ -116,7 +116,7 @@
           "id": "2be18a92-0478-4c3b-bdcd-9231020a32f1",
           "type": "basic.info",
           "data": {
-            "info": "Acarreo"
+            "info": "Carry"
           },
           "position": {
             "x": 560,

@@ -158,7 +158,7 @@
           "id": "062dbdf8-fa57-43e2-b5cc-5aea6eceddec",
           "type": "basic.info",
           "data": {
-            "info": "An D latch implemented with logic gates"
+            "info": "A D latch implemented with logic gates"
           },
           "position": {
             "x": 48,
@@ -318,10 +318,10 @@
     },
     "state": {
       "pan": {
-        "x": 0,
-        "y": 0
+        "x": -5.9813,
+        "y": 71.9112
       },
-      "zoom": 1
+      "zoom": 0.9579
     }
   },
   "dependencies": {

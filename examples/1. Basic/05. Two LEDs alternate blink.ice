@@ -77,7 +77,7 @@
           "id": "c4334cde-6d7f-4932-bd44-7978a59c0b75",
           "type": "basic.info",
           "data": {
-            "info": "Los leds 0 y 7 parpadean alternativamente"
+            "info": "Leds 0 and 7 are blinking alternatively"
           },
           "position": {
             "x": -32,

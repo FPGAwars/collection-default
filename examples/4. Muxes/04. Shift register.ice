@@ -15,7 +15,7 @@
           "id": "3792c82f-389a-4c23-8d4b-72c090337a5e",
           "type": "basic.info",
           "data": {
-            "info": "Registro de desplazamiento de 4 bits. Se carga con el valor inicial 1000 y\ndespués se desplaza con cada ciclo del reloj"
+            "info": "4 bits shift register. It is loaded with the initial value 1000 and then\nshifted on every clock pulse"
           },
           "position": {
             "x": 32,
@@ -42,7 +42,7 @@
           "id": "13c2d9a5-2382-45a4-b2c7-ecece23464c7",
           "type": "basic.info",
           "data": {
-            "info": "Valor binario a cargar y desplazar"
+            "info": "Binary value to load and shift"
           },
           "position": {
             "x": 48,
@@ -301,7 +301,7 @@
           "id": "a4d89eeb-9146-4b90-8c5e-bc12a2938769",
           "type": "basic.info",
           "data": {
-            "info": "Inicializador. Tiene el valor inicial 0, de forma que\ni0 se selecciona en todos los multiplexores. El registro se carga.\nEn el siguiente ciclo, tiene el valor 1, por lo que la entrada i1\nse selecciona en todos los multiplexores. El registro se desplaza\nEn el siguiente ciclo permanecerá en el estado de desplazamiento"
+            "info": "Initializer. It has the initial value 0, so that the\ni0 is selected in all the muxes. The register is loaded.\nIn the next cycle, it has the value 1, so the i1 input\nis selected in all the muxes. The register is shifted.\nIn the next cycles it will remain in the shift state"
           },
           "position": {
             "x": 400,
@@ -656,10 +656,10 @@
     },
     "state": {
       "pan": {
-        "x": -140.0208,
-        "y": -793.6402
+        "x": 83.064,
+        "y": 75.5607
       },
-      "zoom": 0.9661
+      "zoom": 0.7649
     }
   },
   "dependencies": {
