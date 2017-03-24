@@ -95,7 +95,7 @@ gettext('Fixed signal for turning on the led');
 gettext('09. Decoder 2:4');
 gettext('2 to 4 bits decoder with logic gates');
 gettext('10. One bit adder');
-gettext('Sumador de 1 bit');
+gettext('1-bit adder');
 gettext('Sum');
 gettext('Carry');
 gettext('01. Blinking fixed LED');

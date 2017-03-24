@@ -77,7 +77,7 @@ Default collection in Icestudio.
 | Language | Translated strings |
 |:--------:|:------------------:|
 | en | ![Progress](http://progressed.io/bar/100) |
-| es_ES | ![Progress](http://progressed.io/bar/99) |
+| es_ES | ![Progress](http://progressed.io/bar/100) |
 | eu_ES | ![Progress](http://progressed.io/bar/24) |
 | fr_FR | ![Progress](http://progressed.io/bar/24) |
 | gl_ES | ![Progress](http://progressed.io/bar/20) |

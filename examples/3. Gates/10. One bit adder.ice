@@ -15,7 +15,7 @@
           "id": "504158f2-beb6-4c8f-8591-949e330810ba",
           "type": "basic.info",
           "data": {
-            "info": "Sumador de 1 bit"
+            "info": "1-bit adder"
           },
           "position": {
             "x": 112,
