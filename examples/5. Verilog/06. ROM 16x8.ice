@@ -161,7 +161,7 @@
         },
         {
           "id": "0989b3c2-8818-4205-9936-a6389594d12c",
-          "type": "9ff8e584975c5f01bda05511782e93b45a00fa62",
+          "type": "435b29b7b65c2c6d3c3df9bacef7e063156a0f7f",
           "position": {
             "x": -72,
             "y": 144
@@ -226,7 +226,7 @@
     }
   },
   "dependencies": {
-    "9ff8e584975c5f01bda05511782e93b45a00fa62": {
+    "435b29b7b65c2c6d3c3df9bacef7e063156a0f7f": {
       "package": {
         "name": "PrescalerN",
         "version": "0.1",
