@@ -41,7 +41,6 @@ gettext('Parametric N-bits prescaler');
 gettext('prescaler_N');
 gettext('tff');
 gettext('Toggle flip-flop');
-gettext('Delay flip-flop with synchronous reset');
 gettext('1_basic');
 gettext('2_flip_flops');
 gettext('3_gates');
@@ -66,7 +65,6 @@ gettext('A chain of three D flip-flops\nThe leds are turned on secuentially, wit
 gettext('3_ring_of_four_DFFs');
 gettext('A ring of four D flip-flops\nThe sequence is shown in the leds');
 gettext('4_toggle_button');
-gettext('Toggle flip-flop with synchronous reset');
 gettext('When the pushbutton is clicked the led changes');
 gettext('5_binary_counter_with_three_TFFs');
 gettext('A 3-bit binary counter with T flip-flops');

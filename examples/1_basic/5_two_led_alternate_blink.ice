@@ -12,8 +12,8 @@
     "graph": {
       "blocks": [
         {
-          "id": "15e27c8b-4779-4917-95e8-ba7e58843fd7",
-          "type": "8527ab6e7f1bb2d07fd17b11ffc13165e95df2aa",
+          "id": "2c3f7a57-e0e5-41f4-a46e-59cedb905253",
+          "type": "3a5ef6fd5ddf39a56cb72907a7744e1f914a7596",
           "position": {
             "x": 24,
             "y": -64
@@ -77,7 +77,7 @@
           "id": "c4334cde-6d7f-4932-bd44-7978a59c0b75",
           "type": "basic.info",
           "data": {
-            "info": "Leds 0 and 7 are blinking alternatively"
+            "info": "Los leds 0 y 7 parpadean alternativamente"
           },
           "position": {
             "x": -32,
@@ -102,7 +102,7 @@
         },
         {
           "source": {
-            "block": "15e27c8b-4779-4917-95e8-ba7e58843fd7",
+            "block": "2c3f7a57-e0e5-41f4-a46e-59cedb905253",
             "port": "7e07d449-6475-4839-b43e-8aead8be2aac"
           },
           "target": {
@@ -112,7 +112,7 @@
         },
         {
           "source": {
-            "block": "15e27c8b-4779-4917-95e8-ba7e58843fd7",
+            "block": "2c3f7a57-e0e5-41f4-a46e-59cedb905253",
             "port": "7e07d449-6475-4839-b43e-8aead8be2aac"
           },
           "target": {
@@ -131,7 +131,7 @@
     }
   },
   "dependencies": {
-    "8527ab6e7f1bb2d07fd17b11ffc13165e95df2aa": {
+    "3a5ef6fd5ddf39a56cb72907a7744e1f914a7596": {
       "package": {
         "name": "Prescaler22",
         "version": "0.1",
@@ -159,7 +159,7 @@
               "id": "e19c6f2f-5747-4ed1-87c8-748575f0cc10",
               "type": "basic.input",
               "data": {
-                "name": "clk",
+                "name": "",
                 "clock": true
               },
               "position": {
@@ -168,8 +168,8 @@
               }
             },
             {
-              "id": "fbac31ef-cc98-4408-a5e8-6b7c115efcb0",
-              "type": "2e70855674b893bd8b7ee5beda5ccded7b398def",
+              "id": "9f0ae367-e98e-4865-9e9f-458e189e7f0d",
+              "type": "9ff8e584975c5f01bda05511782e93b45a00fa62",
               "position": {
                 "x": 288,
                 "y": 160
@@ -194,11 +194,21 @@
           "wires": [
             {
               "source": {
+                "block": "9f0ae367-e98e-4865-9e9f-458e189e7f0d",
+                "port": "7e07d449-6475-4839-b43e-8aead8be2aac"
+              },
+              "target": {
+                "block": "7e07d449-6475-4839-b43e-8aead8be2aac",
+                "port": "in"
+              }
+            },
+            {
+              "source": {
                 "block": "001a65af-f50d-4dbf-be8a-e0a3bb11df68",
                 "port": "constant-out"
               },
               "target": {
-                "block": "fbac31ef-cc98-4408-a5e8-6b7c115efcb0",
+                "block": "9f0ae367-e98e-4865-9e9f-458e189e7f0d",
                 "port": "de2d8a2d-7908-48a2-9e35-7763a45886e4"
               }
             },
@@ -208,32 +218,22 @@
                 "port": "out"
               },
               "target": {
-                "block": "fbac31ef-cc98-4408-a5e8-6b7c115efcb0",
+                "block": "9f0ae367-e98e-4865-9e9f-458e189e7f0d",
                 "port": "e19c6f2f-5747-4ed1-87c8-748575f0cc10"
-              }
-            },
-            {
-              "source": {
-                "block": "fbac31ef-cc98-4408-a5e8-6b7c115efcb0",
-                "port": "7e07d449-6475-4839-b43e-8aead8be2aac"
-              },
-              "target": {
-                "block": "7e07d449-6475-4839-b43e-8aead8be2aac",
-                "port": "in"
               }
             }
           ]
         },
         "state": {
           "pan": {
-            "x": 20,
-            "y": 0
+            "x": 277,
+            "y": 204
           },
           "zoom": 1
         }
       }
     },
-    "2e70855674b893bd8b7ee5beda5ccded7b398def": {
+    "9ff8e584975c5f01bda05511782e93b45a00fa62": {
       "package": {
         "name": "Prescaler_N",
         "version": "0.1",
@@ -293,7 +293,7 @@
               "id": "e19c6f2f-5747-4ed1-87c8-748575f0cc10",
               "type": "basic.input",
               "data": {
-                "name": "clk",
+                "name": "",
                 "clock": true
               },
               "position": {
@@ -348,8 +348,8 @@
         },
         "state": {
           "pan": {
-            "x": 20,
-            "y": 0
+            "x": 42,
+            "y": 35.5
           },
           "zoom": 1
         }
