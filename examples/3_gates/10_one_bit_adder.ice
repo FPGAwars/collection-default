@@ -15,22 +15,22 @@
           "id": "504158f2-beb6-4c8f-8591-949e330810ba",
           "type": "basic.info",
           "data": {
-            "info": "1-bit adder"
+            "info": "Sumador de 1 bit"
           },
           "position": {
             "x": 112,
             "y": 16
           },
           "size": {
-            "width": 128,
-            "height": 64
+            "width": 176,
+            "height": 48
           }
         },
         {
           "id": "2b5b17c0-95bc-478f-98cc-620d618ba367",
           "type": "basic.info",
           "data": {
-            "info": "Sum"
+            "info": "Suma"
           },
           "position": {
             "x": 560,
@@ -116,7 +116,7 @@
           "id": "2be18a92-0478-4c3b-bdcd-9231020a32f1",
           "type": "basic.info",
           "data": {
-            "info": "Carry"
+            "info": "Acarreo"
           },
           "position": {
             "x": 560,
@@ -236,8 +236,8 @@
     },
     "state": {
       "pan": {
-        "x": 0,
-        "y": 0
+        "x": 66,
+        "y": 99.5
       },
       "zoom": 1
     }

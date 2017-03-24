@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-03-24 10:07+0100\n"
+"POT-Creation-Date: 2017-03-24 10:21+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -280,7 +280,7 @@ msgstr "3. Tabla de verdad de la puerta Y"
 
 #: translation.js:76
 msgid "Truth table of the AND gate"
-msgstr ""
+msgstr "Tabla de verdad de la puerta Y"
 
 #: translation.js:77
 msgid "04_or_truth_table"
@@ -288,7 +288,7 @@ msgstr "4. Tabla de verdad de la puerta O"
 
 #: translation.js:78
 msgid "Truth table of the OR gate"
-msgstr ""
+msgstr "Tabla de verdad de la puerta O"
 
 #: translation.js:79
 msgid "05_sr_latch"
@@ -296,7 +296,7 @@ msgstr "5. Biestable RS"
 
 #: translation.js:80
 msgid "An SR-latch implemented with logic gates"
-msgstr ""
+msgstr "Un biestable RS implementado con puertas lógicas"
 
 #: translation.js:81
 msgid "06_D_latch"
@@ -304,7 +304,7 @@ msgstr "6. Latch tipo D"
 
 #: translation.js:82
 msgid "An D latch implemented with logic gates"
-msgstr ""
+msgstr "Un latch D implementado con puertas lógicas"
 
 #: translation.js:83
 msgid "07_D_flip_flop"
@@ -312,15 +312,15 @@ msgstr "7. Biestable D"
 
 #: translation.js:84
 msgid "Master Latch"
-msgstr ""
+msgstr "Latch maestro"
 
 #: translation.js:85
 msgid "Slave latch"
-msgstr ""
+msgstr "Latch esclavo"
 
 #: translation.js:86
 msgid "A D flip-flip with a falling-edge trigger implemented with logic gates"
-msgstr ""
+msgstr "Un biestable D, activo en flanco de bajada, implementado con puertas lógicas"
 
 #: translation.js:87
 msgid "08_mux_2_1"
@@ -331,18 +331,20 @@ msgid ""
 "Mux 2:1 implemented with logic gates\n"
 "The led0 blinks or is turned on depending on the pushbutton 1"
 msgstr ""
+"Multiplexor 2:1 implementado con puertas lógicas\n"
+"El LED 0 parpadea o se queda encendido dependiendo del pulsador 1"
 
 #: translation.js:89
 msgid "Mux 2:1 with logic gates"
-msgstr ""
+msgstr "Multiplexor 2:1 con puertas lógicas"
 
 #: translation.js:90
 msgid "Signal for blinking the led"
-msgstr ""
+msgstr "Señal para que el led parpadee"
 
 #: translation.js:91
 msgid "Fixed signal for turning on the led"
-msgstr ""
+msgstr "Señal fija para encender el led"
 
 #: translation.js:92
 msgid "09_two_to_four_decoder"
@@ -350,7 +352,7 @@ msgstr "9. Decodificador de 2 a 4"
 
 #: translation.js:93
 msgid "2 to 4 bits decoder with logic gates"
-msgstr ""
+msgstr "Decodificador de 2 a 4 con puertas lógicas"
 
 #: translation.js:94
 msgid "10_one_bit_adder"
@@ -358,15 +360,15 @@ msgstr "10. Sumador de 1 bit"
 
 #: translation.js:95
 msgid "1-bit adder"
-msgstr ""
+msgstr "Sumador de 1 bit"
 
 #: translation.js:96
 msgid "Sum"
-msgstr ""
+msgstr "Suma"
 
 #: translation.js:97
 msgid "Carry"
-msgstr ""
+msgstr "Acarreo"
 
 #: translation.js:98
 msgid "1_Blinking_fixed_led"

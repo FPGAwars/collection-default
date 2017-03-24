@@ -24,10 +24,10 @@
           }
         },
         {
-          "id": "1c7e99d9-7430-44ff-93ec-471aac9f93b9",
-          "type": "ef14ec18470da5ff1a34e58728cc4f5f5d44b638",
+          "id": "da2b23ef-9a6e-4ba2-8cb3-3d2d1e84de88",
+          "type": "4961de105e8f79056a027e6ee07d17876caa3d43",
           "position": {
-            "x": 392,
+            "x": 400,
             "y": 40
           },
           "size": {
@@ -118,10 +118,10 @@
           }
         },
         {
-          "id": "90a71c1f-ae04-4139-858c-7f2f345f447d",
-          "type": "ef14ec18470da5ff1a34e58728cc4f5f5d44b638",
+          "id": "db57aeae-d01d-465e-b58e-f666865bb912",
+          "type": "4961de105e8f79056a027e6ee07d17876caa3d43",
           "position": {
-            "x": 392,
+            "x": 400,
             "y": 216
           },
           "size": {
@@ -197,53 +197,12 @@
         },
         {
           "source": {
-            "block": "67d8b019-c19a-4a08-88da-c91691386850",
-            "port": "22ff3fa1-943b-4d1a-bd89-36e1c054d077"
-          },
-          "target": {
-            "block": "1c7e99d9-7430-44ff-93ec-471aac9f93b9",
-            "port": "b32a6101-5bd1-4bcf-ae5f-e569b958a6a2"
-          }
-        },
-        {
-          "source": {
-            "block": "05a9afea-96b9-426c-9660-5f88c1a96233",
-            "port": "22ff3fa1-943b-4d1a-bd89-36e1c054d077"
-          },
-          "target": {
-            "block": "90a71c1f-ae04-4139-858c-7f2f345f447d",
-            "port": "b32a6101-5bd1-4bcf-ae5f-e569b958a6a2"
-          },
-          "vertices": []
-        },
-        {
-          "source": {
             "block": "7134d31f-203f-4856-a807-f081add12d68",
             "port": "out"
           },
           "target": {
             "block": "05a9afea-96b9-426c-9660-5f88c1a96233",
             "port": "c9e1af2a-6f09-4cf6-a5b3-fdf7ec2c6530"
-          }
-        },
-        {
-          "source": {
-            "block": "1c7e99d9-7430-44ff-93ec-471aac9f93b9",
-            "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
-          },
-          "target": {
-            "block": "982e4fe1-1c54-454b-81ba-4887de5a02a3",
-            "port": "in"
-          }
-        },
-        {
-          "source": {
-            "block": "90a71c1f-ae04-4139-858c-7f2f345f447d",
-            "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
-          },
-          "target": {
-            "block": "c9b2b05d-1b78-4a8f-9ca8-f5703b1af1f4",
-            "port": "in"
           }
         },
         {
@@ -258,7 +217,27 @@
         },
         {
           "source": {
-            "block": "1c7e99d9-7430-44ff-93ec-471aac9f93b9",
+            "block": "da2b23ef-9a6e-4ba2-8cb3-3d2d1e84de88",
+            "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
+          },
+          "target": {
+            "block": "982e4fe1-1c54-454b-81ba-4887de5a02a3",
+            "port": "in"
+          }
+        },
+        {
+          "source": {
+            "block": "67d8b019-c19a-4a08-88da-c91691386850",
+            "port": "22ff3fa1-943b-4d1a-bd89-36e1c054d077"
+          },
+          "target": {
+            "block": "da2b23ef-9a6e-4ba2-8cb3-3d2d1e84de88",
+            "port": "b32a6101-5bd1-4bcf-ae5f-e569b958a6a2"
+          }
+        },
+        {
+          "source": {
+            "block": "da2b23ef-9a6e-4ba2-8cb3-3d2d1e84de88",
             "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
           },
           "target": {
@@ -268,7 +247,27 @@
         },
         {
           "source": {
-            "block": "90a71c1f-ae04-4139-858c-7f2f345f447d",
+            "block": "db57aeae-d01d-465e-b58e-f666865bb912",
+            "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
+          },
+          "target": {
+            "block": "c9b2b05d-1b78-4a8f-9ca8-f5703b1af1f4",
+            "port": "in"
+          }
+        },
+        {
+          "source": {
+            "block": "05a9afea-96b9-426c-9660-5f88c1a96233",
+            "port": "22ff3fa1-943b-4d1a-bd89-36e1c054d077"
+          },
+          "target": {
+            "block": "db57aeae-d01d-465e-b58e-f666865bb912",
+            "port": "b32a6101-5bd1-4bcf-ae5f-e569b958a6a2"
+          }
+        },
+        {
+          "source": {
+            "block": "db57aeae-d01d-465e-b58e-f666865bb912",
             "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
           },
           "target": {
@@ -280,8 +279,8 @@
     },
     "state": {
       "pan": {
-        "x": 0,
-        "y": 0
+        "x": -2,
+        "y": 51.5
       },
       "zoom": 1
     }
@@ -407,11 +406,11 @@
         }
       }
     },
-    "ef14ec18470da5ff1a34e58728cc4f5f5d44b638": {
+    "4961de105e8f79056a027e6ee07d17876caa3d43": {
       "package": {
         "name": "TFF",
         "version": "1.0.0",
-        "description": "Toggle flip-flop with synchronous reset",
+        "description": "Toggle flip-flop",
         "author": "Carlos Diaz",
         "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%22-252%20400.9%2090%2040%22%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-227.932%22%20y=%22429.867%22%20font-weight=%22400%22%20font-size=%2224.601%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%3E%3Ctspan%20x=%22-227.932%22%20y=%22429.867%22%3ETFF%3C/tspan%3E%3C/text%3E%3C/svg%3E"
       },
@@ -518,8 +517,8 @@
         },
         "state": {
           "pan": {
-            "x": -104.1969,
-            "y": 119
+            "x": -14,
+            "y": 267.5
           },
           "zoom": 1
         }
