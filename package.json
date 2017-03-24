@@ -1,12 +1,12 @@
 {
   "name": "Default",
-  "version": "0.2.0",
-  "description": "Default collection in Icestudio 0.2",
+  "version": "0.3.0-dev",
+  "description": "Default collection in Icestudio",
   "keywords": "default, collection",
   "license": "GPL-2.0",
   "authors" : [
     {
-      "name": "Jesús Arroyo",
+      "name": "Jesús Arroyo Torrens",
       "url": "https://github.com/Jesus89"
     },
     {
@@ -20,6 +20,24 @@
     {
       "name": "Salvador E. Tropea",
       "url": "https://github.com/set-soft"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Xoan Sampaiño",
+      "url": "https://github.com/xoan"
+    },
+    {
+      "name": "Lorea-Aldabaldetreku",
+      "url": "https://github.com/Lorea-Aldabaldetreku"
+    },
+    {
+      "name": "Martoni",
+      "url": "https://github.com/Martoni"
+    },
+    {
+      "name": "Pascal Cotret",
+      "url": "https://github.com/pcotret"
     }
   ],
   "repository": {
