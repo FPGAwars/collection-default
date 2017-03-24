@@ -27,7 +27,7 @@
           "id": "bba5bacd-2bbe-48a6-afda-3639d94f801a",
           "type": "basic.output",
           "data": {
-            "name": "led",
+            "name": "LED",
             "pins": [
               {
                 "index": "0",
@@ -58,7 +58,7 @@
           "id": "5701b50c-904b-4776-ab4c-addc641b71ff",
           "type": "basic.output",
           "data": {
-            "name": "led",
+            "name": "LED",
             "pins": [
               {
                 "index": "0",

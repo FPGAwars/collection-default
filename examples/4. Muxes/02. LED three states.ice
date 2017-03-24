@@ -182,7 +182,7 @@
           "id": "f230eb74-bb9d-4d97-85df-1593b9d35fd1",
           "type": "basic.info",
           "data": {
-            "info": "The led has three modes of operation: blinking, turned on an turned off\nSW2 pushbutton determines if the led blinks/stays fixed\nSW1 pushbutton determines the led state (on or off), in fixed mode"
+            "info": "The LED has three modes of operation: blinking, turned on an turned off\nSW2 pushbutton determines if the LED blinks/stays fixed\nSW1 pushbutton determines the LED state (on or off), in fixed mode"
           },
           "position": {
             "x": 112,

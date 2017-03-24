@@ -15,7 +15,7 @@
           "id": "ad4d801a-1c1a-40f9-b402-df1470ffc90f",
           "type": "basic.info",
           "data": {
-            "info": "A 4:1 mux from two 2:1 muxes\nThe led can be in four states: off, blinking, on, blinking fast"
+            "info": "A 4:1 mux from two 2:1 muxes\nThe LED can be in four states: off, blinking, on, blinking fast"
           },
           "position": {
             "x": 24,

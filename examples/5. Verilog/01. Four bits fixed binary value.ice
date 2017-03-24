@@ -15,7 +15,7 @@
           "id": "2dbe47b7-cde6-47d4-bc39-8942d08a9fbe",
           "type": "basic.info",
           "data": {
-            "info": "Displaying a 4-bits fixed value in the leds"
+            "info": "Displaying a 4-bits fixed value in the LEDs"
           },
           "position": {
             "x": 216,

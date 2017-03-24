@@ -15,7 +15,7 @@
           "id": "2dbe47b7-cde6-47d4-bc39-8942d08a9fbe",
           "type": "basic.info",
           "data": {
-            "info": "Displaying a 4-bits fixed value (in hexadecimal) in the leds"
+            "info": "Displaying a 4-bits fixed value (in hexadecimal) in the LEDs"
           },
           "position": {
             "x": 88,
@@ -49,7 +49,7 @@
           "id": "7c5eb584-622c-46be-ac07-bd5eae774a34",
           "type": "basic.code",
           "data": {
-            "code": "//--Displaying a 4-bits\n//-- hexadecimal digit in the leds\n\nassign {o3,o2,o1,o0} = 4'hF;\n\n\n",
+            "code": "//--Displaying a 4-bits\n//-- hexadecimal digit in the LEDs\n\nassign {o3,o2,o1,o0} = 4'hF;\n\n\n",
             "params": [],
             "ports": {
               "in": [],

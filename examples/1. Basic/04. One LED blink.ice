@@ -46,7 +46,7 @@
           "id": "2464d2a6-3648-4fbc-bbcc-b0c3e8d1e935",
           "type": "basic.info",
           "data": {
-            "info": "Blinking led"
+            "info": "Blinking LED"
           },
           "position": {
             "x": 128,

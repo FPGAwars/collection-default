@@ -15,7 +15,7 @@
           "id": "02054c3e-70b4-428b-bdb8-cec60d1c3523",
           "type": "basic.info",
           "data": {
-            "info": "Using buses for displaying a fixed value in the leds"
+            "info": "Using buses for displaying a fixed value in the LEDs"
           },
           "position": {
             "x": 72,
@@ -85,7 +85,7 @@
           "id": "06b3188b-ecff-4ae0-95e3-ab7c5cf2cce4",
           "type": "basic.code",
           "data": {
-            "code": "//-- Displaying a 8-bit data\n//-- in the leds\nassign data = 8'hAA;",
+            "code": "//-- Displaying a 8-bit data\n//-- in the LEDs\nassign data = 8'hAA;",
             "params": [],
             "ports": {
               "in": [],

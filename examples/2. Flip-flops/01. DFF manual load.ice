@@ -78,7 +78,7 @@
           "id": "40420947-d290-497a-9b89-898f7b540578",
           "type": "basic.info",
           "data": {
-            "info": "The led is turned on when the pushbutton is pressed"
+            "info": "The LED is turned on when the pushbutton is pressed"
           },
           "position": {
             "x": 160,

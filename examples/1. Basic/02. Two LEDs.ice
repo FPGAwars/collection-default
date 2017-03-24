@@ -27,7 +27,7 @@
           "id": "949075cb-26c0-49da-ba76-2496ea9aa7cc",
           "type": "basic.output",
           "data": {
-            "name": "led",
+            "name": "LED",
             "pins": [
               {
                 "index": "0",
@@ -58,7 +58,7 @@
           "id": "c1eaa951-a70a-44c1-b3cd-c3bd0f355c0f",
           "type": "basic.output",
           "data": {
-            "name": "led",
+            "name": "LED",
             "pins": [
               {
                 "index": "0",
@@ -77,7 +77,7 @@
           "id": "a538a5b4-d5d5-4ace-a593-efb1fa9b930c",
           "type": "basic.info",
           "data": {
-            "info": "Turn on two leds"
+            "info": "Turn on two LEDs"
           },
           "position": {
             "x": 80,
