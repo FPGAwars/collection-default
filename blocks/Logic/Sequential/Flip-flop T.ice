@@ -1,7 +1,7 @@
 {
   "version": "1.1",
   "package": {
-    "name": "TFF",
+    "name": "Flip-flop T",
     "version": "1.0.0",
     "description": "Toggle flip-flop",
     "author": "Carlos Diaz",

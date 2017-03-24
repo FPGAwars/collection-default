@@ -1,7 +1,7 @@
 {
   "version": "1.1",
   "package": {
-    "name": "DFF",
+    "name": "Flip-flop D",
     "version": "1.0.0",
     "description": "Delay flip-flop",
     "author": "Carlos Diaz",
