@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-03-24 13:44+0100\n"
-"PO-Revision-Date: 2017-03-24 13:45+0100\n"
+"POT-Creation-Date: 2017-03-24 16:22+0100\n"
+"PO-Revision-Date: 2017-03-24 16:22+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -119,122 +119,118 @@ msgid "Toggle flip-flop"
 msgstr "Toggle flip-flop"
 
 #: translation.js:38
-msgid "Delay flip-flop with synchronous reset"
-msgstr "Delay flip-flop with synchronous reset"
-
-#: translation.js:39
 msgid "Prescaler22"
 msgstr "Prescaler22"
 
-#: translation.js:40
+#: translation.js:39
 msgid "22-bits prescaler"
 msgstr "22-bits prescaler"
 
-#: translation.js:41
+#: translation.js:40
 msgid "Parametric N-bits prescaler"
 msgstr "Parametric N-bits prescaler"
 
-#: translation.js:42
+#: translation.js:41
 msgid "PrescalerN"
 msgstr "PrescalerN"
 
+#: translation.js:42
+msgid "Pull-up"
+msgstr "Pull-up"
+
 #: translation.js:43
-msgid "Pull up"
-msgstr "Pull up"
+msgid "FPGA internal pull-up configuration on the connected input port"
+msgstr "FPGA internal pull-up configuration on the connected input port"
 
 #: translation.js:44
-msgid "FPGA internal pull up configuration on the connected input port"
-msgstr "FPGA internal pull up configuration on the connected input port"
+msgid "Tri-state"
+msgstr "Tri-state"
 
 #: translation.js:45
-msgid "Tri state"
-msgstr "Tri state"
-
-#: translation.js:46
 msgid "Tri-state logic block"
 msgstr "Tri-state logic block"
 
-#: translation.js:47
+#: translation.js:46
 msgid "1. Basic"
 msgstr "1. Basic"
 
-#: translation.js:48
+#: translation.js:47
 msgid "2. Flip-flops"
 msgstr "2. Flip-flops"
 
-#: translation.js:49
+#: translation.js:48
 msgid "3. Gates"
 msgstr "3. Gates"
 
-#: translation.js:50
+#: translation.js:49
 msgid "4. Muxes"
 msgstr "4. Muxes"
 
-#: translation.js:51
+#: translation.js:50
 msgid "5. Verilog"
 msgstr "5. Verilog"
 
-#: translation.js:52
+#: translation.js:51
 msgid "01. One LED"
 msgstr "01. One LED"
 
-#: translation.js:53
+#: translation.js:52
 msgid "Turn on a LED"
 msgstr "Turn on a LED"
 
-#: translation.js:54
+#: translation.js:53
 msgid "02. Two LEDs"
 msgstr "02. Two LEDs"
 
-#: translation.js:55
+#: translation.js:54
 msgid "Turn on two LEDs"
 msgstr "Turn on two LEDs"
 
-#: translation.js:56
+#: translation.js:55
 msgid "03. Three LEDs"
 msgstr "03. Three LEDs"
 
-#: translation.js:57
+#: translation.js:56
 msgid "Turn on three LEDs"
 msgstr "Turn on three LEDs"
 
-#: translation.js:58
+#: translation.js:57
 msgid "04. One LED blink"
 msgstr "04. One LED blink"
 
-#: translation.js:59
+#: translation.js:58
 msgid "Blinking LED"
 msgstr "Blinking LED"
 
-#: translation.js:60
+#: translation.js:59
 msgid "05. Two LEDs alternate blink"
 msgstr "05. Two LEDs alternate blink"
 
-#: translation.js:61
+#: translation.js:60
 msgid "Leds 0 and 7 are blinking alternatively"
 msgstr "Leds 0 and 7 are blinking alternatively"
 
-#: translation.js:62
-msgid "06. Pushbutton LED"
-msgstr "06. Pushbutton LED"
+#: translation.js:61
+msgid "06. Pushbutton and LED"
+msgstr "06. Pushbutton and LED"
 
-#: translation.js:63
+#: translation.js:62
 msgid "One pushbutton for turning the LED on and off"
 msgstr "One pushbutton for turning the LED on and off"
 
-#: translation.js:64
+#: translation.js:63
 msgid "01. DFF manual load"
 msgstr "01. DFF manual load"
 
-#: translation.js:65
+#: translation.js:64
 msgid "The LED is turned on when the pushbutton is pressed"
 msgstr "The LED is turned on when the pushbutton is pressed"
 
-#: translation.js:66
+#: translation.js:65
 msgid "02. Chain of three DFFs"
 msgstr "02. Chain of three DFFs"
 
-#: translation.js:67
+#: translation.js:66
 msgid ""
 "A chain of three D flip-flops\n"
 "The LEDs are turned on secuentially, with every click on the button"
@@ -242,11 +238,11 @@ msgstr ""
 "A chain of three D flip-flops\n"
 "The LEDs are turned on secuentially, with every click on the button"
 
-#: translation.js:68
+#: translation.js:67
 msgid "03. Ring of four DFFs"
 msgstr "03. Ring of four DFFs"
 
-#: translation.js:69
+#: translation.js:68
 msgid ""
 "A ring of four D flip-flops\n"
 "The sequence is shown in the LEDs"
@@ -254,9 +250,13 @@ msgstr ""
 "A ring of four D flip-flops\n"
 "The sequence is shown in the LEDs"
 
-#: translation.js:70
+#: translation.js:69
 msgid "04. Toggle button"
 msgstr "04. Toggle button"
+
+#: translation.js:70
+msgid "Delay flip-flop with synchronous reset"
+msgstr "Delay flip-flop with synchronous reset"
 
 #: translation.js:71
 msgid "When the pushbutton is clicked the LED changes"
@@ -517,6 +517,18 @@ msgstr ""
 #: translation.js:125
 msgid "08. ROM 16x8 file generic"
 msgstr "08. ROM 16x8 file generic"
+
+#~ msgid "Pull up"
+#~ msgstr "Pull up"
+
+#~ msgid "FPGA internal pull up configuration on the connected input port"
+#~ msgstr "FPGA internal pull up configuration on the connected input port"
+
+#~ msgid "Tri state"
+#~ msgstr "Tri state"
+
+#~ msgid "06. Pushbutton LED"
+#~ msgstr "06. Pushbutton LED"
 
 #~ msgid "bit"
 #~ msgstr "Bit"

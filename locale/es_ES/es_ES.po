@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-03-24 16:04+0100\n"
+"POT-Creation-Date: 2017-03-24 16:22+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -68,7 +68,7 @@ msgstr "AND"
 
 #: translation.js:25
 msgid "AND logic gate"
-msgstr "Puerta lógica Y"
+msgstr "Puerta lógica AND"
 
 #: translation.js:26
 msgid "NOT"
@@ -76,7 +76,7 @@ msgstr "NOT"
 
 #: translation.js:27
 msgid "NOT logic gate"
-msgstr "Puerta lógica No"
+msgstr "Puerta lógica NOT"
 
 #: translation.js:28
 msgid "OR"
@@ -84,7 +84,7 @@ msgstr "OR"
 
 #: translation.js:29
 msgid "OR logic gate"
-msgstr "Puerta Lógica O"
+msgstr "Puerta lógica OR"
 
 #: translation.js:30
 msgid "XOR"
@@ -92,7 +92,7 @@ msgstr "XOR"
 
 #: translation.js:31
 msgid "XOR logic gate"
-msgstr "Puerta Lógica O exclusivo"
+msgstr "Puerta lógica XOR"
 
 #: translation.js:32
 msgid "Debouncer"
@@ -119,122 +119,118 @@ msgid "Toggle flip-flop"
 msgstr "Biestable tipo T"
 
 #: translation.js:38
-msgid "Delay flip-flop with synchronous reset"
-msgstr "Biestable tipo D con reset síncrono"
-
-#: translation.js:39
 msgid "Prescaler22"
 msgstr "Prescaler22"
 
-#: translation.js:40
+#: translation.js:39
 msgid "22-bits prescaler"
 msgstr "Prescaler de 22 bits"
 
-#: translation.js:41
+#: translation.js:40
 msgid "Parametric N-bits prescaler"
 msgstr "Prescaler de N bits"
 
-#: translation.js:42
+#: translation.js:41
 msgid "PrescalerN"
 msgstr "PrescalerN"
 
-#: translation.js:43
+#: translation.js:42
 msgid "Pull-up"
 msgstr "Pull-up"
 
-#: translation.js:44
+#: translation.js:43
 msgid "FPGA internal pull-up configuration on the connected input port"
 msgstr "Resistencia de pull-up interna de la FPGA en el pin de entrada"
 
-#: translation.js:45
+#: translation.js:44
 msgid "Tri-state"
 msgstr "Triestado"
 
-#: translation.js:46
+#: translation.js:45
 msgid "Tri-state logic block"
 msgstr "Bloque lógico triestado"
 
-#: translation.js:47
+#: translation.js:46
 msgid "1. Basic"
 msgstr "1. Básico"
 
-#: translation.js:48
+#: translation.js:47
 msgid "2. Flip-flops"
 msgstr "2. Biestables"
 
-#: translation.js:49
+#: translation.js:48
 msgid "3. Gates"
 msgstr "3. Puertas"
 
-#: translation.js:50
+#: translation.js:49
 msgid "4. Muxes"
 msgstr "4. Multiplexores"
 
-#: translation.js:51
+#: translation.js:50
 msgid "5. Verilog"
 msgstr "5. Verilog"
 
-#: translation.js:52
+#: translation.js:51
 msgid "01. One LED"
 msgstr "01. Un LED"
 
-#: translation.js:53
+#: translation.js:52
 msgid "Turn on a LED"
 msgstr "Encender un LED"
 
-#: translation.js:54
+#: translation.js:53
 msgid "02. Two LEDs"
 msgstr "02. Dos LEDs"
 
-#: translation.js:55
+#: translation.js:54
 msgid "Turn on two LEDs"
 msgstr "Encender dos LEDs"
 
-#: translation.js:56
+#: translation.js:55
 msgid "03. Three LEDs"
 msgstr "03. Tres LEDs"
 
-#: translation.js:57
+#: translation.js:56
 msgid "Turn on three LEDs"
 msgstr "Encender tres LEDs"
 
-#: translation.js:58
+#: translation.js:57
 msgid "04. One LED blink"
 msgstr "04. Parpadeo de un LED"
 
-#: translation.js:59
+#: translation.js:58
 msgid "Blinking LED"
 msgstr "LED parpadeante"
 
-#: translation.js:60
+#: translation.js:59
 msgid "05. Two LEDs alternate blink"
 msgstr "05. Dos LEDs parpadeando alternativamente"
 
-#: translation.js:61
+#: translation.js:60
 msgid "Leds 0 and 7 are blinking alternatively"
 msgstr "Los leds 0 y 7 parpadean alternativamente"
 
-#: translation.js:62
+#: translation.js:61
 msgid "06. Pushbutton and LED"
 msgstr "06. Pulsador y LED"
 
-#: translation.js:63
+#: translation.js:62
 msgid "One pushbutton for turning the LED on and off"
 msgstr "Un pulsador para encender y apagar el LED"
 
-#: translation.js:64
+#: translation.js:63
 msgid "01. DFF manual load"
 msgstr "01. Biestable D con carga manual"
 
-#: translation.js:65
+#: translation.js:64
 msgid "The LED is turned on when the pushbutton is pressed"
 msgstr "Se enciende el LED al apretar el pulsador"
 
-#: translation.js:66
+#: translation.js:65
 msgid "02. Chain of three DFFs"
 msgstr "02. Tres biestables D en serie"
 
-#: translation.js:67
+#: translation.js:66
 msgid ""
 "A chain of three D flip-flops\n"
 "The LEDs are turned on secuentially, with every click on the button"
@@ -242,11 +238,11 @@ msgstr ""
 "Tres biestables tipo D en serie\n"
 "Los LEDs se encienden secuencialmente, con cada pulsación del botón"
 
-#: translation.js:68
+#: translation.js:67
 msgid "03. Ring of four DFFs"
 msgstr "03. Cuatro biestables D en anillo"
 
-#: translation.js:69
+#: translation.js:68
 msgid ""
 "A ring of four D flip-flops\n"
 "The sequence is shown in the LEDs"
@@ -254,9 +250,13 @@ msgstr ""
 "Cuatro biestables D en anillo\n"
 "La secuencia se muestra en los LEDs"
 
-#: translation.js:70
+#: translation.js:69
 msgid "04. Toggle button"
 msgstr "04. Botón de cambio"
+
+#: translation.js:70
+msgid "Delay flip-flop with synchronous reset"
+msgstr "Biestable tipo D con reset síncrono"
 
 #: translation.js:71
 msgid "When the pushbutton is clicked the LED changes"
@@ -276,7 +276,7 @@ msgstr "01. Puerta AND"
 
 #: translation.js:75
 msgid "Testing the AND gate"
-msgstr "Probando la puerta Y"
+msgstr "Probando la puerta AND"
 
 #: translation.js:76
 msgid "02. OR gate"
@@ -284,7 +284,7 @@ msgstr "02. Puerta OR"
 
 #: translation.js:77
 msgid "Testing the OR gate"
-msgstr "Probando la puerta O"
+msgstr "Probando la puerta OR"
 
 #: translation.js:78
 msgid "03. AND truth table"

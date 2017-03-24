@@ -32,8 +32,8 @@
           }
         },
         {
-          "id": "0b535313-730d-4dfe-a150-7819b47c1a82",
-          "type": "251beb9b728aa466a3d5c5d169684918348a141f",
+          "id": "f8a48554-c608-4f6a-ad56-04c70e5baef3",
+          "type": "70ff7f2a2f0ede80fc37c66a997650a1d0d0102b",
           "position": {
             "x": 352,
             "y": -64
@@ -78,30 +78,23 @@
       "wires": [
         {
           "source": {
-            "block": "6d1059f6-855e-429e-8cf2-848f56d2c993",
-            "port": "664caf9e-5f40-4df4-800a-b626af702e62"
+            "block": "f8a48554-c608-4f6a-ad56-04c70e5baef3",
+            "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
           },
           "target": {
-            "block": "0b535313-730d-4dfe-a150-7819b47c1a82",
-            "port": "b32a6101-5bd1-4bcf-ae5f-e569b958a6a2"
-          },
-          "vertices": [
-            {
-              "x": 448,
-              "y": 64
-            }
-          ]
+            "block": "ffdd9aa2-aea3-4aa9-8431-80e799226774",
+            "port": "in"
+          }
         },
         {
           "source": {
-            "block": "0b535313-730d-4dfe-a150-7819b47c1a82",
+            "block": "f8a48554-c608-4f6a-ad56-04c70e5baef3",
             "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
           },
           "target": {
             "block": "6d1059f6-855e-429e-8cf2-848f56d2c993",
             "port": "18c2ebc7-5152-439c-9b3f-851c59bac834"
-          },
-          "vertices": []
+          }
         },
         {
           "source": {
@@ -109,19 +102,25 @@
             "port": "out"
           },
           "target": {
-            "block": "0b535313-730d-4dfe-a150-7819b47c1a82",
+            "block": "f8a48554-c608-4f6a-ad56-04c70e5baef3",
             "port": "6855f64f-fa1c-4371-b2e1-a98970674a96"
           }
         },
         {
           "source": {
-            "block": "0b535313-730d-4dfe-a150-7819b47c1a82",
-            "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
+            "block": "6d1059f6-855e-429e-8cf2-848f56d2c993",
+            "port": "664caf9e-5f40-4df4-800a-b626af702e62"
           },
           "target": {
-            "block": "ffdd9aa2-aea3-4aa9-8431-80e799226774",
-            "port": "in"
-          }
+            "block": "f8a48554-c608-4f6a-ad56-04c70e5baef3",
+            "port": "b32a6101-5bd1-4bcf-ae5f-e569b958a6a2"
+          },
+          "vertices": [
+            {
+              "x": 408,
+              "y": 64
+            }
+          ]
         }
       ]
     },
@@ -134,11 +133,11 @@
     }
   },
   "dependencies": {
-    "251beb9b728aa466a3d5c5d169684918348a141f": {
+    "70ff7f2a2f0ede80fc37c66a997650a1d0d0102b": {
       "package": {
-        "name": "DFF",
+        "name": "Flip-flop D",
         "version": "1.0.0",
-        "description": "Delay flip-flop with synchronous reset",
+        "description": "Delay flip-flop",
         "author": "Carlos Diaz",
         "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%22-252%20400.9%2090%2040%22%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-231.121%22%20y=%22429.867%22%20font-weight=%22400%22%20font-size=%2224.601%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%3E%3Ctspan%20x=%22-231.121%22%20y=%22429.867%22%3EDFF%3C/tspan%3E%3C/text%3E%3C/svg%3E"
       },
@@ -180,7 +179,7 @@
               "id": "6855f64f-fa1c-4371-b2e1-a98970674a96",
               "type": "basic.input",
               "data": {
-                "name": "clk",
+                "name": "",
                 "clock": true
               },
               "position": {
@@ -247,8 +246,8 @@
         },
         "state": {
           "pan": {
-            "x": -158,
-            "y": -85
+            "x": -146,
+            "y": -0.5
           },
           "zoom": 1
         }
