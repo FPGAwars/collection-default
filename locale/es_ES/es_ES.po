@@ -447,7 +447,7 @@ msgstr "1. Valor fijo de 4 bits en binario"
 
 #: translation.js:109
 msgid "Displaying a 4-bits fixed value in the leds"
-msgstr ""
+msgstr "Mostrando un valor fijo de 4 bits en los leds"
 
 #: translation.js:110
 msgid "02_four_bits_fixed_hexa_value"
@@ -455,7 +455,7 @@ msgstr "2 Valor fijo de 4 bits en hexadecimal"
 
 #: translation.js:111
 msgid "Displaying a 4-bits fixed value (in hexadecimal) in the leds"
-msgstr ""
+msgstr "Mostrando un valor fijo de 4 bits (en hexadecimal) en los leds"
 
 #: translation.js:112
 msgid "03_eight_bits_fixed_value_buses"
@@ -463,7 +463,7 @@ msgstr "3. Bus de 8 bits"
 
 #: translation.js:113
 msgid "Using buses for displaying a fixed value in the leds"
-msgstr ""
+msgstr "Usando un bus para mostrar un valor fijo en los leds"
 
 #: translation.js:114
 msgid "04_eight_bits_counter"
@@ -471,7 +471,7 @@ msgstr "4. Contador de 8 bits"
 
 #: translation.js:115
 msgid "An 8-bit binary counter"
-msgstr ""
+msgstr "Un contador binario de 8 bits"
 
 #: translation.js:116
 msgid "05_split_buses"
@@ -482,6 +482,8 @@ msgid ""
 "An 8-bit binary counter, using an 8-bit bus splitted\n"
 "into two 4-bit buses"
 msgstr ""
+"Un contador binario de 8 bits, usando un bus de 8 bits \n"
+"dividido en dos buses de 4 bits"
 
 #: translation.js:118
 msgid "06_rom16x8"
@@ -489,7 +491,7 @@ msgstr "6. Memoria ROM de 16x8"
 
 #: translation.js:119
 msgid "Displaying the contents of an 16x8 rom memory in the leds"
-msgstr ""
+msgstr "Mostrando el contenido de una memoria ROM de 16x8 en los leds"
 
 #: translation.js:120
 msgid "07_rom16x8_file"
@@ -500,6 +502,8 @@ msgid ""
 "Displaying the contents of an 16x8 rom memory in the leds\n"
 "The memory is read from the rom0.list file"
 msgstr ""
+"Mostrando el contenido de una memoria ROM de 16x8 en los leds\n"
+"La memoria se lee del fichero rom0.list"
 
 #: translation.js:122
 msgid "08_rom16x8_file_generic"
