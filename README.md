@@ -30,8 +30,8 @@ Default collection in Icestudio.
     * Prescaler22
     * PrescalerN
 * *Setup*
-  * Pull up
-  * Tri state
+  * Pull-up
+  * Tri-state
 
 ## Examples
 * *1\. Basic*
@@ -40,7 +40,7 @@ Default collection in Icestudio.
   * 03\. Three LEDs
   * 04\. One LED blink
   * 05\. Two LEDs alternate blink
-  * 06\. Pushbutton LED
+  * 06\. Pushbutton and LED
 * *2\. Flip-flops*
   * 01\. DFF manual load
   * 02\. Chain of three DFFs

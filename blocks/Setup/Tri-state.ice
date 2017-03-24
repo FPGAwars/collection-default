@@ -1,7 +1,7 @@
 {
   "version": "1.1",
   "package": {
-    "name": "Tri state",
+    "name": "Tri-state",
     "version": "1.0.0",
     "description": "Tri-state logic block",
     "author": "Salvador E. Tropea",
