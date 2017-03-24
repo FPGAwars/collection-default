@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-03-24 16:22+0100\n"
-"PO-Revision-Date: 2017-03-24 16:22+0100\n"
+"POT-Creation-Date: 2017-03-24 16:52+0100\n"
+"PO-Revision-Date: 2017-03-24 16:52+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -255,90 +255,86 @@ msgid "04. Toggle button"
 msgstr "04. Toggle button"
 
 #: translation.js:70
-msgid "Delay flip-flop with synchronous reset"
-msgstr "Delay flip-flop with synchronous reset"
-
-#: translation.js:71
 msgid "When the pushbutton is clicked the LED changes"
 msgstr "When the pushbutton is clicked the LED changes"
 
-#: translation.js:72
+#: translation.js:71
 msgid "05. Binary counter with three TFFs"
 msgstr "05. Binary counter with three TFFs"
 
-#: translation.js:73
+#: translation.js:72
 msgid "A 3-bit binary counter with T flip-flops"
 msgstr "A 3-bit binary counter with T flip-flops"
 
-#: translation.js:74
+#: translation.js:73
 msgid "01. AND gate"
 msgstr "01. AND gate"
 
-#: translation.js:75
+#: translation.js:74
 msgid "Testing the AND gate"
 msgstr "Testing the AND gate"
 
-#: translation.js:76
+#: translation.js:75
 msgid "02. OR gate"
 msgstr "02. OR gate"
 
-#: translation.js:77
+#: translation.js:76
 msgid "Testing the OR gate"
 msgstr "Testing the OR gate"
 
-#: translation.js:78
+#: translation.js:77
 msgid "03. AND truth table"
 msgstr "03. AND truth table"
 
-#: translation.js:79
+#: translation.js:78
 msgid "Truth table of the AND gate"
 msgstr "Truth table of the AND gate"
 
-#: translation.js:80
+#: translation.js:79
 msgid "04. OR truth table"
 msgstr "04. OR truth table"
 
-#: translation.js:81
+#: translation.js:80
 msgid "Truth table of the OR gate"
 msgstr "Truth table of the OR gate"
 
-#: translation.js:82
+#: translation.js:81
 msgid "05. SR latch"
 msgstr "05. SR latch"
 
-#: translation.js:83
+#: translation.js:82
 msgid "An SR-latch implemented with logic gates"
 msgstr "An SR-latch implemented with logic gates"
 
-#: translation.js:84
+#: translation.js:83
 msgid "06. D latch"
 msgstr "06. D latch"
 
-#: translation.js:85
+#: translation.js:84
 msgid "A D latch implemented with logic gates"
 msgstr "A D latch implemented with logic gates"
 
-#: translation.js:86
+#: translation.js:85
 msgid "07. D flip-flop"
 msgstr "07. D flip-flop"
 
-#: translation.js:87
+#: translation.js:86
 msgid "Master Latch"
 msgstr "Master Latch"
 
-#: translation.js:88
+#: translation.js:87
 msgid "Slave latch"
 msgstr "Slave latch"
 
-#: translation.js:89
+#: translation.js:88
 msgid "A D flip-flip with a falling-edge trigger implemented with logic gates"
 msgstr "A D flip-flip with a falling-edge trigger implemented with logic gates"
 
-#: translation.js:90
+#: translation.js:89
 msgid "08. Multiplexer 2:1"
 msgstr "08. Multiplexer 2:1"
 
-#: translation.js:91
+#: translation.js:90
 msgid ""
 "Mux 2:1 implemented with logic gates\n"
 "The LED0 blinks or is turned on depending on the pushbutton 1"
@@ -346,47 +342,47 @@ msgstr ""
 "Mux 2:1 implemented with logic gates\n"
 "The LED0 blinks or is turned on depending on the pushbutton 1"
 
-#: translation.js:92
+#: translation.js:91
 msgid "Mux 2:1 with logic gates"
 msgstr "Mux 2:1 with logic gates"
 
-#: translation.js:93
+#: translation.js:92
 msgid "Signal for blinking the LED"
 msgstr "Signal for blinking the LED"
 
-#: translation.js:94
+#: translation.js:93
 msgid "Fixed signal for turning on the LED"
 msgstr "Fixed signal for turning on the LED"
 
-#: translation.js:95
+#: translation.js:94
 msgid "09. Decoder 2:4"
 msgstr "09. Decoder 2:4"
 
-#: translation.js:96
+#: translation.js:95
 msgid "2 to 4 bits decoder with logic gates"
 msgstr "2 to 4 bits decoder with logic gates"
 
-#: translation.js:97
+#: translation.js:96
 msgid "10. One bit adder"
 msgstr "10. One bit adder"
 
-#: translation.js:98
+#: translation.js:97
 msgid "1-bit adder"
 msgstr "1-bit adder"
 
-#: translation.js:99
+#: translation.js:98
 msgid "Sum"
 msgstr "Sum"
 
-#: translation.js:100
+#: translation.js:99
 msgid "Carry"
 msgstr "Carry"
 
-#: translation.js:101
+#: translation.js:100
 msgid "01. Blinking fixed LED"
 msgstr "01. Blinking fixed LED"
 
-#: translation.js:102
+#: translation.js:101
 msgid ""
 "Blinking/fixed LED\n"
 "The toggle button selects if the LED blinks or stays turned on"
@@ -394,11 +390,11 @@ msgstr ""
 "Blinking/fixed LED\n"
 "The toggle button selects if the LED blinks or stays turned on"
 
-#: translation.js:103
+#: translation.js:102
 msgid "02. LED three states"
 msgstr "02. LED three states"
 
-#: translation.js:104
+#: translation.js:103
 msgid ""
 "The LED has three modes of operation: blinking, turned on an turned off\n"
 "SW2 pushbutton determines if the LED blinks/stays fixed\n"
@@ -408,11 +404,11 @@ msgstr ""
 "SW2 pushbutton determines if the LED blinks/stays fixed\n"
 "SW1 pushbutton determines the LED state (on or off), in fixed mode"
 
-#: translation.js:105
+#: translation.js:104
 msgid "03. Multiplexer 4:1"
 msgstr "03. Multiplexer 4:1"
 
-#: translation.js:106
+#: translation.js:105
 msgid ""
 "A 4:1 mux from two 2:1 muxes\n"
 "The LED can be in four states: off, blinking, on, blinking fast"
@@ -420,11 +416,11 @@ msgstr ""
 "A 4:1 mux from two 2:1 muxes\n"
 "The LED can be in four states: off, blinking, on, blinking fast"
 
-#: translation.js:107
+#: translation.js:106
 msgid "04. Shift register"
 msgstr "04. Shift register"
 
-#: translation.js:108
+#: translation.js:107
 msgid ""
 "4 bits shift register. It is loaded with the initial value 1000 and then\n"
 "shifted on every clock pulse"
@@ -432,11 +428,11 @@ msgstr ""
 "4 bits shift register. It is loaded with the initial value 1000 and then\n"
 "shifted on every clock pulse"
 
-#: translation.js:109
+#: translation.js:108
 msgid "Binary value to load and shift"
 msgstr "Binary value to load and shift"
 
-#: translation.js:110
+#: translation.js:109
 msgid ""
 "Initializer. It has the initial value 0, so that the\n"
 "i0 is selected in all the muxes. The register is loaded.\n"
@@ -450,43 +446,43 @@ msgstr ""
 "is selected in all the muxes. The register is shifted.\n"
 "In the next cycles it will remain in the shift state"
 
-#: translation.js:111
+#: translation.js:110
 msgid "01. Four bits fixed binary value"
 msgstr "01. Four bits fixed binary value"
 
-#: translation.js:112
+#: translation.js:111
 msgid "Displaying a 4-bits fixed value in the LEDs"
 msgstr "Displaying a 4-bits fixed value in the LEDs"
 
-#: translation.js:113
+#: translation.js:112
 msgid "02. Four bits fixed hexadecimal value"
 msgstr "02. Four bits fixed hexadecimal value"
 
-#: translation.js:114
+#: translation.js:113
 msgid "Displaying a 4-bits fixed value (in hexadecimal) in the LEDs"
 msgstr "Displaying a 4-bits fixed value (in hexadecimal) in the LEDs"
 
-#: translation.js:115
+#: translation.js:114
 msgid "03. Eight bits fixed value buses"
 msgstr "03. Eight bits fixed value buses"
 
-#: translation.js:116
+#: translation.js:115
 msgid "Using buses for displaying a fixed value in the LEDs"
 msgstr "Using buses for displaying a fixed value in the LEDs"
 
-#: translation.js:117
+#: translation.js:116
 msgid "04. Eight bits counter"
 msgstr "04. Eight bits counter"
 
-#: translation.js:118
+#: translation.js:117
 msgid "An 8-bit binary counter"
 msgstr "An 8-bit binary counter"
 
-#: translation.js:119
+#: translation.js:118
 msgid "05. Split buses"
 msgstr "05. Split buses"
 
-#: translation.js:120
+#: translation.js:119
 msgid ""
 "An 8-bit binary counter, using an 8-bit bus splitted\n"
 "into two 4-bit buses"
@@ -494,19 +490,19 @@ msgstr ""
 "An 8-bit binary counter, using an 8-bit bus splitted\n"
 "into two 4-bit buses"
 
-#: translation.js:121
+#: translation.js:120
 msgid "06. ROM 16x8"
 msgstr "06. ROM 16x8"
 
-#: translation.js:122
+#: translation.js:121
 msgid "Displaying the contents of an 16x8 rom memory in the LEDs"
 msgstr "Displaying the contents of an 16x8 rom memory in the LEDs"
 
-#: translation.js:123
+#: translation.js:122
 msgid "07. ROM 16x8 file"
 msgstr "07. ROM 16x8 file"
 
-#: translation.js:124
+#: translation.js:123
 msgid ""
 "Displaying the contents of an 16x8 rom memory in the LEDs\n"
 "The memory is read from the rom0.list file"
@@ -514,9 +510,12 @@ msgstr ""
 "Displaying the contents of an 16x8 rom memory in the LEDs\n"
 "The memory is read from the rom0.list file"
 
-#: translation.js:125
+#: translation.js:124
 msgid "08. ROM 16x8 file generic"
 msgstr "08. ROM 16x8 file generic"
+
+#~ msgid "Delay flip-flop with synchronous reset"
+#~ msgstr "Delay flip-flop with synchronous reset"
 
 #~ msgid "Pull up"
 #~ msgstr "Pull up"

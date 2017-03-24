@@ -7,7 +7,7 @@ Default collection in Icestudio.
 
 ## Install
 
-* Download the [collection](https://github.com/FPGAwars/collection-default/archive/v0.3.0-rc.zip)
+* Download the collection: [stable](https://github.com/FPGAwars/collection-default/archive/v0.3.0-rc.zip) or [development](https://github.com/FPGAwars/collection-default/archive/master.zip)
 * Install the collection: *Tools > Collections > Add*
 * Load the collection: *Select > Collection*
 

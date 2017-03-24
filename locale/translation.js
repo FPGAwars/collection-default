@@ -67,7 +67,6 @@ gettext('A chain of three D flip-flops\nThe LEDs are turned on secuentially, wit
 gettext('03. Ring of four DFFs');
 gettext('A ring of four D flip-flops\nThe sequence is shown in the LEDs');
 gettext('04. Toggle button');
-gettext('Delay flip-flop with synchronous reset');
 gettext('When the pushbutton is clicked the LED changes');
 gettext('05. Binary counter with three TFFs');
 gettext('A 3-bit binary counter with T flip-flops');
