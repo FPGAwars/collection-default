@@ -3,7 +3,7 @@
   "package": {
     "name": "TFF",
     "version": "1.0.0",
-    "description": "Toggle flip-flop with synchronous reset",
+    "description": "Toggle flip-flop",
     "author": "Carlos Diaz",
     "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%22-252%20400.9%2090%2040%22%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-227.932%22%20y=%22429.867%22%20font-weight=%22400%22%20font-size=%2224.601%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%3E%3Ctspan%20x=%22-227.932%22%20y=%22429.867%22%3ETFF%3C/tspan%3E%3C/text%3E%3C/svg%3E"
   },
@@ -127,8 +127,8 @@
     },
     "state": {
       "pan": {
-        "x": -104.1969,
-        "y": 119
+        "x": -14,
+        "y": 267.5
       },
       "zoom": 1
     }

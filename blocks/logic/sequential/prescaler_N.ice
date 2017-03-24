@@ -60,7 +60,7 @@
           "id": "e19c6f2f-5747-4ed1-87c8-748575f0cc10",
           "type": "basic.input",
           "data": {
-            "name": "clk",
+            "name": "",
             "pins": [
               {
                 "index": "0",
@@ -131,8 +131,8 @@
     },
     "state": {
       "pan": {
-        "x": 20,
-        "y": 0
+        "x": 42,
+        "y": 35.5
       },
       "zoom": 1
     }
