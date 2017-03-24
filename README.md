@@ -1,7 +1,7 @@
 # Default Collection
 
 [![Icestudio](https://img.shields.io/badge/collection-icestudio-blue.svg)](https://github.com/FPGAwars/icestudio)
-![Version](https://img.shields.io/badge/version-v0.3.0--dev-orange.svg)
+[![Version](https://img.shields.io/badge/version-v0.3.0--dev-orange.svg)]()
 
 Default collection in Icestudio.
 
