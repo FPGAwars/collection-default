@@ -1,7 +1,7 @@
 {
   "version": "1.1",
   "package": {
-    "name": "Prescaler_N",
+    "name": "PrescalerN",
     "version": "0.1",
     "description": "Parametric N-bits prescaler",
     "author": "Juan Gonzalez (Obijuan)",

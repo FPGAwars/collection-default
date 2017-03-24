@@ -1,92 +1,98 @@
-# Default
+# Default Collection
 
 [![Icestudio](https://img.shields.io/badge/collection-icestudio-blue.svg)](https://github.com/FPGAwars/icestudio)
-[![Version](https://img.shields.io/badge/version-v0.2.0-orange.svg)]()
+[![Version](https://img.shields.io/badge/version-v0.3.0--dev-orange.svg)]()
 
-Default collection in Icestudio 0.2.
+Default collection in Icestudio.
 
 ## Install
 
-* Download the [collection](https://github.com/FPGAwars/collection-default/archive/v0.2.0.zip)
-* Go to *Tools > Collections > Add* to install the collection
-* Go to *Select > Collections* to view the installed collection
+* Download the [collection](https://github.com/FPGAwars/collection-default/archive/v0.3.0-dev.zip)
+* Install the collection: *Tools > Collections > Add*
+* Load the collection: *Select > Collection*
 
 ## Blocks
-* bit
+* *Bit*
   * 0
   * 1
-* config
-  * pull_up
-* logic
-  * combinational
-    * mux_2_1
-  * gate
-    * and
-    * not
-    * or
-    * xor
-  * sequential
-    * debouncer
-    * dff
-    * prescaler_22
-    * prescaler_N
-    * tff
+* *Logic*
+  * *Combinational*
+    * Mux 2:1
+  * *Gate*
+    * AND
+    * NOT
+    * OR
+    * XOR
+  * *Sequential*
+    * DFF
+    * Debouncer
+    * Prescaler22
+    * PrescalerN
+    * TFF
+* *Setup*
+  * Pull up
+  * Tri state
 
 ## Examples
-* 1_basic
-  * 1_one_led
-  * 2_two_leds
-  * 3_three_leds
-  * 4_blink
-  * 5_two_led_alternate_blink
-  * 6_pushbutton_led
-* 2_flip_flops
-  * 1_Dff_manual_load
-  * 2_chain_of_three_DFF
-  * 3_ring_of_four_DFFs
-  * 4_toggle_button
-  * 5_binary_counter_with_three_TFFs
-* 3_gates
-  * 01_and
-  * 02_or
-  * 03_and_truth_table
-  * 04_or_truth_table
-  * 05_sr_latch
-  * 06_D_latch
-  * 07_D_flip_flop
-  * 08_mux_2_1
-  * 09_two_to_four_decoder
-  * 10_one_bit_adder
-* 4_muxes
-  * 1_Blinking_fixed_led
-  * 2_led_three_states
-  * 3_mux_4_1
-  * 4_shift_register
-* 5_verilog
-  * 01_four_bits_fixed_binary_value
-  * 02_four_bits_fixed_hexa_value
-  * 03_eight_bits_fixed_value_buses
-  * 04_eight_bits_counter
-  * 05_split_buses
-  * 06_rom16x8
-  * 07_rom16x8_file
-  * 08_rom16x8_file_generic
+* *1\. Basic*
+  * 01\. One LED
+  * 02\. Two LEDs
+  * 03\. Three LEDs
+  * 04\. One LED blink
+  * 05\. Two LEDs alternate blink
+  * 06\. Pushbutton LED
+* *2\. Flip-flops*
+  * 01\. DFF manual load
+  * 02\. Chain of three DFFs
+  * 03\. Ring of four DFFs
+  * 04\. Toggle button
+  * 05\. Binary counter with three TFFs
+* *3\. Gates*
+  * 01\. AND gate
+  * 02\. OR gate
+  * 03\. AND truth table
+  * 04\. OR truth table
+  * 05\. SR latch
+  * 06\. D latch
+  * 07\. D flip-flop
+  * 08\. Multiplexer 2:1
+  * 09\. Decoder 2:4
+  * 10\. One bit adder
+* *4\. Muxes*
+  * 01\. Blinking fixed LED
+  * 02\. LED three states
+  * 03\. Multiplexer 4:1
+  * 04\. Shift register
+* *5\. Verilog*
+  * 01\. Four bits fixed binary value
+  * 02\. Four bits fixed hexadecimal value
+  * 03\. Eight bits fixed value buses
+  * 04\. Eight bits counter
+  * 05\. Split buses
+  * 06\. ROM 16x8
+  * 07\. ROM 16x8 file
+  * 08\. ROM 16x8 file generic
 
 ## Languages
 | Language | Translated strings |
 |:--------:|:------------------:|
 | en | ![Progress](http://progressed.io/bar/100) |
-| es_ES | ![Progress](http://progressed.io/bar/63) |
+| es_ES | ![Progress](http://progressed.io/bar/69) |
 | eu_ES | ![Progress](http://progressed.io/bar/24) |
 | fr_FR | ![Progress](http://progressed.io/bar/24) |
 | gl_ES | ![Progress](http://progressed.io/bar/20) |
 
 ## Authors
-* [Jesús Arroyo](https://github.com/Jesus89)
+* [Jesús Arroyo Torrens](https://github.com/Jesus89)
 * [Juan González](https://github.com/Obijuan)
 * [Carlos Díaz](https://github.com/C47D)
 * [Salvador E. Tropea](https://github.com/set-soft)
 
+## Contributors
+* [Xoan Sampaiño](https://github.com/xoan)
+* [Lorea-Aldabaldetreku](https://github.com/Lorea-Aldabaldetreku)
+* [Martoni](https://github.com/Martoni)
+* [Pascal Cotret](https://github.com/pcotret)
 
 ## License
 
