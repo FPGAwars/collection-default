@@ -27,11 +27,11 @@
           }
         },
         {
-          "id": "3230321a-da32-4e94-991e-41c059d2b91b",
-          "type": "3a5ef6fd5ddf39a56cb72907a7744e1f914a7596",
+          "id": "c449881e-4e21-4f4d-b9b1-c72aae339131",
+          "type": "adcbe749ef0e25c7aa10144949fb0d25da2263a7",
           "position": {
-            "x": 104,
-            "y": 120
+            "x": 80,
+            "y": 144
           },
           "size": {
             "width": 96,
@@ -274,6 +274,21 @@
           }
         },
         {
+          "id": "a4d89eeb-9146-4b90-8c5e-bc12a2938769",
+          "type": "basic.info",
+          "data": {
+            "info": "Initializer. It has the initial value 0, so that the\ni0 is selected in all the muxes. The register is loaded.\nIn the next cycle, it has the value 1, so the i1 input\nis selected in all the muxes. The register is shifted.\nIn the next cycles it will remain in the shift state"
+          },
+          "position": {
+            "x": -216,
+            "y": 928
+          },
+          "size": {
+            "width": 528,
+            "height": 112
+          }
+        },
+        {
           "id": "eedcb1b3-d3cc-473b-9744-b6f81c28653d",
           "type": "9a45deb902810627bd690faab4fd82ada3989d19",
           "position": {
@@ -295,21 +310,6 @@
           "size": {
             "width": 96,
             "height": 64
-          }
-        },
-        {
-          "id": "a4d89eeb-9146-4b90-8c5e-bc12a2938769",
-          "type": "basic.info",
-          "data": {
-            "info": "Initializer. It has the initial value 0, so that the\ni0 is selected in all the muxes. The register is loaded.\nIn the next cycle, it has the value 1, so the i1 input\nis selected in all the muxes. The register is shifted.\nIn the next cycles it will remain in the shift state"
-          },
-          "position": {
-            "x": 400,
-            "y": 1032
-          },
-          "size": {
-            "width": 528,
-            "height": 112
           }
         }
       ],
@@ -363,22 +363,6 @@
             "block": "eedcb1b3-d3cc-473b-9744-b6f81c28653d",
             "port": "b32a6101-5bd1-4bcf-ae5f-e569b958a6a2"
           }
-        },
-        {
-          "source": {
-            "block": "3230321a-da32-4e94-991e-41c059d2b91b",
-            "port": "7e07d449-6475-4839-b43e-8aead8be2aac"
-          },
-          "target": {
-            "block": "eedcb1b3-d3cc-473b-9744-b6f81c28653d",
-            "port": "6855f64f-fa1c-4371-b2e1-a98970674a96"
-          },
-          "vertices": [
-            {
-              "x": 504,
-              "y": 912
-            }
-          ]
         },
         {
           "source": {
@@ -466,22 +450,6 @@
         },
         {
           "source": {
-            "block": "3230321a-da32-4e94-991e-41c059d2b91b",
-            "port": "7e07d449-6475-4839-b43e-8aead8be2aac"
-          },
-          "target": {
-            "block": "33f459c3-7d2f-41c9-957c-ff0965c5813d",
-            "port": "6855f64f-fa1c-4371-b2e1-a98970674a96"
-          },
-          "vertices": [
-            {
-              "x": 504,
-              "y": 744
-            }
-          ]
-        },
-        {
-          "source": {
             "block": "33f459c3-7d2f-41c9-957c-ff0965c5813d",
             "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
           },
@@ -534,22 +502,6 @@
         },
         {
           "source": {
-            "block": "3230321a-da32-4e94-991e-41c059d2b91b",
-            "port": "7e07d449-6475-4839-b43e-8aead8be2aac"
-          },
-          "target": {
-            "block": "5c87e744-d08b-4efb-af2d-26ff23aa607e",
-            "port": "6855f64f-fa1c-4371-b2e1-a98970674a96"
-          },
-          "vertices": [
-            {
-              "x": 504,
-              "y": 552
-            }
-          ]
-        },
-        {
-          "source": {
             "block": "6abbb2bb-6c15-4ca4-b57d-caac0d8c45fe",
             "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
           },
@@ -581,22 +533,6 @@
             {
               "x": 296,
               "y": 584
-            }
-          ]
-        },
-        {
-          "source": {
-            "block": "3230321a-da32-4e94-991e-41c059d2b91b",
-            "port": "7e07d449-6475-4839-b43e-8aead8be2aac"
-          },
-          "target": {
-            "block": "6abbb2bb-6c15-4ca4-b57d-caac0d8c45fe",
-            "port": "6855f64f-fa1c-4371-b2e1-a98970674a96"
-          },
-          "vertices": [
-            {
-              "x": 504,
-              "y": 280
             }
           ]
         },
@@ -638,7 +574,7 @@
         },
         {
           "source": {
-            "block": "3230321a-da32-4e94-991e-41c059d2b91b",
+            "block": "c449881e-4e21-4f4d-b9b1-c72aae339131",
             "port": "7e07d449-6475-4839-b43e-8aead8be2aac"
           },
           "target": {
@@ -647,8 +583,56 @@
           },
           "vertices": [
             {
-              "x": 504,
-              "y": 192
+              "x": 488,
+              "y": 272
+            }
+          ]
+        },
+        {
+          "source": {
+            "block": "c449881e-4e21-4f4d-b9b1-c72aae339131",
+            "port": "7e07d449-6475-4839-b43e-8aead8be2aac"
+          },
+          "target": {
+            "block": "6abbb2bb-6c15-4ca4-b57d-caac0d8c45fe",
+            "port": "6855f64f-fa1c-4371-b2e1-a98970674a96"
+          },
+          "vertices": [
+            {
+              "x": 488,
+              "y": 304
+            }
+          ]
+        },
+        {
+          "source": {
+            "block": "c449881e-4e21-4f4d-b9b1-c72aae339131",
+            "port": "7e07d449-6475-4839-b43e-8aead8be2aac"
+          },
+          "target": {
+            "block": "5c87e744-d08b-4efb-af2d-26ff23aa607e",
+            "port": "6855f64f-fa1c-4371-b2e1-a98970674a96"
+          },
+          "vertices": [
+            {
+              "x": 488,
+              "y": 320
+            }
+          ]
+        },
+        {
+          "source": {
+            "block": "c449881e-4e21-4f4d-b9b1-c72aae339131",
+            "port": "7e07d449-6475-4839-b43e-8aead8be2aac"
+          },
+          "target": {
+            "block": "33f459c3-7d2f-41c9-957c-ff0965c5813d",
+            "port": "6855f64f-fa1c-4371-b2e1-a98970674a96"
+          },
+          "vertices": [
+            {
+              "x": 488,
+              "y": 544
             }
           ]
         }
@@ -656,14 +640,14 @@
     },
     "state": {
       "pan": {
-        "x": 83.064,
-        "y": 75.5607
+        "x": 320.7891,
+        "y": 33.0156
       },
-      "zoom": 0.7649
+      "zoom": 0.4365
     }
   },
   "dependencies": {
-    "3a5ef6fd5ddf39a56cb72907a7744e1f914a7596": {
+    "adcbe749ef0e25c7aa10144949fb0d25da2263a7": {
       "package": {
         "name": "Prescaler22",
         "version": "0.1",
@@ -700,8 +684,8 @@
               }
             },
             {
-              "id": "9f0ae367-e98e-4865-9e9f-458e189e7f0d",
-              "type": "9ff8e584975c5f01bda05511782e93b45a00fa62",
+              "id": "98bd9928-772f-4216-99c6-325632479ab9",
+              "type": "435b29b7b65c2c6d3c3df9bacef7e063156a0f7f",
               "position": {
                 "x": 288,
                 "y": 160
@@ -718,7 +702,7 @@
                 "name": ""
               },
               "position": {
-                "x": 440,
+                "x": 448,
                 "y": 160
               }
             }
@@ -726,12 +710,12 @@
           "wires": [
             {
               "source": {
-                "block": "9f0ae367-e98e-4865-9e9f-458e189e7f0d",
-                "port": "7e07d449-6475-4839-b43e-8aead8be2aac"
+                "block": "e19c6f2f-5747-4ed1-87c8-748575f0cc10",
+                "port": "out"
               },
               "target": {
-                "block": "7e07d449-6475-4839-b43e-8aead8be2aac",
-                "port": "in"
+                "block": "98bd9928-772f-4216-99c6-325632479ab9",
+                "port": "e19c6f2f-5747-4ed1-87c8-748575f0cc10"
               }
             },
             {
@@ -740,32 +724,32 @@
                 "port": "constant-out"
               },
               "target": {
-                "block": "9f0ae367-e98e-4865-9e9f-458e189e7f0d",
+                "block": "98bd9928-772f-4216-99c6-325632479ab9",
                 "port": "de2d8a2d-7908-48a2-9e35-7763a45886e4"
               }
             },
             {
               "source": {
-                "block": "e19c6f2f-5747-4ed1-87c8-748575f0cc10",
-                "port": "out"
+                "block": "98bd9928-772f-4216-99c6-325632479ab9",
+                "port": "7e07d449-6475-4839-b43e-8aead8be2aac"
               },
               "target": {
-                "block": "9f0ae367-e98e-4865-9e9f-458e189e7f0d",
-                "port": "e19c6f2f-5747-4ed1-87c8-748575f0cc10"
+                "block": "7e07d449-6475-4839-b43e-8aead8be2aac",
+                "port": "in"
               }
             }
           ]
         },
         "state": {
           "pan": {
-            "x": 277,
-            "y": 204
+            "x": 130,
+            "y": 127.5
           },
           "zoom": 1
         }
       }
     },
-    "9ff8e584975c5f01bda05511782e93b45a00fa62": {
+    "435b29b7b65c2c6d3c3df9bacef7e063156a0f7f": {
       "package": {
         "name": "PrescalerN",
         "version": "0.1",

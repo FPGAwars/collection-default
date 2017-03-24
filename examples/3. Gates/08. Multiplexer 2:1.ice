@@ -39,8 +39,8 @@
           }
         },
         {
-          "id": "15f934a3-b2b2-4812-acd3-273c3017abfd",
-          "type": "4961de105e8f79056a027e6ee07d17876caa3d43",
+          "id": "4515afc1-8424-4ecd-b709-ff372b375ef2",
+          "type": "6c8610c44ae8c46bb48287efc576bf248791ebd9",
           "position": {
             "x": 368,
             "y": 136
@@ -125,8 +125,8 @@
           }
         },
         {
-          "id": "409bd96c-17c3-40ad-ba81-5ae5fcb279e4",
-          "type": "3a5ef6fd5ddf39a56cb72907a7744e1f914a7596",
+          "id": "d083f150-e345-4648-9637-2bf14c52bca1",
+          "type": "adcbe749ef0e25c7aa10144949fb0d25da2263a7",
           "position": {
             "x": 232,
             "y": 272
@@ -275,13 +275,13 @@
             "port": "22ff3fa1-943b-4d1a-bd89-36e1c054d077"
           },
           "target": {
-            "block": "15f934a3-b2b2-4812-acd3-273c3017abfd",
+            "block": "4515afc1-8424-4ecd-b709-ff372b375ef2",
             "port": "b32a6101-5bd1-4bcf-ae5f-e569b958a6a2"
           }
         },
         {
           "source": {
-            "block": "15f934a3-b2b2-4812-acd3-273c3017abfd",
+            "block": "4515afc1-8424-4ecd-b709-ff372b375ef2",
             "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
           },
           "target": {
@@ -291,7 +291,7 @@
         },
         {
           "source": {
-            "block": "15f934a3-b2b2-4812-acd3-273c3017abfd",
+            "block": "4515afc1-8424-4ecd-b709-ff372b375ef2",
             "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
           },
           "target": {
@@ -301,13 +301,13 @@
           "vertices": [
             {
               "x": 496,
-              "y": 400
+              "y": 336
             }
           ]
         },
         {
           "source": {
-            "block": "409bd96c-17c3-40ad-ba81-5ae5fcb279e4",
+            "block": "d083f150-e345-4648-9637-2bf14c52bca1",
             "port": "7e07d449-6475-4839-b43e-8aead8be2aac"
           },
           "target": {
@@ -446,9 +446,9 @@
         }
       }
     },
-    "4961de105e8f79056a027e6ee07d17876caa3d43": {
+    "6c8610c44ae8c46bb48287efc576bf248791ebd9": {
       "package": {
-        "name": "TFF",
+        "name": "Flip-flop T",
         "version": "1.0.0",
         "description": "Toggle flip-flop",
         "author": "Carlos Diaz",
@@ -470,8 +470,8 @@
               }
             },
             {
-              "id": "0b535313-730d-4dfe-a150-7819b47c1a82",
-              "type": "251beb9b728aa466a3d5c5d169684918348a141f",
+              "id": "f8a48554-c608-4f6a-ad56-04c70e5baef3",
+              "type": "70ff7f2a2f0ede80fc37c66a997650a1d0d0102b",
               "position": {
                 "x": 352,
                 "y": -64
@@ -508,30 +508,23 @@
           "wires": [
             {
               "source": {
-                "block": "6d1059f6-855e-429e-8cf2-848f56d2c993",
-                "port": "664caf9e-5f40-4df4-800a-b626af702e62"
+                "block": "f8a48554-c608-4f6a-ad56-04c70e5baef3",
+                "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
               },
               "target": {
-                "block": "0b535313-730d-4dfe-a150-7819b47c1a82",
-                "port": "b32a6101-5bd1-4bcf-ae5f-e569b958a6a2"
-              },
-              "vertices": [
-                {
-                  "x": 448,
-                  "y": 64
-                }
-              ]
+                "block": "ffdd9aa2-aea3-4aa9-8431-80e799226774",
+                "port": "in"
+              }
             },
             {
               "source": {
-                "block": "0b535313-730d-4dfe-a150-7819b47c1a82",
+                "block": "f8a48554-c608-4f6a-ad56-04c70e5baef3",
                 "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
               },
               "target": {
                 "block": "6d1059f6-855e-429e-8cf2-848f56d2c993",
                 "port": "18c2ebc7-5152-439c-9b3f-851c59bac834"
-              },
-              "vertices": []
+              }
             },
             {
               "source": {
@@ -539,19 +532,25 @@
                 "port": "out"
               },
               "target": {
-                "block": "0b535313-730d-4dfe-a150-7819b47c1a82",
+                "block": "f8a48554-c608-4f6a-ad56-04c70e5baef3",
                 "port": "6855f64f-fa1c-4371-b2e1-a98970674a96"
               }
             },
             {
               "source": {
-                "block": "0b535313-730d-4dfe-a150-7819b47c1a82",
-                "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
+                "block": "6d1059f6-855e-429e-8cf2-848f56d2c993",
+                "port": "664caf9e-5f40-4df4-800a-b626af702e62"
               },
               "target": {
-                "block": "ffdd9aa2-aea3-4aa9-8431-80e799226774",
-                "port": "in"
-              }
+                "block": "f8a48554-c608-4f6a-ad56-04c70e5baef3",
+                "port": "b32a6101-5bd1-4bcf-ae5f-e569b958a6a2"
+              },
+              "vertices": [
+                {
+                  "x": 408,
+                  "y": 64
+                }
+              ]
             }
           ]
         },
@@ -564,11 +563,11 @@
         }
       }
     },
-    "251beb9b728aa466a3d5c5d169684918348a141f": {
+    "70ff7f2a2f0ede80fc37c66a997650a1d0d0102b": {
       "package": {
-        "name": "DFF",
+        "name": "Flip-flop D",
         "version": "1.0.0",
-        "description": "Delay flip-flop with synchronous reset",
+        "description": "Delay flip-flop",
         "author": "Carlos Diaz",
         "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%22-252%20400.9%2090%2040%22%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-231.121%22%20y=%22429.867%22%20font-weight=%22400%22%20font-size=%2224.601%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%3E%3Ctspan%20x=%22-231.121%22%20y=%22429.867%22%3EDFF%3C/tspan%3E%3C/text%3E%3C/svg%3E"
       },
@@ -610,7 +609,7 @@
               "id": "6855f64f-fa1c-4371-b2e1-a98970674a96",
               "type": "basic.input",
               "data": {
-                "name": "clk",
+                "name": "",
                 "clock": true
               },
               "position": {
@@ -677,8 +676,8 @@
         },
         "state": {
           "pan": {
-            "x": -158,
-            "y": -85
+            "x": -146,
+            "y": -0.5
           },
           "zoom": 1
         }
@@ -888,7 +887,7 @@
         }
       }
     },
-    "3a5ef6fd5ddf39a56cb72907a7744e1f914a7596": {
+    "adcbe749ef0e25c7aa10144949fb0d25da2263a7": {
       "package": {
         "name": "Prescaler22",
         "version": "0.1",
@@ -925,8 +924,8 @@
               }
             },
             {
-              "id": "9f0ae367-e98e-4865-9e9f-458e189e7f0d",
-              "type": "9ff8e584975c5f01bda05511782e93b45a00fa62",
+              "id": "98bd9928-772f-4216-99c6-325632479ab9",
+              "type": "435b29b7b65c2c6d3c3df9bacef7e063156a0f7f",
               "position": {
                 "x": 288,
                 "y": 160
@@ -943,7 +942,7 @@
                 "name": ""
               },
               "position": {
-                "x": 440,
+                "x": 448,
                 "y": 160
               }
             }
@@ -951,12 +950,12 @@
           "wires": [
             {
               "source": {
-                "block": "9f0ae367-e98e-4865-9e9f-458e189e7f0d",
-                "port": "7e07d449-6475-4839-b43e-8aead8be2aac"
+                "block": "e19c6f2f-5747-4ed1-87c8-748575f0cc10",
+                "port": "out"
               },
               "target": {
-                "block": "7e07d449-6475-4839-b43e-8aead8be2aac",
-                "port": "in"
+                "block": "98bd9928-772f-4216-99c6-325632479ab9",
+                "port": "e19c6f2f-5747-4ed1-87c8-748575f0cc10"
               }
             },
             {
@@ -965,32 +964,32 @@
                 "port": "constant-out"
               },
               "target": {
-                "block": "9f0ae367-e98e-4865-9e9f-458e189e7f0d",
+                "block": "98bd9928-772f-4216-99c6-325632479ab9",
                 "port": "de2d8a2d-7908-48a2-9e35-7763a45886e4"
               }
             },
             {
               "source": {
-                "block": "e19c6f2f-5747-4ed1-87c8-748575f0cc10",
-                "port": "out"
+                "block": "98bd9928-772f-4216-99c6-325632479ab9",
+                "port": "7e07d449-6475-4839-b43e-8aead8be2aac"
               },
               "target": {
-                "block": "9f0ae367-e98e-4865-9e9f-458e189e7f0d",
-                "port": "e19c6f2f-5747-4ed1-87c8-748575f0cc10"
+                "block": "7e07d449-6475-4839-b43e-8aead8be2aac",
+                "port": "in"
               }
             }
           ]
         },
         "state": {
           "pan": {
-            "x": 277,
-            "y": 204
+            "x": 130,
+            "y": 127.5
           },
           "zoom": 1
         }
       }
     },
-    "9ff8e584975c5f01bda05511782e93b45a00fa62": {
+    "435b29b7b65c2c6d3c3df9bacef7e063156a0f7f": {
       "package": {
         "name": "PrescalerN",
         "version": "0.1",
