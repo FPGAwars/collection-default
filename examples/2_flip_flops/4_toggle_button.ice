@@ -24,10 +24,10 @@
           }
         },
         {
-          "id": "e000e208-ba77-4a2d-9c73-358b2b340f7e",
-          "type": "ef14ec18470da5ff1a34e58728cc4f5f5d44b638",
+          "id": "45bd202c-be59-4533-b3f4-c445743c0943",
+          "type": "4961de105e8f79056a027e6ee07d17876caa3d43",
           "position": {
-            "x": 384,
+            "x": 408,
             "y": 64
           },
           "size": {
@@ -78,7 +78,7 @@
           "id": "a5133ddc-4eaa-401f-b5ee-79eb2be53305",
           "type": "basic.info",
           "data": {
-            "info": "When the pushbutton is clicked the led changes"
+            "info": "Al apretar el pulsador el led cambia"
           },
           "position": {
             "x": 56,
@@ -93,7 +93,17 @@
       "wires": [
         {
           "source": {
-            "block": "e000e208-ba77-4a2d-9c73-358b2b340f7e",
+            "block": "ff47a1d6-fad8-48c9-bdcf-28792e75fc8f",
+            "port": "out"
+          },
+          "target": {
+            "block": "c6bd5dd3-f489-4f09-9e23-caa9b10d6e26",
+            "port": "c9e1af2a-6f09-4cf6-a5b3-fdf7ec2c6530"
+          }
+        },
+        {
+          "source": {
+            "block": "45bd202c-be59-4533-b3f4-c445743c0943",
             "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
           },
           "target": {
@@ -107,26 +117,16 @@
             "port": "22ff3fa1-943b-4d1a-bd89-36e1c054d077"
           },
           "target": {
-            "block": "e000e208-ba77-4a2d-9c73-358b2b340f7e",
+            "block": "45bd202c-be59-4533-b3f4-c445743c0943",
             "port": "b32a6101-5bd1-4bcf-ae5f-e569b958a6a2"
-          }
-        },
-        {
-          "source": {
-            "block": "ff47a1d6-fad8-48c9-bdcf-28792e75fc8f",
-            "port": "out"
-          },
-          "target": {
-            "block": "c6bd5dd3-f489-4f09-9e23-caa9b10d6e26",
-            "port": "c9e1af2a-6f09-4cf6-a5b3-fdf7ec2c6530"
           }
         }
       ]
     },
     "state": {
       "pan": {
-        "x": 0,
-        "y": 0
+        "x": 90,
+        "y": 119.5
       },
       "zoom": 1
     }
@@ -252,11 +252,11 @@
         }
       }
     },
-    "ef14ec18470da5ff1a34e58728cc4f5f5d44b638": {
+    "4961de105e8f79056a027e6ee07d17876caa3d43": {
       "package": {
         "name": "TFF",
         "version": "1.0.0",
-        "description": "Toggle flip-flop with synchronous reset",
+        "description": "Toggle flip-flop",
         "author": "Carlos Diaz",
         "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%22-252%20400.9%2090%2040%22%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-227.932%22%20y=%22429.867%22%20font-weight=%22400%22%20font-size=%2224.601%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%3E%3Ctspan%20x=%22-227.932%22%20y=%22429.867%22%3ETFF%3C/tspan%3E%3C/text%3E%3C/svg%3E"
       },
@@ -363,8 +363,8 @@
         },
         "state": {
           "pan": {
-            "x": -104.1969,
-            "y": 119
+            "x": -14,
+            "y": 267.5
           },
           "zoom": 1
         }

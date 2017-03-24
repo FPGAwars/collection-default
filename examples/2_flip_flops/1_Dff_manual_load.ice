@@ -32,10 +32,10 @@
           }
         },
         {
-          "id": "8339bffa-91d5-4700-94e2-4ff186861763",
-          "type": "8d60e88a3cc6bb26d5e6112c7ad4c1ba0f6b1e7f",
+          "id": "42c9a6d9-95c4-4cc1-bb53-a0601f41f069",
+          "type": "9a45deb902810627bd690faab4fd82ada3989d19",
           "position": {
-            "x": 344,
+            "x": 368,
             "y": 80
           },
           "size": {
@@ -78,7 +78,7 @@
           "id": "40420947-d290-497a-9b89-898f7b540578",
           "type": "basic.info",
           "data": {
-            "info": "The led is turned on when the pushbutton is pressed"
+            "info": "Se enciende el led al apretar el pulsador"
           },
           "position": {
             "x": 160,
@@ -93,11 +93,21 @@
       "wires": [
         {
           "source": {
+            "block": "42c9a6d9-95c4-4cc1-bb53-a0601f41f069",
+            "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
+          },
+          "target": {
+            "block": "4cf3456c-ec92-4b2f-aa54-1e6db742fbed",
+            "port": "in"
+          }
+        },
+        {
+          "source": {
             "block": "60e93c99-957f-433c-8f81-1766893cf29b",
             "port": "out"
           },
           "target": {
-            "block": "8339bffa-91d5-4700-94e2-4ff186861763",
+            "block": "42c9a6d9-95c4-4cc1-bb53-a0601f41f069",
             "port": "6855f64f-fa1c-4371-b2e1-a98970674a96"
           }
         },
@@ -107,36 +117,26 @@
             "port": "19c8f68d-5022-487f-9ab0-f0a3cd58bead"
           },
           "target": {
-            "block": "8339bffa-91d5-4700-94e2-4ff186861763",
+            "block": "42c9a6d9-95c4-4cc1-bb53-a0601f41f069",
             "port": "b32a6101-5bd1-4bcf-ae5f-e569b958a6a2"
-          }
-        },
-        {
-          "source": {
-            "block": "8339bffa-91d5-4700-94e2-4ff186861763",
-            "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
-          },
-          "target": {
-            "block": "4cf3456c-ec92-4b2f-aa54-1e6db742fbed",
-            "port": "in"
           }
         }
       ]
     },
     "state": {
       "pan": {
-        "x": 0,
-        "y": 0
+        "x": 50,
+        "y": 91.5
       },
       "zoom": 1
     }
   },
   "dependencies": {
-    "8d60e88a3cc6bb26d5e6112c7ad4c1ba0f6b1e7f": {
+    "9a45deb902810627bd690faab4fd82ada3989d19": {
       "package": {
         "name": "DFF",
         "version": "1.0.0",
-        "description": "Delay flip-flop with synchronous reset",
+        "description": "Delay flip-flop",
         "author": "Carlos Diaz",
         "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%22-252%20400.9%2090%2040%22%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-231.121%22%20y=%22429.867%22%20font-weight=%22400%22%20font-size=%2224.601%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%3E%3Ctspan%20x=%22-231.121%22%20y=%22429.867%22%3EDFF%3C/tspan%3E%3C/text%3E%3C/svg%3E"
       },
@@ -245,8 +245,8 @@
         },
         "state": {
           "pan": {
-            "x": -158,
-            "y": -85
+            "x": -146,
+            "y": -0.5
           },
           "zoom": 1
         }

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-03-24 09:41+0100\n"
+"POT-Creation-Date: 2017-03-24 10:07+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -30,7 +30,7 @@ msgstr "Lógica"
 
 #: translation.js:15
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: translation.js:16
 msgid "Assign 0 to the output wire"
@@ -38,7 +38,7 @@ msgstr "Asignar 0 al cable de salida"
 
 #: translation.js:17
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: translation.js:18
 msgid "Assign 1 to the output wire"

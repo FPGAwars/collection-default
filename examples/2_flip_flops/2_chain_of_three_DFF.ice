@@ -44,10 +44,10 @@
           }
         },
         {
-          "id": "109825f1-9241-4029-801c-a1705e78b4fc",
-          "type": "8d60e88a3cc6bb26d5e6112c7ad4c1ba0f6b1e7f",
+          "id": "c08fd6d2-925e-4abc-a1d3-365834a035dc",
+          "type": "9a45deb902810627bd690faab4fd82ada3989d19",
           "position": {
-            "x": 392,
+            "x": 400,
             "y": 128
           },
           "size": {
@@ -56,10 +56,10 @@
           }
         },
         {
-          "id": "6cb479d1-62c3-434f-85d8-3e02da081f54",
-          "type": "8d60e88a3cc6bb26d5e6112c7ad4c1ba0f6b1e7f",
+          "id": "ed9d1772-16ab-4604-92b9-259962ec8df6",
+          "type": "9a45deb902810627bd690faab4fd82ada3989d19",
           "position": {
-            "x": 560,
+            "x": 584,
             "y": 128
           },
           "size": {
@@ -68,10 +68,10 @@
           }
         },
         {
-          "id": "bcd9bf98-9a84-4b77-b8c2-daf9ce97f622",
-          "type": "8d60e88a3cc6bb26d5e6112c7ad4c1ba0f6b1e7f",
+          "id": "bd9ec953-39e1-4c5c-beed-0580cab79ab2",
+          "type": "9a45deb902810627bd690faab4fd82ada3989d19",
           "position": {
-            "x": 728,
+            "x": 744,
             "y": 128
           },
           "size": {
@@ -94,7 +94,7 @@
             "virtual": false
           },
           "position": {
-            "x": 880,
+            "x": 896,
             "y": 128
           }
         },
@@ -125,7 +125,7 @@
             "virtual": false
           },
           "position": {
-            "x": 880,
+            "x": 896,
             "y": 208
           }
         },
@@ -144,15 +144,15 @@
             "virtual": false
           },
           "position": {
-            "x": 880,
-            "y": 296
+            "x": 896,
+            "y": 288
           }
         },
         {
           "id": "67e5ea88-c533-48f6-a03d-b964bccdd1cc",
           "type": "basic.info",
           "data": {
-            "info": "A chain of three D flip-flops\nThe leds are turned on secuentially, with every click on the button"
+            "info": "Tres biestables tipo D en serie\nLos leds se encienden secuencialmente, con cada pulsación del botón"
           },
           "position": {
             "x": 48,
@@ -177,69 +177,67 @@
         },
         {
           "source": {
+            "block": "f2d6817f-189b-41ab-9e87-3bf56bf23285",
+            "port": "22ff3fa1-943b-4d1a-bd89-36e1c054d077"
+          },
+          "target": {
+            "block": "c08fd6d2-925e-4abc-a1d3-365834a035dc",
+            "port": "6855f64f-fa1c-4371-b2e1-a98970674a96"
+          }
+        },
+        {
+          "source": {
+            "block": "f2d6817f-189b-41ab-9e87-3bf56bf23285",
+            "port": "22ff3fa1-943b-4d1a-bd89-36e1c054d077"
+          },
+          "target": {
+            "block": "ed9d1772-16ab-4604-92b9-259962ec8df6",
+            "port": "6855f64f-fa1c-4371-b2e1-a98970674a96"
+          }
+        },
+        {
+          "source": {
+            "block": "f2d6817f-189b-41ab-9e87-3bf56bf23285",
+            "port": "22ff3fa1-943b-4d1a-bd89-36e1c054d077"
+          },
+          "target": {
+            "block": "bd9ec953-39e1-4c5c-beed-0580cab79ab2",
+            "port": "6855f64f-fa1c-4371-b2e1-a98970674a96"
+          }
+        },
+        {
+          "source": {
+            "block": "c08fd6d2-925e-4abc-a1d3-365834a035dc",
+            "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
+          },
+          "target": {
+            "block": "ed9d1772-16ab-4604-92b9-259962ec8df6",
+            "port": "b32a6101-5bd1-4bcf-ae5f-e569b958a6a2"
+          }
+        },
+        {
+          "source": {
+            "block": "ed9d1772-16ab-4604-92b9-259962ec8df6",
+            "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
+          },
+          "target": {
+            "block": "bd9ec953-39e1-4c5c-beed-0580cab79ab2",
+            "port": "b32a6101-5bd1-4bcf-ae5f-e569b958a6a2"
+          }
+        },
+        {
+          "source": {
             "block": "a670125e-ebad-4049-8662-250771faf3e7",
             "port": "19c8f68d-5022-487f-9ab0-f0a3cd58bead"
           },
           "target": {
-            "block": "109825f1-9241-4029-801c-a1705e78b4fc",
+            "block": "c08fd6d2-925e-4abc-a1d3-365834a035dc",
             "port": "b32a6101-5bd1-4bcf-ae5f-e569b958a6a2"
           }
         },
         {
           "source": {
-            "block": "109825f1-9241-4029-801c-a1705e78b4fc",
-            "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
-          },
-          "target": {
-            "block": "6cb479d1-62c3-434f-85d8-3e02da081f54",
-            "port": "b32a6101-5bd1-4bcf-ae5f-e569b958a6a2"
-          },
-          "vertices": [
-            {
-              "x": 512,
-              "y": 168
-            }
-          ]
-        },
-        {
-          "source": {
-            "block": "f2d6817f-189b-41ab-9e87-3bf56bf23285",
-            "port": "22ff3fa1-943b-4d1a-bd89-36e1c054d077"
-          },
-          "target": {
-            "block": "109825f1-9241-4029-801c-a1705e78b4fc",
-            "port": "6855f64f-fa1c-4371-b2e1-a98970674a96"
-          },
-          "vertices": [
-            {
-              "x": 368,
-              "y": 64
-            }
-          ]
-        },
-        {
-          "source": {
-            "block": "f2d6817f-189b-41ab-9e87-3bf56bf23285",
-            "port": "22ff3fa1-943b-4d1a-bd89-36e1c054d077"
-          },
-          "target": {
-            "block": "6cb479d1-62c3-434f-85d8-3e02da081f54",
-            "port": "6855f64f-fa1c-4371-b2e1-a98970674a96"
-          }
-        },
-        {
-          "source": {
-            "block": "f2d6817f-189b-41ab-9e87-3bf56bf23285",
-            "port": "22ff3fa1-943b-4d1a-bd89-36e1c054d077"
-          },
-          "target": {
-            "block": "bcd9bf98-9a84-4b77-b8c2-daf9ce97f622",
-            "port": "6855f64f-fa1c-4371-b2e1-a98970674a96"
-          }
-        },
-        {
-          "source": {
-            "block": "bcd9bf98-9a84-4b77-b8c2-daf9ce97f622",
+            "block": "bd9ec953-39e1-4c5c-beed-0580cab79ab2",
             "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
           },
           "target": {
@@ -249,23 +247,7 @@
         },
         {
           "source": {
-            "block": "6cb479d1-62c3-434f-85d8-3e02da081f54",
-            "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
-          },
-          "target": {
-            "block": "bcd9bf98-9a84-4b77-b8c2-daf9ce97f622",
-            "port": "b32a6101-5bd1-4bcf-ae5f-e569b958a6a2"
-          },
-          "vertices": [
-            {
-              "x": 680,
-              "y": 168
-            }
-          ]
-        },
-        {
-          "source": {
-            "block": "6cb479d1-62c3-434f-85d8-3e02da081f54",
+            "block": "ed9d1772-16ab-4604-92b9-259962ec8df6",
             "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
           },
           "target": {
@@ -274,14 +256,14 @@
           },
           "vertices": [
             {
-              "x": 680,
+              "x": 720,
               "y": 240
             }
           ]
         },
         {
           "source": {
-            "block": "109825f1-9241-4029-801c-a1705e78b4fc",
+            "block": "c08fd6d2-925e-4abc-a1d3-365834a035dc",
             "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
           },
           "target": {
@@ -290,8 +272,8 @@
           },
           "vertices": [
             {
-              "x": 512,
-              "y": 328
+              "x": 560,
+              "y": 232
             }
           ]
         }
@@ -299,10 +281,10 @@
     },
     "state": {
       "pan": {
-        "x": 0,
-        "y": 0
+        "x": 4.9573,
+        "y": 70.765
       },
-      "zoom": 1
+      "zoom": 0.8761
     }
   },
   "dependencies": {
@@ -426,11 +408,11 @@
         }
       }
     },
-    "8d60e88a3cc6bb26d5e6112c7ad4c1ba0f6b1e7f": {
+    "9a45deb902810627bd690faab4fd82ada3989d19": {
       "package": {
         "name": "DFF",
         "version": "1.0.0",
-        "description": "Delay flip-flop with synchronous reset",
+        "description": "Delay flip-flop",
         "author": "Carlos Diaz",
         "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%22-252%20400.9%2090%2040%22%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-231.121%22%20y=%22429.867%22%20font-weight=%22400%22%20font-size=%2224.601%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%3E%3Ctspan%20x=%22-231.121%22%20y=%22429.867%22%3EDFF%3C/tspan%3E%3C/text%3E%3C/svg%3E"
       },
@@ -539,8 +521,8 @@
         },
         "state": {
           "pan": {
-            "x": -158,
-            "y": -85
+            "x": -146,
+            "y": -0.5
           },
           "zoom": 1
         }

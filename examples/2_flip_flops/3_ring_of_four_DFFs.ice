@@ -12,11 +12,11 @@
     "graph": {
       "blocks": [
         {
-          "id": "39be62bb-12cc-4eae-b221-d4ce1c7f6c1f",
-          "type": "8527ab6e7f1bb2d07fd17b11ffc13165e95df2aa",
+          "id": "c7c15dee-ae33-44a6-b15d-1e205faaeb56",
+          "type": "3a5ef6fd5ddf39a56cb72907a7744e1f914a7596",
           "position": {
-            "x": 80,
-            "y": 48
+            "x": 96,
+            "y": 40
           },
           "size": {
             "width": 96,
@@ -24,8 +24,8 @@
           }
         },
         {
-          "id": "109825f1-9241-4029-801c-a1705e78b4fc",
-          "type": "8d60e88a3cc6bb26d5e6112c7ad4c1ba0f6b1e7f",
+          "id": "4d28725e-3439-489a-88dc-0035214c5b15",
+          "type": "9a45deb902810627bd690faab4fd82ada3989d19",
           "position": {
             "x": 264,
             "y": 112
@@ -36,10 +36,10 @@
           }
         },
         {
-          "id": "6cb479d1-62c3-434f-85d8-3e02da081f54",
-          "type": "8d60e88a3cc6bb26d5e6112c7ad4c1ba0f6b1e7f",
+          "id": "b53f454f-1780-4de6-959f-8f99de8bf5cc",
+          "type": "9a45deb902810627bd690faab4fd82ada3989d19",
           "position": {
-            "x": 432,
+            "x": 440,
             "y": 112
           },
           "size": {
@@ -48,10 +48,10 @@
           }
         },
         {
-          "id": "bcd9bf98-9a84-4b77-b8c2-daf9ce97f622",
-          "type": "8d60e88a3cc6bb26d5e6112c7ad4c1ba0f6b1e7f",
+          "id": "ff255283-ea3c-480c-96f9-474dadd183fa",
+          "type": "9a45deb902810627bd690faab4fd82ada3989d19",
           "position": {
-            "x": 600,
+            "x": 608,
             "y": 112
           },
           "size": {
@@ -60,10 +60,10 @@
           }
         },
         {
-          "id": "5289a351-26f0-4e4b-a7fd-db35c521bd3d",
-          "type": "8d60e88a3cc6bb26d5e6112c7ad4c1ba0f6b1e7f",
+          "id": "3e46a1b7-8a13-4789-8cce-f03dfc9a4943",
+          "type": "9a45deb902810627bd690faab4fd82ada3989d19",
           "position": {
-            "x": 768,
+            "x": 760,
             "y": 112
           },
           "size": {
@@ -163,128 +163,22 @@
           "id": "5265ffd2-b2e8-4fb7-9362-de1bdef34c1c",
           "type": "basic.info",
           "data": {
-            "info": "A ring of four D flip-flops\nThe sequence is shown in the leds"
+            "info": "Cuatro biestables tipo D conectados en anillo"
           },
           "position": {
             "x": 88,
             "y": 528
           },
           "size": {
-            "width": 304,
-            "height": 64
+            "width": 416,
+            "height": 48
           }
         }
       ],
       "wires": [
         {
           "source": {
-            "block": "109825f1-9241-4029-801c-a1705e78b4fc",
-            "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
-          },
-          "target": {
-            "block": "6cb479d1-62c3-434f-85d8-3e02da081f54",
-            "port": "b32a6101-5bd1-4bcf-ae5f-e569b958a6a2"
-          },
-          "vertices": [
-            {
-              "x": 384,
-              "y": 152
-            }
-          ]
-        },
-        {
-          "source": {
-            "block": "6cb479d1-62c3-434f-85d8-3e02da081f54",
-            "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
-          },
-          "target": {
-            "block": "bcd9bf98-9a84-4b77-b8c2-daf9ce97f622",
-            "port": "b32a6101-5bd1-4bcf-ae5f-e569b958a6a2"
-          },
-          "vertices": [
-            {
-              "x": 552,
-              "y": 152
-            }
-          ]
-        },
-        {
-          "source": {
-            "block": "6cb479d1-62c3-434f-85d8-3e02da081f54",
-            "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
-          },
-          "target": {
-            "block": "e3c55706-eff5-4fd5-b660-1d552191b1d7",
-            "port": "in"
-          },
-          "vertices": [
-            {
-              "x": 552,
-              "y": 224
-            }
-          ]
-        },
-        {
-          "source": {
-            "block": "109825f1-9241-4029-801c-a1705e78b4fc",
-            "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
-          },
-          "target": {
-            "block": "84035b66-341c-42f1-b77e-e190068802d6",
-            "port": "in"
-          },
-          "vertices": [
-            {
-              "x": 384,
-              "y": 312
-            }
-          ]
-        },
-        {
-          "source": {
-            "block": "bcd9bf98-9a84-4b77-b8c2-daf9ce97f622",
-            "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
-          },
-          "target": {
-            "block": "5289a351-26f0-4e4b-a7fd-db35c521bd3d",
-            "port": "b32a6101-5bd1-4bcf-ae5f-e569b958a6a2"
-          },
-          "vertices": [
-            {
-              "x": 720,
-              "y": 160
-            }
-          ]
-        },
-        {
-          "source": {
-            "block": "bcd9bf98-9a84-4b77-b8c2-daf9ce97f622",
-            "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
-          },
-          "target": {
-            "block": "662de200-79c6-4f1a-9370-a9c09a15480f",
-            "port": "in"
-          },
-          "vertices": [
-            {
-              "x": 720,
-              "y": 296
-            }
-          ]
-        },
-        {
-          "source": {
-            "block": "5289a351-26f0-4e4b-a7fd-db35c521bd3d",
-            "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
-          },
-          "target": {
-            "block": "86a239f5-81c4-4f17-a7b0-559ff40367c9",
-            "port": "in"
-          }
-        },
-        {
-          "source": {
-            "block": "5289a351-26f0-4e4b-a7fd-db35c521bd3d",
+            "block": "3e46a1b7-8a13-4789-8cce-f03dfc9a4943",
             "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
           },
           "target": {
@@ -294,72 +188,166 @@
         },
         {
           "source": {
-            "block": "f1117f26-1430-475e-96cb-f9c4591c54a9",
-            "port": "664caf9e-5f40-4df4-800a-b626af702e62"
+            "block": "3e46a1b7-8a13-4789-8cce-f03dfc9a4943",
+            "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
           },
           "target": {
-            "block": "109825f1-9241-4029-801c-a1705e78b4fc",
-            "port": "b32a6101-5bd1-4bcf-ae5f-e569b958a6a2"
+            "block": "86a239f5-81c4-4f17-a7b0-559ff40367c9",
+            "port": "in"
+          }
+        },
+        {
+          "source": {
+            "block": "c7c15dee-ae33-44a6-b15d-1e205faaeb56",
+            "port": "7e07d449-6475-4839-b43e-8aead8be2aac"
+          },
+          "target": {
+            "block": "3e46a1b7-8a13-4789-8cce-f03dfc9a4943",
+            "port": "6855f64f-fa1c-4371-b2e1-a98970674a96"
+          }
+        },
+        {
+          "source": {
+            "block": "ff255283-ea3c-480c-96f9-474dadd183fa",
+            "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
+          },
+          "target": {
+            "block": "662de200-79c6-4f1a-9370-a9c09a15480f",
+            "port": "in"
           },
           "vertices": [
             {
-              "x": 1072,
-              "y": 504
+              "x": 736,
+              "y": 224
             }
           ]
         },
         {
           "source": {
-            "block": "39be62bb-12cc-4eae-b221-d4ce1c7f6c1f",
+            "block": "ff255283-ea3c-480c-96f9-474dadd183fa",
+            "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
+          },
+          "target": {
+            "block": "3e46a1b7-8a13-4789-8cce-f03dfc9a4943",
+            "port": "b32a6101-5bd1-4bcf-ae5f-e569b958a6a2"
+          }
+        },
+        {
+          "source": {
+            "block": "b53f454f-1780-4de6-959f-8f99de8bf5cc",
+            "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
+          },
+          "target": {
+            "block": "e3c55706-eff5-4fd5-b660-1d552191b1d7",
+            "port": "in"
+          },
+          "vertices": [
+            {
+              "x": 560,
+              "y": 304
+            }
+          ]
+        },
+        {
+          "source": {
+            "block": "b53f454f-1780-4de6-959f-8f99de8bf5cc",
+            "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
+          },
+          "target": {
+            "block": "ff255283-ea3c-480c-96f9-474dadd183fa",
+            "port": "b32a6101-5bd1-4bcf-ae5f-e569b958a6a2"
+          },
+          "vertices": [
+            {
+              "x": 560,
+              "y": 160
+            }
+          ]
+        },
+        {
+          "source": {
+            "block": "4d28725e-3439-489a-88dc-0035214c5b15",
+            "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
+          },
+          "target": {
+            "block": "84035b66-341c-42f1-b77e-e190068802d6",
+            "port": "in"
+          },
+          "vertices": [
+            {
+              "x": 416,
+              "y": 288
+            }
+          ]
+        },
+        {
+          "source": {
+            "block": "4d28725e-3439-489a-88dc-0035214c5b15",
+            "port": "ffdd9aa2-aea3-4aa9-8431-80e799226774"
+          },
+          "target": {
+            "block": "b53f454f-1780-4de6-959f-8f99de8bf5cc",
+            "port": "b32a6101-5bd1-4bcf-ae5f-e569b958a6a2"
+          }
+        },
+        {
+          "source": {
+            "block": "c7c15dee-ae33-44a6-b15d-1e205faaeb56",
             "port": "7e07d449-6475-4839-b43e-8aead8be2aac"
           },
           "target": {
-            "block": "109825f1-9241-4029-801c-a1705e78b4fc",
+            "block": "ff255283-ea3c-480c-96f9-474dadd183fa",
             "port": "6855f64f-fa1c-4371-b2e1-a98970674a96"
           }
         },
         {
           "source": {
-            "block": "39be62bb-12cc-4eae-b221-d4ce1c7f6c1f",
+            "block": "c7c15dee-ae33-44a6-b15d-1e205faaeb56",
             "port": "7e07d449-6475-4839-b43e-8aead8be2aac"
           },
           "target": {
-            "block": "6cb479d1-62c3-434f-85d8-3e02da081f54",
+            "block": "b53f454f-1780-4de6-959f-8f99de8bf5cc",
             "port": "6855f64f-fa1c-4371-b2e1-a98970674a96"
           }
         },
         {
           "source": {
-            "block": "39be62bb-12cc-4eae-b221-d4ce1c7f6c1f",
+            "block": "c7c15dee-ae33-44a6-b15d-1e205faaeb56",
             "port": "7e07d449-6475-4839-b43e-8aead8be2aac"
           },
           "target": {
-            "block": "bcd9bf98-9a84-4b77-b8c2-daf9ce97f622",
+            "block": "4d28725e-3439-489a-88dc-0035214c5b15",
             "port": "6855f64f-fa1c-4371-b2e1-a98970674a96"
           }
         },
         {
           "source": {
-            "block": "39be62bb-12cc-4eae-b221-d4ce1c7f6c1f",
-            "port": "7e07d449-6475-4839-b43e-8aead8be2aac"
+            "block": "f1117f26-1430-475e-96cb-f9c4591c54a9",
+            "port": "664caf9e-5f40-4df4-800a-b626af702e62"
           },
           "target": {
-            "block": "5289a351-26f0-4e4b-a7fd-db35c521bd3d",
-            "port": "6855f64f-fa1c-4371-b2e1-a98970674a96"
-          }
+            "block": "4d28725e-3439-489a-88dc-0035214c5b15",
+            "port": "b32a6101-5bd1-4bcf-ae5f-e569b958a6a2"
+          },
+          "vertices": [
+            {
+              "x": 1072,
+              "y": 496
+            }
+          ]
         }
       ]
     },
     "state": {
       "pan": {
-        "x": 0,
-        "y": 0
+        "x": 15.4307,
+        "y": 17.8071
       },
-      "zoom": 1
+      "zoom": 0.7678
     }
   },
   "dependencies": {
-    "8527ab6e7f1bb2d07fd17b11ffc13165e95df2aa": {
+    "3a5ef6fd5ddf39a56cb72907a7744e1f914a7596": {
       "package": {
         "name": "Prescaler22",
         "version": "0.1",
@@ -387,7 +375,7 @@
               "id": "e19c6f2f-5747-4ed1-87c8-748575f0cc10",
               "type": "basic.input",
               "data": {
-                "name": "clk",
+                "name": "",
                 "clock": true
               },
               "position": {
@@ -396,8 +384,8 @@
               }
             },
             {
-              "id": "fbac31ef-cc98-4408-a5e8-6b7c115efcb0",
-              "type": "2e70855674b893bd8b7ee5beda5ccded7b398def",
+              "id": "9f0ae367-e98e-4865-9e9f-458e189e7f0d",
+              "type": "9ff8e584975c5f01bda05511782e93b45a00fa62",
               "position": {
                 "x": 288,
                 "y": 160
@@ -422,11 +410,21 @@
           "wires": [
             {
               "source": {
+                "block": "9f0ae367-e98e-4865-9e9f-458e189e7f0d",
+                "port": "7e07d449-6475-4839-b43e-8aead8be2aac"
+              },
+              "target": {
+                "block": "7e07d449-6475-4839-b43e-8aead8be2aac",
+                "port": "in"
+              }
+            },
+            {
+              "source": {
                 "block": "001a65af-f50d-4dbf-be8a-e0a3bb11df68",
                 "port": "constant-out"
               },
               "target": {
-                "block": "fbac31ef-cc98-4408-a5e8-6b7c115efcb0",
+                "block": "9f0ae367-e98e-4865-9e9f-458e189e7f0d",
                 "port": "de2d8a2d-7908-48a2-9e35-7763a45886e4"
               }
             },
@@ -436,32 +434,22 @@
                 "port": "out"
               },
               "target": {
-                "block": "fbac31ef-cc98-4408-a5e8-6b7c115efcb0",
+                "block": "9f0ae367-e98e-4865-9e9f-458e189e7f0d",
                 "port": "e19c6f2f-5747-4ed1-87c8-748575f0cc10"
-              }
-            },
-            {
-              "source": {
-                "block": "fbac31ef-cc98-4408-a5e8-6b7c115efcb0",
-                "port": "7e07d449-6475-4839-b43e-8aead8be2aac"
-              },
-              "target": {
-                "block": "7e07d449-6475-4839-b43e-8aead8be2aac",
-                "port": "in"
               }
             }
           ]
         },
         "state": {
           "pan": {
-            "x": 20,
-            "y": 0
+            "x": 277,
+            "y": 204
           },
           "zoom": 1
         }
       }
     },
-    "2e70855674b893bd8b7ee5beda5ccded7b398def": {
+    "9ff8e584975c5f01bda05511782e93b45a00fa62": {
       "package": {
         "name": "Prescaler_N",
         "version": "0.1",
@@ -521,7 +509,7 @@
               "id": "e19c6f2f-5747-4ed1-87c8-748575f0cc10",
               "type": "basic.input",
               "data": {
-                "name": "clk",
+                "name": "",
                 "clock": true
               },
               "position": {
@@ -576,18 +564,18 @@
         },
         "state": {
           "pan": {
-            "x": 20,
-            "y": 0
+            "x": 42,
+            "y": 35.5
           },
           "zoom": 1
         }
       }
     },
-    "8d60e88a3cc6bb26d5e6112c7ad4c1ba0f6b1e7f": {
+    "9a45deb902810627bd690faab4fd82ada3989d19": {
       "package": {
         "name": "DFF",
         "version": "1.0.0",
-        "description": "Delay flip-flop with synchronous reset",
+        "description": "Delay flip-flop",
         "author": "Carlos Diaz",
         "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%22-252%20400.9%2090%2040%22%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-231.121%22%20y=%22429.867%22%20font-weight=%22400%22%20font-size=%2224.601%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%3E%3Ctspan%20x=%22-231.121%22%20y=%22429.867%22%3EDFF%3C/tspan%3E%3C/text%3E%3C/svg%3E"
       },
@@ -696,8 +684,8 @@
         },
         "state": {
           "pan": {
-            "x": -158,
-            "y": -85
+            "x": -146,
+            "y": -0.5
           },
           "zoom": 1
         }
