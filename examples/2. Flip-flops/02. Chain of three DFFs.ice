@@ -152,7 +152,8 @@
           "id": "67e5ea88-c533-48f6-a03d-b964bccdd1cc",
           "type": "basic.info",
           "data": {
-            "info": "A chain of three D flip-flops\nThe LEDs are turned on secuentially, with every click on the button"
+            "info": "A chain of three D flip-flops\nThe LEDs are turned on secuentially, with every click on the button",
+            "readonly": true
           },
           "position": {
             "x": 48,
@@ -160,7 +161,7 @@
           },
           "size": {
             "width": 544,
-            "height": 64
+            "height": 48
           }
         }
       ],

@@ -15,22 +15,24 @@
           "id": "504158f2-beb6-4c8f-8591-949e330810ba",
           "type": "basic.info",
           "data": {
-            "info": "1-bit adder"
+            "info": "1-bit adder",
+            "readonly": true
           },
           "position": {
             "x": 112,
             "y": 16
           },
           "size": {
-            "width": 176,
-            "height": 48
+            "width": 128,
+            "height": 32
           }
         },
         {
           "id": "2b5b17c0-95bc-478f-98cc-620d618ba367",
           "type": "basic.info",
           "data": {
-            "info": "Sum"
+            "info": "Sum",
+            "readonly": true
           },
           "position": {
             "x": 560,
@@ -116,7 +118,8 @@
           "id": "2be18a92-0478-4c3b-bdcd-9231020a32f1",
           "type": "basic.info",
           "data": {
-            "info": "Carry"
+            "info": "Carry",
+            "readonly": true
           },
           "position": {
             "x": 560,
@@ -236,10 +239,10 @@
     },
     "state": {
       "pan": {
-        "x": 66,
-        "y": 99.5
+        "x": 67.1415,
+        "y": 88.0242
       },
-      "zoom": 1
+      "zoom": 1.0373
     }
   },
   "dependencies": {

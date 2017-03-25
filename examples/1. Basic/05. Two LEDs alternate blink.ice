@@ -77,15 +77,16 @@
           "id": "c4334cde-6d7f-4932-bd44-7978a59c0b75",
           "type": "basic.info",
           "data": {
-            "info": "Leds 0 and 7 are blinking alternatively"
+            "info": "Leds 0 and 7 are blinking alternatively",
+            "readonly": true
           },
           "position": {
             "x": -32,
             "y": 112
           },
           "size": {
-            "width": 352,
-            "height": 48
+            "width": 320,
+            "height": 32
           }
         }
       ],

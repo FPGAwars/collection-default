@@ -15,15 +15,16 @@
           "id": "45aff4a1-59d7-482b-ae24-1f4c6d63d22e",
           "type": "basic.info",
           "data": {
-            "info": "Mux 2:1 implemented with logic gates\nThe LED0 blinks or is turned on depending on the pushbutton 1"
+            "info": "Mux 2:1 implemented with logic gates\nThe LED0 blinks or is turned on depending on the pushbutton 1",
+            "readonly": true
           },
           "position": {
             "x": 56,
             "y": 40
           },
           "size": {
-            "width": 528,
-            "height": 64
+            "width": 480,
+            "height": 48
           }
         },
         {
@@ -74,7 +75,8 @@
           "id": "c520c8e6-25f1-4787-a6f5-09e2f4ae4407",
           "type": "basic.info",
           "data": {
-            "info": "Mux 2:1 with logic gates"
+            "info": "Mux 2:1 with logic gates",
+            "readonly": true
           },
           "position": {
             "x": 600,
@@ -89,7 +91,8 @@
           "id": "a8f8e5b9-0b0d-4401-b206-acd39c69a505",
           "type": "basic.info",
           "data": {
-            "info": "Signal for blinking the LED"
+            "info": "Signal for blinking the LED",
+            "readonly": true
           },
           "position": {
             "x": 160,
@@ -195,7 +198,8 @@
           "id": "f8be3e79-1e30-49ce-9836-3f81787d68c9",
           "type": "basic.info",
           "data": {
-            "info": "Fixed signal for turning on the LED"
+            "info": "Fixed signal for turning on the LED",
+            "readonly": true
           },
           "position": {
             "x": 144,

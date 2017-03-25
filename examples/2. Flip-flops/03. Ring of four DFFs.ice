@@ -163,14 +163,15 @@
           "id": "5265ffd2-b2e8-4fb7-9362-de1bdef34c1c",
           "type": "basic.info",
           "data": {
-            "info": "A ring of four D flip-flops\nThe sequence is shown in the LEDs"
+            "info": "A ring of four D flip-flops\nThe sequence is shown in the LEDs",
+            "readonly": true
           },
           "position": {
             "x": 88,
             "y": 528
           },
           "size": {
-            "width": 416,
+            "width": 288,
             "height": 48
           }
         }

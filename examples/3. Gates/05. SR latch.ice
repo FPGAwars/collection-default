@@ -122,15 +122,16 @@
           "id": "062dbdf8-fa57-43e2-b5cc-5aea6eceddec",
           "type": "basic.info",
           "data": {
-            "info": "An SR-latch implemented with logic gates"
+            "info": "An SR-latch implemented with logic gates",
+            "readonly": true
           },
           "position": {
             "x": 56,
             "y": 312
           },
           "size": {
-            "width": 464,
-            "height": 48
+            "width": 336,
+            "height": 32
           }
         }
       ],
@@ -226,8 +227,8 @@
     },
     "state": {
       "pan": {
-        "x": 0,
-        "y": 0
+        "x": 70,
+        "y": 67.5
       },
       "zoom": 1
     }

@@ -86,15 +86,16 @@
           "id": "a0d9e262-02ef-4529-b518-c49916368fc7",
           "type": "basic.info",
           "data": {
-            "info": "Testing the AND gate"
+            "info": "Testing the AND gate",
+            "readonly": true
           },
           "position": {
             "x": 72,
             "y": 216
           },
           "size": {
-            "width": 208,
-            "height": 48
+            "width": 192,
+            "height": 32
           }
         }
       ],
@@ -133,8 +134,8 @@
     },
     "state": {
       "pan": {
-        "x": 0,
-        "y": 0
+        "x": 170,
+        "y": 111.5
       },
       "zoom": 1
     }

@@ -86,15 +86,16 @@
           "id": "a0d9e262-02ef-4529-b518-c49916368fc7",
           "type": "basic.info",
           "data": {
-            "info": "Testing the OR gate"
+            "info": "Testing the OR gate",
+            "readonly": true
           },
           "position": {
             "x": 72,
             "y": 216
           },
           "size": {
-            "width": 208,
-            "height": 48
+            "width": 176,
+            "height": 32
           }
         }
       ],

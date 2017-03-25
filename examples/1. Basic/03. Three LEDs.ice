@@ -65,15 +65,16 @@
           "id": "a538a5b4-d5d5-4ace-a593-efb1fa9b930c",
           "type": "basic.info",
           "data": {
-            "info": "Turn on three LEDs"
+            "info": "Turn on three LEDs",
+            "readonly": true
           },
           "position": {
             "x": 72,
             "y": 176
           },
           "size": {
-            "width": 208,
-            "height": 64
+            "width": 160,
+            "height": 32
           }
         },
         {
@@ -131,8 +132,8 @@
     },
     "state": {
       "pan": {
-        "x": 70,
-        "y": 6
+        "x": 190,
+        "y": 87.5
       },
       "zoom": 1
     }

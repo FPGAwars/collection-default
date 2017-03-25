@@ -78,15 +78,16 @@
           "id": "a5133ddc-4eaa-401f-b5ee-79eb2be53305",
           "type": "basic.info",
           "data": {
-            "info": "When the pushbutton is clicked the LED changes"
+            "info": "When the pushbutton is clicked the LED changes",
+            "readonly": true
           },
           "position": {
             "x": 56,
             "y": 176
           },
           "size": {
-            "width": 432,
-            "height": 48
+            "width": 384,
+            "height": 32
           }
         }
       ],

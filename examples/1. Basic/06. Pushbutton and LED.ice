@@ -54,7 +54,8 @@
           "id": "cba77f9b-e0fe-4bec-b51b-00fbeae9bf9f",
           "type": "basic.info",
           "data": {
-            "info": "One pushbutton for turning the LED on and off"
+            "info": "One pushbutton for turning the LED on and off",
+            "readonly": true
           },
           "position": {
             "x": 128,
@@ -62,7 +63,7 @@
           },
           "size": {
             "width": 368,
-            "height": 64
+            "height": 32
           }
         }
       ],
@@ -81,8 +82,8 @@
     },
     "state": {
       "pan": {
-        "x": 0,
-        "y": 0
+        "x": 138,
+        "y": 75.5
       },
       "zoom": 1
     }

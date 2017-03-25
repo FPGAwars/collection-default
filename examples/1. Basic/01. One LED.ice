@@ -15,15 +15,16 @@
           "id": "a538a5b4-d5d5-4ace-a593-efb1fa9b930c",
           "type": "basic.info",
           "data": {
-            "info": "Turn on a LED"
+            "info": "Turn on a LED",
+            "readonly": true
           },
           "position": {
             "x": 80,
             "y": 48
           },
           "size": {
-            "width": 160,
-            "height": 48
+            "width": 128,
+            "height": 32
           }
         },
         {
@@ -73,8 +74,8 @@
     },
     "state": {
       "pan": {
-        "x": 0,
-        "y": 0
+        "x": 186,
+        "y": 95.5
       },
       "zoom": 1
     }

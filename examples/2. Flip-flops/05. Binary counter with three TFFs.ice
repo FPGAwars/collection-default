@@ -144,15 +144,16 @@
           "id": "1aff33a9-9686-46ce-92f7-8a1690a2c2e7",
           "type": "basic.info",
           "data": {
-            "info": "A 3-bit binary counter with T flip-flops"
+            "info": "A 3-bit binary counter with T flip-flops",
+            "readonly": true
           },
           "position": {
             "x": 120,
             "y": 464
           },
           "size": {
-            "width": 624,
-            "height": 48
+            "width": 336,
+            "height": 32
           }
         }
       ],
@@ -265,10 +266,10 @@
     },
     "state": {
       "pan": {
-        "x": 55.15,
-        "y": 10.2
+        "x": 48.4576,
+        "y": 2.1186
       },
-      "zoom": 0.9312
+      "zoom": 0.947
     }
   },
   "dependencies": {

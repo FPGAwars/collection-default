@@ -15,15 +15,16 @@
           "id": "9a89f556-d273-499a-97dc-4b3cec013f66",
           "type": "basic.info",
           "data": {
-            "info": "Master Latch"
+            "info": "Master Latch",
+            "readonly": true
           },
           "position": {
             "x": 664,
             "y": 72
           },
           "size": {
-            "width": 224,
-            "height": 48
+            "width": 128,
+            "height": 32
           }
         },
         {
@@ -154,15 +155,16 @@
           "id": "2687088a-2bf2-4149-89bc-6f24a8a11432",
           "type": "basic.info",
           "data": {
-            "info": "Slave latch"
+            "info": "Slave latch",
+            "readonly": true
           },
           "position": {
             "x": 664,
             "y": 464
           },
           "size": {
-            "width": 224,
-            "height": 48
+            "width": 128,
+            "height": 32
           }
         },
         {
@@ -284,15 +286,16 @@
           "id": "062dbdf8-fa57-43e2-b5cc-5aea6eceddec",
           "type": "basic.info",
           "data": {
-            "info": "A D flip-flip with a falling-edge trigger implemented with logic gates"
+            "info": "A D flip-flip with a falling-edge trigger implemented with logic gates",
+            "readonly": true
           },
           "position": {
             "x": 96,
             "y": 816
           },
           "size": {
-            "width": 576,
-            "height": 48
+            "width": 592,
+            "height": 32
           }
         }
       ],
@@ -612,10 +615,10 @@
     },
     "state": {
       "pan": {
-        "x": 0,
-        "y": 0
+        "x": 97.4691,
+        "y": -1.4742
       },
-      "zoom": 1
+      "zoom": 0.576
     }
   },
   "dependencies": {

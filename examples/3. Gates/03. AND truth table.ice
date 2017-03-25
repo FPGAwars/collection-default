@@ -172,15 +172,16 @@
           "id": "44602ec7-25f1-4fd3-adfa-83ac0279c1e0",
           "type": "basic.info",
           "data": {
-            "info": "Truth table of the AND gate"
+            "info": "Truth table of the AND gate",
+            "readonly": true
           },
           "position": {
             "x": 80,
             "y": 336
           },
           "size": {
-            "width": 384,
-            "height": 48
+            "width": 240,
+            "height": 32
           }
         }
       ],

@@ -46,15 +46,16 @@
           "id": "2464d2a6-3648-4fbc-bbcc-b0c3e8d1e935",
           "type": "basic.info",
           "data": {
-            "info": "Blinking LED"
+            "info": "Blinking LED",
+            "readonly": true
           },
           "position": {
             "x": 128,
             "y": 200
           },
           "size": {
-            "width": 192,
-            "height": 64
+            "width": 128,
+            "height": 32
           }
         }
       ],

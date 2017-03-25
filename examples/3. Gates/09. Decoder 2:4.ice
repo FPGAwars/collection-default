@@ -15,15 +15,16 @@
           "id": "504158f2-beb6-4c8f-8591-949e330810ba",
           "type": "basic.info",
           "data": {
-            "info": "2 to 4 bits decoder with logic gates"
+            "info": "2 to 4 bits decoder with logic gates",
+            "readonly": true
           },
           "position": {
             "x": 112,
             "y": 16
           },
           "size": {
-            "width": 336,
-            "height": 48
+            "width": 304,
+            "height": 32
           }
         },
         {
@@ -441,10 +442,10 @@
     },
     "state": {
       "pan": {
-        "x": 0,
-        "y": 0
+        "x": 70.3562,
+        "y": 27.7534
       },
-      "zoom": 1
+      "zoom": 0.7654
     }
   },
   "dependencies": {
