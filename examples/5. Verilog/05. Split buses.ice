@@ -15,14 +15,15 @@
           "id": "02054c3e-70b4-428b-bdb8-cec60d1c3523",
           "type": "basic.info",
           "data": {
-            "info": "An 8-bit binary counter, using an 8-bit bus splitted\ninto two 4-bit buses"
+            "info": "An 8-bit binary counter, using an 8-bit bus splitted\ninto two 4-bit buses",
+            "readonly": true
           },
           "position": {
             "x": 56,
             "y": 88
           },
           "size": {
-            "width": 448,
+            "width": 416,
             "height": 48
           }
         },

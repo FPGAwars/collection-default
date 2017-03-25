@@ -15,14 +15,15 @@
           "id": "522f4259-2128-4d19-958e-cc7c78ea705b",
           "type": "basic.info",
           "data": {
-            "info": "Displaying the contents of an 16x8 rom memory in the LEDs\nThe memory is read from the rom0.list file"
+            "info": "Displaying the contents of an 16x8 rom memory in the LEDs\nThe memory is read from the rom0.list file",
+            "readonly": true
           },
           "position": {
             "x": -72,
             "y": -96
           },
           "size": {
-            "width": 464,
+            "width": 480,
             "height": 48
           }
         },
@@ -219,10 +220,10 @@
     },
     "state": {
       "pan": {
-        "x": 125.4167,
-        "y": 203.7083
+        "x": 124.8276,
+        "y": 201.2931
       },
-      "zoom": 0.7118
+      "zoom": 0.7069
     }
   },
   "dependencies": {

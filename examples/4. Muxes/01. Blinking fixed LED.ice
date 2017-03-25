@@ -114,15 +114,16 @@
           "id": "f230eb74-bb9d-4d97-85df-1593b9d35fd1",
           "type": "basic.info",
           "data": {
-            "info": "Blinking/fixed LED\nThe toggle button selects if the LED blinks or stays turned on"
+            "info": "Blinking/fixed LED\nThe toggle button selects if the LED blinks or stays turned on",
+            "readonly": true
           },
           "position": {
             "x": 96,
             "y": 368
           },
           "size": {
-            "width": 512,
-            "height": 64
+            "width": 496,
+            "height": 48
           }
         }
       ],

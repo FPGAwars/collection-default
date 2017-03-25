@@ -15,15 +15,16 @@
           "id": "3792c82f-389a-4c23-8d4b-72c090337a5e",
           "type": "basic.info",
           "data": {
-            "info": "4 bits shift register. It is loaded with the initial value 1000 and then\nshifted on every clock pulse"
+            "info": "4 bits shift register. It is loaded with the initial value 1000 and then\nshifted on every clock pulse",
+            "readonly": true
           },
           "position": {
             "x": 32,
             "y": 16
           },
           "size": {
-            "width": 656,
-            "height": 80
+            "width": 624,
+            "height": 48
           }
         },
         {
@@ -42,7 +43,8 @@
           "id": "13c2d9a5-2382-45a4-b2c7-ecece23464c7",
           "type": "basic.info",
           "data": {
-            "info": "Binary value to load and shift"
+            "info": "Binary value to load and shift",
+            "readonly": true
           },
           "position": {
             "x": 48,
@@ -50,7 +52,7 @@
           },
           "size": {
             "width": 288,
-            "height": 48
+            "height": 32
           }
         },
         {
@@ -277,14 +279,15 @@
           "id": "a4d89eeb-9146-4b90-8c5e-bc12a2938769",
           "type": "basic.info",
           "data": {
-            "info": "Initializer. It has the initial value 0, so that the\ni0 is selected in all the muxes. The register is loaded.\nIn the next cycle, it has the value 1, so the i1 input\nis selected in all the muxes. The register is shifted.\nIn the next cycles it will remain in the shift state"
+            "info": "Initializer. It has the initial value 0, so that the\ni0 is selected in all the muxes. The register is loaded.\nIn the next cycle, it has the value 1, so the i1 input\nis selected in all the muxes. The register is shifted.\nIn the next cycles it will remain in the shift state",
+            "readonly": true
           },
           "position": {
             "x": -216,
             "y": 928
           },
           "size": {
-            "width": 528,
+            "width": 512,
             "height": 112
           }
         },

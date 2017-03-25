@@ -15,15 +15,16 @@
           "id": "522f4259-2128-4d19-958e-cc7c78ea705b",
           "type": "basic.info",
           "data": {
-            "info": "Displaying the contents of an 16x8 rom memory in the LEDs"
+            "info": "Displaying the contents of an 16x8 rom memory in the LEDs",
+            "readonly": true
           },
           "position": {
             "x": -72,
             "y": -96
           },
           "size": {
-            "width": 464,
-            "height": 48
+            "width": 480,
+            "height": 32
           }
         },
         {

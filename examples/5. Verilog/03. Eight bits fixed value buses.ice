@@ -15,15 +15,16 @@
           "id": "02054c3e-70b4-428b-bdb8-cec60d1c3523",
           "type": "basic.info",
           "data": {
-            "info": "Using buses for displaying a fixed value in the LEDs"
+            "info": "Using buses for displaying a fixed value in the LEDs",
+            "readonly": true
           },
           "position": {
             "x": 72,
             "y": 96
           },
           "size": {
-            "width": 448,
-            "height": 48
+            "width": 432,
+            "height": 32
           }
         },
         {
@@ -124,8 +125,8 @@
     },
     "state": {
       "pan": {
-        "x": 0,
-        "y": 0
+        "x": 82,
+        "y": 19.5
       },
       "zoom": 1
     }

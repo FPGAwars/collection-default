@@ -12,21 +12,6 @@
     "graph": {
       "blocks": [
         {
-          "id": "02054c3e-70b4-428b-bdb8-cec60d1c3523",
-          "type": "basic.info",
-          "data": {
-            "info": "An 8-bit binary counter"
-          },
-          "position": {
-            "x": 48,
-            "y": 48
-          },
-          "size": {
-            "width": 448,
-            "height": 48
-          }
-        },
-        {
           "id": "c9d95bfe-5f79-4bff-aced-341ccc6025c4",
           "type": "basic.output",
           "data": {
@@ -79,6 +64,22 @@
           "position": {
             "x": 704,
             "y": 104
+          }
+        },
+        {
+          "id": "02054c3e-70b4-428b-bdb8-cec60d1c3523",
+          "type": "basic.info",
+          "data": {
+            "info": "An 8-bit binary counter",
+            "readonly": true
+          },
+          "position": {
+            "x": 224,
+            "y": 128
+          },
+          "size": {
+            "width": 208,
+            "height": 32
           }
         },
         {

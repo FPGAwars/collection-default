@@ -15,15 +15,16 @@
           "id": "ad4d801a-1c1a-40f9-b402-df1470ffc90f",
           "type": "basic.info",
           "data": {
-            "info": "A 4:1 mux from two 2:1 muxes\nThe LED can be in four states: off, blinking, on, blinking fast"
+            "info": "A 4:1 mux from two 2:1 muxes\nThe LED can be in four states: off, blinking, on, blinking fast",
+            "readonly": true
           },
           "position": {
             "x": 24,
             "y": 16
           },
           "size": {
-            "width": 528,
-            "height": 64
+            "width": 512,
+            "height": 48
           }
         },
         {
@@ -788,128 +789,6 @@
           "pan": {
             "x": 130,
             "y": 127.5
-          },
-          "zoom": 1
-        }
-      }
-    },
-    "435b29b7b65c2c6d3c3df9bacef7e063156a0f7f": {
-      "package": {
-        "name": "PrescalerN",
-        "version": "0.1",
-        "description": "Parametric N-bits prescaler",
-        "author": "Juan Gonzalez (Obijuan)",
-        "image": ""
-      },
-      "design": {
-        "graph": {
-          "blocks": [
-            {
-              "id": "de2d8a2d-7908-48a2-9e35-7763a45886e4",
-              "type": "basic.constant",
-              "data": {
-                "name": "N",
-                "value": "22",
-                "local": false
-              },
-              "position": {
-                "x": 352,
-                "y": 56
-              }
-            },
-            {
-              "id": "2330955f-5ce6-4d1c-8ee4-0a09a0349389",
-              "type": "basic.code",
-              "data": {
-                "code": "//-- Number of bits of the prescaler\n//parameter N = 22;\n\n//-- divisor register\nreg [N-1:0] divcounter;\n\n//-- N bit counter\nalways @(posedge clk_in)\n  divcounter <= divcounter + 1;\n\n//-- Use the most significant bit as output\nassign clk_out = divcounter[N-1];",
-                "params": [
-                  {
-                    "name": "N"
-                  }
-                ],
-                "ports": {
-                  "in": [
-                    {
-                      "name": "clk_in"
-                    }
-                  ],
-                  "out": [
-                    {
-                      "name": "clk_out"
-                    }
-                  ]
-                }
-              },
-              "position": {
-                "x": 176,
-                "y": 176
-              },
-              "size": {
-                "width": 448,
-                "height": 224
-              }
-            },
-            {
-              "id": "e19c6f2f-5747-4ed1-87c8-748575f0cc10",
-              "type": "basic.input",
-              "data": {
-                "name": "",
-                "clock": true
-              },
-              "position": {
-                "x": 0,
-                "y": 256
-              }
-            },
-            {
-              "id": "7e07d449-6475-4839-b43e-8aead8be2aac",
-              "type": "basic.output",
-              "data": {
-                "name": ""
-              },
-              "position": {
-                "x": 720,
-                "y": 256
-              }
-            }
-          ],
-          "wires": [
-            {
-              "source": {
-                "block": "2330955f-5ce6-4d1c-8ee4-0a09a0349389",
-                "port": "clk_out"
-              },
-              "target": {
-                "block": "7e07d449-6475-4839-b43e-8aead8be2aac",
-                "port": "in"
-              }
-            },
-            {
-              "source": {
-                "block": "e19c6f2f-5747-4ed1-87c8-748575f0cc10",
-                "port": "out"
-              },
-              "target": {
-                "block": "2330955f-5ce6-4d1c-8ee4-0a09a0349389",
-                "port": "clk_in"
-              }
-            },
-            {
-              "source": {
-                "block": "de2d8a2d-7908-48a2-9e35-7763a45886e4",
-                "port": "constant-out"
-              },
-              "target": {
-                "block": "2330955f-5ce6-4d1c-8ee4-0a09a0349389",
-                "port": "N"
-              }
-            }
-          ]
-        },
-        "state": {
-          "pan": {
-            "x": 42,
-            "y": 35.5
           },
           "zoom": 1
         }

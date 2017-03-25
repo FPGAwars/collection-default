@@ -15,14 +15,15 @@
           "id": "2dbe47b7-cde6-47d4-bc39-8942d08a9fbe",
           "type": "basic.info",
           "data": {
-            "info": "Displaying a 4-bits fixed value in the LEDs"
+            "info": "Displaying a 4-bits fixed value in the LEDs",
+            "readonly": true
           },
           "position": {
             "x": 216,
             "y": 112
           },
           "size": {
-            "width": 352,
+            "width": 368,
             "height": 32
           }
         },
@@ -181,8 +182,8 @@
     },
     "state": {
       "pan": {
-        "x": 0,
-        "y": 0
+        "x": -2,
+        "y": -16.5
       },
       "zoom": 1
     }
