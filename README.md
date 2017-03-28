@@ -1,13 +1,13 @@
 # Default Collection
 
 [![Icestudio](https://img.shields.io/badge/collection-icestudio-blue.svg)](https://github.com/FPGAwars/icestudio)
-![Version](https://img.shields.io/badge/version-v0.3.0--rc-orange.svg)
+![Version](https://img.shields.io/badge/version-v0.3.0--rc1-orange.svg)
 
 Default collection in Icestudio.
 
 ## Install
 
-* Download the collection: [stable](https://github.com/FPGAwars/collection-default/archive/v0.3.0-rc.zip) or [development](https://github.com/FPGAwars/collection-default/archive/master.zip)
+* Download the collection: [stable](https://github.com/FPGAwars/collection-default/archive/v0.3.0-rc1.zip) or [development](https://github.com/FPGAwars/collection-default/archive/master.zip)
 * Install the collection: *Tools > Collections > Add*
 * Load the collection: *Select > Collection*
 
