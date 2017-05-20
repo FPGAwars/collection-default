@@ -20,8 +20,11 @@ Default collection in Icestudio.
     * Mux 2:1
   * *Gate*
     * AND
+    * NAND
+    * NOR
     * NOT
     * OR
+    * XNOR
     * XOR
   * *Sequential*
     * Debouncer
