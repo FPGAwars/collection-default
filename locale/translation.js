@@ -126,3 +126,5 @@ gettext('Displaying the contents of an 16x8 rom memory in the LEDs');
 gettext('07. ROM 16x8 file');
 gettext('Displaying the contents of an 16x8 rom memory in the LEDs\nThe memory is read from the rom0.list file');
 gettext('08. ROM 16x8 file generic');
+gettext('09. ROM 16x8 table');
+gettext('Displaying the contents of an 16x8 rom memory in the LEDs  \nThe memory is read from the given table');

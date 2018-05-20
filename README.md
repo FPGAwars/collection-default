@@ -75,6 +75,7 @@ Default collection in Icestudio.
   * 06\. ROM 16x8
   * 07\. ROM 16x8 file
   * 08\. ROM 16x8 file generic
+  * 09\. ROM 16x8 table
 
 ## Languages
 | Language | Translated strings |
