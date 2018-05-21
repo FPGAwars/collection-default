@@ -12,26 +12,6 @@
     "graph": {
       "blocks": [
         {
-          "id": "b959fb96-ac67-4aea-90b3-ed35a4c17bf5",
-          "type": "basic.code",
-          "data": {
-            "code": "// Bit 0\n\nassign v = 1'b0;",
-            "params": [],
-            "ports": {
-              "in": [],
-              "out": [
-                {
-                  "name": "v"
-                }
-              ]
-            }
-          },
-          "position": {
-            "x": 96,
-            "y": 96
-          }
-        },
-        {
           "id": "19c8f68d-5022-487f-9ab0-f0a3cd58bead",
           "type": "basic.output",
           "data": {
@@ -49,6 +29,30 @@
             "x": 608,
             "y": 192
           }
+        },
+        {
+          "id": "b959fb96-ac67-4aea-90b3-ed35a4c17bf5",
+          "type": "basic.code",
+          "data": {
+            "code": "// Bit 0\n\nassign v = 1'b0;",
+            "params": [],
+            "ports": {
+              "in": [],
+              "out": [
+                {
+                  "name": "v"
+                }
+              ]
+            }
+          },
+          "position": {
+            "x": 96,
+            "y": 96
+          },
+          "size": {
+            "width": 384,
+            "height": 256
+          }
         }
       ],
       "wires": [
@@ -63,13 +67,6 @@
           }
         }
       ]
-    },
-    "state": {
-      "pan": {
-        "x": 0,
-        "y": 0
-      },
-      "zoom": 1
     }
   },
   "dependencies": {}

@@ -58,8 +58,8 @@
             "readonly": true
           },
           "position": {
-            "x": 128,
-            "y": 208
+            "x": 112,
+            "y": 24
           },
           "size": {
             "width": 368,
@@ -79,13 +79,6 @@
           }
         }
       ]
-    },
-    "state": {
-      "pan": {
-        "x": 138,
-        "y": 75.5
-      },
-      "zoom": 1
     }
   },
   "dependencies": {}

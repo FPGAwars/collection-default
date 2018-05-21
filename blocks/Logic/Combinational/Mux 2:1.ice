@@ -12,36 +12,6 @@
     "graph": {
       "blocks": [
         {
-          "id": "ba573190-2ead-411a-a323-1b15a22d46db",
-          "type": "basic.code",
-          "data": {
-            "code": "reg _o;\n\nalways @(*) begin\n    case(sel0)\n        0: _o = in0;\n        1: _o = in1;\n        default: _o = in0;\n    endcase\nend\n\nassign o = _o;",
-            "params": [],
-            "ports": {
-              "in": [
-                {
-                  "name": "in0"
-                },
-                {
-                  "name": "in1"
-                },
-                {
-                  "name": "sel0"
-                }
-              ],
-              "out": [
-                {
-                  "name": "o"
-                }
-              ]
-            }
-          },
-          "position": {
-            "x": 312,
-            "y": 112
-          }
-        },
-        {
           "id": "c3f73f68-1074-4355-b69f-6a20f7bea3e7",
           "type": "basic.input",
           "data": {
@@ -116,6 +86,40 @@
             "x": 80,
             "y": 296
           }
+        },
+        {
+          "id": "ba573190-2ead-411a-a323-1b15a22d46db",
+          "type": "basic.code",
+          "data": {
+            "code": "reg _o;\n\nalways @(*) begin\n    case(sel0)\n        0: _o = in0;\n        1: _o = in1;\n        default: _o = in0;\n    endcase\nend\n\nassign o = _o;",
+            "params": [],
+            "ports": {
+              "in": [
+                {
+                  "name": "in0"
+                },
+                {
+                  "name": "in1"
+                },
+                {
+                  "name": "sel0"
+                }
+              ],
+              "out": [
+                {
+                  "name": "o"
+                }
+              ]
+            }
+          },
+          "position": {
+            "x": 312,
+            "y": 112
+          },
+          "size": {
+            "width": 384,
+            "height": 256
+          }
         }
       ],
       "wires": [
@@ -160,13 +164,6 @@
           }
         }
       ]
-    },
-    "state": {
-      "pan": {
-        "x": -21.0375,
-        "y": 29.4792
-      },
-      "zoom": 1
     }
   },
   "dependencies": {}

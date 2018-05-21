@@ -12,19 +12,6 @@
     "graph": {
       "blocks": [
         {
-          "id": "001a65af-f50d-4dbf-be8a-e0a3bb11df68",
-          "type": "basic.constant",
-          "data": {
-            "name": "N",
-            "value": "22",
-            "local": true
-          },
-          "position": {
-            "x": 288,
-            "y": 48
-          }
-        },
-        {
           "id": "e19c6f2f-5747-4ed1-87c8-748575f0cc10",
           "type": "basic.input",
           "data": {
@@ -45,18 +32,6 @@
           }
         },
         {
-          "id": "98bd9928-772f-4216-99c6-325632479ab9",
-          "type": "435b29b7b65c2c6d3c3df9bacef7e063156a0f7f",
-          "position": {
-            "x": 288,
-            "y": 160
-          },
-          "size": {
-            "width": 96,
-            "height": 64
-          }
-        },
-        {
           "id": "7e07d449-6475-4839-b43e-8aead8be2aac",
           "type": "basic.output",
           "data": {
@@ -73,6 +48,31 @@
           "position": {
             "x": 448,
             "y": 160
+          }
+        },
+        {
+          "id": "001a65af-f50d-4dbf-be8a-e0a3bb11df68",
+          "type": "basic.constant",
+          "data": {
+            "name": "N",
+            "value": "22",
+            "local": true
+          },
+          "position": {
+            "x": 288,
+            "y": 48
+          }
+        },
+        {
+          "id": "98bd9928-772f-4216-99c6-325632479ab9",
+          "type": "435b29b7b65c2c6d3c3df9bacef7e063156a0f7f",
+          "position": {
+            "x": 288,
+            "y": 160
+          },
+          "size": {
+            "width": 96,
+            "height": 64
           }
         }
       ],
@@ -108,13 +108,6 @@
           }
         }
       ]
-    },
-    "state": {
-      "pan": {
-        "x": 130,
-        "y": 127.5
-      },
-      "zoom": 1
     }
   },
   "dependencies": {
@@ -230,13 +223,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 42,
-            "y": 35.5
-          },
-          "zoom": 1
         }
       }
     }

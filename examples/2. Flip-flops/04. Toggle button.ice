@@ -12,30 +12,6 @@
     "graph": {
       "blocks": [
         {
-          "id": "c6bd5dd3-f489-4f09-9e23-caa9b10d6e26",
-          "type": "10d93310e23daeea6814d2c785127dcb17e7527b",
-          "position": {
-            "x": 224,
-            "y": 64
-          },
-          "size": {
-            "width": 96,
-            "height": 64
-          }
-        },
-        {
-          "id": "e11af33a-2ca9-42d6-8530-83f2a60b9eed",
-          "type": "6c8610c44ae8c46bb48287efc576bf248791ebd9",
-          "position": {
-            "x": 408,
-            "y": 64
-          },
-          "size": {
-            "width": 96,
-            "height": 64
-          }
-        },
-        {
           "id": "2404f1f2-418c-461f-a63f-7f5025a7aff8",
           "type": "basic.output",
           "data": {
@@ -75,6 +51,30 @@
           }
         },
         {
+          "id": "c6bd5dd3-f489-4f09-9e23-caa9b10d6e26",
+          "type": "10d93310e23daeea6814d2c785127dcb17e7527b",
+          "position": {
+            "x": 224,
+            "y": 64
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
+        },
+        {
+          "id": "e11af33a-2ca9-42d6-8530-83f2a60b9eed",
+          "type": "6c8610c44ae8c46bb48287efc576bf248791ebd9",
+          "position": {
+            "x": 408,
+            "y": 64
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
+        },
+        {
           "id": "a5133ddc-4eaa-401f-b5ee-79eb2be53305",
           "type": "basic.info",
           "data": {
@@ -82,8 +82,8 @@
             "readonly": true
           },
           "position": {
-            "x": 56,
-            "y": 176
+            "x": 48,
+            "y": -16
           },
           "size": {
             "width": 384,
@@ -123,13 +123,6 @@
           }
         }
       ]
-    },
-    "state": {
-      "pan": {
-        "x": 90,
-        "y": 119.5
-      },
-      "zoom": 1
     }
   },
   "dependencies": {
@@ -243,13 +236,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 0,
-            "y": -1
-          },
-          "zoom": 1
         }
       }
     },
@@ -360,13 +346,6 @@
               ]
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": -14,
-            "y": 267.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -480,13 +459,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": -146,
-            "y": -0.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -570,13 +542,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 0,
-            "y": 0
-          },
-          "zoom": 1
         }
       }
     }

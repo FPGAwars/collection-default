@@ -12,6 +12,65 @@
     "graph": {
       "blocks": [
         {
+          "id": "f78f2a75-f077-414e-abfc-4f3a1e6dfc1b",
+          "type": "basic.output",
+          "data": {
+            "name": "LED",
+            "pins": [
+              {
+                "index": "0",
+                "name": "LED0",
+                "value": "95"
+              }
+            ],
+            "virtual": false
+          },
+          "position": {
+            "x": 800,
+            "y": 120
+          }
+        },
+        {
+          "id": "07652035-9f66-416e-b1f7-695d73cc3bcc",
+          "type": "basic.input",
+          "data": {
+            "name": "Pushbutton",
+            "pins": [
+              {
+                "index": "0",
+                "name": "SW1",
+                "value": "10"
+              }
+            ],
+            "virtual": false,
+            "clock": false
+          },
+          "position": {
+            "x": 112,
+            "y": 328
+          }
+        },
+        {
+          "id": "0301fc3b-23c6-46cb-9521-b74df9aa0ad0",
+          "type": "basic.input",
+          "data": {
+            "name": "Pushbutton",
+            "pins": [
+              {
+                "index": "0",
+                "name": "SW2",
+                "value": "11"
+              }
+            ],
+            "virtual": false,
+            "clock": false
+          },
+          "position": {
+            "x": 112,
+            "y": 424
+          }
+        },
+        {
           "id": "cfd60d2c-93ff-4cde-8164-e42ea465ed04",
           "type": "862d2a36c72ddee13ea44bf906fe1b60efa90941",
           "position": {
@@ -45,25 +104,6 @@
           "size": {
             "width": 96,
             "height": 96
-          }
-        },
-        {
-          "id": "f78f2a75-f077-414e-abfc-4f3a1e6dfc1b",
-          "type": "basic.output",
-          "data": {
-            "name": "LED",
-            "pins": [
-              {
-                "index": "0",
-                "name": "LED0",
-                "value": "95"
-              }
-            ],
-            "virtual": false
-          },
-          "position": {
-            "x": 800,
-            "y": 120
           }
         },
         {
@@ -115,26 +155,6 @@
           }
         },
         {
-          "id": "07652035-9f66-416e-b1f7-695d73cc3bcc",
-          "type": "basic.input",
-          "data": {
-            "name": "Pushbutton",
-            "pins": [
-              {
-                "index": "0",
-                "name": "SW1",
-                "value": "10"
-              }
-            ],
-            "virtual": false,
-            "clock": false
-          },
-          "position": {
-            "x": 112,
-            "y": 328
-          }
-        },
-        {
           "id": "dd9675aa-5a46-4016-8583-08f34b25cdcf",
           "type": "10d93310e23daeea6814d2c785127dcb17e7527b",
           "position": {
@@ -159,26 +179,6 @@
           }
         },
         {
-          "id": "0301fc3b-23c6-46cb-9521-b74df9aa0ad0",
-          "type": "basic.input",
-          "data": {
-            "name": "Pushbutton",
-            "pins": [
-              {
-                "index": "0",
-                "name": "SW2",
-                "value": "11"
-              }
-            ],
-            "virtual": false,
-            "clock": false
-          },
-          "position": {
-            "x": 112,
-            "y": 424
-          }
-        },
-        {
           "id": "f230eb74-bb9d-4d97-85df-1593b9d35fd1",
           "type": "basic.info",
           "data": {
@@ -186,11 +186,11 @@
             "readonly": true
           },
           "position": {
-            "x": 112,
-            "y": 512
+            "x": 104,
+            "y": -40
           },
           "size": {
-            "width": 592,
+            "width": 792,
             "height": 64
           }
         }
@@ -326,13 +326,6 @@
           ]
         }
       ]
-    },
-    "state": {
-      "pan": {
-        "x": 29.6866,
-        "y": -6.7015
-      },
-      "zoom": 0.834
     }
   },
   "dependencies": {
@@ -391,13 +384,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 0,
-            "y": 0
-          },
-          "zoom": 1
         }
       }
     },
@@ -529,13 +515,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": -21.0375,
-            "y": 29.4792
-          },
-          "zoom": 1
         }
       }
     },
@@ -594,13 +573,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 0,
-            "y": 0
-          },
-          "zoom": 1
         }
       }
     },
@@ -696,13 +668,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 130,
-            "y": 127.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -818,13 +783,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 42,
-            "y": 35.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -938,13 +896,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 0,
-            "y": -1
-          },
-          "zoom": 1
         }
       }
     },
@@ -1055,13 +1006,6 @@
               ]
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": -14,
-            "y": 267.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -1175,13 +1119,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": -146,
-            "y": -0.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -1265,13 +1202,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 0,
-            "y": 0
-          },
-          "zoom": 1
         }
       }
     }

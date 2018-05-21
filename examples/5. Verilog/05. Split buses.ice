@@ -12,22 +12,6 @@
     "graph": {
       "blocks": [
         {
-          "id": "02054c3e-70b4-428b-bdb8-cec60d1c3523",
-          "type": "basic.info",
-          "data": {
-            "info": "An 8-bit binary counter, using an 8-bit bus splitted\ninto two 4-bit buses",
-            "readonly": true
-          },
-          "position": {
-            "x": 56,
-            "y": 88
-          },
-          "size": {
-            "width": 416,
-            "height": 48
-          }
-        },
-        {
           "id": "06be8426-370b-4e79-9878-306053d394e5",
           "type": "basic.output",
           "data": {
@@ -60,6 +44,57 @@
           "position": {
             "x": 952,
             "y": 88
+          }
+        },
+        {
+          "id": "f573d0e3-d8d4-4ef5-b98c-2da12a050948",
+          "type": "basic.output",
+          "data": {
+            "name": "LED",
+            "range": "[3:0]",
+            "pins": [
+              {
+                "index": "3",
+                "name": "LED3",
+                "value": "98"
+              },
+              {
+                "index": "2",
+                "name": "LED2",
+                "value": "97"
+              },
+              {
+                "index": "1",
+                "name": "LED1",
+                "value": "96"
+              },
+              {
+                "index": "0",
+                "name": "LED0",
+                "value": "95"
+              }
+            ],
+            "virtual": false
+          },
+          "position": {
+            "x": 952,
+            "y": 256
+          }
+        },
+        {
+          "id": "02054c3e-70b4-428b-bdb8-cec60d1c3523",
+          "type": "basic.info",
+          "data": {
+            "info": "An 8-bit binary counter, using an 8-bit bus splitted\ninto two 4-bit buses",
+            "readonly": true
+          },
+          "position": {
+            "x": 56,
+            "y": 88
+          },
+          "size": {
+            "width": 416,
+            "height": 48
           }
         },
         {
@@ -140,41 +175,6 @@
             "width": 240,
             "height": 64
           }
-        },
-        {
-          "id": "f573d0e3-d8d4-4ef5-b98c-2da12a050948",
-          "type": "basic.output",
-          "data": {
-            "name": "LED",
-            "range": "[3:0]",
-            "pins": [
-              {
-                "index": "3",
-                "name": "LED3",
-                "value": "98"
-              },
-              {
-                "index": "2",
-                "name": "LED2",
-                "value": "97"
-              },
-              {
-                "index": "1",
-                "name": "LED1",
-                "value": "96"
-              },
-              {
-                "index": "0",
-                "name": "LED0",
-                "value": "95"
-              }
-            ],
-            "virtual": false
-          },
-          "position": {
-            "x": 952,
-            "y": 256
-          }
         }
       ],
       "wires": [
@@ -222,13 +222,6 @@
           }
         }
       ]
-    },
-    "state": {
-      "pan": {
-        "x": 7.4603,
-        "y": 58.5
-      },
-      "zoom": 0.8135
     }
   },
   "dependencies": {
@@ -324,13 +317,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 130,
-            "y": 127.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -446,13 +432,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 42,
-            "y": 35.5
-          },
-          "zoom": 1
         }
       }
     }

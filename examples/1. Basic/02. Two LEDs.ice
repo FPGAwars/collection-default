@@ -12,18 +12,6 @@
     "graph": {
       "blocks": [
         {
-          "id": "eaf792b5-de98-4e2f-b78a-4023eb9a7f2b",
-          "type": "3e6c249e205080168c1bf4ee8dbc33b50653d5f4",
-          "position": {
-            "x": 80,
-            "y": 64
-          },
-          "size": {
-            "width": 96,
-            "height": 64
-          }
-        },
-        {
           "id": "949075cb-26c0-49da-ba76-2496ea9aa7cc",
           "type": "basic.output",
           "data": {
@@ -40,18 +28,6 @@
           "position": {
             "x": 352,
             "y": 64
-          }
-        },
-        {
-          "id": "babe1d52-ff55-4760-b599-60be7fde76d3",
-          "type": "3e6c249e205080168c1bf4ee8dbc33b50653d5f4",
-          "position": {
-            "x": 80,
-            "y": 144
-          },
-          "size": {
-            "width": 96,
-            "height": 64
           }
         },
         {
@@ -74,6 +50,30 @@
           }
         },
         {
+          "id": "eaf792b5-de98-4e2f-b78a-4023eb9a7f2b",
+          "type": "3e6c249e205080168c1bf4ee8dbc33b50653d5f4",
+          "position": {
+            "x": 80,
+            "y": 64
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
+        },
+        {
+          "id": "babe1d52-ff55-4760-b599-60be7fde76d3",
+          "type": "3e6c249e205080168c1bf4ee8dbc33b50653d5f4",
+          "position": {
+            "x": 80,
+            "y": 144
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
+        },
+        {
           "id": "a538a5b4-d5d5-4ace-a593-efb1fa9b930c",
           "type": "basic.info",
           "data": {
@@ -81,8 +81,8 @@
             "readonly": true
           },
           "position": {
-            "x": 80,
-            "y": 232
+            "x": 64,
+            "y": 0
           },
           "size": {
             "width": 144,
@@ -113,13 +113,6 @@
           "vertices": []
         }
       ]
-    },
-    "state": {
-      "pan": {
-        "x": 186,
-        "y": 99.5
-      },
-      "zoom": 1
     }
   },
   "dependencies": {
@@ -178,13 +171,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 0,
-            "y": 0
-          },
-          "zoom": 1
         }
       }
     }

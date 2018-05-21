@@ -31,6 +31,44 @@
           }
         },
         {
+          "id": "d7060ea8-1cf7-4422-9d22-26439b5ee9ba",
+          "type": "basic.output",
+          "data": {
+            "name": "LED",
+            "pins": [
+              {
+                "index": "0",
+                "name": "LED1",
+                "value": "96"
+              }
+            ],
+            "virtual": false
+          },
+          "position": {
+            "x": 640,
+            "y": 184
+          }
+        },
+        {
+          "id": "680b0ce2-c5da-403d-8cc9-2afda7afdbe6",
+          "type": "basic.output",
+          "data": {
+            "name": "LED",
+            "pins": [
+              {
+                "index": "0",
+                "name": "LED2",
+                "value": "97"
+              }
+            ],
+            "virtual": false
+          },
+          "position": {
+            "x": 640,
+            "y": 352
+          }
+        },
+        {
           "id": "06a68794-2abf-4a08-a6b2-98180e3791f9",
           "type": "adcbe749ef0e25c7aa10144949fb0d25da2263a7",
           "position": {
@@ -64,25 +102,6 @@
           "size": {
             "width": 96,
             "height": 64
-          }
-        },
-        {
-          "id": "d7060ea8-1cf7-4422-9d22-26439b5ee9ba",
-          "type": "basic.output",
-          "data": {
-            "name": "LED",
-            "pins": [
-              {
-                "index": "0",
-                "name": "LED1",
-                "value": "96"
-              }
-            ],
-            "virtual": false
-          },
-          "position": {
-            "x": 640,
-            "y": 184
           }
         },
         {
@@ -122,25 +141,6 @@
           }
         },
         {
-          "id": "680b0ce2-c5da-403d-8cc9-2afda7afdbe6",
-          "type": "basic.output",
-          "data": {
-            "name": "LED",
-            "pins": [
-              {
-                "index": "0",
-                "name": "LED2",
-                "value": "97"
-              }
-            ],
-            "virtual": false
-          },
-          "position": {
-            "x": 640,
-            "y": 352
-          }
-        },
-        {
           "id": "1aff33a9-9686-46ce-92f7-8a1690a2c2e7",
           "type": "basic.info",
           "data": {
@@ -148,8 +148,8 @@
             "readonly": true
           },
           "position": {
-            "x": 120,
-            "y": 464
+            "x": 96,
+            "y": 24
           },
           "size": {
             "width": 336,
@@ -263,13 +263,6 @@
           ]
         }
       ]
-    },
-    "state": {
-      "pan": {
-        "x": 48.4576,
-        "y": 2.1186
-      },
-      "zoom": 0.947
     }
   },
   "dependencies": {
@@ -365,13 +358,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 130,
-            "y": 127.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -487,13 +473,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 42,
-            "y": 35.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -604,13 +583,6 @@
               ]
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": -14,
-            "y": 267.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -724,13 +696,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": -146,
-            "y": -0.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -814,13 +779,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 0,
-            "y": 0
-          },
-          "zoom": 1
         }
       }
     }

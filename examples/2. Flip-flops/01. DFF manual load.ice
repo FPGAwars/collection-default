@@ -32,18 +32,6 @@
           }
         },
         {
-          "id": "42c9a6d9-95c4-4cc1-bb53-a0601f41f069",
-          "type": "70ff7f2a2f0ede80fc37c66a997650a1d0d0102b",
-          "position": {
-            "x": 368,
-            "y": 80
-          },
-          "size": {
-            "width": 96,
-            "height": 64
-          }
-        },
-        {
           "id": "4cf3456c-ec92-4b2f-aa54-1e6db742fbed",
           "type": "basic.output",
           "data": {
@@ -60,6 +48,18 @@
           "position": {
             "x": 544,
             "y": 80
+          }
+        },
+        {
+          "id": "42c9a6d9-95c4-4cc1-bb53-a0601f41f069",
+          "type": "70ff7f2a2f0ede80fc37c66a997650a1d0d0102b",
+          "position": {
+            "x": 368,
+            "y": 80
+          },
+          "size": {
+            "width": 96,
+            "height": 64
           }
         },
         {
@@ -82,8 +82,8 @@
             "readonly": true
           },
           "position": {
-            "x": 160,
-            "y": 232
+            "x": 144,
+            "y": -8
           },
           "size": {
             "width": 416,
@@ -123,13 +123,6 @@
           }
         }
       ]
-    },
-    "state": {
-      "pan": {
-        "x": 50,
-        "y": 91.5
-      },
-      "zoom": 1
     }
   },
   "dependencies": {
@@ -243,13 +236,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": -146,
-            "y": -0.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -308,13 +294,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 0,
-            "y": 0
-          },
-          "zoom": 1
         }
       }
     }

@@ -14,30 +14,6 @@
     "graph": {
       "blocks": [
         {
-          "id": "2b245a71-2d80-466b-955f-e3d61839fe25",
-          "type": "basic.code",
-          "data": {
-            "code": "// Pull up\n\nwire din, dout, outen;\n\nassign o = din;\n\nSB_IO #(\n    .PIN_TYPE(6'b 1010_01),\n    .PULLUP(1'b 1)\n) io_pin (\n    .PACKAGE_PIN(i),\n    .OUTPUT_ENABLE(outen),\n    .D_OUT_0(dout),\n    .D_IN_0(din)\n);",
-            "params": [],
-            "ports": {
-              "in": [
-                {
-                  "name": "i"
-                }
-              ],
-              "out": [
-                {
-                  "name": "o"
-                }
-              ]
-            }
-          },
-          "position": {
-            "x": 256,
-            "y": 104
-          }
-        },
-        {
           "id": "bb4a1ca9-1b30-471e-92ca-ca7ff2fc1150",
           "type": "basic.input",
           "data": {
@@ -74,6 +50,34 @@
             "x": 760,
             "y": 200
           }
+        },
+        {
+          "id": "2b245a71-2d80-466b-955f-e3d61839fe25",
+          "type": "basic.code",
+          "data": {
+            "code": "// Pull up\n\nwire din, dout, outen;\n\nassign o = din;\n\nSB_IO #(\n    .PIN_TYPE(6'b 1010_01),\n    .PULLUP(1'b 1)\n) io_pin (\n    .PACKAGE_PIN(i),\n    .OUTPUT_ENABLE(outen),\n    .D_OUT_0(dout),\n    .D_IN_0(din)\n);",
+            "params": [],
+            "ports": {
+              "in": [
+                {
+                  "name": "i"
+                }
+              ],
+              "out": [
+                {
+                  "name": "o"
+                }
+              ]
+            }
+          },
+          "position": {
+            "x": 256,
+            "y": 104
+          },
+          "size": {
+            "width": 384,
+            "height": 256
+          }
         }
       ],
       "wires": [
@@ -98,13 +102,6 @@
           }
         }
       ]
-    },
-    "state": {
-      "pan": {
-        "x": 0,
-        "y": 0
-      },
-      "zoom": 1
     }
   },
   "dependencies": {}

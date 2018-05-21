@@ -12,22 +12,6 @@
     "graph": {
       "blocks": [
         {
-          "id": "2dbe47b7-cde6-47d4-bc39-8942d08a9fbe",
-          "type": "basic.info",
-          "data": {
-            "info": "Displaying a 4-bits fixed value in the LEDs",
-            "readonly": true
-          },
-          "position": {
-            "x": 216,
-            "y": 112
-          },
-          "size": {
-            "width": 368,
-            "height": 32
-          }
-        },
-        {
           "id": "a491fd68-a6ff-4a2b-b4fe-2a79e87762b4",
           "type": "basic.output",
           "data": {
@@ -44,39 +28,6 @@
           "position": {
             "x": 592,
             "y": 168
-          }
-        },
-        {
-          "id": "7c5eb584-622c-46be-ac07-bd5eae774a34",
-          "type": "basic.code",
-          "data": {
-            "code": "//-- Assigning indivual bits\n//-- to the outputs\n\nassign o3 = 1;\nassign o2 = 0;\nassign o1 = 1;\nassign o0 = 0;\n\n",
-            "params": [],
-            "ports": {
-              "in": [],
-              "out": [
-                {
-                  "name": "o3"
-                },
-                {
-                  "name": "o2"
-                },
-                {
-                  "name": "o1"
-                },
-                {
-                  "name": "o0"
-                }
-              ]
-            }
-          },
-          "position": {
-            "x": 216,
-            "y": 192
-          },
-          "size": {
-            "width": 304,
-            "height": 240
           }
         },
         {
@@ -135,6 +86,55 @@
             "x": 592,
             "y": 384
           }
+        },
+        {
+          "id": "2dbe47b7-cde6-47d4-bc39-8942d08a9fbe",
+          "type": "basic.info",
+          "data": {
+            "info": "Displaying a 4-bits fixed value in the LEDs",
+            "readonly": true
+          },
+          "position": {
+            "x": 216,
+            "y": 112
+          },
+          "size": {
+            "width": 368,
+            "height": 32
+          }
+        },
+        {
+          "id": "7c5eb584-622c-46be-ac07-bd5eae774a34",
+          "type": "basic.code",
+          "data": {
+            "code": "//-- Assigning indivual bits\n//-- to the outputs\n\nassign o3 = 1;\nassign o2 = 0;\nassign o1 = 1;\nassign o0 = 0;",
+            "params": [],
+            "ports": {
+              "in": [],
+              "out": [
+                {
+                  "name": "o3"
+                },
+                {
+                  "name": "o2"
+                },
+                {
+                  "name": "o1"
+                },
+                {
+                  "name": "o0"
+                }
+              ]
+            }
+          },
+          "position": {
+            "x": 216,
+            "y": 192
+          },
+          "size": {
+            "width": 304,
+            "height": 240
+          }
         }
       ],
       "wires": [
@@ -179,13 +179,6 @@
           }
         }
       ]
-    },
-    "state": {
-      "pan": {
-        "x": -2,
-        "y": -16.5
-      },
-      "zoom": 1
     }
   },
   "dependencies": {}

@@ -12,18 +12,6 @@
     "graph": {
       "blocks": [
         {
-          "id": "eaf792b5-de98-4e2f-b78a-4023eb9a7f2b",
-          "type": "3e6c249e205080168c1bf4ee8dbc33b50653d5f4",
-          "position": {
-            "x": 80,
-            "y": 64
-          },
-          "size": {
-            "width": 96,
-            "height": 64
-          }
-        },
-        {
           "id": "949075cb-26c0-49da-ba76-2496ea9aa7cc",
           "type": "basic.output",
           "data": {
@@ -62,22 +50,6 @@
           }
         },
         {
-          "id": "a538a5b4-d5d5-4ace-a593-efb1fa9b930c",
-          "type": "basic.info",
-          "data": {
-            "info": "Turn on three LEDs",
-            "readonly": true
-          },
-          "position": {
-            "x": 72,
-            "y": 176
-          },
-          "size": {
-            "width": 160,
-            "height": 32
-          }
-        },
-        {
           "id": "12762b6c-643e-4c42-b0f3-00d49b191718",
           "type": "basic.output",
           "data": {
@@ -94,6 +66,34 @@
           "position": {
             "x": 352,
             "y": 224
+          }
+        },
+        {
+          "id": "eaf792b5-de98-4e2f-b78a-4023eb9a7f2b",
+          "type": "3e6c249e205080168c1bf4ee8dbc33b50653d5f4",
+          "position": {
+            "x": 80,
+            "y": 64
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
+        },
+        {
+          "id": "a538a5b4-d5d5-4ace-a593-efb1fa9b930c",
+          "type": "basic.info",
+          "data": {
+            "info": "Turn on three LEDs",
+            "readonly": true
+          },
+          "position": {
+            "x": 56,
+            "y": 0
+          },
+          "size": {
+            "width": 160,
+            "height": 32
           }
         }
       ],
@@ -129,13 +129,6 @@
           }
         }
       ]
-    },
-    "state": {
-      "pan": {
-        "x": 190,
-        "y": 87.5
-      },
-      "zoom": 1
     }
   },
   "dependencies": {
@@ -194,13 +187,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 0,
-            "y": 0
-          },
-          "zoom": 1
         }
       }
     }

@@ -12,6 +12,45 @@
     "graph": {
       "blocks": [
         {
+          "id": "f78f2a75-f077-414e-abfc-4f3a1e6dfc1b",
+          "type": "basic.output",
+          "data": {
+            "name": "LED",
+            "pins": [
+              {
+                "index": "0",
+                "name": "LED0",
+                "value": "95"
+              }
+            ],
+            "virtual": false
+          },
+          "position": {
+            "x": 536,
+            "y": 88
+          }
+        },
+        {
+          "id": "07652035-9f66-416e-b1f7-695d73cc3bcc",
+          "type": "basic.input",
+          "data": {
+            "name": "Pushbutton",
+            "pins": [
+              {
+                "index": "0",
+                "name": "SW1",
+                "value": "10"
+              }
+            ],
+            "virtual": false,
+            "clock": false
+          },
+          "position": {
+            "x": 120,
+            "y": 288
+          }
+        },
+        {
           "id": "37a4d643-e15f-4701-93da-fdb9304b5192",
           "type": "adcbe749ef0e25c7aa10144949fb0d25da2263a7",
           "position": {
@@ -33,25 +72,6 @@
           "size": {
             "width": 96,
             "height": 96
-          }
-        },
-        {
-          "id": "f78f2a75-f077-414e-abfc-4f3a1e6dfc1b",
-          "type": "basic.output",
-          "data": {
-            "name": "LED",
-            "pins": [
-              {
-                "index": "0",
-                "name": "LED0",
-                "value": "95"
-              }
-            ],
-            "virtual": false
-          },
-          "position": {
-            "x": 536,
-            "y": 88
           }
         },
         {
@@ -91,26 +111,6 @@
           }
         },
         {
-          "id": "07652035-9f66-416e-b1f7-695d73cc3bcc",
-          "type": "basic.input",
-          "data": {
-            "name": "Pushbutton",
-            "pins": [
-              {
-                "index": "0",
-                "name": "SW1",
-                "value": "10"
-              }
-            ],
-            "virtual": false,
-            "clock": false
-          },
-          "position": {
-            "x": 120,
-            "y": 288
-          }
-        },
-        {
           "id": "f230eb74-bb9d-4d97-85df-1593b9d35fd1",
           "type": "basic.info",
           "data": {
@@ -119,10 +119,10 @@
           },
           "position": {
             "x": 96,
-            "y": 368
+            "y": -16
           },
           "size": {
-            "width": 496,
+            "width": 536,
             "height": 48
           }
         }
@@ -201,13 +201,6 @@
           ]
         }
       ]
-    },
-    "state": {
-      "pan": {
-        "x": 102,
-        "y": 19.5
-      },
-      "zoom": 1
     }
   },
   "dependencies": {
@@ -303,13 +296,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 130,
-            "y": 127.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -425,13 +411,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 42,
-            "y": 35.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -563,13 +542,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": -21.0375,
-            "y": 29.4792
-          },
-          "zoom": 1
         }
       }
     },
@@ -628,13 +600,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 0,
-            "y": 0
-          },
-          "zoom": 1
         }
       }
     },
@@ -748,13 +713,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 0,
-            "y": -1
-          },
-          "zoom": 1
         }
       }
     },
@@ -865,13 +823,6 @@
               ]
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": -14,
-            "y": 267.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -985,13 +936,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": -146,
-            "y": -0.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -1075,13 +1019,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 0,
-            "y": 0
-          },
-          "zoom": 1
         }
       }
     }

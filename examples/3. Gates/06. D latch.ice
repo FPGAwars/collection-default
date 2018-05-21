@@ -32,6 +32,45 @@
           }
         },
         {
+          "id": "e6ae9867-3fcb-4af3-800d-6dc31185ad5a",
+          "type": "basic.output",
+          "data": {
+            "name": "LED",
+            "pins": [
+              {
+                "index": "0",
+                "name": "LED0",
+                "value": "95"
+              }
+            ],
+            "virtual": false
+          },
+          "position": {
+            "x": 776,
+            "y": 56
+          }
+        },
+        {
+          "id": "71f6a4dc-6f18-405a-99c0-0c517b2664a7",
+          "type": "basic.input",
+          "data": {
+            "name": "D",
+            "pins": [
+              {
+                "index": "0",
+                "name": "SW1",
+                "value": "10"
+              }
+            ],
+            "virtual": false,
+            "clock": false
+          },
+          "position": {
+            "x": 48,
+            "y": 240
+          }
+        },
+        {
           "id": "c56edad3-89c9-485d-8f89-de4c71cbff05",
           "type": "11a6f454705778e2f00adba4e5b28dcd9411bc8f",
           "position": {
@@ -65,25 +104,6 @@
           "size": {
             "width": 96,
             "height": 64
-          }
-        },
-        {
-          "id": "e6ae9867-3fcb-4af3-800d-6dc31185ad5a",
-          "type": "basic.output",
-          "data": {
-            "name": "LED",
-            "pins": [
-              {
-                "index": "0",
-                "name": "LED0",
-                "value": "95"
-              }
-            ],
-            "virtual": false
-          },
-          "position": {
-            "x": 808,
-            "y": 56
           }
         },
         {
@@ -135,26 +155,6 @@
           }
         },
         {
-          "id": "71f6a4dc-6f18-405a-99c0-0c517b2664a7",
-          "type": "basic.input",
-          "data": {
-            "name": "D",
-            "pins": [
-              {
-                "index": "0",
-                "name": "SW1",
-                "value": "10"
-              }
-            ],
-            "virtual": false,
-            "clock": false
-          },
-          "position": {
-            "x": 48,
-            "y": 240
-          }
-        },
-        {
           "id": "062dbdf8-fa57-43e2-b5cc-5aea6eceddec",
           "type": "basic.info",
           "data": {
@@ -163,7 +163,7 @@
           },
           "position": {
             "x": 48,
-            "y": 328
+            "y": -40
           },
           "size": {
             "width": 320,
@@ -303,7 +303,13 @@
           "target": {
             "block": "0007402a-b851-4789-8627-9345708ee8a6",
             "port": "18c2ebc7-5152-439c-9b3f-851c59bac834"
-          }
+          },
+          "vertices": [
+            {
+              "x": 128,
+              "y": 216
+            }
+          ]
         },
         {
           "source": {
@@ -316,13 +322,6 @@
           }
         }
       ]
-    },
-    "state": {
-      "pan": {
-        "x": -5.9813,
-        "y": 71.9112
-      },
-      "zoom": 0.9579
     }
   },
   "dependencies": {
@@ -430,13 +429,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 0,
-            "y": 0
-          },
-          "zoom": 1
         }
       }
     },
@@ -544,13 +536,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 0,
-            "y": 0
-          },
-          "zoom": 1
         }
       }
     },
@@ -634,13 +619,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 0,
-            "y": 0
-          },
-          "zoom": 1
         }
       }
     }

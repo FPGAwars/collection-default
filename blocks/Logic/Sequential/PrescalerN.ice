@@ -12,6 +12,45 @@
     "graph": {
       "blocks": [
         {
+          "id": "e19c6f2f-5747-4ed1-87c8-748575f0cc10",
+          "type": "basic.input",
+          "data": {
+            "name": "",
+            "pins": [
+              {
+                "index": "0",
+                "name": "CLK",
+                "value": "21"
+              }
+            ],
+            "virtual": true,
+            "clock": true
+          },
+          "position": {
+            "x": 0,
+            "y": 256
+          }
+        },
+        {
+          "id": "7e07d449-6475-4839-b43e-8aead8be2aac",
+          "type": "basic.output",
+          "data": {
+            "name": "",
+            "pins": [
+              {
+                "index": "0",
+                "name": "LED0",
+                "value": "95"
+              }
+            ],
+            "virtual": true
+          },
+          "position": {
+            "x": 720,
+            "y": 256
+          }
+        },
+        {
           "id": "de2d8a2d-7908-48a2-9e35-7763a45886e4",
           "type": "basic.constant",
           "data": {
@@ -55,45 +94,6 @@
             "width": 448,
             "height": 224
           }
-        },
-        {
-          "id": "e19c6f2f-5747-4ed1-87c8-748575f0cc10",
-          "type": "basic.input",
-          "data": {
-            "name": "",
-            "pins": [
-              {
-                "index": "0",
-                "name": "CLK",
-                "value": "21"
-              }
-            ],
-            "virtual": true,
-            "clock": true
-          },
-          "position": {
-            "x": 0,
-            "y": 256
-          }
-        },
-        {
-          "id": "7e07d449-6475-4839-b43e-8aead8be2aac",
-          "type": "basic.output",
-          "data": {
-            "name": "",
-            "pins": [
-              {
-                "index": "0",
-                "name": "LED0",
-                "value": "95"
-              }
-            ],
-            "virtual": true
-          },
-          "position": {
-            "x": 720,
-            "y": 256
-          }
         }
       ],
       "wires": [
@@ -128,13 +128,6 @@
           }
         }
       ]
-    },
-    "state": {
-      "pan": {
-        "x": 42,
-        "y": 35.5
-      },
-      "zoom": 1
     }
   },
   "dependencies": {}

@@ -12,22 +12,6 @@
     "graph": {
       "blocks": [
         {
-          "id": "2dbe47b7-cde6-47d4-bc39-8942d08a9fbe",
-          "type": "basic.info",
-          "data": {
-            "info": "Displaying a 4-bits fixed value (in hexadecimal) in the LEDs",
-            "readonly": true
-          },
-          "position": {
-            "x": 88,
-            "y": 104
-          },
-          "size": {
-            "width": 496,
-            "height": 32
-          }
-        },
-        {
           "id": "a491fd68-a6ff-4a2b-b4fe-2a79e87762b4",
           "type": "basic.output",
           "data": {
@@ -44,39 +28,6 @@
           "position": {
             "x": 592,
             "y": 168
-          }
-        },
-        {
-          "id": "7c5eb584-622c-46be-ac07-bd5eae774a34",
-          "type": "basic.code",
-          "data": {
-            "code": "//--Displaying a 4-bits\n//-- hexadecimal digit in the LEDs\n\nassign {o3,o2,o1,o0} = 4'hF;\n\n\n",
-            "params": [],
-            "ports": {
-              "in": [],
-              "out": [
-                {
-                  "name": "o3"
-                },
-                {
-                  "name": "o2"
-                },
-                {
-                  "name": "o1"
-                },
-                {
-                  "name": "o0"
-                }
-              ]
-            }
-          },
-          "position": {
-            "x": 88,
-            "y": 192
-          },
-          "size": {
-            "width": 400,
-            "height": 240
           }
         },
         {
@@ -135,6 +86,55 @@
             "x": 592,
             "y": 384
           }
+        },
+        {
+          "id": "2dbe47b7-cde6-47d4-bc39-8942d08a9fbe",
+          "type": "basic.info",
+          "data": {
+            "info": "Displaying a 4-bits fixed value (in hexadecimal) in the LEDs",
+            "readonly": true
+          },
+          "position": {
+            "x": 88,
+            "y": 104
+          },
+          "size": {
+            "width": 496,
+            "height": 32
+          }
+        },
+        {
+          "id": "7c5eb584-622c-46be-ac07-bd5eae774a34",
+          "type": "basic.code",
+          "data": {
+            "code": "//--Displaying a 4-bits\n//-- hexadecimal digit in the LEDs\n\nassign {o3,o2,o1,o0} = 4'hF;",
+            "params": [],
+            "ports": {
+              "in": [],
+              "out": [
+                {
+                  "name": "o3"
+                },
+                {
+                  "name": "o2"
+                },
+                {
+                  "name": "o1"
+                },
+                {
+                  "name": "o0"
+                }
+              ]
+            }
+          },
+          "position": {
+            "x": 88,
+            "y": 192
+          },
+          "size": {
+            "width": 400,
+            "height": 240
+          }
         }
       ],
       "wires": [
@@ -179,13 +179,6 @@
           }
         }
       ]
-    },
-    "state": {
-      "pan": {
-        "x": 62,
-        "y": -12.5
-      },
-      "zoom": 1
     }
   },
   "dependencies": {}

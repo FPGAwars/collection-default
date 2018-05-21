@@ -12,35 +12,6 @@
     "graph": {
       "blocks": [
         {
-          "id": "522f4259-2128-4d19-958e-cc7c78ea705b",
-          "type": "basic.info",
-          "data": {
-            "info": "Displaying the contents of an 16x8 rom memory in the LEDs\nThe memory is read from the rom0.list file",
-            "readonly": true
-          },
-          "position": {
-            "x": -72,
-            "y": -48
-          },
-          "size": {
-            "width": 464,
-            "height": 48
-          }
-        },
-        {
-          "id": "9da24591-8efd-4bcf-b9dd-86470cf5184c",
-          "type": "basic.constant",
-          "data": {
-            "name": "ROMFILE",
-            "value": "\"rom0.list\"",
-            "local": false
-          },
-          "position": {
-            "x": 616,
-            "y": -48
-          }
-        },
-        {
           "id": "b4f187db-b9ee-4b23-adf5-c217c6570d91",
           "type": "basic.output",
           "data": {
@@ -96,6 +67,48 @@
           }
         },
         {
+          "id": "c0815427-2523-4ddf-b95b-74fa5fd6b73a",
+          "type": "basic.constant",
+          "data": {
+            "name": "N",
+            "value": "19",
+            "local": false
+          },
+          "position": {
+            "x": -72,
+            "y": 80
+          }
+        },
+        {
+          "id": "9da24591-8efd-4bcf-b9dd-86470cf5184c",
+          "type": "basic.constant",
+          "data": {
+            "name": "ROMFILE",
+            "value": "\"rom0.list\"",
+            "local": false
+          },
+          "position": {
+            "x": 616,
+            "y": -80
+          }
+        },
+        {
+          "id": "522f4259-2128-4d19-958e-cc7c78ea705b",
+          "type": "basic.info",
+          "data": {
+            "info": "Displaying the contents of an 16x8 rom memory in the LEDs\nThe memory is read from the rom0.list file",
+            "readonly": true
+          },
+          "position": {
+            "x": -72,
+            "y": -48
+          },
+          "size": {
+            "width": 464,
+            "height": 48
+          }
+        },
+        {
           "id": "0d35d3f1-1c79-4b4a-a4e9-41c1c082bb7a",
           "type": "basic.code",
           "data": {
@@ -132,19 +145,6 @@
           "size": {
             "width": 352,
             "height": 224
-          }
-        },
-        {
-          "id": "c0815427-2523-4ddf-b95b-74fa5fd6b73a",
-          "type": "basic.constant",
-          "data": {
-            "name": "N",
-            "value": "19",
-            "local": false
-          },
-          "position": {
-            "x": -72,
-            "y": 80
           }
         },
         {
@@ -244,13 +244,6 @@
           }
         }
       ]
-    },
-    "state": {
-      "pan": {
-        "x": 128.4892,
-        "y": 163.2122
-      },
-      "zoom": 0.7374
     }
   },
   "dependencies": {
@@ -366,13 +359,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 42,
-            "y": 35.5
-          },
-          "zoom": 1
         }
       }
     }

@@ -12,30 +12,6 @@
     "graph": {
       "blocks": [
         {
-          "id": "5365ed8c-e5db-4445-938f-8d689830ea5c",
-          "type": "basic.code",
-          "data": {
-            "code": "// NOT logic gate\n\nassign c = ~ a;",
-            "params": [],
-            "ports": {
-              "in": [
-                {
-                  "name": "a"
-                }
-              ],
-              "out": [
-                {
-                  "name": "c"
-                }
-              ]
-            }
-          },
-          "position": {
-            "x": 256,
-            "y": 48
-          }
-        },
-        {
           "id": "18c2ebc7-5152-439c-9b3f-851c59bac834",
           "type": "basic.input",
           "data": {
@@ -72,6 +48,34 @@
             "x": 752,
             "y": 144
           }
+        },
+        {
+          "id": "5365ed8c-e5db-4445-938f-8d689830ea5c",
+          "type": "basic.code",
+          "data": {
+            "code": "// NOT logic gate\n\nassign c = ~ a;",
+            "params": [],
+            "ports": {
+              "in": [
+                {
+                  "name": "a"
+                }
+              ],
+              "out": [
+                {
+                  "name": "c"
+                }
+              ]
+            }
+          },
+          "position": {
+            "x": 256,
+            "y": 48
+          },
+          "size": {
+            "width": 384,
+            "height": 256
+          }
         }
       ],
       "wires": [
@@ -96,13 +100,6 @@
           }
         }
       ]
-    },
-    "state": {
-      "pan": {
-        "x": 0,
-        "y": 0
-      },
-      "zoom": 1
     }
   },
   "dependencies": {}

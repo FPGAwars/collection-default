@@ -12,18 +12,6 @@
     "graph": {
       "blocks": [
         {
-          "id": "50d270a6-3440-4717-aaca-a9c6d619b9a9",
-          "type": "adcbe749ef0e25c7aa10144949fb0d25da2263a7",
-          "position": {
-            "x": 24,
-            "y": -64
-          },
-          "size": {
-            "width": 96,
-            "height": 64
-          }
-        },
-        {
           "id": "bba5bacd-2bbe-48a6-afda-3639d94f801a",
           "type": "basic.output",
           "data": {
@@ -40,18 +28,6 @@
           "position": {
             "x": 360,
             "y": -64
-          }
-        },
-        {
-          "id": "279c2e74-69b0-489f-af8a-1a3b26a8d20e",
-          "type": "32200dc0915d45d6ec035bcec61c8472f0cc7b88",
-          "position": {
-            "x": 208,
-            "y": 16
-          },
-          "size": {
-            "width": 96,
-            "height": 64
           }
         },
         {
@@ -74,15 +50,39 @@
           }
         },
         {
+          "id": "50d270a6-3440-4717-aaca-a9c6d619b9a9",
+          "type": "adcbe749ef0e25c7aa10144949fb0d25da2263a7",
+          "position": {
+            "x": 24,
+            "y": -64
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
+        },
+        {
+          "id": "279c2e74-69b0-489f-af8a-1a3b26a8d20e",
+          "type": "32200dc0915d45d6ec035bcec61c8472f0cc7b88",
+          "position": {
+            "x": 208,
+            "y": 16
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
+        },
+        {
           "id": "c4334cde-6d7f-4932-bd44-7978a59c0b75",
           "type": "basic.info",
           "data": {
-            "info": "Leds 0 and 7 are blinking alternatively",
+            "info": "LEDs 0 and 7 are blinking alternatively",
             "readonly": true
           },
           "position": {
-            "x": -32,
-            "y": 112
+            "x": -48,
+            "y": -128
           },
           "size": {
             "width": 320,
@@ -122,13 +122,6 @@
           }
         }
       ]
-    },
-    "state": {
-      "pan": {
-        "x": 238,
-        "y": 215.5
-      },
-      "zoom": 1
     }
   },
   "dependencies": {
@@ -224,13 +217,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 130,
-            "y": 127.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -346,13 +332,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 42,
-            "y": 35.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -436,13 +415,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 0,
-            "y": 0
-          },
-          "zoom": 1
         }
       }
     }

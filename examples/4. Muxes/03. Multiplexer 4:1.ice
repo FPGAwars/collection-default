@@ -12,6 +12,78 @@
     "graph": {
       "blocks": [
         {
+          "id": "fd675d21-3607-46e6-9c63-e69c6c005b74",
+          "type": "basic.output",
+          "data": {
+            "name": "LED",
+            "pins": [
+              {
+                "index": "0",
+                "name": "LED0",
+                "value": "95"
+              }
+            ],
+            "virtual": false
+          },
+          "position": {
+            "x": 944,
+            "y": 160
+          }
+        },
+        {
+          "id": "4d2baeb4-9869-4afe-9243-f737b01371e5",
+          "type": "basic.input",
+          "data": {
+            "name": "Sel1",
+            "pins": [
+              {
+                "index": "0",
+                "name": "SW1",
+                "value": "10"
+              }
+            ],
+            "virtual": false,
+            "clock": false
+          },
+          "position": {
+            "x": 64,
+            "y": 616
+          }
+        },
+        {
+          "id": "4b1fbfb0-1e86-46ee-97f0-cb296ca5ffe9",
+          "type": "basic.input",
+          "data": {
+            "name": "Sel0",
+            "pins": [
+              {
+                "index": "0",
+                "name": "SW2",
+                "value": "11"
+              }
+            ],
+            "virtual": false,
+            "clock": false
+          },
+          "position": {
+            "x": 64,
+            "y": 696
+          }
+        },
+        {
+          "id": "d79ad3c9-b8ec-41a5-afed-2e11f5995f59",
+          "type": "basic.constant",
+          "data": {
+            "name": "N",
+            "value": "20",
+            "local": false
+          },
+          "position": {
+            "x": 344,
+            "y": 368
+          }
+        },
+        {
           "id": "ad4d801a-1c1a-40f9-b402-df1470ffc90f",
           "type": "basic.info",
           "data": {
@@ -19,12 +91,12 @@
             "readonly": true
           },
           "position": {
-            "x": 24,
-            "y": 16
+            "x": 40,
+            "y": 96
           },
           "size": {
-            "width": 512,
-            "height": 48
+            "width": 280,
+            "height": 88
           }
         },
         {
@@ -64,25 +136,6 @@
           }
         },
         {
-          "id": "fd675d21-3607-46e6-9c63-e69c6c005b74",
-          "type": "basic.output",
-          "data": {
-            "name": "LED",
-            "pins": [
-              {
-                "index": "0",
-                "name": "LED0",
-                "value": "95"
-              }
-            ],
-            "virtual": false
-          },
-          "position": {
-            "x": 944,
-            "y": 160
-          }
-        },
-        {
           "id": "37658231-f6ab-4651-b7e6-9808a18e5118",
           "type": "3e6c249e205080168c1bf4ee8dbc33b50653d5f4",
           "position": {
@@ -116,19 +169,6 @@
           "size": {
             "width": 96,
             "height": 96
-          }
-        },
-        {
-          "id": "d79ad3c9-b8ec-41a5-afed-2e11f5995f59",
-          "type": "basic.constant",
-          "data": {
-            "name": "N",
-            "value": "20",
-            "local": false
-          },
-          "position": {
-            "x": 344,
-            "y": 352
           }
         },
         {
@@ -168,26 +208,6 @@
           }
         },
         {
-          "id": "4d2baeb4-9869-4afe-9243-f737b01371e5",
-          "type": "basic.input",
-          "data": {
-            "name": "Sel1",
-            "pins": [
-              {
-                "index": "0",
-                "name": "SW1",
-                "value": "10"
-              }
-            ],
-            "virtual": false,
-            "clock": false
-          },
-          "position": {
-            "x": 64,
-            "y": 616
-          }
-        },
-        {
           "id": "1c55055e-46c8-4661-8408-d6735fd08422",
           "type": "10d93310e23daeea6814d2c785127dcb17e7527b",
           "position": {
@@ -209,26 +229,6 @@
           "size": {
             "width": 96,
             "height": 64
-          }
-        },
-        {
-          "id": "4b1fbfb0-1e86-46ee-97f0-cb296ca5ffe9",
-          "type": "basic.input",
-          "data": {
-            "name": "Sel0",
-            "pins": [
-              {
-                "index": "0",
-                "name": "SW2",
-                "value": "11"
-              }
-            ],
-            "virtual": false,
-            "clock": false
-          },
-          "position": {
-            "x": 64,
-            "y": 696
           }
         }
       ],
@@ -414,13 +414,6 @@
           }
         }
       ]
-    },
-    "state": {
-      "pan": {
-        "x": 130.371,
-        "y": 30.3871
-      },
-      "zoom": 0.6008
     }
   },
   "dependencies": {
@@ -479,13 +472,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 0,
-            "y": 0
-          },
-          "zoom": 1
         }
       }
     },
@@ -617,13 +603,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": -21.0375,
-            "y": 29.4792
-          },
-          "zoom": 1
         }
       }
     },
@@ -682,13 +661,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 0,
-            "y": 0
-          },
-          "zoom": 1
         }
       }
     },
@@ -784,13 +756,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 130,
-            "y": 127.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -906,13 +871,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 42,
-            "y": 35.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -1026,13 +984,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 0,
-            "y": -1
-          },
-          "zoom": 1
         }
       }
     },
@@ -1143,13 +1094,6 @@
               ]
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": -14,
-            "y": 267.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -1263,13 +1207,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": -146,
-            "y": -0.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -1353,13 +1290,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 0,
-            "y": 0
-          },
-          "zoom": 1
         }
       }
     }

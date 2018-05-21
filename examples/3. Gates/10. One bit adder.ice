@@ -12,38 +12,6 @@
     "graph": {
       "blocks": [
         {
-          "id": "504158f2-beb6-4c8f-8591-949e330810ba",
-          "type": "basic.info",
-          "data": {
-            "info": "1-bit adder",
-            "readonly": true
-          },
-          "position": {
-            "x": 112,
-            "y": 16
-          },
-          "size": {
-            "width": 128,
-            "height": 32
-          }
-        },
-        {
-          "id": "2b5b17c0-95bc-478f-98cc-620d618ba367",
-          "type": "basic.info",
-          "data": {
-            "info": "Sum",
-            "readonly": true
-          },
-          "position": {
-            "x": 560,
-            "y": 64
-          },
-          "size": {
-            "width": 64,
-            "height": 32
-          }
-        },
-        {
           "id": "09cc992c-da78-4144-aaa8-e2cc53a7add8",
           "type": "basic.input",
           "data": {
@@ -64,22 +32,10 @@
           }
         },
         {
-          "id": "b8322c75-00f3-4bc8-8bcd-0d6b6c9c4b44",
-          "type": "08b697cf46f209ed569767242210eb25f35fa5f9",
-          "position": {
-            "x": 376,
-            "y": 104
-          },
-          "size": {
-            "width": 96,
-            "height": 64
-          }
-        },
-        {
           "id": "a491fd68-a6ff-4a2b-b4fe-2a79e87762b4",
           "type": "basic.output",
           "data": {
-            "name": "S",
+            "name": "Sum",
             "pins": [
               {
                 "index": "0",
@@ -115,38 +71,10 @@
           }
         },
         {
-          "id": "2be18a92-0478-4c3b-bdcd-9231020a32f1",
-          "type": "basic.info",
-          "data": {
-            "info": "Carry",
-            "readonly": true
-          },
-          "position": {
-            "x": 560,
-            "y": 208
-          },
-          "size": {
-            "width": 80,
-            "height": 32
-          }
-        },
-        {
-          "id": "58bce531-4e58-4c9b-b8a2-e40517cf4cb6",
-          "type": "11a6f454705778e2f00adba4e5b28dcd9411bc8f",
-          "position": {
-            "x": 384,
-            "y": 248
-          },
-          "size": {
-            "width": 96,
-            "height": 64
-          }
-        },
-        {
           "id": "96283a15-2bee-4e1b-acbf-51e69b1e41fa",
           "type": "basic.output",
           "data": {
-            "name": "C",
+            "name": "Carry",
             "pins": [
               {
                 "index": "0",
@@ -159,6 +87,46 @@
           "position": {
             "x": 560,
             "y": 248
+          }
+        },
+        {
+          "id": "504158f2-beb6-4c8f-8591-949e330810ba",
+          "type": "basic.info",
+          "data": {
+            "info": "1-bit adder",
+            "readonly": true
+          },
+          "position": {
+            "x": 120,
+            "y": 32
+          },
+          "size": {
+            "width": 128,
+            "height": 32
+          }
+        },
+        {
+          "id": "b8322c75-00f3-4bc8-8bcd-0d6b6c9c4b44",
+          "type": "08b697cf46f209ed569767242210eb25f35fa5f9",
+          "position": {
+            "x": 376,
+            "y": 104
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
+        },
+        {
+          "id": "58bce531-4e58-4c9b-b8a2-e40517cf4cb6",
+          "type": "11a6f454705778e2f00adba4e5b28dcd9411bc8f",
+          "position": {
+            "x": 384,
+            "y": 248
+          },
+          "size": {
+            "width": 96,
+            "height": 64
           }
         }
       ],
@@ -236,13 +204,6 @@
           ]
         }
       ]
-    },
-    "state": {
-      "pan": {
-        "x": 67.1415,
-        "y": 88.0242
-      },
-      "zoom": 1.0373
     }
   },
   "dependencies": {
@@ -350,13 +311,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 0,
-            "y": 0
-          },
-          "zoom": 1
         }
       }
     },
@@ -464,13 +418,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 0,
-            "y": 0
-          },
-          "zoom": 1
         }
       }
     }

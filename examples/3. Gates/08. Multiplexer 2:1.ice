@@ -12,6 +12,45 @@
     "graph": {
       "blocks": [
         {
+          "id": "01a0e734-6548-4d89-9d0d-d2833debb0d7",
+          "type": "basic.input",
+          "data": {
+            "name": "Pushbutton",
+            "pins": [
+              {
+                "index": "0",
+                "name": "SW1",
+                "value": "10"
+              }
+            ],
+            "virtual": false,
+            "clock": false
+          },
+          "position": {
+            "x": 64,
+            "y": 152
+          }
+        },
+        {
+          "id": "317c458f-c7bb-49b3-8c4a-58fb0e649e05",
+          "type": "basic.output",
+          "data": {
+            "name": "LED",
+            "pins": [
+              {
+                "index": "0",
+                "name": "LED0",
+                "value": "95"
+              }
+            ],
+            "virtual": false
+          },
+          "position": {
+            "x": 952,
+            "y": 296
+          }
+        },
+        {
           "id": "45aff4a1-59d7-482b-ae24-1f4c6d63d22e",
           "type": "basic.info",
           "data": {
@@ -52,26 +91,6 @@
           }
         },
         {
-          "id": "01a0e734-6548-4d89-9d0d-d2833debb0d7",
-          "type": "basic.input",
-          "data": {
-            "name": "Pushbutton",
-            "pins": [
-              {
-                "index": "0",
-                "name": "SW1",
-                "value": "10"
-              }
-            ],
-            "virtual": false,
-            "clock": false
-          },
-          "position": {
-            "x": 72,
-            "y": 152
-          }
-        },
-        {
           "id": "c520c8e6-25f1-4787-a6f5-09e2f4ae4407",
           "type": "basic.info",
           "data": {
@@ -79,8 +98,8 @@
             "readonly": true
           },
           "position": {
-            "x": 600,
-            "y": 192
+            "x": 632,
+            "y": 160
           },
           "size": {
             "width": 224,
@@ -95,8 +114,8 @@
             "readonly": true
           },
           "position": {
-            "x": 160,
-            "y": 232
+            "x": 184,
+            "y": 224
           },
           "size": {
             "width": 240,
@@ -107,8 +126,8 @@
           "id": "42b2e334-8938-4fa8-a8e8-f641d2580770",
           "type": "32200dc0915d45d6ec035bcec61c8472f0cc7b88",
           "position": {
-            "x": 520,
-            "y": 232
+            "x": 536,
+            "y": 216
           },
           "size": {
             "width": 96,
@@ -120,7 +139,7 @@
           "type": "11a6f454705778e2f00adba4e5b28dcd9411bc8f",
           "position": {
             "x": 664,
-            "y": 248
+            "y": 256
           },
           "size": {
             "width": 96,
@@ -149,25 +168,6 @@
           "size": {
             "width": 96,
             "height": 64
-          }
-        },
-        {
-          "id": "317c458f-c7bb-49b3-8c4a-58fb0e649e05",
-          "type": "basic.output",
-          "data": {
-            "name": "LED",
-            "pins": [
-              {
-                "index": "0",
-                "name": "LED0",
-                "value": "95"
-              }
-            ],
-            "virtual": false
-          },
-          "position": {
-            "x": 952,
-            "y": 296
           }
         },
         {
@@ -202,7 +202,7 @@
             "readonly": true
           },
           "position": {
-            "x": 144,
+            "x": 176,
             "y": 416
           },
           "size": {
@@ -320,13 +320,6 @@
           }
         }
       ]
-    },
-    "state": {
-      "pan": {
-        "x": -6.2903,
-        "y": 61.8065
-      },
-      "zoom": 0.8266
     }
   },
   "dependencies": {
@@ -440,13 +433,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 0,
-            "y": -1
-          },
-          "zoom": 1
         }
       }
     },
@@ -557,13 +543,6 @@
               ]
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": -14,
-            "y": 267.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -677,13 +656,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": -146,
-            "y": -0.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -767,13 +739,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 0,
-            "y": 0
-          },
-          "zoom": 1
         }
       }
     },
@@ -881,13 +846,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 0,
-            "y": 0
-          },
-          "zoom": 1
         }
       }
     },
@@ -983,13 +941,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 130,
-            "y": 127.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -1105,13 +1056,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 42,
-            "y": 35.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -1219,13 +1163,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 0,
-            "y": 0
-          },
-          "zoom": 1
         }
       }
     },
@@ -1284,13 +1221,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 0,
-            "y": 0
-          },
-          "zoom": 1
         }
       }
     }

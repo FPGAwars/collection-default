@@ -12,33 +12,6 @@
     "graph": {
       "blocks": [
         {
-          "id": "00925b04-5004-4307-a737-fa4e97c8b6ab",
-          "type": "basic.code",
-          "data": {
-            "code": "// NOR logic gate\n\nassign c = ~(a | b);",
-            "params": [],
-            "ports": {
-              "in": [
-                {
-                  "name": "a"
-                },
-                {
-                  "name": "b"
-                }
-              ],
-              "out": [
-                {
-                  "name": "c"
-                }
-              ]
-            }
-          },
-          "position": {
-            "x": 256,
-            "y": 48
-          }
-        },
-        {
           "id": "18c2ebc7-5152-439c-9b3f-851c59bac834",
           "type": "basic.input",
           "data": {
@@ -94,6 +67,37 @@
             "x": 64,
             "y": 208
           }
+        },
+        {
+          "id": "00925b04-5004-4307-a737-fa4e97c8b6ab",
+          "type": "basic.code",
+          "data": {
+            "code": "// NOR logic gate\n\nassign c = ~(a | b);",
+            "params": [],
+            "ports": {
+              "in": [
+                {
+                  "name": "a"
+                },
+                {
+                  "name": "b"
+                }
+              ],
+              "out": [
+                {
+                  "name": "c"
+                }
+              ]
+            }
+          },
+          "position": {
+            "x": 256,
+            "y": 48
+          },
+          "size": {
+            "width": 384,
+            "height": 256
+          }
         }
       ],
       "wires": [
@@ -128,13 +132,6 @@
           }
         }
       ]
-    },
-    "state": {
-      "pan": {
-        "x": 0,
-        "y": 0
-      },
-      "zoom": 1
     }
   },
   "dependencies": {}

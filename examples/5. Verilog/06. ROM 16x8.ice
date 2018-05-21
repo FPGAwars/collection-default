@@ -12,22 +12,6 @@
     "graph": {
       "blocks": [
         {
-          "id": "522f4259-2128-4d19-958e-cc7c78ea705b",
-          "type": "basic.info",
-          "data": {
-            "info": "Displaying the contents of an 16x8 rom memory in the LEDs",
-            "readonly": true
-          },
-          "position": {
-            "x": -72,
-            "y": -96
-          },
-          "size": {
-            "width": 480,
-            "height": 32
-          }
-        },
-        {
           "id": "b4f187db-b9ee-4b23-adf5-c217c6570d91",
           "type": "basic.output",
           "data": {
@@ -83,6 +67,35 @@
           }
         },
         {
+          "id": "c0815427-2523-4ddf-b95b-74fa5fd6b73a",
+          "type": "basic.constant",
+          "data": {
+            "name": "N",
+            "value": "19",
+            "local": false
+          },
+          "position": {
+            "x": -72,
+            "y": 32
+          }
+        },
+        {
+          "id": "522f4259-2128-4d19-958e-cc7c78ea705b",
+          "type": "basic.info",
+          "data": {
+            "info": "Displaying the contents of an 16x8 rom memory in the LEDs",
+            "readonly": true
+          },
+          "position": {
+            "x": -72,
+            "y": -96
+          },
+          "size": {
+            "width": 480,
+            "height": 32
+          }
+        },
+        {
           "id": "8d495256-f18a-47d8-8efc-6c95cda181dd",
           "type": "basic.code",
           "data": {
@@ -115,19 +128,6 @@
           "size": {
             "width": 384,
             "height": 208
-          }
-        },
-        {
-          "id": "c0815427-2523-4ddf-b95b-74fa5fd6b73a",
-          "type": "basic.constant",
-          "data": {
-            "name": "N",
-            "value": "19",
-            "local": false
-          },
-          "position": {
-            "x": -72,
-            "y": 32
           }
         },
         {
@@ -217,13 +217,6 @@
           }
         }
       ]
-    },
-    "state": {
-      "pan": {
-        "x": 125.4167,
-        "y": 203.7083
-      },
-      "zoom": 0.7118
     }
   },
   "dependencies": {
@@ -339,13 +332,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 42,
-            "y": 35.5
-          },
-          "zoom": 1
         }
       }
     }

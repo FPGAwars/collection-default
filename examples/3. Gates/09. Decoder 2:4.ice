@@ -12,22 +12,6 @@
     "graph": {
       "blocks": [
         {
-          "id": "504158f2-beb6-4c8f-8591-949e330810ba",
-          "type": "basic.info",
-          "data": {
-            "info": "2 to 4 bits decoder with logic gates",
-            "readonly": true
-          },
-          "position": {
-            "x": 112,
-            "y": 16
-          },
-          "size": {
-            "width": 304,
-            "height": 32
-          }
-        },
-        {
           "id": "09cc992c-da78-4144-aaa8-e2cc53a7add8",
           "type": "basic.input",
           "data": {
@@ -45,30 +29,6 @@
           "position": {
             "x": 112,
             "y": 88
-          }
-        },
-        {
-          "id": "f12949e6-1630-4b0a-86bf-434709bbe668",
-          "type": "32200dc0915d45d6ec035bcec61c8472f0cc7b88",
-          "position": {
-            "x": 464,
-            "y": 88
-          },
-          "size": {
-            "width": 96,
-            "height": 64
-          }
-        },
-        {
-          "id": "debebe32-6adb-4ee2-a9da-99248939d110",
-          "type": "11a6f454705778e2f00adba4e5b28dcd9411bc8f",
-          "position": {
-            "x": 624,
-            "y": 120
-          },
-          "size": {
-            "width": 96,
-            "height": 64
           }
         },
         {
@@ -111,6 +71,103 @@
           }
         },
         {
+          "id": "96283a15-2bee-4e1b-acbf-51e69b1e41fa",
+          "type": "basic.output",
+          "data": {
+            "name": "LED",
+            "pins": [
+              {
+                "index": "0",
+                "name": "LED1",
+                "value": "96"
+              }
+            ],
+            "virtual": false
+          },
+          "position": {
+            "x": 784,
+            "y": 272
+          }
+        },
+        {
+          "id": "64e8eba7-c69a-4771-bb41-1bf3a4210535",
+          "type": "basic.output",
+          "data": {
+            "name": "LED",
+            "pins": [
+              {
+                "index": "0",
+                "name": "LED2",
+                "value": "97"
+              }
+            ],
+            "virtual": false
+          },
+          "position": {
+            "x": 784,
+            "y": 424
+          }
+        },
+        {
+          "id": "9c44fd78-b469-4258-a120-d76d7f364bc3",
+          "type": "basic.output",
+          "data": {
+            "name": "LED",
+            "pins": [
+              {
+                "index": "0",
+                "name": "LED3",
+                "value": "98"
+              }
+            ],
+            "virtual": false
+          },
+          "position": {
+            "x": 784,
+            "y": 536
+          }
+        },
+        {
+          "id": "504158f2-beb6-4c8f-8591-949e330810ba",
+          "type": "basic.info",
+          "data": {
+            "info": "2 to 4 bits decoder with logic gates",
+            "readonly": true
+          },
+          "position": {
+            "x": 112,
+            "y": 24
+          },
+          "size": {
+            "width": 304,
+            "height": 32
+          }
+        },
+        {
+          "id": "f12949e6-1630-4b0a-86bf-434709bbe668",
+          "type": "32200dc0915d45d6ec035bcec61c8472f0cc7b88",
+          "position": {
+            "x": 464,
+            "y": 88
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
+        },
+        {
+          "id": "debebe32-6adb-4ee2-a9da-99248939d110",
+          "type": "11a6f454705778e2f00adba4e5b28dcd9411bc8f",
+          "position": {
+            "x": 624,
+            "y": 120
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
+        },
+        {
           "id": "69b9caf7-0e5c-4742-887a-e3070ebaa96e",
           "type": "32200dc0915d45d6ec035bcec61c8472f0cc7b88",
           "position": {
@@ -132,25 +189,6 @@
           "size": {
             "width": 96,
             "height": 64
-          }
-        },
-        {
-          "id": "96283a15-2bee-4e1b-acbf-51e69b1e41fa",
-          "type": "basic.output",
-          "data": {
-            "name": "LED",
-            "pins": [
-              {
-                "index": "0",
-                "name": "LED1",
-                "value": "96"
-              }
-            ],
-            "virtual": false
-          },
-          "position": {
-            "x": 784,
-            "y": 272
           }
         },
         {
@@ -190,25 +228,6 @@
           }
         },
         {
-          "id": "64e8eba7-c69a-4771-bb41-1bf3a4210535",
-          "type": "basic.output",
-          "data": {
-            "name": "LED",
-            "pins": [
-              {
-                "index": "0",
-                "name": "LED2",
-                "value": "97"
-              }
-            ],
-            "virtual": false
-          },
-          "position": {
-            "x": 784,
-            "y": 424
-          }
-        },
-        {
           "id": "4ed595f0-1559-4cf5-91c6-24c537870110",
           "type": "11a6f454705778e2f00adba4e5b28dcd9411bc8f",
           "position": {
@@ -218,25 +237,6 @@
           "size": {
             "width": 96,
             "height": 64
-          }
-        },
-        {
-          "id": "9c44fd78-b469-4258-a120-d76d7f364bc3",
-          "type": "basic.output",
-          "data": {
-            "name": "LED",
-            "pins": [
-              {
-                "index": "0",
-                "name": "LED3",
-                "value": "98"
-              }
-            ],
-            "virtual": false
-          },
-          "position": {
-            "x": 784,
-            "y": 536
           }
         }
       ],
@@ -439,13 +439,6 @@
           ]
         }
       ]
-    },
-    "state": {
-      "pan": {
-        "x": 70.3562,
-        "y": 27.7534
-      },
-      "zoom": 0.7654
     }
   },
   "dependencies": {
@@ -529,13 +522,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 0,
-            "y": 0
-          },
-          "zoom": 1
         }
       }
     },
@@ -643,13 +629,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 0,
-            "y": 0
-          },
-          "zoom": 1
         }
       }
     }

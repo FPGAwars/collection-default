@@ -12,37 +12,6 @@
     "graph": {
       "blocks": [
         {
-          "id": "e5222a6e-4717-4f08-99d7-7cde897060ca",
-          "type": "basic.code",
-          "data": {
-            "code": "// D flip-flop\n\nreg q = 1'b0;\n\nalways @(posedge clk)\nbegin\n  q <= d;\nend\n\n",
-            "params": [],
-            "ports": {
-              "in": [
-                {
-                  "name": "clk"
-                },
-                {
-                  "name": "d"
-                }
-              ],
-              "out": [
-                {
-                  "name": "q"
-                }
-              ]
-            }
-          },
-          "position": {
-            "x": 432,
-            "y": 128
-          },
-          "size": {
-            "width": 368,
-            "height": 272
-          }
-        },
-        {
           "id": "6855f64f-fa1c-4371-b2e1-a98970674a96",
           "type": "basic.input",
           "data": {
@@ -100,6 +69,37 @@
             "x": 232,
             "y": 304
           }
+        },
+        {
+          "id": "e5222a6e-4717-4f08-99d7-7cde897060ca",
+          "type": "basic.code",
+          "data": {
+            "code": "// D flip-flop\n\nreg q = 1'b0;\n\nalways @(posedge clk)\nbegin\n  q <= d;\nend\n\n",
+            "params": [],
+            "ports": {
+              "in": [
+                {
+                  "name": "clk"
+                },
+                {
+                  "name": "d"
+                }
+              ],
+              "out": [
+                {
+                  "name": "q"
+                }
+              ]
+            }
+          },
+          "position": {
+            "x": 432,
+            "y": 128
+          },
+          "size": {
+            "width": 368,
+            "height": 272
+          }
         }
       ],
       "wires": [
@@ -134,13 +134,6 @@
           }
         }
       ]
-    },
-    "state": {
-      "pan": {
-        "x": -146,
-        "y": -0.5
-      },
-      "zoom": 1
     }
   },
   "dependencies": {}

@@ -12,18 +12,6 @@
     "graph": {
       "blocks": [
         {
-          "id": "34de8dc8-89f3-4579-b4ec-f7a65b88a584",
-          "type": "adcbe749ef0e25c7aa10144949fb0d25da2263a7",
-          "position": {
-            "x": 160,
-            "y": 96
-          },
-          "size": {
-            "width": 96,
-            "height": 64
-          }
-        },
-        {
           "id": "d5975d7e-4231-4538-bf89-f762a63cb10a",
           "type": "basic.output",
           "data": {
@@ -43,6 +31,18 @@
           }
         },
         {
+          "id": "34de8dc8-89f3-4579-b4ec-f7a65b88a584",
+          "type": "adcbe749ef0e25c7aa10144949fb0d25da2263a7",
+          "position": {
+            "x": 160,
+            "y": 96
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
+        },
+        {
           "id": "2464d2a6-3648-4fbc-bbcc-b0c3e8d1e935",
           "type": "basic.info",
           "data": {
@@ -50,8 +50,8 @@
             "readonly": true
           },
           "position": {
-            "x": 128,
-            "y": 200
+            "x": 160,
+            "y": 24
           },
           "size": {
             "width": 128,
@@ -71,13 +71,6 @@
           }
         }
       ]
-    },
-    "state": {
-      "pan": {
-        "x": 130,
-        "y": 83.5
-      },
-      "zoom": 1
     }
   },
   "dependencies": {
@@ -173,13 +166,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 130,
-            "y": 127.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -295,13 +281,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 42,
-            "y": 35.5
-          },
-          "zoom": 1
         }
       }
     }

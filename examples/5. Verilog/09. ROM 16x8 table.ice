@@ -88,12 +88,12 @@
             "local": false
           },
           "position": {
-            "x": 552,
-            "y": -128
+            "x": 600,
+            "y": -192
           },
           "size": {
-            "width": 224,
-            "height": 112
+            "width": 128,
+            "height": 176
           }
         },
         {

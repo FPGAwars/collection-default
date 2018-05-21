@@ -13,36 +13,6 @@
     "graph": {
       "blocks": [
         {
-          "id": "5c8e9a35-33e7-46ef-a0cc-cc27edcc99c0",
-          "type": "basic.code",
-          "data": {
-            "code": "  SB_IO #(\n      .PIN_TYPE(6'b1010_01),\n      .PULLUP(1'b0)\n  ) triState (\n      .PACKAGE_PIN(pin),\n      .OUTPUT_ENABLE(oe),\n      .D_OUT_0(din),\n      .D_IN_0(dout)\n  );",
-            "params": [],
-            "ports": {
-              "in": [
-                {
-                  "name": "pin"
-                },
-                {
-                  "name": "oe"
-                },
-                {
-                  "name": "din"
-                }
-              ],
-              "out": [
-                {
-                  "name": "dout"
-                }
-              ]
-            }
-          },
-          "position": {
-            "x": 248,
-            "y": 32
-          }
-        },
-        {
           "id": "076fd025-aa42-4f23-ae97-b65aec2298ce",
           "type": "basic.input",
           "data": {
@@ -117,6 +87,40 @@
             "x": 32,
             "y": 216
           }
+        },
+        {
+          "id": "5c8e9a35-33e7-46ef-a0cc-cc27edcc99c0",
+          "type": "basic.code",
+          "data": {
+            "code": "  SB_IO #(\n      .PIN_TYPE(6'b1010_01),\n      .PULLUP(1'b0)\n  ) triState (\n      .PACKAGE_PIN(pin),\n      .OUTPUT_ENABLE(oe),\n      .D_OUT_0(din),\n      .D_IN_0(dout)\n  );",
+            "params": [],
+            "ports": {
+              "in": [
+                {
+                  "name": "pin"
+                },
+                {
+                  "name": "oe"
+                },
+                {
+                  "name": "din"
+                }
+              ],
+              "out": [
+                {
+                  "name": "dout"
+                }
+              ]
+            }
+          },
+          "position": {
+            "x": 248,
+            "y": 32
+          },
+          "size": {
+            "width": 384,
+            "height": 256
+          }
         }
       ],
       "wires": [
@@ -161,13 +165,6 @@
           }
         }
       ]
-    },
-    "state": {
-      "pan": {
-        "x": 0,
-        "y": 0
-      },
-      "zoom": 1
     }
   },
   "dependencies": {}
