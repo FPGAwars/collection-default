@@ -1,13 +1,13 @@
 # Default Collection
 
 [![Icestudio](https://img.shields.io/badge/collection-icestudio-blue.svg)](https://github.com/FPGAwars/icestudio)
-![Version](https://img.shields.io/badge/version-v0.3.0-orange.svg)
+![Version](https://img.shields.io/badge/version-v0.3.3--rc-orange.svg)
 
 Default collection in Icestudio.
 
 ## Install
 
-* Download the collection: [stable](https://github.com/FPGAwars/collection-default/archive/v0.3.0.zip) or [development](https://github.com/FPGAwars/collection-default/archive/master.zip)
+* Download the collection: [stable](https://github.com/FPGAwars/collection-default/archive/v0.3.3-rc.zip) or [development](https://github.com/FPGAwars/collection-default/archive/master.zip)
 * Install the collection: *Tools > Collections > Add*
 * Load the collection: *Select > Collection*
 
@@ -66,7 +66,13 @@ Default collection in Icestudio.
   * 02\. LED three states
   * 03\. Multiplexer 4:1
   * 04\. Shift register
-* *5\. Verilog*
+* *5\. Markdown*
+  * 01\.Headers-list-fonts
+  * 02\.Links-and-images
+  * 03\.Tables
+  * 04\.code-task-list
+  * 05\.Youtube-videos
+* *6\. Verilog*
   * 01\. Four bits fixed binary value
   * 02\. Four bits fixed hexadecimal value
   * 03\. Eight bits fixed value buses
