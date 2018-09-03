@@ -44,22 +44,6 @@
           }
         },
         {
-          "id": "9d06a4da-1662-4282-9332-fbf596149d73",
-          "type": "basic.info",
-          "data": {
-            "info": " <iframe width=\"420\" height=\"315\"\nsrc=\"https://www.youtube.com/embed/boXZusFCCIU\">\n</iframe> ",
-            "readonly": true
-          },
-          "position": {
-            "x": 424,
-            "y": 288
-          },
-          "size": {
-            "width": 424,
-            "height": 432
-          }
-        },
-        {
           "id": "900582ef-dd87-40d6-97cc-19e1885fd39f",
           "type": "basic.info",
           "data": {
@@ -71,24 +55,8 @@
             "y": 224
           },
           "size": {
-            "width": 552,
-            "height": 496
-          }
-        },
-        {
-          "id": "ec8dee0c-4d3f-4f06-b811-824633504bfb",
-          "type": "basic.info",
-          "data": {
-            "info": "This is an example on how to **embed** a youtube video...  \nBut it is not playable... yet...",
-            "readonly": true
-          },
-          "position": {
-            "x": 424,
-            "y": 216
-          },
-          "size": {
-            "width": 488,
-            "height": 56
+            "width": 600,
+            "height": 464
           }
         }
       ],
