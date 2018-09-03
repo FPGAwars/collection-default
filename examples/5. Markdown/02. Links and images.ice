@@ -20,7 +20,7 @@
           },
           "position": {
             "x": 64,
-            "y": 40
+            "y": 32
           },
           "size": {
             "width": 656,
@@ -31,12 +31,12 @@
           "id": "e7303b87-85b6-4d45-8868-3e9ebe883a08",
           "type": "basic.info",
           "data": {
-            "info": "### Images\n\nIt is also possible to include images, but they are only rendered if there is internet connection\n",
+            "info": "### Images :smiley:\n\nIt is also possible to include images, but they are only rendered if there is internet connection\n",
             "readonly": true
           },
           "position": {
             "x": 64,
-            "y": 120
+            "y": 128
           },
           "size": {
             "width": 784,
@@ -115,12 +115,12 @@
             "readonly": true
           },
           "position": {
-            "x": -9.094947017729282e-13,
+            "x": 8.185452315956354e-12,
             "y": 696
           },
           "size": {
-            "width": 1048,
-            "height": 808
+            "width": 928,
+            "height": 680
           }
         },
         {

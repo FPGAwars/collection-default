@@ -114,7 +114,7 @@ gettext('01. Headers list fonts');
 gettext('# Markdown example\n\nThis is an example of an information block written in markdown  \nJust doble-click on this note to edit it  \n\n## Font styles\n\nIn markdown you can write in **bold** or *italic* font very easily  \n\n## List\n\nExample of lists\n\n### unordered\n\n* Item 1\n* Item 2\n  * Item 2a\n  * Item 2b\n\n### ordered\n\n1. Item 1\n1. Item 2\n1. Item 3\n   1. Item 3a\n   1. Item 3b\n');
 gettext('02. Links and images');
 gettext('### Link example\n\nYou can find **more information** about Markdown in this page: [Mastering markdown](https://guides.github.com/features/mastering-markdown/)');
-gettext('### Images\n\nIt is also possible to include images, but they are only rendered if there is internet connection\n');
+gettext('### Images :smiley:\n\nIt is also possible to include images, but they are only rendered if there is internet connection\n');
 gettext('**PNG image**');
 gettext('![](https://github.com/FPGAwars/icestudio-block-icons/raw/master/Logos/png/icestudio-logo.png)');
 gettext('![](https://github.com/FPGAwars/icestudio-block-icons/raw/master/Logos/icestudio-logo.svg?sanitize=true)\n');
