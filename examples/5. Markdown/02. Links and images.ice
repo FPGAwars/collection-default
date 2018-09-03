@@ -15,7 +15,7 @@
           "id": "efeb667d-ef29-4efd-b931-cd79118041b4",
           "type": "basic.info",
           "data": {
-            "info": "### Link example\n\nYou can find information **more information** about Markdown in this page: [Mastering markdown](https://guides.github.com/features/mastering-markdown/)",
+            "info": "### Link example\n\nYou can find **more information** about Markdown in this page: [Mastering markdown](https://guides.github.com/features/mastering-markdown/)",
             "readonly": true
           },
           "position": {

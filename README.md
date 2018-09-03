@@ -67,11 +67,11 @@ Default collection in Icestudio.
   * 03\. Multiplexer 4:1
   * 04\. Shift register
 * *5\. Markdown*
-  * 01\.Headers-list-fonts
-  * 02\.Links-and-images
-  * 03\.Tables
-  * 04\.code-task-list
-  * 05\.Youtube-videos
+  * 01\. Headers list fonts
+  * 02\. Links and images
+  * 03\. Tables
+  * 04\. Code task list
+  * 05\. Youtube videos
 * *6\. Verilog*
   * 01\. Four bits fixed binary value
   * 02\. Four bits fixed hexadecimal value
