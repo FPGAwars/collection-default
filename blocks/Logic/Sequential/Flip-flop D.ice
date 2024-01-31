@@ -71,11 +71,22 @@
           }
         },
         {
+          "id": "7c0dcfe6-efa3-47d5-bc41-b52e1a3daf47",
+          "type": "basic.constant",
+          "data": {
+            "name": "INI",
+            "value": "0",
+            "local": false
+          },
+          "position": {
+            "x": 568,
+            "y": 16
+          }
+        },
+        {
           "id": "e5222a6e-4717-4f08-99d7-7cde897060ca",
           "type": "basic.code",
           "data": {
-            "code": "// D flip-flop\n\nreg q = 1'b0;\n\nalways @(posedge clk)\nbegin\n  q <= d;\nend\n\n",
-            "params": [],
             "ports": {
               "in": [
                 {
@@ -89,8 +100,16 @@
                 {
                   "name": "q"
                 }
-              ]
-            }
+              ],
+              "inoutLeft": [],
+              "inoutRight": []
+            },
+            "params": [
+              {
+                "name": "INI"
+              }
+            ],
+            "code": "// D flip-flop\n\n//-- Initial value\nreg qi = INI;\n\n//-- On the rising edge of the  \n//-- system clock put input\n//-- data in register qi\nalways @(posedge clk)\n  qi <= d;\n\n//-- The output pin q reflects\n//-- the state of register qi\nassign q = qi;\n\n"
           },
           "position": {
             "x": 432,
@@ -131,6 +150,16 @@
           "target": {
             "block": "ffdd9aa2-aea3-4aa9-8431-80e799226774",
             "port": "in"
+          }
+        },
+        {
+          "source": {
+            "block": "7c0dcfe6-efa3-47d5-bc41-b52e1a3daf47",
+            "port": "constant-out"
+          },
+          "target": {
+            "block": "e5222a6e-4717-4f08-99d7-7cde897060ca",
+            "port": "INI"
           }
         }
       ]
