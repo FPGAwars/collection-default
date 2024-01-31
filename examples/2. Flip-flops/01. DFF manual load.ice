@@ -138,37 +138,6 @@
         "graph": {
           "blocks": [
             {
-              "id": "e5222a6e-4717-4f08-99d7-7cde897060ca",
-              "type": "basic.code",
-              "data": {
-                "code": "// D flip-flop\n\nreg q = 1'b0;\n\nalways @(posedge clk)\nbegin\n  q <= d;\nend\n\n",
-                "params": [],
-                "ports": {
-                  "in": [
-                    {
-                      "name": "clk"
-                    },
-                    {
-                      "name": "d"
-                    }
-                  ],
-                  "out": [
-                    {
-                      "name": "q"
-                    }
-                  ]
-                }
-              },
-              "position": {
-                "x": 432,
-                "y": 128
-              },
-              "size": {
-                "width": 368,
-                "height": 272
-              }
-            },
-            {
               "id": "6855f64f-fa1c-4371-b2e1-a98970674a96",
               "type": "basic.input",
               "data": {
@@ -202,6 +171,56 @@
                 "x": 232,
                 "y": 304
               }
+            },
+            {
+              "id": "5c23f968-b0f2-4f1a-bad0-397e50c34c0c",
+              "type": "basic.constant",
+              "data": {
+                "name": "",
+                "value": "0",
+                "local": false
+              },
+              "position": {
+                "x": 568,
+                "y": 32
+              }
+            },
+            {
+              "id": "e5222a6e-4717-4f08-99d7-7cde897060ca",
+              "type": "basic.code",
+              "data": {
+                "ports": {
+                  "in": [
+                    {
+                      "name": "clk"
+                    },
+                    {
+                      "name": "d"
+                    }
+                  ],
+                  "out": [
+                    {
+                      "name": "q"
+                    }
+                  ],
+                  "inoutLeft": [],
+                  "inoutRight": []
+                },
+                "params": [
+                  {
+                    "name": "INI"
+                  }
+                ],
+                "code": "// D flip-flop\n\n//-- Initial value\nreg qi = INI;\n\n//-- On the rising edge of the  \n//-- system clock put input\n//-- data in register qi\nalways @(posedge clk)\n  qi <= d;\n\n//-- The output pin q reflects\n//-- the state of register qi\nassign q = qi;\n"
+              },
+              "position": {
+                "x": 432,
+                "y": 128
+              },
+              "size": {
+                "width": 368,
+                "height": 272
+              }
             }
           ],
           "wires": [
@@ -233,6 +252,16 @@
               "target": {
                 "block": "ffdd9aa2-aea3-4aa9-8431-80e799226774",
                 "port": "in"
+              }
+            },
+            {
+              "source": {
+                "block": "5c23f968-b0f2-4f1a-bad0-397e50c34c0c",
+                "port": "constant-out"
+              },
+              "target": {
+                "block": "e5222a6e-4717-4f08-99d7-7cde897060ca",
+                "port": "INI"
               }
             }
           ]
