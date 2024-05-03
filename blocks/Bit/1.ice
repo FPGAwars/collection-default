@@ -1,68 +1,60 @@
 {
   "version": "1.2",
   "package": {
-    "name": "Bit 1",
-    "version": "1.0.0",
-    "description": "Assign 1 to the output wire",
-    "author": "Jesús Arroyo",
-    "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2247.303%22%20height=%2227.648%22%20viewBox=%220%200%2044.346456%2025.919999%22%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22325.218%22%20y=%22315.455%22%20font-weight=%22400%22%20font-size=%2212.669%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20transform=%22translate(-307.01%20-298.51)%22%3E%3Ctspan%20x=%22325.218%22%20y=%22315.455%22%20style=%22-inkscape-font-specification:'Courier%2010%20Pitch'%22%20font-family=%22Courier%2010%20Pitch%22%3E1%3C/tspan%3E%3C/text%3E%3C/svg%3E"
+    "name": "bit-1",
+    "version": "0.2",
+    "description": "Constant bit 1",
+    "author": "Jesus Arroyo",
+    "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2289.79%22%20height=%22185.093%22%20viewBox=%220%200%2084.179064%20173.52585%22%3E%3Cpath%20d=%22M7.702%2032.42L49.972%200l34.207%207.725-27.333%20116.736-26.607-6.01L51.26%2025.273%2020.023%2044.2z%22%20fill=%22green%22%20fill-rule=%22evenodd%22/%3E%3Cpath%20d=%22M46.13%20117.28l21.355%2028.258-17.91%2021.368%206.198%205.513m-14.033-54.45l-12.4%2028.26-28.242%205.512%202.067%208.959%22%20fill=%22none%22%20stroke=%22green%22%20stroke-width=%222.196%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3C/svg%3E"
   },
   "design": {
-    "board": "icezum",
+    "board": "alhambra-ii",
     "graph": {
       "blocks": [
         {
-          "id": "19c8f68d-5022-487f-9ab0-f0a3cd58bead",
+          "id": "3d584b0a-29eb-47af-8c43-c0822282ef05",
           "type": "basic.output",
           "data": {
-            "name": "",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": "0"
-              }
-            ],
-            "virtual": true
+            "name": ""
           },
           "position": {
-            "x": 608,
-            "y": 192
+            "x": 456,
+            "y": 120
           }
         },
         {
-          "id": "b959fb96-ac67-4aea-90b3-ed35a4c17bf5",
+          "id": "61331ec5-2c56-4cdd-b607-e63b1502fa65",
           "type": "basic.code",
           "data": {
-            "code": "// Bit 1\n\nassign v = 1'b1;",
+            "code": "//-- Constant bit-1\nassign q = 1'b1;\n\n",
             "params": [],
             "ports": {
               "in": [],
               "out": [
                 {
-                  "name": "v"
+                  "name": "q"
                 }
               ]
             }
           },
           "position": {
-            "x": 96,
-            "y": 96
+            "x": 168,
+            "y": 112
           },
           "size": {
-            "width": 384,
-            "height": 256
+            "width": 248,
+            "height": 80
           }
         }
       ],
       "wires": [
         {
           "source": {
-            "block": "b959fb96-ac67-4aea-90b3-ed35a4c17bf5",
-            "port": "v"
+            "block": "61331ec5-2c56-4cdd-b607-e63b1502fa65",
+            "port": "q"
           },
           "target": {
-            "block": "19c8f68d-5022-487f-9ab0-f0a3cd58bead",
+            "block": "3d584b0a-29eb-47af-8c43-c0822282ef05",
             "port": "in"
           }
         }
