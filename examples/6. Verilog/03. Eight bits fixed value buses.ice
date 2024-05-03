@@ -8,7 +8,7 @@
     "image": ""
   },
   "design": {
-    "board": "icezum",
+    "board": "alhambra-ii",
     "graph": {
       "blocks": [
         {
@@ -21,42 +21,42 @@
               {
                 "index": "7",
                 "name": "LED7",
-                "value": "104"
+                "value": "37"
               },
               {
                 "index": "6",
                 "name": "LED6",
-                "value": "102"
+                "value": "38"
               },
               {
                 "index": "5",
                 "name": "LED5",
-                "value": "101"
+                "value": "39"
               },
               {
                 "index": "4",
                 "name": "LED4",
-                "value": "99"
+                "value": "41"
               },
               {
                 "index": "3",
                 "name": "LED3",
-                "value": "98"
+                "value": "42"
               },
               {
                 "index": "2",
                 "name": "LED2",
-                "value": "97"
+                "value": "43"
               },
               {
                 "index": "1",
                 "name": "LED1",
-                "value": "96"
+                "value": "44"
               },
               {
                 "index": "0",
                 "name": "LED0",
-                "value": "95"
+                "value": "45"
               }
             ],
             "virtual": false
