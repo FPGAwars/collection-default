@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-09-03 06:16+0200\n"
+"POT-Creation-Date: 2024-06-14 19:58+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.7.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: translation.js\n"
 
@@ -31,16 +31,16 @@ msgid "0"
 msgstr "0"
 
 #: translation.js:14
-msgid "Assign 0 to the output wire"
-msgstr "Asignar 0 al cable de salida"
+msgid "Constant bit 0"
+msgstr "Bit 0 constante"
 
 #: translation.js:15
 msgid "1"
 msgstr "1"
 
 #: translation.js:16
-msgid "Assign 1 to the output wire"
-msgstr "Asignar 1 al cable de salida"
+msgid "Constant bit 1"
+msgstr "Bit 1 constante"
 
 #: translation.js:17
 msgid "Combinational"
@@ -55,222 +55,773 @@ msgid "Sequential"
 msgstr "Secuencial"
 
 #: translation.js:20
-msgid "Mux 2:1"
-msgstr "Mux 2:1"
+msgid "Mux 2-1"
+msgstr "Mux 2-1"
 
 #: translation.js:21
-msgid "Multiplexer 2:1"
-msgstr "Multiplexor 2 a 1"
+msgid "2-to-1 Multplexer (1-bit channels). Verilog implementation"
+msgstr "Multiplexor 2-1 (Canales de 1 bit). Implementación en Verilog"
 
 #: translation.js:22
 msgid "AND"
 msgstr "AND"
 
 #: translation.js:23
-msgid "AND logic gate"
-msgstr "Puerta lógica AND"
+msgid "Two bits input And gate"
+msgstr "Puerta And de entrada de dos bits"
 
 #: translation.js:24
 msgid "NAND"
 msgstr "NAND"
 
 #: translation.js:25
-msgid "NAND logic gate"
-msgstr "Puerta lógica NAND"
+msgid "Nand-x02: two input NAND gate. Verilog implementation"
+msgstr "Nand-x02: Puerta NAND de dos entradas. Implementación en verilog"
 
 #: translation.js:26
 msgid "NOR"
 msgstr "NOR"
 
 #: translation.js:27
-msgid "NOR logic gate"
-msgstr "Puerta lógica NOR"
+msgid "Nor-x02-verilog: 2 input NOR gate. Verilog implementation"
+msgstr "Nor-x02-verilog: Puerta NOR de dos entradas. Implementación en verilog"
 
 #: translation.js:28
 msgid "NOT"
 msgstr "NOT"
 
 #: translation.js:29
-msgid "NOT logic gate"
-msgstr "Puerta lógica NOT"
+msgid "NOT gate (Verilog implementation)"
+msgstr "Puerta NOT (Implementación en verilog)"
 
 #: translation.js:30
+msgid "Input"
+msgstr "Entrada"
+
+#: translation.js:31
+msgid "Output"
+msgstr "Salida"
+
+#: translation.js:32
 msgid "OR"
 msgstr "OR"
 
-#: translation.js:31
-msgid "OR logic gate"
-msgstr "Puerta lógica OR"
+#: translation.js:33
+msgid "OR2: Two bits input OR gate"
+msgstr "OR2: Puerta OR de entrada de 2 bits"
 
-#: translation.js:32
+#: translation.js:34
 msgid "XNOR"
 msgstr "XNOR"
 
-#: translation.js:33
-msgid "XNOR logic gate"
-msgstr "Puerta lógica XNOR"
-
-#: translation.js:34
+#: translation.js:35
 msgid "XOR"
 msgstr "XOR"
 
-#: translation.js:35
-msgid "XOR logic gate"
-msgstr "Puerta lógica XOR"
-
 #: translation.js:36
+msgid "XOR gate: 2-bits input xor gate. Verilog implementation"
+msgstr "XOR-gate: Puerta XOR de 2-bits. Implementación en verilog"
+
+#: translation.js:37
 msgid "Debouncer"
 msgstr "Antirrebotes"
 
-#: translation.js:37
+#: translation.js:38
 msgid "Remove the rebound on a mechanical switch"
 msgstr "Eliminar los rebotes en los pulsadores mecánicos"
 
-#: translation.js:38
-msgid "Flip-flop D"
-msgstr "Biestable D"
-
 #: translation.js:39
-msgid "Delay flip-flop"
-msgstr "Biestable tipo D"
+msgid ""
+"Edges detector. It generates a 1-period pulse (tic) when either a rising "
+"edge or a falling edge is detected on the input. Block implementation"
+msgstr ""
+"Detector de flancos. Genera un pulso de 1 ciclo (tic) cuando llega un flanco "
+"de subida o uno de bajada por la entrada. Implementación con bloques"
 
 #: translation.js:40
-msgid "Flip-flop T"
-msgstr "Biestable T"
+msgid "XOR gate: two bits input xor gate"
+msgstr "XOR gate: Puerta XOR de dos bits de entrada"
 
 #: translation.js:41
-msgid "Toggle flip-flop"
-msgstr "Biestable tipo T"
+msgid ""
+"System - D Flip-flop. Capture data every system clock cycle. Verilog "
+"implementation"
+msgstr ""
+"Biestable D del sistema. Captura el data en cada ciclo del sistema. "
+"Implementación en verilog"
 
 #: translation.js:42
-msgid "Prescaler22"
-msgstr "Prescaler22"
+msgid "DFF. D Flip-flop. Verilog implementation"
+msgstr "DFF. Biestable D (Implementación en Verilog)"
 
 #: translation.js:43
-msgid "22-bits prescaler"
-msgstr "Prescaler de 22 bits"
+msgid "16-bits Syscounter with reset"
+msgstr "Contador del sistema de 16 bits con reset"
 
 #: translation.js:44
-msgid "Parametric N-bits prescaler"
-msgstr "Prescaler de N bits"
+msgid "Inc1-16bit: Increment a 16-bits number by one"
+msgstr "Inc1-16bit: Incrementar un número de 16-bits en uno"
 
 #: translation.js:45
-msgid "PrescalerN"
-msgstr "PrescalerN"
+msgid "AdderK-16bit: Adder of 16-bit operand and 16-bit constant"
+msgstr "AdderK-16bit: Sumador de un operando y una constante de 16 bits"
 
 #: translation.js:46
-msgid "Pull-up"
-msgstr "Pull-up"
+msgid "Generic: 16-bits generic constant"
+msgstr "Generic: Constante genérica de 16-bits"
 
 #: translation.js:47
-msgid "FPGA internal pull-up configuration on the connected input port"
-msgstr "Resistencia de pull-up interna de la FPGA en el pin de entrada"
+msgid "Adder-16bits: Adder of two operands of 16 bits"
+msgstr "Adder-16bits: Sumador de dos operandos de 16 bits"
 
 #: translation.js:48
-msgid "Tri-state"
-msgstr "Triestado"
+msgid "Bus16-Split-half: Split the 16-bits bus into two buses of the same size"
+msgstr ""
+"Bus16-Split-half: Dividir el bus de 16 bits en dos buses del mismo tamaño"
 
 #: translation.js:49
-msgid "Tri-state logic block"
-msgstr "Bloque lógico triestado"
+msgid "Adder-8bits: Adder of two operands of 8 bits"
+msgstr "Adder-8bits: Sumador de dos operandos de 8 bits"
 
 #: translation.js:50
-msgid "1. Basic"
-msgstr "1. Básico"
+msgid "Bus8-Split-half: Split the 8-bits bus into two buses of the same size"
+msgstr ""
+"Bus8-Split-half: Separar el bus de 8 bits en dos buses del mismo tamaño"
 
 #: translation.js:51
-msgid "2. Flip-flops"
-msgstr "2. Biestables"
+msgid "Adder-4bits: Adder of two operands of 4 bits"
+msgstr "Adder-4bits: Sumador de dos operandos de 4 bits"
 
 #: translation.js:52
-msgid "3. Gates"
-msgstr "3. Puertas"
+msgid "Adder-1bit: Adder of two operands of 1 bit"
+msgstr "Adder-1bit: Sumador de dos operandos de 1 bit"
 
 #: translation.js:53
-msgid "4. Muxes"
-msgstr "4. Multiplexores"
+msgid "AdderC-1bit: Adder of two operands of 1 bit plus the carry in"
+msgstr ""
+"AdderC-1bit: Sumador de dos operandos de 1 bit más el acarreo de entrada"
 
 #: translation.js:54
-msgid "5. Markdown"
-msgstr "5. Markdown"
+msgid "Bus4-Split-all: Split the 4-bits bus into its wires"
+msgstr "Bus4-Split-all: Dividir el bus de 4-bits en sus cuatro cables"
 
 #: translation.js:55
-msgid "6. Verilog"
-msgstr "6. Verilog"
+msgid "Bus4-Join-all: Join all the wires into a 4-bits Bus"
+msgstr "Bus4-Join-all: Agrupar todos los cables en un bus de 4-bits"
 
 #: translation.js:56
-msgid "01. One LED"
-msgstr "01. Un LED"
+msgid "Bus8-Join-half: Join the two same halves into an 8-bits Bus"
+msgstr "Bus8-Join-half: Agrupar las dos mitades en un bus de 8 bits"
 
 #: translation.js:57
-msgid "Turn on a LED"
-msgstr "Encender un LED"
+msgid "AdderC-4bits: Adder of two operands of 4 bits and Carry in"
+msgstr ""
+"AdderC-4bit: Sumador de dos operandos de 4 bit más el acarreo de entrada"
 
 #: translation.js:58
-msgid "02. Two LEDs"
-msgstr "02. Dos LEDs"
+msgid "AdderC-8bits: Adder of two operands of 8 bits and Carry in"
+msgstr ""
+"AdderC-8bit: Sumador de dos operandos de 8 bit más el acarreo de entrada"
 
 #: translation.js:59
-msgid "Turn on two LEDs"
-msgstr "Encender dos LEDs"
+msgid "Bus16-Join-half: Join the two same halves into an 16-bits Bus"
+msgstr "Bus 16-Join-half: Unir las dos mitades en un bus de 16-bits"
 
 #: translation.js:60
-msgid "03. Three LEDs"
-msgstr "03. Tres LEDs"
+msgid ""
+"16-Sys-reg-rst: 16 bits system register with reset. Verilog implementation"
+msgstr ""
+"16-Sys-reg-rst: Registro del sistema de 16 bits con entradas de reset. "
+"Implementación en Verilog"
 
 #: translation.js:61
-msgid "Turn on three LEDs"
-msgstr "Encender tres LEDs"
+msgid "Edge detector"
+msgstr "Detector de flancos"
 
 #: translation.js:62
-msgid "04. One LED blink"
-msgstr "04. Parpadeo de un LED"
+msgid ""
+"Whenever there is a change in  \n"
+"the input, the counter is started"
+msgstr ""
+"En cuanto hay un cambio en  \n"
+"la entrada, el contador se arranca"
 
 #: translation.js:63
-msgid "Blinking LED"
-msgstr "LED parpadeante"
+msgid ""
+"If the counter reaches it maximum  \n"
+"value, the input is considered stable  \n"
+"and it is captured"
+msgstr ""
+"Si el contador alcanza su máximo  \n"
+"valor, la entrada se considera estable  \n"
+"y se captura"
 
 #: translation.js:64
-msgid "05. Two LEDs alternate blink"
-msgstr "05. Dos LEDs parpadeando alternativamente"
+msgid ""
+"### Time calculation\n"
+"\n"
+"For CLK=12MHZ, a 16-bit counter reaches its  \n"
+"maximum every 2 ** 16 * 1/F = 5.5ms aprox  \n"
+"IF more time is needed for debouncing,  \n"
+"use a counter with more bits (17, 18...)"
+msgstr ""
+"### Cálculo del tiempo\n"
+"\n"
+"Para CLK=12MHZ, un contador de 16-bits alcanza  \n"
+"su máximo cada 2 ** 16 * 1/F = 5.5ms aprox  \n"
+"Si se necesita más tiempo para el antirrebotes,  \n"
+"usar un contador con más bits (17, 18...)"
 
 #: translation.js:65
-msgid "LEDs 0 and 7 are blinking alternatively"
-msgstr "Los LEDs 0 y 7 parpadean alternativamente"
+msgid ""
+"## Debouncer  \n"
+"\n"
+"A value is considered stable when  \n"
+"there is no changes during 5.5ms  \n"
+"aprox. When a value is stable it is  \n"
+"captured on the output flip-flop"
+msgstr ""
+"## Antirrebotes  \n"
+"\n"
+"Un valor se considera estable cuando  \n"
+"no hay cambios durante 5.5ms aprox.  \n"
+"Cuando un valor es estable se captura  \n"
+"en la salida del Biestable"
 
 #: translation.js:66
-msgid "06. Pushbutton and LED"
-msgstr "06. Pulsador y LED"
+msgid "Stable output"
+msgstr "Salida estable"
 
 #: translation.js:67
-msgid "One pushbutton for turning the LED on and off"
-msgstr "Un pulsador para encender y apagar el LED"
+msgid "Counter"
+msgstr "Contador"
 
 #: translation.js:68
-msgid "01. DFF manual load"
-msgstr "01. Biestable D con carga manual"
+msgid ""
+"## Edges detector\n"
+"\n"
+"It generates a 1-period pulse (tic) when an edge (Rising or falling) is "
+"detected on the  \n"
+"input signal"
+msgstr ""
+"## Detector de flancos\n"
+"\n"
+"Se genera un pulso de 1-periodo (tic) cuando un flanco (de subida o de "
+"bajada) se detecta en la  \n"
+"señal de entrada"
 
 #: translation.js:69
-msgid "The LED is turned on when the pushbutton is pressed"
-msgstr "Se enciende el LED al apretar el pulsador"
+msgid "Input signal"
+msgstr "Señal de entrada"
 
 #: translation.js:70
-msgid "02. Chain of three DFFs"
-msgstr "02. Tres biestables D en serie"
+msgid "System clock"
+msgstr "Reloj del sistema"
 
 #: translation.js:71
 msgid ""
-"A chain of three D flip-flops\n"
+"Current signal  \n"
+"state"
+msgstr ""
+"Estado actual de la  \n"
+"señal"
+
+#: translation.js:72
+msgid ""
+"Signal state in the previous  \n"
+"clock cycle"
+msgstr ""
+"Estado de la señal en el ciclo  \n"
+"previo de reloj"
+
+#: translation.js:73
+msgid ""
+"The output is 1 if the current value is 1 and the  \n"
+"previous 0, or if the current value is 0 and the  \n"
+"previous 1\n"
+msgstr ""
+"La salida es 1 si el valor actual es 1 y el  \n"
+"anterior 0, o si el valor actual es 0 y el  \n"
+"anterior 1\n"
+
+#: translation.js:74
+msgid "In any other case the output is 0"
+msgstr "En cualquier otro caso la salida es 0"
+
+#: translation.js:75
+msgid "Parameter: Initial value"
+msgstr "Parámetro: Valor inicial"
+
+#: translation.js:76
+msgid "Input data"
+msgstr "Datos de entrada"
+
+#: translation.js:77
+msgid ""
+"# D Flip-Flop  (system)\n"
+"\n"
+"It stores the input data that arrives at cycle n  \n"
+"Its output is shown in the cycle n+1"
+msgstr ""
+"# Biestable D (Sistema)  \n"
+"\n"
+"Almacena el dato de entrada que llega en el ciclo n  \n"
+"Su salida se muestra en el ciclo n+1"
+
+#: translation.js:78
+msgid "Not connected"
+msgstr "Sin conectar"
+
+#: translation.js:79
+msgid "Flip-flop-D"
+msgstr "Biestable D "
+
+#: translation.js:80
+msgid "Flip-flop-T"
+msgstr "Biestable T"
+
+#: translation.js:81
+msgid ""
+"Sys-TFF: System TFF: It toogles its output on every system cycle. Verilog "
+"implementation"
+msgstr ""
+"Biestable T del sistema: Cambia su salida en cada ciclo de reloj del "
+"sistema. Implementación en verilog"
+
+#: translation.js:82
+msgid "Prescaler22"
+msgstr "Prescaler22"
+
+#: translation.js:83
+msgid "22-bits prescaler"
+msgstr "Prescaler de 22 bits"
+
+#: translation.js:84
+msgid "Parametric N-bits prescaler"
+msgstr "Prescaler de N bits"
+
+#: translation.js:85
+msgid "PrescalerN"
+msgstr "PrescalerN"
+
+#: translation.js:86
+msgid "Pull-up-ecp5"
+msgstr "Pull-up-ecp5"
+
+#: translation.js:87
+msgid "ECP5 FPGA internal pull-up configuration on the connected input port"
+msgstr ""
+"Configuración de pull-up interno de la FPGA en el puerto de entrada. Familia "
+"ECP5"
+
+#: translation.js:88
+msgid "Pull-up-ice40"
+msgstr "pull-up-ice40"
+
+#: translation.js:89
+msgid ""
+"Pull-up_ICE40:: FPGA internal pull-up configuration on the input port. ICE40 "
+"FPGA family"
+msgstr ""
+"Pull-up_ICE40:: Configuración del pull-up interno de la FPGA en el puerto de "
+"entrada. FPGAs de la familia ICE40"
+
+#: translation.js:90
+msgid ""
+"### Pull-up parameter:\n"
+"\n"
+"0: No pull-up  \n"
+"1: Pull-up activated"
+msgstr ""
+"### Parámetro pullup:\n"
+"\n"
+"0: Sin pull-up  \n"
+"1: Pull-up activado"
+
+#: translation.js:91
+msgid ""
+"Only an FPGA pin can  \n"
+"be connected here!!!"
+msgstr ""
+"Sólo se puede conectar  \n"
+"aquí un pin de la FPGA!!!"
+
+#: translation.js:92
+msgid ""
+"The pull-up is connected  \n"
+"by default"
+msgstr ""
+"El pull-up está conectado  \n"
+"por defecto"
+
+#: translation.js:93
+msgid "Tri-state"
+msgstr "Triestado"
+
+#: translation.js:94
+msgid "InOut:  Input-Output block"
+msgstr "InOut:   Bloque de Entrada/Salida"
+
+#: translation.js:95
+msgid "1. Basic"
+msgstr "1. Básico"
+
+#: translation.js:96
+msgid "2. Flip-flops"
+msgstr "2. Biestables"
+
+#: translation.js:97
+msgid "3. Gates"
+msgstr "3. Puertas"
+
+#: translation.js:98
+msgid "4. Muxes"
+msgstr "4. Multiplexores"
+
+#: translation.js:99
+msgid "5. Markdown"
+msgstr "5. Markdown"
+
+#: translation.js:100
+msgid "6. Verilog"
+msgstr "6. Verilog"
+
+#: translation.js:101
+msgid "01. One LED"
+msgstr "01. Un LED"
+
+#: translation.js:102
+msgid "Turn on a LED"
+msgstr "Encender un LED"
+
+#: translation.js:103
+msgid "02. Two LEDs"
+msgstr "02. Dos LEDs"
+
+#: translation.js:104
+msgid "Turn on two LEDs"
+msgstr "Encender dos LEDs"
+
+#: translation.js:105
+msgid "03. Three LEDs"
+msgstr "03. Tres LEDs"
+
+#: translation.js:106
+msgid "Turn on three LEDs"
+msgstr "Encender tres LEDs"
+
+#: translation.js:107
+msgid "04. One LED blink"
+msgstr "04. Parpadeo de un LED"
+
+#: translation.js:108
+msgid "Blinking LED"
+msgstr "LED parpadeante"
+
+#: translation.js:109
+msgid "05. Two LEDs alternate blink"
+msgstr "05. Dos LEDs parpadeando alternativamente"
+
+#: translation.js:110
+msgid "LEDs 0 and 7 are blinking alternatively"
+msgstr "Los LEDs 0 y 7 parpadean alternativamente"
+
+#: translation.js:111
+msgid "06. Pushbutton and LED"
+msgstr "06. Pulsador y LED"
+
+#: translation.js:112
+msgid "One pushbutton for turning the LED on and off"
+msgstr "Un pulsador para encender y apagar el LED"
+
+#: translation.js:113
+msgid "01. DFF manual load"
+msgstr "01. Biestable D con carga manual"
+
+#: translation.js:114
+msgid "Button-tic: Configurable button that emits a tic when it is pressed"
+msgstr "Button-tic: Botón configurable que emite un tic cuando se aprieta"
+
+#: translation.js:115
+msgid ""
+"Rising-edge detector. It generates a 1-period pulse (tic) when a rising edge "
+"is detected on the input. Block implementation"
+msgstr ""
+"Detector de flanco de subida. Se genera un pulso de 1-ciclo cuando se "
+"detecta un flanco de subida en la entrada. Implementación con bloques"
+
+#: translation.js:116
+msgid "Configurable button (pull-up on/off. Not on/off)"
+msgstr "Botón configurable (pull-up on/off. NOT on/off)"
+
+#: translation.js:117
+msgid "FPGA internal pull-up configuration on the input port"
+msgstr ""
+"Configuración de los pull-ups internos de la FPGA en el puerto de entrada"
+
+#: translation.js:118
+msgid ""
+"Select positive or negative logic for the input (0=positive, 1=negative)"
+msgstr ""
+"Seleccionar lógica positiva o negativa para la entrada (0=positiva, "
+"1=negativa)"
+
+#: translation.js:119
+msgid ""
+"Valor genérico constante, de 1 bits. Su valor se introduce como parámetro. "
+"Por defecto vale 0"
+msgstr ""
+"Valor genérico constante, de 1 bits. Su valor se introduce como parámetro. "
+"Por defecto vale 0"
+
+#: translation.js:120
+msgid ""
+"Sync-x01: 1-bit input with the system clock domain (Verilog implementation)"
+msgstr ""
+"Sync-x01:  Sincronizar una entrada de 1-bit con el reloj del sistema "
+"(Implementación en verilog)"
+
+#: translation.js:121
+msgid "The LED is turned on when the pushbutton is pressed"
+msgstr "Se enciende el LED al apretar el pulsador"
+
+#: translation.js:122
+msgid ""
+"special debouncer  \n"
+"for buttons"
+msgstr ""
+"Antirrebotes especial  \n"
+"para pulsadores"
+
+#: translation.js:123
+msgid "Button state signal"
+msgstr "Señal de estado del Pulsador"
+
+#: translation.js:124
+msgid "Tic: button pressed"
+msgstr "Tic: Botón apretado"
+
+#: translation.js:125
+msgid "Rising edge detector"
+msgstr "Detector de flanco de subida"
+
+#: translation.js:126
+msgid "Pull up on/off"
+msgstr "Pull up activada/desactivada"
+
+#: translation.js:127
+msgid "Not on/off"
+msgstr "Not activada/desactivada"
+
+#: translation.js:128
+msgid ""
+"## Rising edge detector\n"
+"\n"
+"It generates a 1-period pulse (tic) when a rising edge is detected on the  \n"
+"input signal"
+msgstr ""
+"## Detector de flanco de subida\n"
+"\n"
+"Se genera un pulso de un periodo (tic) cuando se detecta un flanco de "
+"subida  \n"
+"en la señal de entrada"
+
+#: translation.js:129
+msgid ""
+"If the current signal is 1 and its value in  \n"
+"the previous clock cycle was 0, it means  \n"
+"that a rising edge has been detected!  \n"
+"The output es 1\n"
+"\n"
+"In any other case the output is 0"
+msgstr ""
+"Si la señal actual es 1 y sus valor en  \n"
+"el ciclo anterior era 0, significa  \n"
+"que se ha detectad un flanco de subida!  \n"
+"Salida es 1\n"
+"\n"
+"En cualquier otro caso la salida es 0"
+
+#: translation.js:130
+msgid ""
+"**Delay**: 0 clock cycles \n"
+"\n"
+"There is no delay between the arrival of a rising edge  \n"
+"and its detection"
+msgstr ""
+"**Delay**: 0 ciclos de reloj \n"
+"\n"
+"No hay retraso entre la llegada del flanco de subida \n"
+"y su detección"
+
+#: translation.js:131
+msgid ""
+"Internal pull-up  \n"
+"* 0: OFF\n"
+"* 1: ON"
+msgstr ""
+"Pull-up interno  \n"
+"* 0: Apagado\n"
+"* 1: Activado"
+
+#: translation.js:132
+msgid "Synchronization stage"
+msgstr "Etapa de sincronización"
+
+#: translation.js:133
+msgid ""
+"Normalization stage\n"
+"\n"
+"* 0: Wire\n"
+"* 1: signal inverted"
+msgstr ""
+"Etapa de normalización\n"
+"\n"
+"* 0: Cable\n"
+"* 1: Señal invertida"
+
+#: translation.js:134
+msgid "Debouncing stage"
+msgstr "Etapa antirrebotes"
+
+#: translation.js:135
+msgid ""
+"When k=0, it works like a wire  \n"
+"(The output is equal to the input)  \n"
+"When k=1, it act as a not gate\n"
+"(The output is the inverse of the input)"
+msgstr ""
+"Cuando k=0, funciona como un cable  \n"
+"(La salida es igual a la entrada)  \n"
+"Cuando k=1, se comporta como una puerta NOT\n"
+"(La salida es la inversa de la entrada)"
+
+#: translation.js:136
+msgid ""
+"### Truth table for XOR\n"
+"\n"
+"| k | input | output | function |\n"
+"|---|-------|--------|----------|\n"
+"| 0 | 0     |  0     | wire     |\n"
+"| 0 | 1     |  1     | wire     |\n"
+"| 1 | 0     |  1     | Not      |\n"
+"| 1 | 1     |  0     | Not      |"
+msgstr ""
+"### Tabla de verdad de la XOR\n"
+"\n"
+"| k | Entrada | Salida | Función |\n"
+"|---|-------|--------|----------|\n"
+"| 0 | 0     |  0     | wire     |\n"
+"| 0 | 1     |  1     | wire     |\n"
+"| 1 | 0     |  1     | Not      |\n"
+"| 1 | 1     |  0     | Not      |"
+
+#: translation.js:137
+msgid "02. Chain of three DFFs"
+msgstr "02. Tres biestables D en serie"
+
+#: translation.js:138
+msgid ""
+"A chain of three D flip-flops  \n"
 "The LEDs are turned on secuentially, with every click on the button"
 msgstr ""
 "Tres biestables tipo D en serie\n"
 "Los LEDs se encienden secuencialmente, con cada pulsación del botón"
 
-#: translation.js:72
+#: translation.js:139
 msgid "03. Ring of four DFFs"
 msgstr "03. Cuatro biestables D en anillo"
 
-#: translation.js:73
+#: translation.js:140
+msgid ""
+"Simplified-Heart-tic-ms-sys-32bits: Nominal periodic signal in mili seconds"
+msgstr ""
+"Simplified-Heart-tic-ms-sys-32bits:  Señal periódica nominal en milisegundos"
+
+#: translation.js:141
+msgid "Unit-ms-32bits: ms to cycles converter"
+msgstr "Unit-ms-32bits: Conversor de ms a ciclos"
+
+#: translation.js:142
+msgid ""
+"Heart-sys-zero-32bits: Generate a periodic signal of period T cycles. It "
+"starts at cycle 0. It never stops"
+msgstr ""
+"Heart-sys-zero-32bits: Generar una señal periódica de periodo de T ciclos. "
+"Comienza en el ciclo 0. No para nunca"
+
+#: translation.js:143
+msgid "Sys-Delay-xN-32bits: The input tic is delayed N cycles"
+msgstr "Sys-Delay-xN-32bits: El tic de entrada se retrasa N ciclos"
+
+#: translation.js:144
+msgid "Counter-M-x32: 32-bits M module counter with reset"
+msgstr "Counter-M-x32: Contador módulo M de 24-bits, con reset"
+
+#: translation.js:145
+msgid "Inc1-32bit: Increment a 32-bits number by one"
+msgstr "Inc1-32bit:  Incrementar un número de 32-bits en uno"
+
+#: translation.js:146
+msgid "AdderK-32bit: Adder of 32-bit operand and 32-bit constant"
+msgstr "AdderK-32bit: Sumador de un operando y una constante de 32 bits"
+
+#: translation.js:147
+msgid "Generic: 32-bits generic constant"
+msgstr "Generic: Constante genérica de 32-bits"
+
+#: translation.js:148
+msgid "Adder-32bits: Adder of two operands of 32 bits"
+msgstr "Adder-32bits: Sumador de dos operandos de 32 bits"
+
+#: translation.js:149
+msgid "Bus24-Join-8-16: Join the two buses into an 24-bits Bus"
+msgstr "Bus24-Join-8-16: Juntar los dos buses en uno de 24-bits"
+
+#: translation.js:150
+msgid ""
+"Bus32-Split-8-24: Split the 28-bits bus into two buses of 8 and 24 wires"
+msgstr ""
+"Bus32-Split-8-24: Separar el bus de 28-bits en dos buses de 8 y 24 cables"
+
+#: translation.js:151
+msgid ""
+"Bus24-Split-16-8: Split the 24-bits bus into two buses of 16 and 8 wires"
+msgstr ""
+"Bus24-Split-16-8: Separar el bus de 24-bits en dos buses de 16 6 8 cables"
+
+#: translation.js:152
+msgid "Bus32-Join-8-24: Join the two buses into an 32-bits Bus"
+msgstr "Bus32-Join-8-24: Juntar los dos buses en uno de 32-bits"
+
+#: translation.js:153
+msgid ""
+"Geu-32-Bits_v: 32-bit Unsigned Greather than or equal comparator. Verilog "
+"implementation"
+msgstr ""
+"Geu-32-Bits_v: Comparador mayor o igual que, de 32-bits. Implementación en "
+"Verilog"
+
+#: translation.js:154
+msgid "32-Reg-rst: 32 bits Register with reset. Verilog implementation"
+msgstr "32-Reg-rst: Registro de 32 bits con reset. Implementación en verilog"
+
+#: translation.js:155
+msgid ""
+"RS-FF-set-verilog. RS Flip-flop with priority set. Implementation in verilog"
+msgstr ""
+"RS-FF-set-verilog. Biestable RS con prioridad en el set. Implementación en "
+"verilog"
+
+#: translation.js:156
+msgid ""
+"start: Start signal: It goes from 1 to 0 when the system clock starts. 1 "
+"cycle pulse witch. Block implementation"
+msgstr ""
+"start: Señal de start. Pasa de 1 a 0 cuando el reloj del sistema comienza. "
+"Anchura de un ciclo. Implementación con bloques"
+
+#: translation.js:157
 msgid ""
 "A ring of four D flip-flops\n"
 "The sequence is shown in the LEDs"
@@ -278,172 +829,363 @@ msgstr ""
 "Cuatro biestables D en anillo\n"
 "La secuencia se muestra en los LEDs"
 
-#: translation.js:74
+#: translation.js:158
+msgid "Input parameter: Milieconds  "
+msgstr "Parámetro de entrada: Milisegundos  "
+
+#: translation.js:159
+msgid ""
+"Input parameter:  \n"
+"System Frequency"
+msgstr ""
+"Parámetro de entrada:  \n"
+"Frecuencia del sistema"
+
+#: translation.js:160
+msgid "Delay"
+msgstr "Retraso"
+
+#: translation.js:161
+msgid "Start a new period"
+msgstr "Comienzo de un nuevo periodo"
+
+#: translation.js:162
+msgid "Start at cycle 0!"
+msgstr "Comienza en el ciclo 0!"
+
+#: translation.js:163
+msgid "Repeat!"
+msgstr "Repetir!"
+
+#: translation.js:164
+msgid ""
+"Current period ended  \n"
+"Start a new one"
+msgstr ""
+"Periodo actual terminado  \n"
+"Comenzar uno nuevo"
+
+#: translation.js:165
+msgid "Periodo (in system clock cycles)"
+msgstr "Periodo (en ciclos del reloj del sistema)"
+
+#: translation.js:166
+msgid ""
+"Current cycle in the period  \n"
+"(0-T-1)"
+msgstr ""
+"Ciclo actual en el periodo  \n"
+"(0-T-1)"
+
+#: translation.js:167
+msgid "Cycles to delay"
+msgstr "Ciclos de retraso"
+
+#: translation.js:168
+msgid "Delay finished!"
+msgstr "Retraso finalizado!"
+
+#: translation.js:169
+msgid "Machine state: ON/OFF"
+msgstr "Máquina de estados: ON/OFF"
+
+#: translation.js:170
+msgid "RS Flip-Flop"
+msgstr "Biestable RS"
+
+#: translation.js:171
+msgid ""
+"Circuit state:  \n"
+"* ON: working (1)\n"
+"* OFF: Not working (0)"
+msgstr ""
+"Estado del circuito:  \n"
+"* ON: en funcionamiento(1)\n"
+"* OFF: Parado (0)"
+
+#: translation.js:172
+msgid ""
+"The counter has reached  \n"
+"the number of cycles  \n"
+"to delay"
+msgstr ""
+"El contador ha alcanzado  \n"
+"el número de ciclos  \n"
+"a retrasar"
+
+#: translation.js:173
+msgid ""
+"Maximum count  \n"
+"reached"
+msgstr ""
+"Cuenta máxima  \n"
+"alcanzada"
+
+#: translation.js:174
+msgid "32-bits register"
+msgstr "Registro de 32-bits"
+
+#: translation.js:175
+msgid ""
+"If the max count is reached  \n"
+"and the cnt tic is received,  \n"
+"the register is reset to 0"
+msgstr ""
+"Si se alcanza la cuenta máxima  \n"
+"y se recibe un tic por cnt,  \n"
+"el registro se inicializa a 0"
+
+#: translation.js:176
+msgid "External reset"
+msgstr "Reset externo"
+
+#: translation.js:177
+msgid "Initial value: 1"
+msgstr "Valor inicial : 1"
+
+#: translation.js:178
+msgid "Initial value: 0"
+msgstr "Valor inicial: 0"
+
+#: translation.js:179
+msgid "Falling edge"
+msgstr "Flanco de bajada"
+
+#: translation.js:180
 msgid "04. Toggle button"
 msgstr "04. Botón de cambio"
 
-#: translation.js:75
+#: translation.js:181
+msgid ""
+"TFF-verilog. System TFF with toggle input: It toogles on every system cycle "
+"if the input is active. Verilog implementation"
+msgstr ""
+"TFF-verilog. Biestable T del sistema con entrada de cambio: cambia en cada "
+"ciclo del reloj del sistema si la entrada está activada. Implementación en "
+"verilog"
+
+#: translation.js:182
 msgid "When the pushbutton is clicked the LED changes"
 msgstr "Al apretar el pulsador el LED cambia"
 
-#: translation.js:76
+#: translation.js:183
 msgid "05. Binary counter with three TFFs"
 msgstr "05. Contador binario con tres biestables T"
 
-#: translation.js:77
+#: translation.js:184
+msgid ""
+"Falling-edge detector. It generates a 1-period pulse (tic) when a falling "
+"edge is detected on the input"
+msgstr ""
+"Detector de flancos. Genera un pulso de 1 ciclo (tic) cuando llega un flanco "
+"de subida o uno de bajada por la entrada"
+
+#: translation.js:185
 msgid "A 3-bit binary counter with T flip-flops"
 msgstr "Un contador binario de 3 bits con biestables tipo T"
 
-#: translation.js:78
+#: translation.js:186
+msgid ""
+"## Falling edge detector\n"
+"\n"
+"It generates a 1-period pulse (tic) when a falling edge is detected on "
+"the  \n"
+"input signal"
+msgstr ""
+"## Detector de flancos\n"
+"\n"
+"Se genera un pulso de 1-periodo (tic) cuando un flanco (de subida o de "
+"bajada) se detecta en la  \n"
+"señal de entrada"
+
+#: translation.js:187
+msgid ""
+"If the current signal is 0 and its value in  \n"
+"the previous clock cycle was 1, it means  \n"
+"that a falling edge has been detected!  \n"
+"The output es 1\n"
+"\n"
+"In any other case the output is 0"
+msgstr ""
+"Si la señal actual es 1 y su valor en el  \n"
+"ciclo anterior era 0, significa que  \n"
+"se ha detectado un flanco de subida!  \n"
+"La salida es 1\n"
+"\n"
+"En cualquier otro caso la salida es 0"
+
+#: translation.js:188
+msgid ""
+"**Delay**: 0 clock cycles \n"
+"\n"
+"There is no delay between the arrival of a falling edge  \n"
+"and its detection"
+msgstr ""
+"**Retardo**: 0 ciclos de reloj \n"
+"\n"
+"No hay retraso entre la llegada de un flanco de subida  \n"
+"and su detección"
+
+#: translation.js:189
 msgid "01. AND gate"
 msgstr "01. Puerta AND"
 
-#: translation.js:79
+#: translation.js:190
 msgid "Testing the AND gate"
 msgstr "Probando la puerta AND"
 
-#: translation.js:80
+#: translation.js:191
 msgid "02. OR gate"
 msgstr "02. Puerta OR"
 
-#: translation.js:81
+#: translation.js:192
 msgid "Testing the OR gate"
 msgstr "Probando la puerta OR"
 
-#: translation.js:82
+#: translation.js:193
 msgid "03. AND truth table"
 msgstr "03. Tabla de verdad de la puerta AND"
 
-#: translation.js:83
+#: translation.js:194
 msgid "Truth table of the AND gate"
 msgstr "Tabla de verdad de la puerta Y"
 
-#: translation.js:84
+#: translation.js:195
 msgid "04. OR truth table"
 msgstr "04. Tabla de verdad de la puerta OR"
 
-#: translation.js:85
+#: translation.js:196
 msgid "Truth table of the OR gate"
 msgstr "Tabla de verdad de la puerta O"
 
-#: translation.js:86
-msgid "05. SR latch"
-msgstr "05. Latch RS"
+#: translation.js:197
+msgid "05. Multiplexer 2-1"
+msgstr "05. Multiplexor 2-1"
 
-#: translation.js:87
-msgid "An SR-latch implemented with logic gates"
-msgstr "Un biestable RS implementado con puertas lógicas"
+#: translation.js:198
+msgid "NOT logic gate"
+msgstr "Puerta lógica NOT"
 
-#: translation.js:88
-msgid "06. D latch"
-msgstr "06. Latch D"
+#: translation.js:199
+msgid "AND logic gate"
+msgstr "Puerta lógica AND"
 
-#: translation.js:89
-msgid "A D latch implemented with logic gates"
-msgstr "Un latch D implementado con puertas lógicas"
+#: translation.js:200
+msgid "OR logic gate"
+msgstr "Puerta lógica OR"
 
-#: translation.js:90
-msgid "07. D flip-flop"
-msgstr "07. Biestable D"
-
-#: translation.js:91
-msgid "Master Latch"
-msgstr "Latch maestro"
-
-#: translation.js:92
-msgid "Slave latch"
-msgstr "Latch esclavo"
-
-#: translation.js:93
-msgid "A D flip-flip with a falling-edge trigger implemented with logic gates"
+#: translation.js:201
+msgid "Simplified-Heart-ms-sys-32bits: Nominal periodic signal in mili seconds"
 msgstr ""
-"Un biestable D, activo en flanco de bajada, implementado con puertas lógicas"
+"Simplified-Heart-tic-ms-sys-32bits:  Señal periódica nominal en milisegundos"
 
-#: translation.js:94
-msgid "08. Multiplexer 2:1"
-msgstr "08. Multiplexor 2:1"
-
-#: translation.js:95
+#: translation.js:202
 msgid ""
-"Mux 2:1 implemented with logic gates\n"
+"SR1-32bits: Shift  a 32-bit value one bit right. MSB is filled with the "
+"input  in"
+msgstr ""
+"SR1-32bits: Desplazar un valor de 32-bits un bit a la derecha. El bit de "
+"mayor peso se rellena con la entrada in"
+
+#: translation.js:203
+msgid ""
+"Bus32-Split-31-1: Split the 32-bits bus into two buses of 31 and 1 wires"
+msgstr ""
+"Bus32-Split-31-1: Separar el bus de 32-bits en dos buses de 31 y 1 cables"
+
+#: translation.js:204
+msgid "Bus32-Join-1-31: Join the two buses into an 32-bits Bus"
+msgstr "Bus32-Join-1-31: Juntar los dos buses en uno de 32-bits"
+
+#: translation.js:205
+msgid ""
+"Mux 2:1 implemented with logic gates  \n"
 "The LED0 blinks or is turned on depending on the pushbutton 1"
 msgstr ""
 "Multiplexor 2:1 implementado con puertas lógicas\n"
 "El LED 0 parpadea o se queda encendido dependiendo del pulsador 1"
 
-#: translation.js:96
+#: translation.js:206
 msgid "Mux 2:1 with logic gates"
 msgstr "Multiplexor 2:1 con puertas lógicas"
 
-#: translation.js:97
+#: translation.js:207
 msgid "Signal for blinking the LED"
 msgstr "Señal para que el LED parpadee"
 
-#: translation.js:98
+#: translation.js:208
 msgid "Fixed signal for turning on the LED"
 msgstr "Señal fija para encender el LED"
 
-#: translation.js:99
-msgid "09. Decoder 2:4"
-msgstr "09. Decodificador 2:4"
+#: translation.js:209
+msgid ""
+"Dividir entre dos el periodo  \n"
+"(Multiplicar por 2 la frecuencia)  "
+msgstr ""
+"Dividir entre dos el periodo  \n"
+"(Multiplicar por 2 la frecuencia)  "
 
-#: translation.js:100
+#: translation.js:210
+msgid "06. Decoder 2-4"
+msgstr "06. Decodificador 2-4"
+
+#: translation.js:211
 msgid "2 to 4 bits decoder with logic gates"
 msgstr "Decodificador de 2 a 4 con puertas lógicas"
 
-#: translation.js:101
-msgid "10. One bit adder"
-msgstr "10. Sumador de 1 bit"
+#: translation.js:212
+msgid "07. One bit adder"
+msgstr "07. Sumador de 1 bit"
 
-#: translation.js:102
+#: translation.js:213
 msgid "1-bit adder"
 msgstr "Sumador de 1 bit"
 
-#: translation.js:103
+#: translation.js:214
 msgid "01. Blinking fixed LED"
 msgstr "01. LED parpadeante/fijo"
 
-#: translation.js:104
+#: translation.js:215
 msgid ""
-"Blinking/fixed LED\n"
+"Blinking/fixed LED  \n"
 "The toggle button selects if the LED blinks or stays turned on"
 msgstr ""
 "LED parpadeante/fijo\n"
 "El pulsador selecciona si el LED parpadea o se queda encendido"
 
-#: translation.js:105
+#: translation.js:216
 msgid "02. LED three states"
 msgstr "02. LED en tres estados"
 
-#: translation.js:106
+#: translation.js:217
 msgid ""
-"The LED has three modes of operation: blinking, turned on an turned off\n"
-"SW2 pushbutton determines if the LED blinks/stays fixed\n"
-"SW1 pushbutton determines the LED state (on or off), in fixed mode"
+"The LED has three modes of operation: blinking, turned on an turned off  \n"
+"SW2 pushbutton determines if the LED blinks/stays fixed  \n"
+"SW1 pushbutton determines the LED state (on or off), in fixed mode  "
 msgstr ""
 "El LED tiene tres modos de operacion: parpadeando, encendido y apagado\n"
 "El pulsador SW2 determina si el LED parpadea o permanece fijo\n"
 "El pulsador SW1 determina el estado del LED (encendido o apagado), en el "
-"modo fijo"
+"modo fijo  "
 
-#: translation.js:107
-msgid "03. Multiplexer 4:1"
-msgstr "03. Multiplexor 4:1"
+#: translation.js:218
+msgid "03. Multiplexer 4-1"
+msgstr "03. Multiplexor 4-1"
 
-#: translation.js:108
+#: translation.js:219
 msgid ""
-"A 4:1 mux from two 2:1 muxes\n"
+"A 4:1 mux from two 2:1 muxes  \n"
 "The LED can be in four states: off, blinking, on, blinking fast"
 msgstr ""
 "Un multiplexor 4:1 creado a partir de dos multiplexores 2:1\n"
 "El LED puede estar en cuatro estados: apagado, parpadeando, encendido y "
 "parpadeando rápido"
 
-#: translation.js:109
+#: translation.js:220
 msgid "04. Shift register"
 msgstr "04. Registro de desplazamiento"
 
-#: translation.js:110
+#: translation.js:221
 msgid ""
 "4 bits shift register. It is loaded with the initial value 1000 and then\n"
 "shifted on every clock pulse"
@@ -451,11 +1193,11 @@ msgstr ""
 "Registro de desplazamiento de 4 bits. Se carga con el valor inicial 1000 y\n"
 "después se desplaza con cada ciclo del reloj"
 
-#: translation.js:111
+#: translation.js:222
 msgid "Binary value to load and shift"
 msgstr "Valor binario a cargar y desplazar"
 
-#: translation.js:112
+#: translation.js:223
 msgid ""
 "Initializer. It has the initial value 0, so that the\n"
 "i0 is selected in all the muxes. The register is loaded.\n"
@@ -469,11 +1211,11 @@ msgstr ""
 "se selecciona en todos los multiplexores. El registro se desplaza\n"
 "En el siguiente ciclo permanecerá en el estado de desplazamiento"
 
-#: translation.js:113
+#: translation.js:224
 msgid "01. Headers list fonts"
 msgstr "01. Encabezados, listas y fuentes"
 
-#: translation.js:114
+#: translation.js:225
 msgid ""
 "# Markdown example\n"
 "\n"
@@ -495,6 +1237,7 @@ msgid ""
 "  * Item 2a\n"
 "  * Item 2b\n"
 "\n"
+"\n"
 "### ordered\n"
 "\n"
 "1. Item 1\n"
@@ -502,6 +1245,7 @@ msgid ""
 "1. Item 3\n"
 "   1. Item 3a\n"
 "   1. Item 3b\n"
+"   2. Item 3c\n"
 msgstr ""
 "# Ejemplo de Markdown\n"
 "\n"
@@ -531,11 +1275,11 @@ msgstr ""
 "   1. Artículo 3a\n"
 "   1. Artículo 3b\n"
 
-#: translation.js:115
+#: translation.js:226
 msgid "02. Links and images"
 msgstr "02. Enlaces e imágenes"
 
-#: translation.js:116
+#: translation.js:227
 msgid ""
 "### Link example\n"
 "\n"
@@ -547,7 +1291,7 @@ msgstr ""
 "Puedes encontrar **más información** sobre Markdown en esta página: "
 "[Mastering markdown](https://guides.github.com/features/mastering-markdown/)"
 
-#: translation.js:117
+#: translation.js:228
 msgid ""
 "### Images :smiley:\n"
 "\n"
@@ -559,11 +1303,11 @@ msgstr ""
 "También es posible incluir imágenes, pero solo se muestran si hay conexión a "
 "Internet\n"
 
-#: translation.js:118
+#: translation.js:229
 msgid "**PNG image**"
 msgstr "**Imagen PNG**"
 
-#: translation.js:119
+#: translation.js:230
 msgid ""
 "![](https://github.com/FPGAwars/icestudio-block-icons/raw/master/Logos/png/"
 "icestudio-logo.png)"
@@ -571,7 +1315,7 @@ msgstr ""
 "![](https://github.com/FPGAwars/icestudio-block-icons/raw/master/Logos/png/"
 "icestudio-logo.png)"
 
-#: translation.js:120
+#: translation.js:231
 msgid ""
 "![](https://github.com/FPGAwars/icestudio-block-icons/raw/master/Logos/"
 "icestudio-logo.svg?sanitize=true)\n"
@@ -579,11 +1323,11 @@ msgstr ""
 "![](https://github.com/FPGAwars/icestudio-block-icons/raw/master/Logos/"
 "icestudio-logo.svg?sanitize=true)\n"
 
-#: translation.js:121
+#: translation.js:232
 msgid "**SVG image**"
 msgstr "**Imagen SVG**"
 
-#: translation.js:122
+#: translation.js:233
 msgid ""
 "![](https://github.com/Obijuan/digital-electronics-with-open-FPGAs-tutorial/"
 "raw/master/wiki/Tutorial-24/ejemplos-digitos-10.gif)"
@@ -591,19 +1335,19 @@ msgstr ""
 "![](https://github.com/Obijuan/digital-electronics-with-open-FPGAs-tutorial/"
 "raw/master/wiki/Tutorial-24/ejemplos-digitos-10.gif)"
 
-#: translation.js:123
+#: translation.js:234
 msgid "**Animated GIF**"
 msgstr "**GIF animado**"
 
-#: translation.js:124
+#: translation.js:235
 msgid "03. Tables"
 msgstr "03. Tablas"
 
-#: translation.js:125
+#: translation.js:236
 msgid "Puerta AND"
 msgstr "Puerta AND"
 
-#: translation.js:126
+#: translation.js:237
 msgid ""
 "First Header | Second Header\n"
 "------------ | -------------\n"
@@ -615,7 +1359,7 @@ msgstr ""
 "Contenido de la celda 1 | Contenido de la celda 2\n"
 "Contenido en la primera columna | Contenido en la segunda columna"
 
-#: translation.js:127
+#: translation.js:238
 msgid ""
 "## Tables\n"
 "\n"
@@ -625,7 +1369,7 @@ msgstr ""
 "\n"
 "Las tablas son muy útiles"
 
-#: translation.js:128
+#: translation.js:239
 msgid ""
 "a | b | AND\n"
 "--|---|------\n"
@@ -641,11 +1385,11 @@ msgstr ""
 "1 | 0 | 0\n"
 "1 | 1 | 1\n"
 
-#: translation.js:129
+#: translation.js:240
 msgid "**AND truth table**"
 msgstr "**Tabla de verdad AND**"
 
-#: translation.js:130
+#: translation.js:241
 msgid ""
 "**a**  \n"
 "  \n"
@@ -655,15 +1399,15 @@ msgstr ""
 "  \n"
 "**b**"
 
-#: translation.js:131
+#: translation.js:242
 msgid "**Output**"
 msgstr "**Salida**"
 
-#: translation.js:132
+#: translation.js:243
 msgid "04. Code task list"
 msgstr "04. Código y lista de tareas"
 
-#: translation.js:133
+#: translation.js:244
 msgid ""
 "## Code\n"
 "\n"
@@ -671,7 +1415,7 @@ msgstr ""
 "## Código\n"
 "\n"
 
-#: translation.js:134
+#: translation.js:245
 msgid ""
 "```verilog\n"
 "reg [7:0] value;\n"
@@ -687,7 +1431,7 @@ msgstr ""
 "  value <= value + 1;\n"
 "```"
 
-#: translation.js:135
+#: translation.js:246
 msgid ""
 "```javascript\n"
 "function fancyAlert(arg) {\n"
@@ -699,7 +1443,7 @@ msgstr ""
 "  if(arg) {\n"
 "    $.facebox({div:"
 
-#: translation.js:136
+#: translation.js:247
 msgid ""
 "- [x] Task 1\n"
 "- [x] Task 2\n"
@@ -711,15 +1455,15 @@ msgstr ""
 "- [x] Tarea 3\n"
 "- [ ] este es un elemento incompleto\n"
 
-#: translation.js:137
+#: translation.js:248
 msgid "**Verilog**"
 msgstr "**Verilog**"
 
-#: translation.js:138
+#: translation.js:249
 msgid "**Javascript**"
 msgstr "**Javascript**"
 
-#: translation.js:139
+#: translation.js:250
 msgid ""
 "## Task lists\n"
 "\n"
@@ -727,15 +1471,15 @@ msgstr ""
 "## Lista de tareas\n"
 "\n"
 
-#: translation.js:140
+#: translation.js:251
 msgid "05. Youtube videos"
 msgstr "05. Videos de Youtube"
 
-#: translation.js:141
+#: translation.js:252
 msgid "# Youtube Videos"
 msgstr "# Video de Youtube"
 
-#: translation.js:142
+#: translation.js:253
 msgid ""
 "It is possible to link to youtube videos just by adding a  \n"
 "**standard link** to it:  [https://www.youtube.com/watch?v=boXZusFCCIU]"
@@ -744,7 +1488,7 @@ msgstr ""
 "Es posible enlazar los videos de youtube simplemente agregando un \n"
 "**enlace estándar**:  [https://www.youtube.com/watch?v=boXZusFCCIU](Video)"
 
-#: translation.js:143
+#: translation.js:254
 msgid ""
 "or you can include the **video thumbnail** along with the **link** for "
 "playing it in  \n"
@@ -760,63 +1504,75 @@ msgstr ""
 "[![Click para ver el video de youtube](http://img.youtube.com/vi/"
 "boXZusFCCIU/0.jpg)](https://www.youtube.com/watch?v=boXZusFCCIU)"
 
-#: translation.js:144
+#: translation.js:255
 msgid "01. Four bits fixed binary value"
 msgstr "01. Valor fijo de 4 bits en binario"
 
-#: translation.js:145
+#: translation.js:256
 msgid "Displaying a 4-bits fixed value in the LEDs"
 msgstr "Mostrando un valor fijo de 4 bits en los LEDs"
 
-#: translation.js:146
+#: translation.js:257
 msgid "02. Four bits fixed hexadecimal value"
 msgstr "02. Valor fijo de 4 bits en hexadecimal"
 
-#: translation.js:147
+#: translation.js:258
 msgid "Displaying a 4-bits fixed value (in hexadecimal) in the LEDs"
 msgstr "Mostrando un valor fijo de 4 bits (en hexadecimal) en los LEDs"
 
-#: translation.js:148
+#: translation.js:259
 msgid "03. Eight bits fixed value buses"
 msgstr "03. Bus de 8 bits"
 
-#: translation.js:149
+#: translation.js:260
 msgid "Using buses for displaying a fixed value in the LEDs"
 msgstr "Usando un bus para mostrar un valor fijo en los LEDs"
 
-#: translation.js:150
+#: translation.js:261
 msgid "04. Eight bits counter"
 msgstr "04. Contador de 8 bits"
 
-#: translation.js:151
+#: translation.js:262
 msgid "An 8-bit binary counter"
 msgstr "Un contador binario de 8 bits"
 
-#: translation.js:152
+#: translation.js:263
 msgid "05. Split buses"
 msgstr "05. División de buses"
 
-#: translation.js:153
+#: translation.js:264
 msgid ""
-"An 8-bit binary counter, using an 8-bit bus splitted\n"
+"An 8-bit binary counter, using an 8-bit bus splitted  \n"
 "into two 4-bit buses"
 msgstr ""
 "Un contador binario de 8 bits, usando un bus de 8 bits \n"
 "dividido en dos buses de 4 bits"
 
-#: translation.js:154
+#: translation.js:265
 msgid "06. ROM 16x8"
 msgstr "06. ROM de 16x8"
 
-#: translation.js:155
+#: translation.js:266
 msgid "Displaying the contents of an 16x8 rom memory in the LEDs"
 msgstr "Mostrando el contenido de una memoria ROM de 16x8 en los LEDs"
 
-#: translation.js:156
+#: translation.js:267
 msgid "07. ROM 16x8 file"
 msgstr "07. ROM de 16x8 en fichero"
 
-#: translation.js:157
+#: translation.js:268
+msgid ""
+"Displaying the contents of an 16x8 rom memory in the LEDs  \n"
+"The memory is read from the rom0.list file"
+msgstr ""
+"Mostrando el contenido de una memoria ROM de 16x8 en los LEDs\n"
+"La memoria se lee del fichero rom0.list"
+
+#: translation.js:269
+msgid "08. ROM 16x8 file generic"
+msgstr "08. ROM de 16x8 en fichero genérico"
+
+#: translation.js:270
 msgid ""
 "Displaying the contents of an 16x8 rom memory in the LEDs\n"
 "The memory is read from the rom0.list file"
@@ -824,21 +1580,74 @@ msgstr ""
 "Mostrando el contenido de una memoria ROM de 16x8 en los LEDs\n"
 "La memoria se lee del fichero rom0.list"
 
-#: translation.js:158
-msgid "08. ROM 16x8 file generic"
-msgstr "08. ROM de 16x8 en fichero genérico"
-
-#: translation.js:159
+#: translation.js:271
 msgid "09. ROM 16x8 table"
 msgstr "09. ROM de 16x8 en tabla"
 
-#: translation.js:160
+#: translation.js:272
 msgid ""
 "Displaying the contents of an 16x8 rom memory in the LEDs  \n"
 "The memory is read from the given table"
 msgstr ""
 "Visualización del contenido de una memoria rom de 16x8 en los LEDs \n"
 "La memoria se lee de la tabla dada"
+
+#~ msgid "Assign 0 to the output wire"
+#~ msgstr "Asignar 0 al cable de salida"
+
+#~ msgid "Assign 1 to the output wire"
+#~ msgstr "Asignar 1 al cable de salida"
+
+#~ msgid "Multiplexer 2:1"
+#~ msgstr "Multiplexor 2 a 1"
+
+#~ msgid "NAND logic gate"
+#~ msgstr "Puerta lógica NAND"
+
+#~ msgid "NOR logic gate"
+#~ msgstr "Puerta lógica NOR"
+
+#~ msgid "XNOR logic gate"
+#~ msgstr "Puerta lógica XNOR"
+
+#~ msgid "XOR logic gate"
+#~ msgstr "Puerta lógica XOR"
+
+#~ msgid "Delay flip-flop"
+#~ msgstr "Biestable tipo D"
+
+#~ msgid "Toggle flip-flop"
+#~ msgstr "Biestable tipo T"
+
+#~ msgid "Tri-state logic block"
+#~ msgstr "Bloque lógico triestado"
+
+#~ msgid "05. SR latch"
+#~ msgstr "05. Latch RS"
+
+#~ msgid "An SR-latch implemented with logic gates"
+#~ msgstr "Un biestable RS implementado con puertas lógicas"
+
+#~ msgid "06. D latch"
+#~ msgstr "06. Latch D"
+
+#~ msgid "A D latch implemented with logic gates"
+#~ msgstr "Un latch D implementado con puertas lógicas"
+
+#~ msgid "07. D flip-flop"
+#~ msgstr "07. Biestable D"
+
+#~ msgid "Master Latch"
+#~ msgstr "Latch maestro"
+
+#~ msgid "Slave latch"
+#~ msgstr "Latch esclavo"
+
+#~ msgid ""
+#~ "A D flip-flip with a falling-edge trigger implemented with logic gates"
+#~ msgstr ""
+#~ "Un biestable D, activo en flanco de bajada, implementado con puertas "
+#~ "lógicas"
 
 #~ msgid ""
 #~ "### Images\n"
@@ -938,9 +1747,6 @@ msgstr ""
 
 #~ msgid "06. Pushbutton LED"
 #~ msgstr "06. "
-
-#~ msgid "Pull up"
-#~ msgstr "Pull up"
 
 #~ msgid "FPGA internal pull up configuration on the connected input port"
 #~ msgstr "Resistencia de pull up interna de la FPGA en el pin de entrada"
@@ -1205,9 +2011,6 @@ msgstr ""
 
 #~ msgid "2_Chain_of_three_DFF"
 #~ msgstr "2. Tres biestables D conectados en serie"
-
-#~ msgid "2_counter"
-#~ msgstr "2. Counter"
 
 #~ msgid "1_led_on"
 #~ msgstr "1. Encender led"

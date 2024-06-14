@@ -1,6 +1,6 @@
 
 
-# Default Collection
+# default Collection
 
 [![Icestudio][icestudio-image]][icestudio-url]
 ![Version][version-image]
@@ -17,7 +17,7 @@ Licensed under [GPL-2.0](https://opensource.org/licenses/GPL-2.0).
 
 For installing and using this colection in Icestudio follow these steps:
 
-* Download the collection: [stable](https://github.com/FPGAwars/collection-default/archive/refs/tags/v0.3.3.zip) or [development](https://github.com/FPGAwars/collection-default/archive/refs/heads/main.zip)
+* Download the collection: [stable](https://github.com/FPGAwars/collection-default/archive/refs/tags/v0.4.1.zip) or [development](https://github.com/FPGAwars/collection-default/archive/refs/heads/main.zip)
 * Install the collection: *Tools > Collections > Add*
 * Select the collection: *Select > Collection*
 
@@ -35,7 +35,7 @@ For installing and using this colection in Icestudio follow these steps:
   * 1
 * **Logic**
   * **Combinational**
-    * Mux 2:1
+    * Mux 2-1
   * **Gate**
     * AND
     * NAND
@@ -46,12 +46,13 @@ For installing and using this colection in Icestudio follow these steps:
     * XOR
   * **Sequential**
     * Debouncer
-    * Flip-flop D
-    * Flip-flop T
+    * Flip-flop-D
+    * Flip-flop-T
     * Prescaler22
     * PrescalerN
 * **Setup**
-  * Pull-up
+  * Pull-up-ecp5
+  * Pull-up-ice40
   * Tri-state
 
 ## Examples
@@ -73,16 +74,13 @@ For installing and using this colection in Icestudio follow these steps:
   * 02. OR gate
   * 03. AND truth table
   * 04. OR truth table
-  * 05. SR latch
-  * 06. D latch
-  * 07. D flip-flop
-  * 08. Multiplexer 2:1
-  * 09. Decoder 2:4
-  * 10. One bit adder
+  * 05. Multiplexer 2-1
+  * 06. Decoder 2-4
+  * 07. One bit adder
 * **4. Muxes**
   * 01. Blinking fixed LED
   * 02. LED three states
-  * 03. Multiplexer 4:1
+  * 03. Multiplexer 4-1
   * 04. Shift register
 * **5. Markdown**
   * 01. Headers list fonts
@@ -115,4 +113,4 @@ For installing and using this colection in Icestudio follow these steps:
 <!-- Badges -->
 [icestudio-image]: https://img.shields.io/badge/collection-icestudio-blue.svg
 [icestudio-url]: https://github.com/FPGAwars/icestudio
-[version-image]: https://img.shields.io/badge/version-v0.3.3-orange.svg
+[version-image]: https://img.shields.io/badge/version-v0.4.1-orange.svg
