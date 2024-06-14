@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-09-03 06:08+0200\n"
-"PO-Revision-Date: 2024-04-28 17:02+0200\n"
+"POT-Creation-Date: 2024-06-14 20:13+0200\n"
+"PO-Revision-Date: 2024-06-14 20:13+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: cs_CZ\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.0.1\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: translation.js\n"
 
@@ -31,16 +31,16 @@ msgid "0"
 msgstr "0"
 
 #: translation.js:14
-msgid "Assign 0 to the output wire"
-msgstr "Přiřadí logickou 0 na výstupní spoj"
+msgid "Constant bit 0"
+msgstr ""
 
 #: translation.js:15
 msgid "1"
 msgstr "1"
 
 #: translation.js:16
-msgid "Assign 1 to the output wire"
-msgstr "Přiřadí logickou 1 na výstupní spoj"
+msgid "Constant bit 1"
+msgstr ""
 
 #: translation.js:17
 msgid "Combinational"
@@ -55,222 +55,687 @@ msgid "Sequential"
 msgstr "Sekvenční"
 
 #: translation.js:20
-msgid "Mux 2:1"
+#, fuzzy
+#| msgid "Mux 2:1"
+msgid "Mux 2-1"
 msgstr "Multiplexor 2:1"
 
 #: translation.js:21
-msgid "Multiplexer 2:1"
-msgstr "Multiplexer 2:1"
+msgid "2-to-1 Multplexer (1-bit channels). Verilog implementation"
+msgstr ""
 
 #: translation.js:22
 msgid "AND"
 msgstr "AND"
 
 #: translation.js:23
-msgid "AND logic gate"
-msgstr "Hradlo AND"
+msgid "Two bits input And gate"
+msgstr ""
 
 #: translation.js:24
 msgid "NAND"
 msgstr "NAND"
 
 #: translation.js:25
-msgid "NAND logic gate"
-msgstr "Hradlo NAND"
+msgid "Nand-x02: two input NAND gate. Verilog implementation"
+msgstr ""
 
 #: translation.js:26
 msgid "NOR"
 msgstr "NOR"
 
 #: translation.js:27
-msgid "NOR logic gate"
-msgstr "Hradlo NOR"
+msgid "Nor-x02-verilog: 2 input NOR gate. Verilog implementation"
+msgstr ""
 
 #: translation.js:28
 msgid "NOT"
 msgstr "negace"
 
 #: translation.js:29
-msgid "NOT logic gate"
-msgstr "Invertor"
+msgid "NOT gate (Verilog implementation)"
+msgstr ""
 
 #: translation.js:30
+msgid "Input"
+msgstr ""
+
+#: translation.js:31
+#, fuzzy
+#| msgid "**Output**"
+msgid "Output"
+msgstr "**Výstup**"
+
+#: translation.js:32
 msgid "OR"
 msgstr "OR"
 
-#: translation.js:31
-msgid "OR logic gate"
-msgstr "Hradlo OR"
+#: translation.js:33
+msgid "OR2: Two bits input OR gate"
+msgstr ""
 
-#: translation.js:32
+#: translation.js:34
 msgid "XNOR"
 msgstr "XNOR"
 
-#: translation.js:33
-msgid "XNOR logic gate"
-msgstr "Hradlo exkluzivní NOR"
-
-#: translation.js:34
+#: translation.js:35
 msgid "XOR"
 msgstr "XOR"
 
-#: translation.js:35
-msgid "XOR logic gate"
-msgstr "Hradlo exkluzivní OR"
-
 #: translation.js:36
+msgid "XOR gate: 2-bits input xor gate. Verilog implementation"
+msgstr ""
+
+#: translation.js:37
 msgid "Debouncer"
 msgstr "Filtr zákmitů"
 
-#: translation.js:37
+#: translation.js:38
 msgid "Remove the rebound on a mechanical switch"
 msgstr "Odstraní zákmity na tlačítku"
 
-#: translation.js:38
-msgid "Flip-flop D"
-msgstr "Synchronní klopný D"
-
 #: translation.js:39
-msgid "Delay flip-flop"
-msgstr "Synchronní klopný D (zpožďující)"
+msgid ""
+"Edges detector. It generates a 1-period pulse (tic) when either a rising "
+"edge or a falling edge is detected on the input. Block implementation"
+msgstr ""
 
 #: translation.js:40
-msgid "Flip-flop T"
-msgstr "Synchronní klopný T"
+msgid "XOR gate: two bits input xor gate"
+msgstr ""
 
 #: translation.js:41
-msgid "Toggle flip-flop"
-msgstr "Synchronní klopný T (otáčející)"
+msgid ""
+"System - D Flip-flop. Capture data every system clock cycle. Verilog "
+"implementation"
+msgstr ""
 
 #: translation.js:42
-msgid "Prescaler22"
-msgstr "Dělička 22"
+msgid "DFF. D Flip-flop. Verilog implementation"
+msgstr ""
 
 #: translation.js:43
-msgid "22-bits prescaler"
-msgstr "22 bitová dělička"
+msgid "16-bits Syscounter with reset"
+msgstr ""
 
 #: translation.js:44
-msgid "Parametric N-bits prescaler"
-msgstr "Nastavitelná N bitová dělička"
+msgid "Inc1-16bit: Increment a 16-bits number by one"
+msgstr ""
 
 #: translation.js:45
-msgid "PrescalerN"
-msgstr "Dělička N"
+msgid "AdderK-16bit: Adder of 16-bit operand and 16-bit constant"
+msgstr ""
 
 #: translation.js:46
-msgid "Pull-up"
-msgstr "Pull-up"
+msgid "Generic: 16-bits generic constant"
+msgstr ""
 
 #: translation.js:47
-msgid "FPGA internal pull-up configuration on the connected input port"
-msgstr "FPGA vnitřní pull-up rezistor na připojeném vstupním pinu"
+msgid "Adder-16bits: Adder of two operands of 16 bits"
+msgstr ""
 
 #: translation.js:48
-msgid "Tri-state"
-msgstr "Třístavová logika"
+msgid "Bus16-Split-half: Split the 16-bits bus into two buses of the same size"
+msgstr ""
 
 #: translation.js:49
-msgid "Tri-state logic block"
-msgstr "Třístavový logický blok"
+msgid "Adder-8bits: Adder of two operands of 8 bits"
+msgstr ""
 
 #: translation.js:50
-msgid "1. Basic"
-msgstr "1. Základ"
+msgid "Bus8-Split-half: Split the 8-bits bus into two buses of the same size"
+msgstr ""
 
 #: translation.js:51
-msgid "2. Flip-flops"
-msgstr "2. Klopné obvody"
+msgid "Adder-4bits: Adder of two operands of 4 bits"
+msgstr ""
 
 #: translation.js:52
-msgid "3. Gates"
-msgstr "3. Hradla"
+msgid "Adder-1bit: Adder of two operands of 1 bit"
+msgstr ""
 
 #: translation.js:53
-msgid "4. Muxes"
-msgstr "4. Multiplexory"
+msgid "AdderC-1bit: Adder of two operands of 1 bit plus the carry in"
+msgstr ""
 
 #: translation.js:54
-msgid "5. Markdown"
-msgstr "5. Dokumentace (markdown)"
+msgid "Bus4-Split-all: Split the 4-bits bus into its wires"
+msgstr ""
 
 #: translation.js:55
-msgid "6. Verilog"
-msgstr "6. Programování (verilog)"
+msgid "Bus4-Join-all: Join all the wires into a 4-bits Bus"
+msgstr ""
 
 #: translation.js:56
-msgid "01. One LED"
-msgstr "01. Jedna LED"
+msgid "Bus8-Join-half: Join the two same halves into an 8-bits Bus"
+msgstr ""
 
 #: translation.js:57
-msgid "Turn on a LED"
-msgstr "Zapnout LED"
+msgid "AdderC-4bits: Adder of two operands of 4 bits and Carry in"
+msgstr ""
 
 #: translation.js:58
-msgid "02. Two LEDs"
-msgstr "02. Dvě LED"
+msgid "AdderC-8bits: Adder of two operands of 8 bits and Carry in"
+msgstr ""
 
 #: translation.js:59
-msgid "Turn on two LEDs"
-msgstr "Zapnout dvě LEDky"
+msgid "Bus16-Join-half: Join the two same halves into an 16-bits Bus"
+msgstr ""
 
 #: translation.js:60
-msgid "03. Three LEDs"
-msgstr "03. Tři LED"
+msgid ""
+"16-Sys-reg-rst: 16 bits system register with reset. Verilog implementation"
+msgstr ""
 
 #: translation.js:61
-msgid "Turn on three LEDs"
-msgstr "Zapnout tři LEDky"
+msgid "Edge detector"
+msgstr ""
 
 #: translation.js:62
-msgid "04. One LED blink"
-msgstr "04. Jedna blikající LED"
+msgid ""
+"Whenever there is a change in  \n"
+"the input, the counter is started"
+msgstr ""
 
 #: translation.js:63
-msgid "Blinking LED"
-msgstr "Blikání LED"
+msgid ""
+"If the counter reaches it maximum  \n"
+"value, the input is considered stable  \n"
+"and it is captured"
+msgstr ""
 
 #: translation.js:64
-msgid "05. Two LEDs alternate blink"
-msgstr "05. Dvě střídavě blikající LEDky"
+msgid ""
+"### Time calculation\n"
+"\n"
+"For CLK=12MHZ, a 16-bit counter reaches its  \n"
+"maximum every 2 ** 16 * 1/F = 5.5ms aprox  \n"
+"IF more time is needed for debouncing,  \n"
+"use a counter with more bits (17, 18...)"
+msgstr ""
 
 #: translation.js:65
-msgid "LEDs 0 and 7 are blinking alternatively"
-msgstr "LED číslo 0 a 7 střídavě blikají"
+msgid ""
+"## Debouncer  \n"
+"\n"
+"A value is considered stable when  \n"
+"there is no changes during 5.5ms  \n"
+"aprox. When a value is stable it is  \n"
+"captured on the output flip-flop"
+msgstr ""
 
 #: translation.js:66
-msgid "06. Pushbutton and LED"
-msgstr "06. Tlačítka a LEDky"
+msgid "Stable output"
+msgstr ""
 
 #: translation.js:67
-msgid "One pushbutton for turning the LED on and off"
-msgstr "Jedno tlačítko pro zapínání i vypínání LED"
+#, fuzzy
+#| msgid "2_counter"
+msgid "Counter"
+msgstr "2_čítač"
 
 #: translation.js:68
-msgid "01. DFF manual load"
-msgstr "01. Klopný D s ručním překlopením"
+msgid ""
+"## Edges detector\n"
+"\n"
+"It generates a 1-period pulse (tic) when an edge (Rising or falling) is "
+"detected on the  \n"
+"input signal"
+msgstr ""
 
 #: translation.js:69
-msgid "The LED is turned on when the pushbutton is pressed"
-msgstr "Když se stiskne tlačítko, LED se rozsvítí"
+msgid "Input signal"
+msgstr ""
 
 #: translation.js:70
-msgid "02. Chain of three DFFs"
-msgstr "02. Zřetězení tří klopných D"
+msgid "System clock"
+msgstr ""
 
 #: translation.js:71
 msgid ""
-"A chain of three D flip-flops\n"
+"Current signal  \n"
+"state"
+msgstr ""
+
+#: translation.js:72
+msgid ""
+"Signal state in the previous  \n"
+"clock cycle"
+msgstr ""
+
+#: translation.js:73
+msgid ""
+"The output is 1 if the current value is 1 and the  \n"
+"previous 0, or if the current value is 0 and the  \n"
+"previous 1\n"
+msgstr ""
+
+#: translation.js:74
+msgid "In any other case the output is 0"
+msgstr ""
+
+#: translation.js:75
+msgid "Parameter: Initial value"
+msgstr ""
+
+#: translation.js:76
+msgid "Input data"
+msgstr ""
+
+#: translation.js:77
+msgid ""
+"# D Flip-Flop  (system)\n"
+"\n"
+"It stores the input data that arrives at cycle n  \n"
+"Its output is shown in the cycle n+1"
+msgstr ""
+
+#: translation.js:78
+msgid "Not connected"
+msgstr ""
+
+#: translation.js:79
+#, fuzzy
+#| msgid "Flip-flop D"
+msgid "Flip-flop-D"
+msgstr "Synchronní klopný D"
+
+#: translation.js:80
+#, fuzzy
+#| msgid "Flip-flop T"
+msgid "Flip-flop-T"
+msgstr "Synchronní klopný T"
+
+#: translation.js:81
+msgid ""
+"Sys-TFF: System TFF: It toogles its output on every system cycle. Verilog "
+"implementation"
+msgstr ""
+
+#: translation.js:82
+msgid "Prescaler22"
+msgstr "Dělička 22"
+
+#: translation.js:83
+msgid "22-bits prescaler"
+msgstr "22 bitová dělička"
+
+#: translation.js:84
+msgid "Parametric N-bits prescaler"
+msgstr "Nastavitelná N bitová dělička"
+
+#: translation.js:85
+msgid "PrescalerN"
+msgstr "Dělička N"
+
+#: translation.js:86
+#, fuzzy
+#| msgid "Pull-up"
+msgid "Pull-up-ecp5"
+msgstr "Pull-up"
+
+#: translation.js:87
+#, fuzzy
+#| msgid "FPGA internal pull-up configuration on the connected input port"
+msgid "ECP5 FPGA internal pull-up configuration on the connected input port"
+msgstr "FPGA vnitřní pull-up rezistor na připojeném vstupním pinu"
+
+#: translation.js:88
+#, fuzzy
+#| msgid "Pull-up"
+msgid "Pull-up-ice40"
+msgstr "Pull-up"
+
+#: translation.js:89
+#, fuzzy
+#| msgid "FPGA internal pull-up configuration on the connected input port"
+msgid ""
+"Pull-up_ICE40:: FPGA internal pull-up configuration on the input port. ICE40 "
+"FPGA family"
+msgstr "FPGA vnitřní pull-up rezistor na připojeném vstupním pinu"
+
+#: translation.js:90
+msgid ""
+"### Pull-up parameter:\n"
+"\n"
+"0: No pull-up  \n"
+"1: Pull-up activated"
+msgstr ""
+
+#: translation.js:91
+msgid ""
+"Only an FPGA pin can  \n"
+"be connected here!!!"
+msgstr ""
+
+#: translation.js:92
+msgid ""
+"The pull-up is connected  \n"
+"by default"
+msgstr ""
+
+#: translation.js:93
+msgid "Tri-state"
+msgstr "Třístavová logika"
+
+#: translation.js:94
+msgid "InOut:  Input-Output block"
+msgstr ""
+
+#: translation.js:95
+msgid "1. Basic"
+msgstr "1. Základ"
+
+#: translation.js:96
+msgid "2. Flip-flops"
+msgstr "2. Klopné obvody"
+
+#: translation.js:97
+msgid "3. Gates"
+msgstr "3. Hradla"
+
+#: translation.js:98
+msgid "4. Muxes"
+msgstr "4. Multiplexory"
+
+#: translation.js:99
+msgid "5. Markdown"
+msgstr "5. Dokumentace (markdown)"
+
+#: translation.js:100
+msgid "6. Verilog"
+msgstr "6. Programování (verilog)"
+
+#: translation.js:101
+msgid "01. One LED"
+msgstr "01. Jedna LED"
+
+#: translation.js:102
+msgid "Turn on a LED"
+msgstr "Zapnout LED"
+
+#: translation.js:103
+msgid "02. Two LEDs"
+msgstr "02. Dvě LED"
+
+#: translation.js:104
+msgid "Turn on two LEDs"
+msgstr "Zapnout dvě LEDky"
+
+#: translation.js:105
+msgid "03. Three LEDs"
+msgstr "03. Tři LED"
+
+#: translation.js:106
+msgid "Turn on three LEDs"
+msgstr "Zapnout tři LEDky"
+
+#: translation.js:107
+msgid "04. One LED blink"
+msgstr "04. Jedna blikající LED"
+
+#: translation.js:108
+msgid "Blinking LED"
+msgstr "Blikání LED"
+
+#: translation.js:109
+msgid "05. Two LEDs alternate blink"
+msgstr "05. Dvě střídavě blikající LEDky"
+
+#: translation.js:110
+msgid "LEDs 0 and 7 are blinking alternatively"
+msgstr "LED číslo 0 a 7 střídavě blikají"
+
+#: translation.js:111
+msgid "06. Pushbutton and LED"
+msgstr "06. Tlačítka a LEDky"
+
+#: translation.js:112
+msgid "One pushbutton for turning the LED on and off"
+msgstr "Jedno tlačítko pro zapínání i vypínání LED"
+
+#: translation.js:113
+msgid "01. DFF manual load"
+msgstr "01. Klopný D s ručním překlopením"
+
+#: translation.js:114
+msgid "Button-tic: Configurable button that emits a tic when it is pressed"
+msgstr ""
+
+#: translation.js:115
+msgid ""
+"Rising-edge detector. It generates a 1-period pulse (tic) when a rising edge "
+"is detected on the input. Block implementation"
+msgstr ""
+
+#: translation.js:116
+msgid "Configurable button (pull-up on/off. Not on/off)"
+msgstr ""
+
+#: translation.js:117
+#, fuzzy
+#| msgid "FPGA internal pull-up configuration on the connected input port"
+msgid "FPGA internal pull-up configuration on the input port"
+msgstr "FPGA vnitřní pull-up rezistor na připojeném vstupním pinu"
+
+#: translation.js:118
+msgid ""
+"Select positive or negative logic for the input (0=positive, 1=negative)"
+msgstr ""
+
+#: translation.js:119
+msgid ""
+"Valor genérico constante, de 1 bits. Su valor se introduce como parámetro. "
+"Por defecto vale 0"
+msgstr ""
+
+#: translation.js:120
+msgid ""
+"Sync-x01: 1-bit input with the system clock domain (Verilog implementation)"
+msgstr ""
+
+#: translation.js:121
+msgid "The LED is turned on when the pushbutton is pressed"
+msgstr "Když se stiskne tlačítko, LED se rozsvítí"
+
+#: translation.js:122
+msgid ""
+"special debouncer  \n"
+"for buttons"
+msgstr ""
+
+#: translation.js:123
+msgid "Button state signal"
+msgstr ""
+
+#: translation.js:124
+msgid "Tic: button pressed"
+msgstr ""
+
+#: translation.js:125
+msgid "Rising edge detector"
+msgstr ""
+
+#: translation.js:126
+#, fuzzy
+#| msgid "Pull up"
+msgid "Pull up on/off"
+msgstr "Pull-up"
+
+#: translation.js:127
+msgid "Not on/off"
+msgstr ""
+
+#: translation.js:128
+msgid ""
+"## Rising edge detector\n"
+"\n"
+"It generates a 1-period pulse (tic) when a rising edge is detected on the  \n"
+"input signal"
+msgstr ""
+
+#: translation.js:129
+msgid ""
+"If the current signal is 1 and its value in  \n"
+"the previous clock cycle was 0, it means  \n"
+"that a rising edge has been detected!  \n"
+"The output es 1\n"
+"\n"
+"In any other case the output is 0"
+msgstr ""
+
+#: translation.js:130
+msgid ""
+"**Delay**: 0 clock cycles \n"
+"\n"
+"There is no delay between the arrival of a rising edge  \n"
+"and its detection"
+msgstr ""
+
+#: translation.js:131
+msgid ""
+"Internal pull-up  \n"
+"* 0: OFF\n"
+"* 1: ON"
+msgstr ""
+
+#: translation.js:132
+msgid "Synchronization stage"
+msgstr ""
+
+#: translation.js:133
+msgid ""
+"Normalization stage\n"
+"\n"
+"* 0: Wire\n"
+"* 1: signal inverted"
+msgstr ""
+
+#: translation.js:134
+#, fuzzy
+#| msgid "Debouncer"
+msgid "Debouncing stage"
+msgstr "Filtr zákmitů"
+
+#: translation.js:135
+msgid ""
+"When k=0, it works like a wire  \n"
+"(The output is equal to the input)  \n"
+"When k=1, it act as a not gate\n"
+"(The output is the inverse of the input)"
+msgstr ""
+
+#: translation.js:136
+msgid ""
+"### Truth table for XOR\n"
+"\n"
+"| k | input | output | function |\n"
+"|---|-------|--------|----------|\n"
+"| 0 | 0     |  0     | wire     |\n"
+"| 0 | 1     |  1     | wire     |\n"
+"| 1 | 0     |  1     | Not      |\n"
+"| 1 | 1     |  0     | Not      |"
+msgstr ""
+
+#: translation.js:137
+msgid "02. Chain of three DFFs"
+msgstr "02. Zřetězení tří klopných D"
+
+#: translation.js:138
+#, fuzzy
+#| msgid ""
+#| "A chain of three D flip-flops\n"
+#| "The LEDs are turned on secuentially, with every click on the button"
+msgid ""
+"A chain of three D flip-flops  \n"
 "The LEDs are turned on secuentially, with every click on the button"
 msgstr ""
 "Zřetězení tří klopných D\n"
 "Každým stisknutím tlačítka jsou LEDky bezpečně zapnuty"
 
-#: translation.js:72
+#: translation.js:139
 msgid "03. Ring of four DFFs"
 msgstr "03. Čtyři klopné D dokola"
 
-#: translation.js:73
+#: translation.js:140
+msgid ""
+"Simplified-Heart-tic-ms-sys-32bits: Nominal periodic signal in mili seconds"
+msgstr ""
+
+#: translation.js:141
+msgid "Unit-ms-32bits: ms to cycles converter"
+msgstr ""
+
+#: translation.js:142
+msgid ""
+"Heart-sys-zero-32bits: Generate a periodic signal of period T cycles. It "
+"starts at cycle 0. It never stops"
+msgstr ""
+
+#: translation.js:143
+msgid "Sys-Delay-xN-32bits: The input tic is delayed N cycles"
+msgstr ""
+
+#: translation.js:144
+msgid "Counter-M-x32: 32-bits M module counter with reset"
+msgstr ""
+
+#: translation.js:145
+msgid "Inc1-32bit: Increment a 32-bits number by one"
+msgstr ""
+
+#: translation.js:146
+msgid "AdderK-32bit: Adder of 32-bit operand and 32-bit constant"
+msgstr ""
+
+#: translation.js:147
+msgid "Generic: 32-bits generic constant"
+msgstr ""
+
+#: translation.js:148
+msgid "Adder-32bits: Adder of two operands of 32 bits"
+msgstr ""
+
+#: translation.js:149
+msgid "Bus24-Join-8-16: Join the two buses into an 24-bits Bus"
+msgstr ""
+
+#: translation.js:150
+msgid ""
+"Bus32-Split-8-24: Split the 28-bits bus into two buses of 8 and 24 wires"
+msgstr ""
+
+#: translation.js:151
+msgid ""
+"Bus24-Split-16-8: Split the 24-bits bus into two buses of 16 and 8 wires"
+msgstr ""
+
+#: translation.js:152
+msgid "Bus32-Join-8-24: Join the two buses into an 32-bits Bus"
+msgstr ""
+
+#: translation.js:153
+msgid ""
+"Geu-32-Bits_v: 32-bit Unsigned Greather than or equal comparator. Verilog "
+"implementation"
+msgstr ""
+
+#: translation.js:154
+msgid "32-Reg-rst: 32 bits Register with reset. Verilog implementation"
+msgstr ""
+
+#: translation.js:155
+msgid ""
+"RS-FF-set-verilog. RS Flip-flop with priority set. Implementation in verilog"
+msgstr ""
+
+#: translation.js:156
+msgid ""
+"start: Start signal: It goes from 1 to 0 when the system clock starts. 1 "
+"cycle pulse witch. Block implementation"
+msgstr ""
+
+#: translation.js:157
 msgid ""
 "A ring of four D flip-flops\n"
 "The sequence is shown in the LEDs"
@@ -278,169 +743,347 @@ msgstr ""
 "Čtyři klopné D dokola\n"
 "Posloupnost je zobrazena na LEDkách"
 
-#: translation.js:74
+#: translation.js:158
+msgid "Input parameter: Milieconds  "
+msgstr ""
+
+#: translation.js:159
+msgid ""
+"Input parameter:  \n"
+"System Frequency"
+msgstr ""
+
+#: translation.js:160
+msgid "Delay"
+msgstr ""
+
+#: translation.js:161
+msgid "Start a new period"
+msgstr ""
+
+#: translation.js:162
+msgid "Start at cycle 0!"
+msgstr ""
+
+#: translation.js:163
+msgid "Repeat!"
+msgstr ""
+
+#: translation.js:164
+msgid ""
+"Current period ended  \n"
+"Start a new one"
+msgstr ""
+
+#: translation.js:165
+msgid "Periodo (in system clock cycles)"
+msgstr ""
+
+#: translation.js:166
+msgid ""
+"Current cycle in the period  \n"
+"(0-T-1)"
+msgstr ""
+
+#: translation.js:167
+msgid "Cycles to delay"
+msgstr ""
+
+#: translation.js:168
+msgid "Delay finished!"
+msgstr ""
+
+#: translation.js:169
+msgid "Machine state: ON/OFF"
+msgstr ""
+
+#: translation.js:170
+#, fuzzy
+#| msgid "2. Flip-flops"
+msgid "RS Flip-Flop"
+msgstr "2. Klopné obvody"
+
+#: translation.js:171
+msgid ""
+"Circuit state:  \n"
+"* ON: working (1)\n"
+"* OFF: Not working (0)"
+msgstr ""
+
+#: translation.js:172
+msgid ""
+"The counter has reached  \n"
+"the number of cycles  \n"
+"to delay"
+msgstr ""
+
+#: translation.js:173
+msgid ""
+"Maximum count  \n"
+"reached"
+msgstr ""
+
+#: translation.js:174
+#, fuzzy
+#| msgid "22-bits prescaler"
+msgid "32-bits register"
+msgstr "22 bitová dělička"
+
+#: translation.js:175
+msgid ""
+"If the max count is reached  \n"
+"and the cnt tic is received,  \n"
+"the register is reset to 0"
+msgstr ""
+
+#: translation.js:176
+msgid "External reset"
+msgstr ""
+
+#: translation.js:177
+msgid "Initial value: 1"
+msgstr ""
+
+#: translation.js:178
+msgid "Initial value: 0"
+msgstr ""
+
+#: translation.js:179
+msgid "Falling edge"
+msgstr ""
+
+#: translation.js:180
 msgid "04. Toggle button"
 msgstr "04. Přepínací tlačítko"
 
-#: translation.js:75
+#: translation.js:181
+msgid ""
+"TFF-verilog. System TFF with toggle input: It toogles on every system cycle "
+"if the input is active. Verilog implementation"
+msgstr ""
+
+#: translation.js:182
 msgid "When the pushbutton is clicked the LED changes"
 msgstr "Po stisknutí tlačítka se LED změní"
 
-#: translation.js:76
+#: translation.js:183
 msgid "05. Binary counter with three TFFs"
 msgstr "05. Binární čítač s třemi klopnými T"
 
-#: translation.js:77
+#: translation.js:184
+msgid ""
+"Falling-edge detector. It generates a 1-period pulse (tic) when a falling "
+"edge is detected on the input"
+msgstr ""
+
+#: translation.js:185
 msgid "A 3-bit binary counter with T flip-flops"
 msgstr "Tříbitový binární čítač s klopnými T"
 
-#: translation.js:78
+#: translation.js:186
+msgid ""
+"## Falling edge detector\n"
+"\n"
+"It generates a 1-period pulse (tic) when a falling edge is detected on "
+"the  \n"
+"input signal"
+msgstr ""
+
+#: translation.js:187
+msgid ""
+"If the current signal is 0 and its value in  \n"
+"the previous clock cycle was 1, it means  \n"
+"that a falling edge has been detected!  \n"
+"The output es 1\n"
+"\n"
+"In any other case the output is 0"
+msgstr ""
+
+#: translation.js:188
+msgid ""
+"**Delay**: 0 clock cycles \n"
+"\n"
+"There is no delay between the arrival of a falling edge  \n"
+"and its detection"
+msgstr ""
+
+#: translation.js:189
 msgid "01. AND gate"
 msgstr "01. Hradlo AND"
 
-#: translation.js:79
+#: translation.js:190
 msgid "Testing the AND gate"
 msgstr "Testování logického součinu AND"
 
-#: translation.js:80
+#: translation.js:191
 msgid "02. OR gate"
 msgstr "02. Hradlo OR"
 
-#: translation.js:81
+#: translation.js:192
 msgid "Testing the OR gate"
 msgstr "Testování logického součtu OR"
 
-#: translation.js:82
+#: translation.js:193
 msgid "03. AND truth table"
 msgstr "03. Pravdivostní tabulka AND"
 
-#: translation.js:83
+#: translation.js:194
 msgid "Truth table of the AND gate"
 msgstr "Pravdivostní tabulka logického součinu AND"
 
-#: translation.js:84
+#: translation.js:195
 msgid "04. OR truth table"
 msgstr "04. Pravdivostní tabulka OR"
 
-#: translation.js:85
+#: translation.js:196
 msgid "Truth table of the OR gate"
 msgstr "Pravdivostní tabulka logického součtu OR"
 
-#: translation.js:86
-msgid "05. SR latch"
-msgstr "05. Asynchronní klopný obvod SR"
-
-#: translation.js:87
-msgid "An SR-latch implemented with logic gates"
-msgstr "Asynchronní klopný obvod SR pomocí logických hradel"
-
-#: translation.js:88
-msgid "06. D latch"
-msgstr "06. Asynchronní klopný D"
-
-#: translation.js:89
-msgid "A D latch implemented with logic gates"
-msgstr "Asynchronní klopný D pomocí logických hradel"
-
-#: translation.js:90
-msgid "07. D flip-flop"
-msgstr "07. Synchronní klopný D"
-
-#: translation.js:91
-msgid "Master Latch"
-msgstr "Hlavní asynchronní"
-
-#: translation.js:92
-msgid "Slave latch"
-msgstr "Vedlejší asynchronní"
-
-#: translation.js:93
-msgid "A D flip-flip with a falling-edge trigger implemented with logic gates"
-msgstr "Synchronní klopný D se sestupnou hranou pomocí logických hradel"
-
-#: translation.js:94
-msgid "08. Multiplexer 2:1"
+#: translation.js:197
+#, fuzzy
+#| msgid "08. Multiplexer 2:1"
+msgid "05. Multiplexer 2-1"
 msgstr "08. Multiplexor 2:1"
 
-#: translation.js:95
+#: translation.js:198
+msgid "NOT logic gate"
+msgstr "Invertor"
+
+#: translation.js:199
+msgid "AND logic gate"
+msgstr "Hradlo AND"
+
+#: translation.js:200
+msgid "OR logic gate"
+msgstr "Hradlo OR"
+
+#: translation.js:201
+msgid "Simplified-Heart-ms-sys-32bits: Nominal periodic signal in mili seconds"
+msgstr ""
+
+#: translation.js:202
 msgid ""
-"Mux 2:1 implemented with logic gates\n"
+"SR1-32bits: Shift  a 32-bit value one bit right. MSB is filled with the "
+"input  in"
+msgstr ""
+
+#: translation.js:203
+msgid ""
+"Bus32-Split-31-1: Split the 32-bits bus into two buses of 31 and 1 wires"
+msgstr ""
+
+#: translation.js:204
+msgid "Bus32-Join-1-31: Join the two buses into an 32-bits Bus"
+msgstr ""
+
+#: translation.js:205
+#, fuzzy
+#| msgid ""
+#| "Mux 2:1 implemented with logic gates\n"
+#| "The LED0 blinks or is turned on depending on the pushbutton 1"
+msgid ""
+"Mux 2:1 implemented with logic gates  \n"
 "The LED0 blinks or is turned on depending on the pushbutton 1"
 msgstr ""
 "Multiplexor 2:1 pomocí logických hradel\n"
 "V závislosti na tlačítku 1 LED0 buď bliká, nebo je zapnuta"
 
-#: translation.js:96
+#: translation.js:206
 msgid "Mux 2:1 with logic gates"
 msgstr "Multiplexor 2:1 pomocí logických hradel"
 
-#: translation.js:97
+#: translation.js:207
 msgid "Signal for blinking the LED"
 msgstr "Signál pro blikání LED"
 
-#: translation.js:98
+#: translation.js:208
 msgid "Fixed signal for turning on the LED"
 msgstr "Stabilní signál pro zapnutí LED trvale"
 
-#: translation.js:99
-msgid "09. Decoder 2:4"
+#: translation.js:209
+msgid ""
+"Dividir entre dos el periodo  \n"
+"(Multiplicar por 2 la frecuencia)  "
+msgstr ""
+
+#: translation.js:210
+#, fuzzy
+#| msgid "09. Decoder 2:4"
+msgid "06. Decoder 2-4"
 msgstr "09. Dekodér 4 ze 2"
 
-#: translation.js:100
+#: translation.js:211
 msgid "2 to 4 bits decoder with logic gates"
 msgstr "Dekodér 2 na 4 bity pomocí logických hradel"
 
-#: translation.js:101
-msgid "10. One bit adder"
+#: translation.js:212
+#, fuzzy
+#| msgid "10. One bit adder"
+msgid "07. One bit adder"
 msgstr "10. Jednobitová sčítačka"
 
-#: translation.js:102
+#: translation.js:213
 msgid "1-bit adder"
 msgstr "Jednobitová sčítačka"
 
-#: translation.js:103
+#: translation.js:214
 msgid "01. Blinking fixed LED"
 msgstr "01. Ne/blikající LED"
 
-#: translation.js:104
+#: translation.js:215
+#, fuzzy
+#| msgid ""
+#| "Blinking/fixed LED\n"
+#| "The toggle button selects if the LED blinks or stays turned on"
 msgid ""
-"Blinking/fixed LED\n"
+"Blinking/fixed LED  \n"
 "The toggle button selects if the LED blinks or stays turned on"
 msgstr ""
 "Blikající/neblikající LED\n"
 "Přepínání tlačítkem vybere zda LED bliká či zůstane zapnuta"
 
-#: translation.js:105
+#: translation.js:216
 msgid "02. LED three states"
 msgstr "02. Třístavová LED"
 
-#: translation.js:106
+#: translation.js:217
+#, fuzzy
+#| msgid ""
+#| "The LED has three modes of operation: blinking, turned on an turned off\n"
+#| "SW2 pushbutton determines if the LED blinks/stays fixed\n"
+#| "SW1 pushbutton determines the LED state (on or off), in fixed mode"
 msgid ""
-"The LED has three modes of operation: blinking, turned on an turned off\n"
-"SW2 pushbutton determines if the LED blinks/stays fixed\n"
-"SW1 pushbutton determines the LED state (on or off), in fixed mode"
+"The LED has three modes of operation: blinking, turned on an turned off  \n"
+"SW2 pushbutton determines if the LED blinks/stays fixed  \n"
+"SW1 pushbutton determines the LED state (on or off), in fixed mode  "
 msgstr ""
 "LED má tři stavy: bliká, svítí, nesvítí\n"
 "tlačítko SW2 volí zda LED bliká či nebliká\n"
 "tlačítko SW1 volí, zda svítí či nesvítí, když nebliká"
 
-#: translation.js:107
-msgid "03. Multiplexer 4:1"
+#: translation.js:218
+#, fuzzy
+#| msgid "03. Multiplexer 4:1"
+msgid "03. Multiplexer 4-1"
 msgstr "03. Multiplexor 4:1"
 
-#: translation.js:108
+#: translation.js:219
+#, fuzzy
+#| msgid ""
+#| "A 4:1 mux from two 2:1 muxes\n"
+#| "The LED can be in four states: off, blinking, on, blinking fast"
 msgid ""
-"A 4:1 mux from two 2:1 muxes\n"
+"A 4:1 mux from two 2:1 muxes  \n"
 "The LED can be in four states: off, blinking, on, blinking fast"
 msgstr ""
 "Multiplexor 4:1 sestavený ze dvou multiplexorů 2:1\n"
 "LED může být ve čtyřech stavech: nesvítí, bliká, svítí a bliká rychleji"
 
-#: translation.js:109
+#: translation.js:220
 msgid "04. Shift register"
 msgstr "04. Posuvný registr"
 
-#: translation.js:110
+#: translation.js:221
 msgid ""
 "4 bits shift register. It is loaded with the initial value 1000 and then\n"
 "shifted on every clock pulse"
@@ -448,11 +1091,11 @@ msgstr ""
 "Čtyřbitový posuvný registr. Je nastaven na počáteční hodnotu 1000 a pak\n"
 "se posouvá na každý hodinový cyklus"
 
-#: translation.js:111
+#: translation.js:222
 msgid "Binary value to load and shift"
 msgstr "Binární hodnota k načtení a posunutí"
 
-#: translation.js:112
+#: translation.js:223
 msgid ""
 "Initializer. It has the initial value 0, so that the\n"
 "i0 is selected in all the muxes. The register is loaded.\n"
@@ -466,11 +1109,40 @@ msgstr ""
 "zvolen na všech multiplexorech. Registr je posunut.\n"
 "V dalších cyklech zůstane ve stavu posouvání."
 
-#: translation.js:113
+#: translation.js:224
 msgid "01. Headers list fonts"
 msgstr "01. Hlavičky, seznamy a písma"
 
-#: translation.js:114
+#: translation.js:225
+#, fuzzy
+#| msgid ""
+#| "# Markdown example\n"
+#| "\n"
+#| "This is an example of an information block written in markdown  \n"
+#| "Just doble-click on this note to edit it  \n"
+#| "\n"
+#| "## Font styles\n"
+#| "\n"
+#| "In markdown you can write in **bold** or *italic* font very easily  \n"
+#| "\n"
+#| "## List\n"
+#| "\n"
+#| "Example of lists\n"
+#| "\n"
+#| "### unordered\n"
+#| "\n"
+#| "* Item 1\n"
+#| "* Item 2\n"
+#| "  * Item 2a\n"
+#| "  * Item 2b\n"
+#| "\n"
+#| "### ordered\n"
+#| "\n"
+#| "1. Item 1\n"
+#| "1. Item 2\n"
+#| "1. Item 3\n"
+#| "   1. Item 3a\n"
+#| "   1. Item 3b\n"
 msgid ""
 "# Markdown example\n"
 "\n"
@@ -492,6 +1164,7 @@ msgid ""
 "  * Item 2a\n"
 "  * Item 2b\n"
 "\n"
+"\n"
 "### ordered\n"
 "\n"
 "1. Item 1\n"
@@ -499,6 +1172,7 @@ msgid ""
 "1. Item 3\n"
 "   1. Item 3a\n"
 "   1. Item 3b\n"
+"   2. Item 3c\n"
 msgstr ""
 "# Příklad dokumentace v Markdown\n"
 "\n"
@@ -528,11 +1202,11 @@ msgstr ""
 "   1. Položka 3a\n"
 "   1. Položka 3b\n"
 
-#: translation.js:115
+#: translation.js:226
 msgid "02. Links and images"
 msgstr "02. Odkazy a obrázky"
 
-#: translation.js:116
+#: translation.js:227
 msgid ""
 "### Link example\n"
 "\n"
@@ -544,7 +1218,7 @@ msgstr ""
 "**Více informací** o Markdownu můžete nalézt na této stránce: [Mastering "
 "markdown](https://guides.github.com/features/mastering-markdown/)"
 
-#: translation.js:117
+#: translation.js:228
 msgid ""
 "### Images :smiley:\n"
 "\n"
@@ -555,11 +1229,11 @@ msgstr ""
 "\n"
 "Je možné vkládat obrázky, ale ty se vykreslí jen s připojením na internet\n"
 
-#: translation.js:118
+#: translation.js:229
 msgid "**PNG image**"
 msgstr "**PNG rastrový obrázek**"
 
-#: translation.js:119
+#: translation.js:230
 msgid ""
 "![](https://github.com/FPGAwars/icestudio-block-icons/raw/master/Logos/png/"
 "icestudio-logo.png)"
@@ -567,7 +1241,7 @@ msgstr ""
 "![](https://github.com/FPGAwars/icestudio-block-icons/raw/master/Logos/png/"
 "icestudio-logo.png)"
 
-#: translation.js:120
+#: translation.js:231
 msgid ""
 "![](https://github.com/FPGAwars/icestudio-block-icons/raw/master/Logos/"
 "icestudio-logo.svg?sanitize=true)\n"
@@ -575,11 +1249,11 @@ msgstr ""
 "![](https://github.com/FPGAwars/icestudio-block-icons/raw/master/Logos/"
 "icestudio-logo.svg?sanitize=true)\n"
 
-#: translation.js:121
+#: translation.js:232
 msgid "**SVG image**"
 msgstr "**SVG vektorový obrázek**"
 
-#: translation.js:122
+#: translation.js:233
 msgid ""
 "![](https://github.com/Obijuan/digital-electronics-with-open-FPGAs-tutorial/"
 "raw/master/wiki/Tutorial-24/ejemplos-digitos-10.gif)"
@@ -587,19 +1261,19 @@ msgstr ""
 "![](https://github.com/Obijuan/digital-electronics-with-open-FPGAs-tutorial/"
 "raw/master/wiki/Tutorial-24/ejemplos-digitos-10.gif)"
 
-#: translation.js:123
+#: translation.js:234
 msgid "**Animated GIF**"
 msgstr "**Animovaný GIF**"
 
-#: translation.js:124
+#: translation.js:235
 msgid "03. Tables"
 msgstr "03. Tabulky"
 
-#: translation.js:125
+#: translation.js:236
 msgid "Puerta AND"
 msgstr "Hradlo AND"
 
-#: translation.js:126
+#: translation.js:237
 msgid ""
 "First Header | Second Header\n"
 "------------ | -------------\n"
@@ -611,7 +1285,7 @@ msgstr ""
 "Obsah buňky 1 | Obsah buňky 2\n"
 "Obsah prvního sloupce | Obsah druhého sloupce"
 
-#: translation.js:127
+#: translation.js:238
 msgid ""
 "## Tables\n"
 "\n"
@@ -621,7 +1295,7 @@ msgstr ""
 "\n"
 "Tabulky jsou opravdu užitečné"
 
-#: translation.js:128
+#: translation.js:239
 msgid ""
 "a | b | AND\n"
 "--|---|------\n"
@@ -637,11 +1311,11 @@ msgstr ""
 "1 | 0 | 0\n"
 "1 | 1 | 1\n"
 
-#: translation.js:129
+#: translation.js:240
 msgid "**AND truth table**"
 msgstr "**pravdivostní tabulka AND**"
 
-#: translation.js:130
+#: translation.js:241
 msgid ""
 "**a**  \n"
 "  \n"
@@ -651,15 +1325,15 @@ msgstr ""
 "  \n"
 "**b**"
 
-#: translation.js:131
+#: translation.js:242
 msgid "**Output**"
 msgstr "**Výstup**"
 
-#: translation.js:132
+#: translation.js:243
 msgid "04. Code task list"
 msgstr "04. Zdrojové kódy a seznamy úkolů"
 
-#: translation.js:133
+#: translation.js:244
 msgid ""
 "## Code\n"
 "\n"
@@ -667,7 +1341,7 @@ msgstr ""
 "## Zdrojový kód\n"
 "\n"
 
-#: translation.js:134
+#: translation.js:245
 msgid ""
 "```verilog\n"
 "reg [7:0] value;\n"
@@ -683,7 +1357,7 @@ msgstr ""
 "  value <= value + 1;\n"
 "```"
 
-#: translation.js:135
+#: translation.js:246
 msgid ""
 "```javascript\n"
 "function fancyAlert(arg) {\n"
@@ -695,7 +1369,7 @@ msgstr ""
 "  if(arg) {\n"
 "    $.facebox({div:"
 
-#: translation.js:136
+#: translation.js:247
 msgid ""
 "- [x] Task 1\n"
 "- [x] Task 2\n"
@@ -707,15 +1381,15 @@ msgstr ""
 "- [x] Úkol 3\n"
 "- [ ] tento úkol ještě není hotov\n"
 
-#: translation.js:137
+#: translation.js:248
 msgid "**Verilog**"
 msgstr "**Verilog**"
 
-#: translation.js:138
+#: translation.js:249
 msgid "**Javascript**"
 msgstr "**Javascript**"
 
-#: translation.js:139
+#: translation.js:250
 msgid ""
 "## Task lists\n"
 "\n"
@@ -723,15 +1397,15 @@ msgstr ""
 "## Seznamy úkolů\n"
 "\n"
 
-#: translation.js:140
+#: translation.js:251
 msgid "05. Youtube videos"
 msgstr "05. Youtubová videa"
 
-#: translation.js:141
+#: translation.js:252
 msgid "# Youtube Videos"
 msgstr "# Youtubová videa"
 
-#: translation.js:142
+#: translation.js:253
 msgid ""
 "It is possible to link to youtube videos just by adding a  \n"
 "**standard link** to it:  [https://www.youtube.com/watch?v=boXZusFCCIU]"
@@ -741,7 +1415,7 @@ msgstr ""
 "**běžného odkazu** na něj:  [https://www.youtube.com/watch?v=boXZusFCCIU]"
 "(Video)"
 
-#: translation.js:143
+#: translation.js:254
 msgid ""
 "or you can include the **video thumbnail** along with the **link** for "
 "playing it in  \n"
@@ -756,63 +1430,83 @@ msgstr ""
 "[![Kliknutím zobrazíte video na Youtube](http://img.youtube.com/vi/"
 "boXZusFCCIU/0.jpg)](https://www.youtube.com/watch?v=boXZusFCCIU)"
 
-#: translation.js:144
+#: translation.js:255
 msgid "01. Four bits fixed binary value"
 msgstr "01. Čtyřbitová binární konstanta"
 
-#: translation.js:145
+#: translation.js:256
 msgid "Displaying a 4-bits fixed value in the LEDs"
 msgstr "Zobrazuje 4 bitovou konstantu pomocí LEDek"
 
-#: translation.js:146
+#: translation.js:257
 msgid "02. Four bits fixed hexadecimal value"
 msgstr "02. Čtyřbitová šestnáctková konstanta"
 
-#: translation.js:147
+#: translation.js:258
 msgid "Displaying a 4-bits fixed value (in hexadecimal) in the LEDs"
 msgstr "Zobrazuje 4 bitovou konstantu (šestnáctkovou) pomocí LEDek"
 
-#: translation.js:148
+#: translation.js:259
 msgid "03. Eight bits fixed value buses"
 msgstr "03. Osmibitová konstanta na sběrnici"
 
-#: translation.js:149
+#: translation.js:260
 msgid "Using buses for displaying a fixed value in the LEDs"
 msgstr "Použití sběrnic k zobrazení konstanty pomocí LEDek"
 
-#: translation.js:150
+#: translation.js:261
 msgid "04. Eight bits counter"
 msgstr "04. Osmibitový čítač"
 
-#: translation.js:151
+#: translation.js:262
 msgid "An 8-bit binary counter"
 msgstr "8 bitový binární čítač"
 
-#: translation.js:152
+#: translation.js:263
 msgid "05. Split buses"
 msgstr "05. Rozdělení sběrnic"
 
-#: translation.js:153
+#: translation.js:264
+#, fuzzy
+#| msgid ""
+#| "An 8-bit binary counter, using an 8-bit bus splitted\n"
+#| "into two 4-bit buses"
 msgid ""
-"An 8-bit binary counter, using an 8-bit bus splitted\n"
+"An 8-bit binary counter, using an 8-bit bus splitted  \n"
 "into two 4-bit buses"
 msgstr ""
 "8 bitový binární čítač, používá 8 bitovou sběrnici\n"
 "rozdělenou na dvě 4 bitové"
 
-#: translation.js:154
+#: translation.js:265
 msgid "06. ROM 16x8"
 msgstr "06. ROM 16x8 bitů"
 
-#: translation.js:155
+#: translation.js:266
 msgid "Displaying the contents of an 16x8 rom memory in the LEDs"
 msgstr "Zobrazuje obsah rom paměti 16x8 bitů pomocí LEDek"
 
-#: translation.js:156
+#: translation.js:267
 msgid "07. ROM 16x8 file"
 msgstr "07. ROM 16x8 bitů ze souboru"
 
-#: translation.js:157
+#: translation.js:268
+#, fuzzy
+#| msgid ""
+#| "Displaying the contents of an 16x8 rom memory in the LEDs\n"
+#| "The memory is read from the rom0.list file"
+msgid ""
+"Displaying the contents of an 16x8 rom memory in the LEDs  \n"
+"The memory is read from the rom0.list file"
+msgstr ""
+"Zobrazuje obsah rom paměti 16x8 bitů pomocí LEDek\n"
+"Paměť je načtena ze souboru rom0.list"
+
+#: translation.js:269
+msgid "08. ROM 16x8 file generic"
+msgstr "08. ROM 16x8 bitů ze souboru"
+
+#: translation.js:270
 msgid ""
 "Displaying the contents of an 16x8 rom memory in the LEDs\n"
 "The memory is read from the rom0.list file"
@@ -820,15 +1514,11 @@ msgstr ""
 "Zobrazuje obsah rom paměti 16x8 bitů pomocí LEDek\n"
 "Paměť je načtena ze souboru rom0.list"
 
-#: translation.js:158
-msgid "08. ROM 16x8 file generic"
-msgstr "08. ROM 16x8 bitů ze souboru"
-
-#: translation.js:159
+#: translation.js:271
 msgid "09. ROM 16x8 table"
 msgstr "09. ROM 16x8 bitů tabulkou"
 
-#: translation.js:160
+#: translation.js:272
 msgid ""
 "Displaying the contents of an 16x8 rom memory in the LEDs  \n"
 "The memory is read from the given table"
@@ -836,296 +1526,347 @@ msgstr ""
 "Zobrazuje obsah rom paměti 16x8 bitů pomocí LEDek\n"
 "Paměť je načtena z tabulky"
 
-msgid ""
-"### Images\n"
-"\n"
-"It is also possible to include images, but they are only rendered if there "
-"is internet connection\n"
-msgstr ""
-"### Obrázky\n"
-"\n"
-"Je možné vkládat obrázky, ale ty se vykreslí jen s připojením na internet\n"
-
-msgid ""
-"# Markdown example\n"
-"\n"
-"This is an example of an information block written in markdown  \n"
-"Just doble-click on this note to edit it  \n"
-"\n"
-"## Font styles\n"
-"\n"
-"In markdown you can write in **bold** or *italic* font very easily  \n"
-"\n"
-"## List\n"
-"\n"
-"Example of lists\n"
-"\n"
-"### unordered\n"
-"\n"
-"* Item 1\n"
-"* Item 2\n"
-"  * Item 2a\n"
-"  * Item 2b\n"
-"\n"
-"### Unordered\n"
-"\n"
-"1. Item 1\n"
-"1. Item 2\n"
-"1. Item 3\n"
-"   1. Item 3a\n"
-"   1. Item 3b\n"
-msgstr ""
-"# Příklad dokumentace v Markdown\n"
-"\n"
-"Toto je příklad informačního bloku napsaného v markdownu  \n"
-"Pro úpravu poklepejte myší  \n"
-"\n"
-"## Styl písma\n"
-"\n"
-"V markdownu můžete psát **tlustě** či *kurzívou* velmi snadno  \n"
-"\n"
-"## Seznam\n"
-"\n"
-"Příklad seznamů\n"
-"\n"
-"### nečíslovaný\n"
-"\n"
-"* Položka 1\n"
-"* Položka 2\n"
-"  * Položka 2a\n"
-"  * Položka 2b\n"
-"\n"
-"### číslovaný\n"
-"\n"
-"1. Položka 1\n"
-"1. Položka 2\n"
-"1. Položka 3\n"
-"   1. Položka 3a\n"
-"   1. Položka 3b\n"
-
-msgid ""
-"### Link example\n"
-"\n"
-"You can find information **more information** about Markdown in this page: "
-"[Mastering markdown](https://guides.github.com/features/mastering-markdown/)"
-msgstr ""
-"### Příklad odkazu\n"
-"\n"
-"**Více informací** o Markdownu můžete nalézt na této stránce: [Mastering "
-"markdown](https://guides.github.com/features/mastering-markdown/)"
-
-msgid "5. Verilog"
-msgstr "5. Verilog"
-
-msgid "Leds 0 and 7 are blinking alternatively"
-msgstr "LEDky číslo 0 a 7 blikají střídavě"
-
-msgid "Sum"
-msgstr "Suma"
-
-msgid "Carry"
-msgstr "Přenos"
-
-msgid "Delay flip-flop with synchronous reset"
-msgstr "Synchronní klopný D se synchronním nulováním"
-
-msgid "Pull up"
-msgstr "Pull-up"
-
-msgid "FPGA internal pull up configuration on the connected input port"
-msgstr "FPGA vnitřní pull-up rezistor na připojený vstup"
-
-msgid "Tri state"
-msgstr "Tří stavový"
+#~ msgid "Assign 0 to the output wire"
+#~ msgstr "Přiřadí logickou 0 na výstupní spoj"
+
+#~ msgid "Assign 1 to the output wire"
+#~ msgstr "Přiřadí logickou 1 na výstupní spoj"
+
+#~ msgid "Multiplexer 2:1"
+#~ msgstr "Multiplexer 2:1"
+
+#~ msgid "NAND logic gate"
+#~ msgstr "Hradlo NAND"
+
+#~ msgid "NOR logic gate"
+#~ msgstr "Hradlo NOR"
+
+#~ msgid "XNOR logic gate"
+#~ msgstr "Hradlo exkluzivní NOR"
+
+#~ msgid "XOR logic gate"
+#~ msgstr "Hradlo exkluzivní OR"
+
+#~ msgid "Delay flip-flop"
+#~ msgstr "Synchronní klopný D (zpožďující)"
+
+#~ msgid "Toggle flip-flop"
+#~ msgstr "Synchronní klopný T (otáčející)"
+
+#~ msgid "Tri-state logic block"
+#~ msgstr "Třístavový logický blok"
+
+#~ msgid "05. SR latch"
+#~ msgstr "05. Asynchronní klopný obvod SR"
+
+#~ msgid "An SR-latch implemented with logic gates"
+#~ msgstr "Asynchronní klopný obvod SR pomocí logických hradel"
+
+#~ msgid "06. D latch"
+#~ msgstr "06. Asynchronní klopný D"
+
+#~ msgid "A D latch implemented with logic gates"
+#~ msgstr "Asynchronní klopný D pomocí logických hradel"
+
+#~ msgid "07. D flip-flop"
+#~ msgstr "07. Synchronní klopný D"
+
+#~ msgid "Master Latch"
+#~ msgstr "Hlavní asynchronní"
+
+#~ msgid "Slave latch"
+#~ msgstr "Vedlejší asynchronní"
+
+#~ msgid ""
+#~ "A D flip-flip with a falling-edge trigger implemented with logic gates"
+#~ msgstr "Synchronní klopný D se sestupnou hranou pomocí logických hradel"
+
+#~ msgid ""
+#~ "### Images\n"
+#~ "\n"
+#~ "It is also possible to include images, but they are only rendered if "
+#~ "there is internet connection\n"
+#~ msgstr ""
+#~ "### Obrázky\n"
+#~ "\n"
+#~ "Je možné vkládat obrázky, ale ty se vykreslí jen s připojením na "
+#~ "internet\n"
+
+#~ msgid ""
+#~ "# Markdown example\n"
+#~ "\n"
+#~ "This is an example of an information block written in markdown  \n"
+#~ "Just doble-click on this note to edit it  \n"
+#~ "\n"
+#~ "## Font styles\n"
+#~ "\n"
+#~ "In markdown you can write in **bold** or *italic* font very easily  \n"
+#~ "\n"
+#~ "## List\n"
+#~ "\n"
+#~ "Example of lists\n"
+#~ "\n"
+#~ "### unordered\n"
+#~ "\n"
+#~ "* Item 1\n"
+#~ "* Item 2\n"
+#~ "  * Item 2a\n"
+#~ "  * Item 2b\n"
+#~ "\n"
+#~ "### Unordered\n"
+#~ "\n"
+#~ "1. Item 1\n"
+#~ "1. Item 2\n"
+#~ "1. Item 3\n"
+#~ "   1. Item 3a\n"
+#~ "   1. Item 3b\n"
+#~ msgstr ""
+#~ "# Příklad dokumentace v Markdown\n"
+#~ "\n"
+#~ "Toto je příklad informačního bloku napsaného v markdownu  \n"
+#~ "Pro úpravu poklepejte myší  \n"
+#~ "\n"
+#~ "## Styl písma\n"
+#~ "\n"
+#~ "V markdownu můžete psát **tlustě** či *kurzívou* velmi snadno  \n"
+#~ "\n"
+#~ "## Seznam\n"
+#~ "\n"
+#~ "Příklad seznamů\n"
+#~ "\n"
+#~ "### nečíslovaný\n"
+#~ "\n"
+#~ "* Položka 1\n"
+#~ "* Položka 2\n"
+#~ "  * Položka 2a\n"
+#~ "  * Položka 2b\n"
+#~ "\n"
+#~ "### číslovaný\n"
+#~ "\n"
+#~ "1. Položka 1\n"
+#~ "1. Položka 2\n"
+#~ "1. Položka 3\n"
+#~ "   1. Položka 3a\n"
+#~ "   1. Položka 3b\n"
 
-msgid "06. Pushbutton LED"
-msgstr "06. Tlačítko a LED"
+#~ msgid ""
+#~ "### Link example\n"
+#~ "\n"
+#~ "You can find information **more information** about Markdown in this "
+#~ "page: [Mastering markdown](https://guides.github.com/features/mastering-"
+#~ "markdown/)"
+#~ msgstr ""
+#~ "### Příklad odkazu\n"
+#~ "\n"
+#~ "**Více informací** o Markdownu můžete nalézt na této stránce: [Mastering "
+#~ "markdown](https://guides.github.com/features/mastering-markdown/)"
 
-msgid "bit"
-msgstr "Binární konstanta"
+#~ msgid "5. Verilog"
+#~ msgstr "5. Verilog"
 
-msgid "config"
-msgstr "Nastavení"
+#~ msgid "Leds 0 and 7 are blinking alternatively"
+#~ msgstr "LEDky číslo 0 a 7 blikají střídavě"
 
-msgid "pull_up"
-msgstr "Pull up"
+#~ msgid "Sum"
+#~ msgstr "Suma"
 
-msgid "logic"
-msgstr "Logika"
+#~ msgid "Carry"
+#~ msgstr "Přenos"
 
-msgid "combinational"
-msgstr "Kombinační"
+#~ msgid "Delay flip-flop with synchronous reset"
+#~ msgstr "Synchronní klopný D se synchronním nulováním"
 
-msgid "mux_2_1"
-msgstr "Multiplexor 2:1"
+#~ msgid "FPGA internal pull up configuration on the connected input port"
+#~ msgstr "FPGA vnitřní pull-up rezistor na připojený vstup"
 
-msgid "gate"
-msgstr "Hradlo"
+#~ msgid "Tri state"
+#~ msgstr "Tří stavový"
 
-msgid "and"
-msgstr "AND"
+#~ msgid "06. Pushbutton LED"
+#~ msgstr "06. Tlačítko a LED"
 
-msgid "not"
-msgstr "negace"
+#~ msgid "bit"
+#~ msgstr "Binární konstanta"
 
-msgid "or"
-msgstr "OR"
+#~ msgid "config"
+#~ msgstr "Nastavení"
 
-msgid "xor"
-msgstr "Exkluzivní OR"
+#~ msgid "pull_up"
+#~ msgstr "Pull up"
 
-msgid "sequential"
-msgstr "sekvenční"
+#~ msgid "logic"
+#~ msgstr "Logika"
 
-msgid "dff"
-msgstr "Synchronní klopný D"
+#~ msgid "combinational"
+#~ msgstr "Kombinační"
 
-msgid "tff"
-msgstr "Synchronní klopný T"
+#~ msgid "mux_2_1"
+#~ msgstr "Multiplexor 2:1"
 
-msgid "debouncer"
-msgstr "Filtr zákmitů"
+#~ msgid "gate"
+#~ msgstr "Hradlo"
 
-msgid "prescaler_22"
-msgstr "Dělička 22"
+#~ msgid "and"
+#~ msgstr "AND"
 
-msgid "prescalerN"
-msgstr "předdělička N"
+#~ msgid "not"
+#~ msgstr "negace"
 
-msgid "1_basic"
-msgstr "1. Základy"
+#~ msgid "or"
+#~ msgstr "OR"
 
-msgid "1_one_led"
-msgstr "1. Zapnout jednu led"
+#~ msgid "xor"
+#~ msgstr "Exkluzivní OR"
 
-msgid "2_two_leds"
-msgstr "2. Zapnout dvě ledky"
+#~ msgid "sequential"
+#~ msgstr "sekvenční"
 
-msgid "3_three_leds"
-msgstr "3. Zapnout tři ledky"
+#~ msgid "dff"
+#~ msgstr "Synchronní klopný D"
 
-msgid "4_blink"
-msgstr "4. Blikání"
+#~ msgid "tff"
+#~ msgstr "Synchronní klopný T"
 
-msgid "5_two_led_alternate_blink"
-msgstr "5. Dvě střídavě blikající LEDky"
+#~ msgid "debouncer"
+#~ msgstr "Filtr zákmitů"
 
-msgid "6_pushbutton_led"
-msgstr "6. Tlačítko a LED"
+#~ msgid "prescaler_22"
+#~ msgstr "Dělička 22"
 
-msgid "2_flip_flops"
-msgstr "2. Klopné obvody"
+#~ msgid "prescalerN"
+#~ msgstr "předdělička N"
 
-msgid "1_Dff_manual_load"
-msgstr "1. Klopný obvod D s ručním překlopením"
+#~ msgid "1_basic"
+#~ msgstr "1. Základy"
 
-msgid "2_chain_of_three_DFF"
-msgstr "2. Zřetězení tří synchronních klopných obvodů D"
+#~ msgid "1_one_led"
+#~ msgstr "1. Zapnout jednu led"
 
-msgid "3_ring_of_four_DFFs"
-msgstr "3. Synchronní klopné obvody D dokola"
+#~ msgid "2_two_leds"
+#~ msgstr "2. Zapnout dvě ledky"
 
-msgid "4_toggle_button"
-msgstr "4. Toggle button"
+#~ msgid "3_three_leds"
+#~ msgstr "3. Zapnout tři ledky"
 
-msgid "5_binary_counter_with_three_TFFs"
-msgstr "5. Binární čítač pomocí tří synchronních klopných obvodů T"
+#~ msgid "4_blink"
+#~ msgstr "4. Blikání"
 
-msgid "3_gates"
-msgstr "3. Hradla"
+#~ msgid "5_two_led_alternate_blink"
+#~ msgstr "5. Dvě střídavě blikající LEDky"
 
-msgid "01_and"
-msgstr "1. Hradlo AND"
+#~ msgid "6_pushbutton_led"
+#~ msgstr "6. Tlačítko a LED"
 
-msgid "02_or"
-msgstr "2. Hradlo OR"
+#~ msgid "2_flip_flops"
+#~ msgstr "2. Klopné obvody"
 
-msgid "03_and_truth_table"
-msgstr "3. AND pravdivostní tabulkou"
+#~ msgid "1_Dff_manual_load"
+#~ msgstr "1. Klopný obvod D s ručním překlopením"
 
-msgid "04_or_truth_table"
-msgstr "4. OR pravdivostní tabulkou"
+#~ msgid "2_chain_of_three_DFF"
+#~ msgstr "2. Zřetězení tří synchronních klopných obvodů D"
 
-msgid "05_sr_latch"
-msgstr "5. Asynchronní klopný obvod SR"
+#~ msgid "3_ring_of_four_DFFs"
+#~ msgstr "3. Synchronní klopné obvody D dokola"
 
-msgid "06_D_latch"
-msgstr "6. Asynchronní klopný D"
+#~ msgid "4_toggle_button"
+#~ msgstr "4. Toggle button"
 
-msgid "07_D_flip_flop"
-msgstr "7. Synchronní klopný D"
+#~ msgid "5_binary_counter_with_three_TFFs"
+#~ msgstr "5. Binární čítač pomocí tří synchronních klopných obvodů T"
 
-msgid "08_mux_2_1"
-msgstr "8. Multiplexor 2:1"
+#~ msgid "3_gates"
+#~ msgstr "3. Hradla"
 
-msgid "09_two_to_four_decoder"
-msgstr "9. Dekodér 2 na 4"
+#~ msgid "01_and"
+#~ msgstr "1. Hradlo AND"
 
-msgid "10_one_bit_adder"
-msgstr "10. Jednobitová sčítačka"
+#~ msgid "02_or"
+#~ msgstr "2. Hradlo OR"
 
-msgid "4_muxes"
-msgstr "4. Multiplexování"
+#~ msgid "03_and_truth_table"
+#~ msgstr "3. AND pravdivostní tabulkou"
 
-msgid "1_Blinking_fixed_led"
-msgstr "1. Blinking/fixed led"
+#~ msgid "04_or_truth_table"
+#~ msgstr "4. OR pravdivostní tabulkou"
 
-msgid "2_led_three_states"
-msgstr "2. Tří stavová LED"
+#~ msgid "05_sr_latch"
+#~ msgstr "5. Asynchronní klopný obvod SR"
 
-msgid "3_mux_4_1"
-msgstr "3. Multiplexor 4:1"
+#~ msgid "06_D_latch"
+#~ msgstr "6. Asynchronní klopný D"
 
-msgid "4_shift_register"
-msgstr "4. Posuvný registr"
+#~ msgid "07_D_flip_flop"
+#~ msgstr "7. Synchronní klopný D"
 
-msgid "5_verilog"
-msgstr "5. Verilog"
+#~ msgid "08_mux_2_1"
+#~ msgstr "8. Multiplexor 2:1"
 
-msgid "01_four_bits_fixed_binary_value"
-msgstr "1. Čtyřbitová binární konstanta"
+#~ msgid "09_two_to_four_decoder"
+#~ msgstr "9. Dekodér 2 na 4"
 
-msgid "02_four_bits_fixed_hexa_value"
-msgstr "2. Čtyřbitová šestnáctková konstanta"
+#~ msgid "10_one_bit_adder"
+#~ msgstr "10. Jednobitová sčítačka"
 
-msgid "03_eight_bits_fixed_value_buses"
-msgstr "3. Osmibitová konstanta na sběrnici"
+#~ msgid "4_muxes"
+#~ msgstr "4. Multiplexování"
 
-msgid "04_eight_bits_counter"
-msgstr "4. Osmibitový čítač"
+#~ msgid "1_Blinking_fixed_led"
+#~ msgstr "1. Blinking/fixed led"
 
-msgid "05_split_buses"
-msgstr "5. Rozdělení sběrnic"
+#~ msgid "2_led_three_states"
+#~ msgstr "2. Tří stavová LED"
 
-msgid "06_rom16x8"
-msgstr "6. ROM 16x8 bitů"
+#~ msgid "3_mux_4_1"
+#~ msgstr "3. Multiplexor 4:1"
 
-msgid "07_rom16x8_file"
-msgstr "7. ROM 16x8 bitů ze souboru"
+#~ msgid "4_shift_register"
+#~ msgstr "4. Posuvný registr"
 
-msgid "08_rom16x8_file_generic"
-msgstr "8. ROM 16x8 bitů ze souboru"
+#~ msgid "5_verilog"
+#~ msgstr "5. Verilog"
 
-msgid "02_four_bits_fixed_binary_value"
-msgstr "2. Čtyřbitová binární konstanta"
+#~ msgid "01_four_bits_fixed_binary_value"
+#~ msgstr "1. Čtyřbitová binární konstanta"
 
-msgid "2_Chain_of_three_DFF"
-msgstr "2. Zřetězení tří synchronních klopných D"
+#~ msgid "02_four_bits_fixed_hexa_value"
+#~ msgstr "2. Čtyřbitová šestnáctková konstanta"
 
-msgid "2_counter"
-msgstr "2_čítač"
+#~ msgid "03_eight_bits_fixed_value_buses"
+#~ msgstr "3. Osmibitová konstanta na sběrnici"
 
-msgid "1_led_on"
-msgstr "1_led_zapnout"
+#~ msgid "04_eight_bits_counter"
+#~ msgstr "4. Osmibitový čítač"
 
-msgid "2_switch_led"
-msgstr "2_přepnout_led"
+#~ msgid "05_split_buses"
+#~ msgstr "5. Rozdělení sběrnic"
 
-msgid "3_switch_and_gate"
-msgstr "3_přepnínací_hradlo_and"
+#~ msgid "06_rom16x8"
+#~ msgstr "6. ROM 16x8 bitů"
 
-msgid "contadorAsc"
-msgstr "čítačVzestupný"
+#~ msgid "07_rom16x8_file"
+#~ msgstr "7. ROM 16x8 bitů ze souboru"
 
-msgid "contadorDes"
-msgstr "čítačSestupný"
+#~ msgid "08_rom16x8_file_generic"
+#~ msgstr "8. ROM 16x8 bitů ze souboru"
+
+#~ msgid "02_four_bits_fixed_binary_value"
+#~ msgstr "2. Čtyřbitová binární konstanta"
+
+#~ msgid "2_Chain_of_three_DFF"
+#~ msgstr "2. Zřetězení tří synchronních klopných D"
+
+#~ msgid "1_led_on"
+#~ msgstr "1_led_zapnout"
+
+#~ msgid "2_switch_led"
+#~ msgstr "2_přepnout_led"
+
+#~ msgid "3_switch_and_gate"
+#~ msgstr "3_přepnínací_hradlo_and"
+
+#~ msgid "contadorAsc"
+#~ msgstr "čítačVzestupný"
+
+#~ msgid "contadorDes"
+#~ msgstr "čítačSestupný"

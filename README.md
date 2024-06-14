@@ -25,7 +25,7 @@ For installing and using this colection in Icestudio follow these steps:
 | Language | Locale | Translated strings |
 |----------|--------|--------------------|
 | English  |  en    | ![](https://progress-bar.dev/100) |
-| CZech |  cs_CZ | ![](https://progress-bar.dev/100) |
+| CZech |  cs_CZ | ![](https://progress-bar.dev/44) |
 | en |  en | ![](https://progress-bar.dev/100) |
 | Spanish |  es_ES | ![](https://progress-bar.dev/100) |
 
